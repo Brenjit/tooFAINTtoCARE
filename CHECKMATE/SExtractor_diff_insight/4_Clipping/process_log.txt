@@ -1,0 +1,162 @@
+2025-07-17 09:34:23,265 - INFO - 📂 Starting analysis on catalog_samepos_diff_flux.txt
+2025-07-17 09:34:23,270 - INFO - ✅ Catalog loaded: 1830 sources
+2025-07-17 09:34:23,270 - INFO - 🔍 Calculating absolute differences in flux and magnitude
+2025-07-17 09:34:23,272 - INFO - 📏 Estimating sigma using MAD (robust to outliers)
+2025-07-17 09:34:23,273 - INFO - σ_flux = 0.0346, σ_mag = 0.0125
+2025-07-17 09:34:23,273 - INFO - 📊 Filtering sources based on thresholds
+2025-07-17 09:34:23,273 - INFO - Sources with ΔFlux > 3σ: 380
+2025-07-17 09:34:23,273 - INFO - Sources with ΔFlux > 4σ: 287
+2025-07-17 09:34:23,273 - INFO - Sources with ΔMag > 0.1: 147
+2025-07-17 09:34:23,286 - INFO - 💾 Filtered catalogs saved successfully.
+2025-07-17 09:34:23,286 - INFO - 📈 Plotting |ΔFlux| vs source index (log y-scale)
+2025-07-17 09:34:23,800 - INFO - ✅ ΔFlux plot saved to 4_Clipping/delta_flux_vs_index_log.png
+2025-07-17 09:34:23,800 - INFO - 📈 Plotting |ΔMag| vs source index (log y-scale)
+2025-07-17 09:34:24,075 - INFO - ✅ ΔMag plot saved to 4_Clipping/delta_mag_vs_index_log.png
+2025-07-17 09:34:24,075 - INFO - 🎉 All steps completed successfully.
+2025-07-17 09:46:16,630 - INFO - 📂 Loading catalog_samepos_diff_flux.txt...
+2025-07-17 09:46:16,638 - INFO - ✅ Catalog loaded successfully: 1830 sources
+2025-07-17 09:46:16,638 - INFO - 🔍 Calculating |ΔFlux| and |ΔMag|...
+2025-07-17 09:46:16,647 - INFO - 💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+2025-07-17 09:46:16,648 - INFO - 💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+2025-07-17 09:46:16,649 - INFO - 💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+2025-07-17 09:46:16,649 - INFO - 📈 Plotting |ΔFlux| vs source index (log y-scale)
+2025-07-17 09:46:17,152 - INFO - ✅ ΔFlux plot saved to 4_Clipping/delta_flux_vs_index_log.png
+2025-07-17 09:46:17,152 - INFO - 🎉 Done. All ΔFlux thresholds processed and plotted.
+2025-07-17 09:49:01,316 - INFO - 📂 Loading catalog...
+2025-07-17 09:49:01,323 - INFO - ✅ Catalog loaded successfully: 1830 sources
+2025-07-17 09:49:01,323 - INFO - 🔍 Calculating |ΔFlux| and |ΔMag|...
+2025-07-17 09:49:02,456 - WARNING - FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-22T10:40:18.815' from MJD-BEG.
+Set DATE-AVG to '2022-06-22T11:06:12.086' from MJD-AVG.
+Set DATE-END to '2022-06-22T11:32:01.778' from MJD-END'.
+2025-07-17 09:49:02,465 - WARNING - FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -74.650423 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.871979 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1725899961.594 from OBSGEO-[XYZ]'.
+2025-07-17 09:49:02,476 - INFO - 💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+2025-07-17 09:49:18,982 - INFO - 🖼️ 4 cutout grids saved to 4_Clipping/cutouts_gt_0.1
+2025-07-17 09:49:18,986 - INFO - 💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+2025-07-17 09:49:20,403 - INFO - 🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_0.5
+2025-07-17 09:49:20,405 - INFO - 💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+2025-07-17 09:49:21,103 - INFO - 🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_1.0
+2025-07-17 09:49:21,434 - INFO - ✅ ΔFlux plot saved.
+2025-07-17 09:49:21,434 - INFO - 🎉 All tasks completed.
+2025-07-17 09:53:53,282 - INFO - 📂 Loading catalog...
+2025-07-17 09:53:53,288 - INFO - ✅ Catalog loaded successfully: 1830 sources
+2025-07-17 09:53:53,288 - INFO - 🔍 Calculating |ΔFlux| and |ΔMag|...
+2025-07-17 09:53:54,411 - WARNING - FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-22T10:40:18.815' from MJD-BEG.
+Set DATE-AVG to '2022-06-22T11:06:12.086' from MJD-AVG.
+Set DATE-END to '2022-06-22T11:32:01.778' from MJD-END'.
+2025-07-17 09:53:54,416 - WARNING - FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -74.650423 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.871979 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1725899961.594 from OBSGEO-[XYZ]'.
+2025-07-17 09:53:54,423 - INFO - 💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+2025-07-17 09:54:11,057 - INFO - 🖼️ 7 cutout grids saved to 4_Clipping/cutouts_gt_0.1
+2025-07-17 09:54:11,059 - INFO - 💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+2025-07-17 09:54:12,253 - INFO - 🖼️ 2 cutout grids saved to 4_Clipping/cutouts_gt_0.5
+2025-07-17 09:54:12,254 - INFO - 💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+2025-07-17 09:54:12,861 - INFO - 🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_1.0
+2025-07-17 09:54:13,189 - INFO - ✅ ΔFlux plot saved.
+2025-07-17 09:54:13,189 - INFO - 🎉 All tasks completed.
+INFO - 📂 Loading catalog...
+INFO - ✅ Catalog loaded successfully: 1830 sources
+INFO - 🔍 Calculating |ΔFlux| and |ΔMag|...
+WARNING - FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-22T10:40:18.815' from MJD-BEG.
+Set DATE-AVG to '2022-06-22T11:06:12.086' from MJD-AVG.
+Set DATE-END to '2022-06-22T11:32:01.778' from MJD-END'.
+WARNING - FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -74.650423 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.871979 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1725899961.594 from OBSGEO-[XYZ]'.
+INFO - 💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+INFO - 🖼️ 7 cutout grids saved to 4_Clipping/cutouts_gt_0.1
+INFO - 💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+INFO - 🖼️ 2 cutout grids saved to 4_Clipping/cutouts_gt_0.5
+INFO - 💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+INFO - 🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_1.0
+INFO - ✅ ΔFlux plot saved.
+INFO - 🎉 All tasks completed.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+FITSFixedWarning: 'datfix' made the change 'Set DATE-BEG to '2022-06-22T10:40:18.815' from MJD-BEG.
+Set DATE-AVG to '2022-06-22T11:06:12.086' from MJD-AVG.
+Set DATE-END to '2022-06-22T11:32:01.778' from MJD-END'.
+FITSFixedWarning: 'obsfix' made the change 'Set OBSGEO-L to   -74.650423 from OBSGEO-[XYZ].
+Set OBSGEO-B to   -36.871979 from OBSGEO-[XYZ].
+Set OBSGEO-H to 1725899961.594 from OBSGEO-[XYZ]'.
+💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+🖼️ 7 cutout grids saved to 4_Clipping/cutouts_gt_0.1
+💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+🖼️ 2 cutout grids saved to 4_Clipping/cutouts_gt_0.5
+💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_1.0
+✅ ΔFlux plot saved.
+🎉 All tasks completed.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+🖼️ 7 cutout grids saved to 4_Clipping/cutouts_gt_0.1
+💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+🖼️ 2 cutout grids saved to 4_Clipping/cutouts_gt_0.5
+💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_1.0
+✅ ΔFlux plot saved.
+🎉 All tasks completed.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 Saved 394 sources with ΔFlux > 0.1 → 4_Clipping/flux_diff_gt_0.1.txt
+🖼️ 7 cutout grids saved to 4_Clipping/cutouts_gt_0.1
+💾 Saved 63 sources with ΔFlux > 0.5 → 4_Clipping/flux_diff_gt_0.5.txt
+🖼️ 2 cutout grids saved to 4_Clipping/cutouts_gt_0.5
+💾 Saved 27 sources with ΔFlux > 1.0 → 4_Clipping/flux_diff_gt_1.0.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_gt_1.0
+✅ ΔFlux plot saved.
+🎉 All tasks completed.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 Saved 394 sources with FLUX > 0.1 → 4_Clipping/flux_gt_0.1.txt
+🖼️ 7 cutout grids saved to 4_Clipping/cutouts_flux_gt_0.1
+💾 Saved 63 sources with FLUX > 0.5 → 4_Clipping/flux_gt_0.5.txt
+🖼️ 2 cutout grids saved to 4_Clipping/cutouts_flux_gt_0.5
+💾 Saved 27 sources with FLUX > 1.0 → 4_Clipping/flux_gt_1.0.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_flux_gt_1.0
+💾 Saved 147 sources with MAG > 0.1 → 4_Clipping/mag_gt_0.1.txt
+🖼️ 3 cutout grids saved to 4_Clipping/cutouts_mag_gt_0.1
+💾 Saved 8 sources with MAG > 0.5 → 4_Clipping/mag_gt_0.5.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_mag_gt_0.5
+💾 Saved 3 sources with MAG > 1.0 → 4_Clipping/mag_gt_1.0.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_mag_gt_1.0
+💾 Saved 81 sources with BOTH > 0.1 → 4_Clipping/both_gt_0.1.txt
+🖼️ 2 cutout grids saved to 4_Clipping/cutouts_both_gt_0.1
+💾 Saved 1 sources with BOTH > 0.5 → 4_Clipping/both_gt_0.5.txt
+🖼️ 1 cutout grids saved to 4_Clipping/cutouts_both_gt_0.5
+💾 Saved 0 sources with BOTH > 1.0 → 4_Clipping/both_gt_1.0.txt
+🖼️ 0 cutout grids saved to 4_Clipping/cutouts_both_gt_1.0
+✅ ΔFlux plot saved.
+✅ ΔMag plot saved.
+🎉 All tasks completed.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 FLUX > 0.1: 394 sources → saved to 4_Clipping/flux_gt_0.1.txt
+🖼️ 7 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.1
+💾 FLUX > 0.5: 63 sources → saved to 4_Clipping/flux_gt_0.5.txt
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.5
+💾 FLUX > 1.0: 27 sources → saved to 4_Clipping/flux_gt_1.0.txt
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_1.0
+💾 MAG > 0.1: 147 sources → saved to 4_Clipping/mag_gt_0.1.txt
+🖼️ 3 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.1
+💾 MAG > 0.5: 8 sources → saved to 4_Clipping/mag_gt_0.5.txt
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.5
+💾 MAG > 1.0: 3 sources → saved to 4_Clipping/mag_gt_1.0.txt
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_1.0
+💾 BOTH > 0.1: 81 sources → saved to 4_Clipping/both_gt_0.1.txt
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.1
+💾 BOTH > 0.5: 1 sources → saved to 4_Clipping/both_gt_0.5.txt
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.5
+💾 BOTH > 1.0: 0 sources → saved to 4_Clipping/both_gt_1.0.txt
+🖼️ 0 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_1.0
+📊 ΔFlux plot saved.
+📊 ΔMag plot saved.
+🎉 All processing completed successfully.
