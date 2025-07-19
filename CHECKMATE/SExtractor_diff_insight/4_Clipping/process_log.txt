@@ -160,3 +160,129 @@ Set OBSGEO-H to 1725899961.594 from OBSGEO-[XYZ]'.
 📊 ΔFlux plot saved.
 📊 ΔMag plot saved.
 🎉 All processing completed successfully.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 FLUX > 0.1: 394 sources → saved to 4_Clipping/flux_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_02.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_03.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_04.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_05.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_06.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_07.png
+🖼️ 7 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.1
+💾 FLUX > 0.5: 63 sources → saved to 4_Clipping/flux_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.5/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.5/cutout_grid_02.png
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.5
+💾 FLUX > 1.0: 27 sources → saved to 4_Clipping/flux_gt_1.0.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_1.0/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_1.0
+💾 MAG > 0.1: 147 sources → saved to 4_Clipping/mag_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_02.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_03.png
+🖼️ 3 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.1
+💾 MAG > 0.5: 8 sources → saved to 4_Clipping/mag_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.5/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.5
+💾 MAG > 1.0: 3 sources → saved to 4_Clipping/mag_gt_1.0.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_1.0/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_1.0
+💾 BOTH > 0.1: 81 sources → saved to 4_Clipping/both_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.1/cutout_grid_02.png
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.1
+💾 BOTH > 0.5: 1 sources → saved to 4_Clipping/both_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.5/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.5
+💾 BOTH > 1.0: 0 sources → saved to 4_Clipping/both_gt_1.0.txt
+🖼️ 0 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_1.0
+📊 ΔFlux plot saved.
+📊 ΔMag plot saved.
+🎉 All processing completed successfully.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 FLUX > 0.1: 394 sources → saved to 4_Clipping/flux_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_02.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_03.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_04.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_05.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_06.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_07.png
+🖼️ 7 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.1
+💾 FLUX > 0.5: 63 sources → saved to 4_Clipping/flux_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.5/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.5/cutout_grid_02.png
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.5
+💾 FLUX > 1.0: 27 sources → saved to 4_Clipping/flux_gt_1.0.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_1.0/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_1.0
+💾 MAG > 0.1: 147 sources → saved to 4_Clipping/mag_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_02.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_03.png
+🖼️ 3 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.1
+💾 MAG > 0.5: 8 sources → saved to 4_Clipping/mag_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.5/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.5
+💾 MAG > 1.0: 3 sources → saved to 4_Clipping/mag_gt_1.0.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_1.0/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_1.0
+💾 BOTH > 0.1: 81 sources → saved to 4_Clipping/both_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.1/cutout_grid_02.png
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.1
+💾 BOTH > 0.5: 1 sources → saved to 4_Clipping/both_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.5/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.5
+💾 BOTH > 1.0: 0 sources → saved to 4_Clipping/both_gt_1.0.txt
+🖼️ 0 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_1.0
+📊 ΔFlux plot saved.
+📊 ΔMag plot saved.
+🎉 All processing completed successfully.
+📂 Loading catalog...
+✅ Catalog loaded successfully: 1830 sources
+🔍 Calculating |ΔFlux| and |ΔMag|...
+💾 FLUX > 0.1: 394 sources → saved to 4_Clipping/flux_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_02.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_03.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_04.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_05.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_06.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.1/cutout_grid_07.png
+🖼️ 7 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.1
+💾 FLUX > 0.5: 63 sources → saved to 4_Clipping/flux_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.5/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_0.5/cutout_grid_02.png
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_0.5
+💾 FLUX > 1.0: 27 sources → saved to 4_Clipping/flux_gt_1.0.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_flux_gt_1.0/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_flux_gt_1.0
+💾 MAG > 0.1: 147 sources → saved to 4_Clipping/mag_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_02.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.1/cutout_grid_03.png
+🖼️ 3 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.1
+💾 MAG > 0.5: 8 sources → saved to 4_Clipping/mag_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_0.5/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_0.5
+💾 MAG > 1.0: 3 sources → saved to 4_Clipping/mag_gt_1.0.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_mag_gt_1.0/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_mag_gt_1.0
+💾 BOTH > 0.1: 81 sources → saved to 4_Clipping/both_gt_0.1.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.1/cutout_grid_01.png
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.1/cutout_grid_02.png
+🖼️ 2 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.1
+💾 BOTH > 0.5: 1 sources → saved to 4_Clipping/both_gt_0.5.txt
+🖼️ Saved cutout grid: 4_Clipping/cutouts_both_gt_0.5/cutout_grid_01.png
+🖼️ 1 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_0.5
+💾 BOTH > 1.0: 0 sources → saved to 4_Clipping/both_gt_1.0.txt
+🖼️ 0 cutout grid(s) saved in 4_Clipping/cutouts_both_gt_1.0
+📊 ΔFlux plot saved.
+📊 ΔMag plot saved.
+🎉 All processing completed successfully.
