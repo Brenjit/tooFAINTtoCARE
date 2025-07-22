@@ -79,7 +79,7 @@ def get_cutout(data, x, y, size):
 # Grid Maker for Selected IDs
 # --------------------------
 def make_custom_grid(df_chunk, image_data, output_path, rows=10, cols=6):
-    fig, axs = plt.subplots(rows, cols, figsize=(cols * 2, rows * 2))
+    fig, axs = plt.subplots(rows, cols, figsize=(cols * 2, rows * 2.5))
     axs = axs.flatten()
     
     aper_diam_pix = 10
@@ -117,18 +117,22 @@ def make_custom_grid(df_chunk, image_data, output_path, rows=10, cols=6):
     for j in range(i + 1, len(axs)):
         axs[j].axis('off')
 
-    caption = ("Figure : Cutouts (1\"x1\") for selected high-redshift galaxy candidates. "
+    caption = ("Figure : Cutouts (1\"x1\") for selected galaxy candidates. "
            "Each panel shows the F200W band as the detection image, centered on the source. "
            "Apertures of 10-pixel diameter are shown, as used in SExtractor for photometry. "
            "Fluxes have been measured after background subtraction")
     # Add caption (adjust vertical position with `y`)
-    fig.text(0.5, 0.0, caption, wrap=True, ha='center', fontsize=10)
-    plt.tight_layout()
-    plt.subplots_adjust(bottom=0.1)
-    plt.savefig('cutouts_with_caption.png', bbox_inches='tight', dpi=300)
+    # Reserve space at the bottom for the caption
+    # Adjust layout to make room for caption
+    plt.subplots_adjust(bottom=0.18)  # 👈 increase space below subplots
+
+    # Add caption
+    fig.text(0.5, 0.02, caption, wrap=True, ha='center', va='bottom', fontsize=9)
+
+    # Save and close
+    plt.savefig(output_path, bbox_inches='tight', dpi=300)
     plt.close()
     logging.info(f"🖼️ Saved cutout grid: {output_path}")
-
 # --------------------------
 # Create Cutouts for Selected IDs
 # --------------------------
