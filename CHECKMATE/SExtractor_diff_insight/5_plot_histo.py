@@ -29,19 +29,34 @@ logging.info(f"🔹 Mean ΔFLUX_AUTO: {df['delta_flux_auto'].mean():.2f}")
 logging.info(f"🔹 Std  ΔFLUX_AUTO: {df['delta_flux_auto'].std():.2f}")
 
 # === Helper: symmetric symlog-style bins including zeros ===
-def symmetric_symlog_bins(data, bins=100, linthresh=1e-5):
+def refined_symlog_bins(data, bins_per_side=8, linthresh=1e-5, center_bins=3):
+    """
+    Creates symmetric log bins on both sides and a few small linear bins near zero.
+    """
     finite_data = data[np.isfinite(data)]
-    max_val = np.max(np.abs(finite_data))
-    log_max = np.log10(max_val)
+    max_val = 100
     
-    log_bins = np.linspace(np.log10(linthresh), log_max, bins // 2)
-    positive_bins = np.power(10, log_bins)
-    negative_bins = -positive_bins[::-1]
+    # Log-spaced bins on each side
+    log_edges_pos = np.logspace(np.log10(linthresh), np.log10(max_val), bins_per_side)
+    log_edges_neg = -log_edges_pos[::-1]
     
-    return np.concatenate([negative_bins, [-linthresh, linthresh], positive_bins])
+    # Linearly spaced bins around zero (center bins)
+    center_edges = np.linspace(-linthresh, linthresh, center_bins + 1)
+    
+    # Combine
+    bins = np.concatenate([log_edges_neg, center_edges[1:-1], log_edges_pos])
+    return bins
+
+#linear_bin
+def linear_symmetric_bins(data, num_bins=5000):
+    finite_data = data[np.isfinite(data)]
+    max_abs = np.max(np.abs(finite_data))
+    bins = np.linspace(-1, 1, num_bins + 1)
+    return bins
+
 
 # === Helper: log-log histogram plot with central linear bin ===
-def plot_loglog_hist(ax, data, bins, color, title, xlabel, linthresh=1e-5):
+def plot_loglog_hist(ax, data, bins, color, xlabel, xlim_min,xlim_max, linthresh=1e-5):
     data = data[np.isfinite(data)]
     counts, bin_edges = np.histogram(data, bins=bins)
     bin_centers = 0.5 * (bin_edges[1:] + bin_edges[:-1])
@@ -49,37 +64,44 @@ def plot_loglog_hist(ax, data, bins, color, title, xlabel, linthresh=1e-5):
     ax.bar(bin_centers, counts, width=np.diff(bin_edges), color=color, edgecolor='black', align='center')
     ax.set_xscale('symlog', linthresh=linthresh)
     ax.set_yscale('log')
-    ax.set_title(title)
+    ax.set_xlim(xlim_min,xlim_max) 
     ax.set_xlabel(xlabel)
-    ax.set_ylabel('Number of Sources (log scale)')
+    ax.set_ylabel('Number of Sources')
+    ax.grid(True, which='both', ls='--', lw=0.5)
+
+def plot_lin(ax, data, bins, color, xlabel, xlim_min,xlim_max, linthresh=1e-5):
+    data = data[np.isfinite(data)]
+    counts, bin_edges = np.histogram(data, bins=bins)
+    bin_centers = 0.5 * (bin_edges[1:] + bin_edges[:-1])
+
+    ax.bar(bin_centers, counts, width=np.diff(bin_edges), color=color, edgecolor='black', align='center')
+    ax.set_xscale('linear')
+    ax.set_yscale('log')
+    ax.set_xlim(xlim_min,xlim_max) 
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel('Number of Sources')
     ax.grid(True, which='both', ls='--', lw=0.5)
 
 # === Plotting ===
 fig, axs = plt.subplots(2, 2, figsize=(14, 10))
-fig.suptitle("Differences Between Version 2.28.2 and Version 2.28.0 (Log-Log Histograms)", fontsize=16)
+fig.suptitle("ΔMAG_AUTO & ΔMAG_APER Distributions (Linear + Log)", fontsize=16)
 
 linthresh = 1e-5  # Linear region threshold
 
-# ΔMAG_AUTO
-bins_mag_auto = symmetric_symlog_bins(df['delta_mag_auto'], bins=100, linthresh=linthresh)
-plot_loglog_hist(axs[0, 0], df['delta_mag_auto'], bins_mag_auto, 'cornflowerblue',
-                 'ΔMAG_AUTO', 'MAG_AUTO (v2.28.2 - v2.28.0)', linthresh)
+# Use correct data for each bin calculation!
+bins_mag_auto  = linear_symmetric_bins(df['delta_mag_auto'],  num_bins=100)
+bins_mag_aper  = linear_symmetric_bins(df['delta_mag_aper'],  num_bins=100)
+bins_mag_auto_log = refined_symlog_bins(df['delta_mag_auto'], bins_per_side=8, linthresh=1e-5, center_bins=3)
+bins_mag_aper_log = refined_symlog_bins(df['delta_mag_aper'], bins_per_side=8, linthresh=1e-5, center_bins=3)
 
-# ΔMAG_APER
-bins_mag_aper = symmetric_symlog_bins(df['delta_mag_aper'], bins=100, linthresh=linthresh)
-plot_loglog_hist(axs[0, 1], df['delta_mag_aper'], bins_mag_aper, 'mediumseagreen',
-                 'ΔMAG_APER', 'MAG_APER (v2.28.2 - v2.28.0)', linthresh)
+# Plot
+plot_lin(axs[0,0], df['delta_mag_auto'],  bins_mag_auto,  'cornflowerblue',  'ΔMAG_AUTO (linear scale)', -1,1,linthresh)
+plot_lin(axs[0,1], df['delta_mag_aper'],  bins_mag_aper,  'cornflowerblue',  'ΔMAG_APER (linear scale)', -1,1,linthresh)
+plot_loglog_hist(axs[1,0], df['delta_mag_auto'],  bins_mag_auto_log,  'cornflowerblue',  'ΔMAG_AUTO (log scale)', -200,200,linthresh)
+plot_loglog_hist(axs[1,1], df['delta_mag_aper'],  bins_mag_aper_log,  'mediumseagreen',    'ΔMAG_APER (log scale)', -200,200,linthresh)
 
-# ΔFLUX_AUTO
-bins_flux_auto = symmetric_symlog_bins(df['delta_flux_auto'], bins=100, linthresh=linthresh)
-plot_loglog_hist(axs[1, 0], df['delta_flux_auto'], bins_flux_auto, 'salmon',
-                 'ΔFLUX_AUTO', 'FLUX_AUTO (v2.28.2 - v2.28.0)', linthresh)
 
-# ΔFLUX_APER
-bins_flux_aper = symmetric_symlog_bins(df['delta_flux_aper'], bins=100, linthresh=linthresh)
-plot_loglog_hist(axs[1, 1], df['delta_flux_aper'], bins_flux_aper, 'goldenrod',
-                 'ΔFLUX_APER', 'FLUX_APER (v2.28.2 - v2.28.0)', linthresh)
 
 plt.tight_layout(rect=[0, 0, 1, 0.95])
-fig.savefig("delta_comparison_loglog.png", dpi=300)
+fig.savefig("5_delta_comparison_loglog_updated.png", dpi=300)
 plt.show()
