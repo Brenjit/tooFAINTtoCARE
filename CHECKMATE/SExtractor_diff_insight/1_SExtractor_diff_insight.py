@@ -26,8 +26,8 @@ def read_cat(file):
 # --------------------------
 # Load your catalogs
 # --------------------------
-cat_mine = read_cat("/Users/brenjithazarika/Downloads/9th_juoy_coma/Final_f200w_catalog_mine.cat")
-cat_romeo = read_cat("/Users/brenjithazarika/Downloads/9th_juoy_coma/Final_f200w_catalog_romeo.cat")
+cat_mine = read_cat("/Users/brenjithazarika/Downloads/9th_juoy_coma/28_0/Final_f200w_catalog_mine.cat")
+cat_romeo = read_cat("/Users/brenjithazarika/Downloads/9th_juoy_coma/28_0/Final_f200w_catalog_romeo.cat")
 
 # --------------------------
 # Matching tolerance (in pixels)
@@ -79,26 +79,26 @@ matched_diff_flux = matched_df[flux_diff_mask]
 # --------------------------
 # Save catalogs
 # --------------------------
-matched_df.to_csv("catalog_same_positions.txt", sep='\t', index=False)
-matched_diff_flux.to_csv("catalog_samepos_diff_flux.txt", sep='\t', index=False)
-pd.DataFrame(unmatched_mine).to_csv("catalog_unmatched_mine.txt", sep='\t', index=False)
-pd.DataFrame(list(unmatched_romeo_ids), columns=["Romeo_ID"]).to_csv("catalog_unmatched_romeo.txt", sep='\t', index=False)
+matched_df.to_csv("2_catalog_same_positions.txt", sep='\t', index=False)
+matched_diff_flux.to_csv("2_catalog_samepos_diff_flux.txt", sep='\t', index=False)
+pd.DataFrame(unmatched_mine).to_csv("2_catalog_unmatched_2.28.2.txt", sep='\t', index=False)
+pd.DataFrame(list(unmatched_romeo_ids), columns=["Romeo_ID"]).to_csv("2_catalog_unmatched_2.28.0.txt", sep='\t', index=False)
 
 # --------------------------
 # Print summary
 # --------------------------
 print("\n📊 Matching summary:")
-print(f"Total sources in mine catalog           : {len(cat_mine)}")
-print(f"Total sources in romeo catalog          : {len(cat_romeo)}")
+print(f"Total sources in 2.28.2 catalog           : {len(cat_mine)}")
+print(f"Total sources in 2.28.0 catalog          : {len(cat_romeo)}")
 print(f"Number of matched sources               : {len(matched_df)}")
 print(f"Number of matched with flux difference  : {len(matched_diff_flux)}")
-print(f"Number of mine sources unmatched        : {len(unmatched_mine)}")
-print(f"Number of romeo sources unmatched       : {len(unmatched_romeo_ids)}")
+print(f"Number of 2.28.2 sources unmatched        : {len(unmatched_mine)}")
+print(f"Number of 2.28.0 sources unmatched       : {len(unmatched_romeo_ids)}")
 print("\n✅ Output files saved:")
-print(" - catalog_same_positions.txt")
-print(" - catalog_samepos_diff_flux.txt")
-print(" - catalog_unmatched_mine.txt")
-print(" - catalog_unmatched_romeo.txt")
+print(" - 2_catalog_same_positions.txt")
+print(" - 2_catalog_samepos_diff_flux.txt")
+print(" - 2_catalog_unmatched_2.28.2.txt")
+print(" - 2_catalog_unmatched_2.28.0.txt")
 
 
 #done

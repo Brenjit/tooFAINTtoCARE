@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # --------------------------
 # Read catalog
 # --------------------------
-cat = pd.read_csv("catalog_samepos_diff_flux.txt", sep='\t')
+cat = pd.read_csv("2_catalog_same_positions.txt", sep='\t')
 
 # --------------------------
 # Calculate absolute differences
@@ -28,13 +28,13 @@ x_idx = np.arange(1, len(cat) + 1)
 # --------------------------
 plt.figure(figsize=(10, 6))
 plt.plot(x_idx, cat["DELTA_FLUX"], 'o', markersize=4, alpha=0.7, label='|ΔFlux|')
-plt.yscale('log')
 plt.xlabel("Source index (with same positions)")
-plt.ylabel("|ΔFlux| [counts] (log scale)")
-plt.title("Absolute Flux Difference vs Source Index")
+plt.ylabel("|ΔFlux|")
+plt.ylim(-0.01,0.01)
+plt.title("Absolute Flux Difference vs Source Index for diff version same system")
 plt.grid(True, which="both", ls='--')
 plt.tight_layout()
-plt.savefig("delta_flux_vs_index_log.png", dpi=300)
+plt.savefig("2_delta_flux_vs_index_log.png", dpi=300)
 plt.show()
 
 # --------------------------
@@ -42,9 +42,9 @@ plt.show()
 # --------------------------
 plt.figure(figsize=(10, 6))
 plt.plot(x_idx, cat["DELTA_MAG"], 'o', markersize=4, color='green', alpha=0.7, label='|ΔMag|')
-plt.yscale('log')
 plt.xlabel("Source index (with same positions)")
-plt.ylabel("|ΔMag| [mag] (log scale)")
+plt.ylabel("|ΔMag| [mag]")
+plt.ylim(-0.01,0.01)
 plt.title("Absolute Mag Difference vs Source Index")
 plt.grid(True, which="both", ls='--')
 plt.tight_layout()

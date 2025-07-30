@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # === Load the catalog ===
-filename = 'catalog_same_positions.txt'
+filename = '2_catalog_same_positions.txt'
 
 try:
     df = pd.read_csv(filename, delim_whitespace=True)
@@ -77,7 +77,8 @@ def plot_lin(ax, data, bins, color, xlabel, xlim_min,xlim_max, linthresh=1e-5):
     ax.bar(bin_centers, counts, width=np.diff(bin_edges), color=color, edgecolor='black', align='center')
     ax.set_xscale('linear')
     ax.set_yscale('log')
-    ax.set_xlim(xlim_min,xlim_max) 
+    ax.set_xlim(-1,1) 
+    ax.set_ylim(0, 100000)
     ax.set_xlabel(xlabel)
     ax.set_ylabel('Number of Sources')
     ax.grid(True, which='both', ls='--', lw=0.5)
@@ -103,5 +104,5 @@ plot_loglog_hist(axs[1,1], df['delta_mag_aper'],  bins_mag_aper_log,  'mediumsea
 
 
 plt.tight_layout(rect=[0, 0, 1, 0.95])
-fig.savefig("5_delta_comparison_loglog_updated.png", dpi=300)
+fig.savefig("2_delta_comparison_loglog_updated.png", dpi=300)
 plt.show()
