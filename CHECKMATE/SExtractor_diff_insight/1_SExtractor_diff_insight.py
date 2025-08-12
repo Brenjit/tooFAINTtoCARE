@@ -81,24 +81,24 @@ matched_diff_flux = matched_df[flux_diff_mask]
 # --------------------------
 matched_df.to_csv("3_catalog_same_positions.txt", sep='\t', index=False)
 matched_diff_flux.to_csv("3_catalog_samepos_diff_flux.txt", sep='\t', index=False)
-pd.DataFrame(unmatched_mine).to_csv("3_catalog_unmatched_2.28.2.txt", sep='\t', index=False)
-pd.DataFrame(list(unmatched_romeo_ids), columns=["Romeo_ID"]).to_csv("3_catalog_unmatched_2.28.0.txt", sep='\t', index=False)
+pd.DataFrame(unmatched_mine).to_csv("3_catalog_unmatched_my.txt", sep='\t', index=False)
+pd.DataFrame(list(unmatched_romeo_ids), columns=["Romeo_ID"]).to_csv("3_catalog_unmatched_romeo.txt", sep='\t', index=False)
 
 # --------------------------
 # Print summary
 # --------------------------
 print("\n📊 Matching summary:")
-print(f"Total sources in 2.28.2 catalog           : {len(cat_mine)}")
-print(f"Total sources in 2.28.0 catalog          : {len(cat_romeo)}")
+print(f"Total sources in my catalog           : {len(cat_mine)}")
+print(f"Total sources in romeo catalog          : {len(cat_romeo)}")
 print(f"Number of matched sources               : {len(matched_df)}")
 print(f"Number of matched with flux difference  : {len(matched_diff_flux)}")
-print(f"Number of 2.28.2 sources unmatched        : {len(unmatched_mine)}")
-print(f"Number of 2.28.0 sources unmatched       : {len(unmatched_romeo_ids)}")
+print(f"Number of my sources unmatched        : {len(unmatched_mine)}")
+print(f"Number of romeo sources unmatched       : {len(unmatched_romeo_ids)}")
 print("\n✅ Output files saved:")
 print(" - 3_catalog_same_positions.txt")
 print(" - 3_catalog_samepos_diff_flux.txt")
-print(" - 3_catalog_unmatched_2.28.2.txt")
-print(" - 3_catalog_unmatched_2.28.0.txt")
+print(" - 3_catalog_unmatched_my.txt")
+print(" - 3_catalog_unmatched_romeo.txt")
 
 
 #done

@@ -1,0 +1,22 @@
+# NUMBER X_IMAGE Y_IMAGE MAG_AUTO MAGERR_AUTO MAG_APER MAGERR_APER CLASS_STAR FLUX_AUTO FLUXERR_AUTO FLUX_APER FLUXERR_APER ALPHA_J2000 DELTA_J2000 SNR
+# 1 NUMBER                 Running object number
+# 2 X_IMAGE                Object position along x                                    [pixel]
+# 3 Y_IMAGE                Object position along y                                    [pixel]
+# 4 MAG_AUTO               Kron-like elliptical aperture magnitude                    [mag]
+# 5 MAGERR_AUTO            RMS error for AUTO magnitude                               [mag]
+# 6 MAG_APER               Fixed aperture magnitude vector                            [mag]
+# 7 MAGERR_APER            RMS error vector for fixed aperture mag.                   [mag]
+# 8 CLASS_STAR             S/G classifier output
+# 9 FLUX_AUTO              Flux within a Kron-like elliptical aperture                [count]
+# 10 FLUXERR_AUTO           RMS error for AUTO flux                                    [count]
+# 11 FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+# 12 FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+# 13 ALPHA_J2000            Right ascension of barycenter (J2000)                      [deg]
+# 14 DELTA_J2000            Declination of barycenter (J2000)                          [deg]
+490 4015.4688 553.5504 35.1278 0.0645 35.692 0.0834 0.347 0.001525703 9.067122e-05 0.0009074161 6.966808e-05 215.1468651 52.9518812 16.82676156778303
+544 3950.2471 572.7075 37.7413 0.2406 35.9028 0.1013 0.347 0.0001374312 3.045014e-05 0.0007472892 6.968582e-05 215.1472504 52.952398 4.513319150585186
+875 9183.3643 644.0376 34.3542 0.0182 33.7273 0.0137 0.855 0.003111219 5.215189e-05 0.005542124 6.973902e-05 215.0994738 52.9196426 59.656879165836564
+894 9079.9395 661.4934 38.7016 0.6018 37.0407 0.2891 0.046 5.675081e-05 3.144877e-05 0.0002620051 6.975674e-05 215.1002192 52.9203923 1.8045478408217555
+6259 8592.3262 2192.8374 25.0836 0.0 26.8324 0.0 0.769 15.89129 0.0004266643 3.174365 6.961482e-05 215.0885052 52.9317717 37245.41753317538
+15451 8585.7676 4864.4062 30.911 0.0004 29.9984 0.0004 0.821 0.07416521 2.941763e-05 0.1718961 6.966807e-05 215.0604736 52.9462716 2521.114379370466
+16131 8613.9062 5121.1309 35.6151 0.0932 36.0005 0.111 0.347 0.0009740485 8.357625e-05 0.0006830074 6.979219e-05 215.0575206 52.9474823 11.65460881530339

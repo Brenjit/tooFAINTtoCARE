@@ -1,0 +1,22 @@
+# NUMBER X_IMAGE Y_IMAGE MAG_AUTO MAGERR_AUTO MAG_APER MAGERR_APER CLASS_STAR FLUX_AUTO FLUXERR_AUTO FLUX_APER FLUXERR_APER ALPHA_J2000 DELTA_J2000 SNR
+# 1 NUMBER                 Running object number
+# 2 X_IMAGE                Object position along x                                    [pixel]
+# 3 Y_IMAGE                Object position along y                                    [pixel]
+# 4 MAG_AUTO               Kron-like elliptical aperture magnitude                    [mag]
+# 5 MAGERR_AUTO            RMS error for AUTO magnitude                               [mag]
+# 6 MAG_APER               Fixed aperture magnitude vector                            [mag]
+# 7 MAGERR_APER            RMS error vector for fixed aperture mag.                   [mag]
+# 8 CLASS_STAR             S/G classifier output
+# 9 FLUX_AUTO              Flux within a Kron-like elliptical aperture                [count]
+# 10 FLUXERR_AUTO           RMS error for AUTO flux                                    [count]
+# 11 FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+# 12 FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+# 13 ALPHA_J2000            Right ascension of barycenter (J2000)                      [deg]
+# 14 DELTA_J2000            Declination of barycenter (J2000)                          [deg]
+483 1532.6652 549.8776 37.6451 0.1209 35.5187 0.0456 0.086 0.0001501594 1.671053e-05 0.001064445 4.470299e-05 215.0764977 52.9036156 8.985914869247114
+527 1416.3892 563.1777 36.7032 0.0631 35.0447 0.0294 0.028 0.0003575332 2.077392e-05 0.001647192 4.464616e-05 215.0774013 52.9044244 17.210675693369378
+602 1556.2321 600.9504 36.105 0.0353 34.4593 0.0172 0.671 0.0006203225 2.015366e-05 0.002824165 4.46689e-05 215.0757497 52.9037427 30.779644987560573
+905 6560.9912 679.8156 36.0126 0.0334 34.4332 0.0167 0.404 0.0006753971 2.077392e-05 0.002892957 4.460065e-05 215.0300473 52.8724471 32.511779192371975
+5132 10868.209 1992.7531 35.8854 0.0353 34.4198 0.0166 0.532 0.0007593543 2.46831e-05 0.002928744 4.465753e-05 214.9776892 52.8522275 30.764138216026346
+14442 4990.4922 4466.9727 37.2151 0.0981 35.2642 0.036 0.426 0.000223128 2.015366e-05 0.001345611 4.461203e-05 215.00432 52.9028825 11.071338903206664
+15707 4179.5942 4947.7446 31.9237 0.0009 31.0471 0.0007 0.653 0.0291818 2.416339e-05 0.06542844 4.463479e-05 215.0065327 52.9106242 1207.6865042529216
