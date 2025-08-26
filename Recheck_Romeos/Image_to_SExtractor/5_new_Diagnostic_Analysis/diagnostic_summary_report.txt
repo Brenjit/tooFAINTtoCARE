@@ -1,0 +1,104 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT
+==================================================
+
+
+NIRCAM1:
+------------------------------
+Passed: 3, Failed: 4, Not found: 0
+
+NIRCAM2:
+------------------------------
+Passed: 3, Failed: 1, Not found: 0
+
+NIRCAM3:
+------------------------------
+Passed: 0, Failed: 1, Not found: 0
+
+NIRCAM4:
+------------------------------
+Passed: 3, Failed: 4, Not found: 0
+
+NIRCAM5:
+------------------------------
+Passed: 3, Failed: 2, Not found: 0
+
+NIRCAM6:
+------------------------------
+Passed: 1, Failed: 0, Not found: 0
+
+NIRCAM7:
+------------------------------
+Passed: 4, Failed: 6, Not found: 0
+
+NIRCAM8:
+------------------------------
+Passed: 2, Failed: 7, Not found: 0
+
+NIRCAM9:
+------------------------------
+Passed: 2, Failed: 3, Not found: 0
+
+NIRCAM10:
+------------------------------
+Passed: 2, Failed: 3, Not found: 0
+
+OVERALL SUMMARY:
+==============================
+Total galaxies analyzed: 54
+Total passed selection: 23
+Total failed selection: 31
+Overall success rate: 42.6%
+
+FAILURE REASONS (by frequency):
+==============================
+High SNR in veto bands: f814w(4.8): 2 galaxies
+High SNR in veto bands: f814w(4.1): 2 galaxies
+High SNR in veto bands: f814w(2.5): 2 galaxies
+Low SNR in detection bands: f410m(4.5): 1 galaxies
+High SNR in veto bands: f814w(3.4): 1 galaxies
+Color relation failed: 0.95 ≯ 1.21: 1 galaxies
+Low SNR in detection bands: f410m(3.2): 1 galaxies
+High SNR in veto bands: f606w(5.1), f814w(7.0): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f356w(3.6): 1 galaxies
+Color1 failed: f115w SNR=8.0, color1=-1.98: 1 galaxies
+Color2 out of range: 2.02 not in (-1.5, 1.0): 1 galaxies
+Color relation failed: -1.98 ≯ 2.24: 1 galaxies
+High SNR in veto bands: f814w(3.0): 1 galaxies
+Color relation failed: 0.71 ≯ 1.14: 1 galaxies
+High SNR in veto bands: f814w(3.5): 1 galaxies
+Low SNR in detection bands: f410m(4.9): 1 galaxies
+High SNR in veto bands: f606w(3.8), f814w(4.6): 1 galaxies
+Low SNR in detection bands: f410m(4.6): 1 galaxies
+High SNR in veto bands: f606w(4.3), f814w(7.5): 1 galaxies
+Color relation failed: 0.31 ≯ 1.16: 1 galaxies
+Color relation failed: 1.31 ≯ 1.41: 1 galaxies
+High SNR in veto bands: f814w(2.1): 1 galaxies
+Color relation failed: 0.83 ≯ 1.27: 1 galaxies
+Color relation failed: 0.98 ≯ 0.98: 1 galaxies
+High SNR in veto bands: f814w(3.1): 1 galaxies
+High SNR in veto bands: f606w(2.3), f814w(6.1): 1 galaxies
+High SNR in veto bands: f606w(9.8), f814w(6.1): 1 galaxies
+Color relation failed: 0.21 ≯ 1.46: 1 galaxies
+High SNR in veto bands: f606w(6.0), f814w(4.8): 1 galaxies
+Color relation failed: 1.10 ≯ 1.47: 1 galaxies
+High SNR in veto bands: f606w(6.0): 1 galaxies
+High SNR in veto bands: f814w(4.6): 1 galaxies
+High SNR in veto bands: f606w(3.7), f814w(2.1): 1 galaxies
+Color relation failed: 0.70 ≯ 1.17: 1 galaxies
+High SNR in veto bands: f606w(10.5), f814w(6.7): 1 galaxies
+Color relation failed: 0.76 ≯ 1.29: 1 galaxies
+High SNR in veto bands: f606w(2.7): 1 galaxies
+High SNR in veto bands: f606w(3.5), f814w(5.5): 1 galaxies
+High SNR in veto bands: f606w(4.4), f814w(2.5): 1 galaxies
+High SNR in veto bands: f606w(2.6), f814w(4.0): 1 galaxies
+High SNR in veto bands: f606w(3.6): 1 galaxies
+Color relation failed: 1.54 ≯ 1.79: 1 galaxies
+Low SNR in detection bands: f277w(-1386.4), f356w(-0.6): 1 galaxies
+High SNR in veto bands: f606w(2.4): 1 galaxies
+Color1 failed: f115w SNR=3.1, color1=-2.32: 1 galaxies
+Color2 out of range: -64.63 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f606w(4.8), f814w(4.3): 1 galaxies
+Color relation failed: 0.69 ≯ 0.94: 1 galaxies
+High SNR in veto bands: f606w(3.4): 1 galaxies
+High SNR in veto bands: f814w(4.4): 1 galaxies
+Color relation failed: 1.04 ≯ 1.08: 1 galaxies

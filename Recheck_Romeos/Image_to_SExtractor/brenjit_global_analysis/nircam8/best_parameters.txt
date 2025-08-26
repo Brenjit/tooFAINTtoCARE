@@ -1,0 +1,10 @@
+Best combination index: 0
+Recovered 0/9 Brenjit sources
+veto_snr: 2
+star_cut: 0.8
+color1_min: 0.2
+color2_max: 0.5
+color2_min: -1.5
+color3_intercept: 0.3
+color3_slope: 0.3
+snr_threshold: 2

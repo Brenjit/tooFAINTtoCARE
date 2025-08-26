@@ -1,0 +1,138 @@
+PARAMETER OPTIMIZATION SUMMARY
+========================================
+
+NIRCAM1:
+  Recovery: 4/7 (57.1%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+  2858
+  4010
+  6802
+  8216
+  Missed IDs: NUMBER
+------
+  8272
+ 10899
+ 11572
+
+NIRCAM2:
+  Recovery: 4/4 (100.0%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+  1332
+  2034
+  5726
+ 11316
+  Missed IDs: NUMBER
+------
+
+NIRCAM3:
+  Recovery: 0/1 (0.0%)
+  Parameters: {'snr_detect': 5.0, 'snr_veto': 2.0, 'color1_min': 0.1, 'color2_min': -1.5, 'color2_max': 1.0, 'slope': 0.44, 'intercept': 0.5, 'offset': 0.8}
+  Recovered IDs: NUMBER
+------
+  Missed IDs: NUMBER
+------
+  9992
+
+NIRCAM4:
+  Recovery: 5/7 (71.4%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+   315
+  1843
+  9427
+ 11659
+ 12415
+  Missed IDs: NUMBER
+------
+  1669
+  9859
+
+NIRCAM5:
+  Recovery: 4/5 (80.0%)
+  Parameters: {'snr_detect': 5.0, 'snr_veto': 3.0, 'color1_min': 0.1, 'color2_min': -1.5, 'color2_max': 1.0, 'slope': 0.44, 'intercept': 0.5, 'offset': 0.8}
+  Recovered IDs: NUMBER
+------
+  4547
+  9883
+ 12779
+ 12888
+  Missed IDs: NUMBER
+------
+ 12083
+
+NIRCAM6:
+  Recovery: 1/1 (100.0%)
+  Parameters: {'snr_detect': 5.0, 'snr_veto': 2.0, 'color1_min': 0.1, 'color2_min': -1.5, 'color2_max': 1.0, 'slope': 0.44, 'intercept': 0.5, 'offset': 0.8}
+  Recovered IDs: NUMBER
+------
+  3206
+  Missed IDs: NUMBER
+------
+
+NIRCAM7:
+  Recovery: 5/10 (50.0%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+  9437
+ 11615
+ 11754
+ 13394
+ 14208
+  Missed IDs: NUMBER
+------
+  3581
+  7070
+  9959
+ 13743
+ 14097
+
+NIRCAM8:
+  Recovery: 5/9 (55.6%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+  1398
+  2288
+  6986
+  8954
+ 14604
+  Missed IDs: NUMBER
+------
+  2080
+  4493
+  9454
+ 11712
+
+NIRCAM9:
+  Recovery: 3/5 (60.0%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+  2646
+  5572
+  9061
+  Missed IDs: NUMBER
+------
+  3096
+  8076
+
+NIRCAM10:
+  Recovery: 3/5 (60.0%)
+  Parameters: {'snr_detect': 3.5, 'snr_veto': 4.0, 'color1_min': 0.0, 'color2_min': -2.5, 'color2_max': 2.0, 'slope': 0.25, 'intercept': 0.1, 'offset': 0.5}
+  Recovered IDs: NUMBER
+------
+  1424
+  1935
+  9562
+  Missed IDs: NUMBER
+------
+  7847
+ 10415
+
+OVERALL OPTIMIZED RECOVERY: 34/54 (63.0%)

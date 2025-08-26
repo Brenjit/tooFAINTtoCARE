@@ -1,0 +1,9 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT
+==================================================
+
+
+OVERALL SUMMARY:
+==============================
+Total galaxies analyzed: 0
+Total passed selection: 0
+Total failed selection: 0

@@ -475,3 +475,7 @@ if __name__ == "__main__":
 
     process_dropouts(dropout_type=dropout_type, pointing=pointing, dr_version=dr_version)
     print("Processing completed.")
+
+
+
+# Note: Ensure that the paths and filenames in the catalog_files dictionary are correct

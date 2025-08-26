@@ -1,0 +1,20 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: Brenjit_ID, datatype: int64}
+# - {name: f814w_MAG, datatype: float64}
+# - {name: f814w_SNR, datatype: float64}
+# - {name: f115w_MAG, datatype: float64}
+# - {name: f115w_SNR, datatype: float64}
+# - {name: f150w_MAG, datatype: float64}
+# - {name: f150w_SNR, datatype: float64}
+# - {name: f277w_MAG, datatype: float64}
+# - {name: f277w_SNR, datatype: float64}
+# - {name: f444w_MAG, datatype: float64}
+# - {name: f444w_SNR, datatype: float64}
+# - {name: f115w_f150w, datatype: float64}
+# - {name: f150w_f277w, datatype: float64}
+# - {name: REDSHIFT, datatype: float64}
+# schema: astropy-2.0
+Brenjit_ID f814w_MAG f814w_SNR f115w_MAG f115w_SNR f150w_MAG f150w_SNR f277w_MAG f277w_SNR f444w_MAG f444w_SNR f115w_f150w f150w_f277w REDSHIFT
+11615 32.9589 0.7482397645568677 29.6783 6.947833897311266 28.9298 3046.8506652022043 28.8908 6058.9689844878585 27.1822 35295.695554434635 0.7484999999999999 0.03900000000000148 8.667

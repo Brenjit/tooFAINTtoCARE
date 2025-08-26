@@ -1,0 +1,2295 @@
+2025-08-17 17:18:43,863 - INFO - 
+Processing source #1:
+2025-08-17 17:18:43,863 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 2853, z: 8.667
+2025-08-17 17:18:43,922 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:43,981 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:43,982 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:43,983 - INFO -     RA: 215.015290, DEC: 52.985053
+2025-08-17 17:18:43,983 - INFO -     FLUX_AUTO: 0.48
+2025-08-17 17:18:43,984 - INFO -   Found 665 flux matches in Brenjit's catalog
+2025-08-17 17:18:43,984 - INFO -   Best flux match: Brenjit ID 2858
+2025-08-17 17:18:43,984 - INFO -     Brenjit FLUX_AUTO: 0.48 (diff: 0.0%)
+2025-08-17 17:18:43,984 - INFO -     Brenjit position: RA 215.015290, DEC 52.985053
+2025-08-17 17:18:43,984 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:43,984 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:43,984 - INFO - 
+Processing source #2:
+2025-08-17 17:18:43,984 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 4007, z: 9.059
+2025-08-17 17:18:43,995 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:44,007 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:44,007 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,007 - INFO -     RA: 215.011708, DEC: 52.988304
+2025-08-17 17:18:44,007 - INFO -     FLUX_AUTO: 1.65
+2025-08-17 17:18:44,008 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,008 - INFO -   Best flux match: Brenjit ID 4010
+2025-08-17 17:18:44,008 - INFO -     Brenjit FLUX_AUTO: 1.65 (diff: 0.0%)
+2025-08-17 17:18:44,008 - INFO -     Brenjit position: RA 215.011708, DEC 52.988304
+2025-08-17 17:18:44,008 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,008 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,008 - INFO - 
+Processing source #3:
+2025-08-17 17:18:44,008 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 6803, z: 9.059
+2025-08-17 17:18:44,019 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:44,031 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:44,032 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,032 - INFO -     RA: 214.994400, DEC: 52.989379
+2025-08-17 17:18:44,032 - INFO -     FLUX_AUTO: 1.67
+2025-08-17 17:18:44,032 - INFO -   Found 428 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,032 - INFO -   Best flux match: Brenjit ID 6802
+2025-08-17 17:18:44,032 - INFO -     Brenjit FLUX_AUTO: 1.67 (diff: 0.0%)
+2025-08-17 17:18:44,032 - INFO -     Brenjit position: RA 214.994400, DEC 52.989379
+2025-08-17 17:18:44,033 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,033 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,033 - INFO - 
+Processing source #4:
+2025-08-17 17:18:44,033 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 8215, z: 9.059
+2025-08-17 17:18:44,044 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:44,056 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:44,056 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,057 - INFO -     RA: 214.985114, DEC: 52.990463
+2025-08-17 17:18:44,057 - INFO -     FLUX_AUTO: 2.60
+2025-08-17 17:18:44,058 - INFO -   Found 295 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,058 - INFO -   Best flux match: Brenjit ID 8216
+2025-08-17 17:18:44,058 - INFO -     Brenjit FLUX_AUTO: 2.60 (diff: 0.0%)
+2025-08-17 17:18:44,058 - INFO -     Brenjit position: RA 214.985114, DEC 52.990463
+2025-08-17 17:18:44,058 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,058 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,058 - INFO - 
+Processing source #5:
+2025-08-17 17:18:44,058 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 9949, z: 8.861
+2025-08-17 17:18:44,069 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:44,080 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:44,081 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,081 - INFO -     RA: 214.938073, DEC: 52.964824
+2025-08-17 17:18:44,081 - INFO -     FLUX_AUTO: 1.43
+2025-08-17 17:18:44,081 - INFO -   Found 450 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,081 - INFO -   Best flux match: Brenjit ID 11572
+2025-08-17 17:18:44,082 - INFO -     Brenjit FLUX_AUTO: 1.43 (diff: 0.0%)
+2025-08-17 17:18:44,082 - INFO -     Brenjit position: RA 214.938073, DEC 52.964824
+2025-08-17 17:18:44,082 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,082 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,082 - INFO - 
+Processing source #6:
+2025-08-17 17:18:44,082 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 10909, z: 8.959
+2025-08-17 17:18:44,093 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:44,105 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:44,105 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,105 - INFO -     RA: 214.919709, DEC: 52.957778
+2025-08-17 17:18:44,105 - INFO -     FLUX_AUTO: 0.34
+2025-08-17 17:18:44,106 - INFO -   Found 634 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,106 - INFO -   Best flux match: Brenjit ID 10899
+2025-08-17 17:18:44,106 - INFO -     Brenjit FLUX_AUTO: 0.34 (diff: 0.0%)
+2025-08-17 17:18:44,106 - INFO -     Brenjit position: RA 214.919709, DEC 52.957778
+2025-08-17 17:18:44,106 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,106 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,106 - INFO - 
+Processing source #7:
+2025-08-17 17:18:44,106 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 11437, z: 8.959
+2025-08-17 17:18:44,119 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-17 17:18:44,133 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-17 17:18:44,133 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,133 - INFO -     RA: 215.005239, DEC: 53.017772
+2025-08-17 17:18:44,133 - INFO -     FLUX_AUTO: 1.01
+2025-08-17 17:18:44,134 - INFO -   Found 526 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,134 - INFO -   Best flux match: Brenjit ID 8272
+2025-08-17 17:18:44,134 - INFO -     Brenjit FLUX_AUTO: 1.01 (diff: -0.0%)
+2025-08-17 17:18:44,134 - INFO -     Brenjit position: RA 214.963397, DEC 52.974852
+2025-08-17 17:18:44,134 - INFO -     Position separation: 179.15 arcsec
+2025-08-17 17:18:44,134 - WARNING -   WARNING: Flux match but large position difference
+2025-08-17 17:18:44,134 - INFO - 
+Processing source #8:
+2025-08-17 17:18:44,134 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 1329, z: 8.861
+2025-08-17 17:18:44,198 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-17 17:18:44,262 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-17 17:18:44,262 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,262 - INFO -     RA: 214.885552, DEC: 52.884017
+2025-08-17 17:18:44,262 - INFO -     FLUX_AUTO: 1.01
+2025-08-17 17:18:44,263 - INFO -   Found 459 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,263 - INFO -   Best flux match: Brenjit ID 1332
+2025-08-17 17:18:44,263 - INFO -     Brenjit FLUX_AUTO: 1.01 (diff: 0.0%)
+2025-08-17 17:18:44,263 - INFO -     Brenjit position: RA 214.885552, DEC 52.884017
+2025-08-17 17:18:44,263 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,263 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,263 - INFO - 
+Processing source #9:
+2025-08-17 17:18:44,263 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 2034, z: 9.059
+2025-08-17 17:18:44,275 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-17 17:18:44,287 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-17 17:18:44,287 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,287 - INFO -     RA: 214.876147, DEC: 52.880824
+2025-08-17 17:18:44,287 - INFO -     FLUX_AUTO: 4.57
+2025-08-17 17:18:44,288 - INFO -   Found 189 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,288 - INFO -   Best flux match: Brenjit ID 2034
+2025-08-17 17:18:44,288 - INFO -     Brenjit FLUX_AUTO: 4.57 (diff: 0.0%)
+2025-08-17 17:18:44,288 - INFO -     Brenjit position: RA 214.876147, DEC 52.880824
+2025-08-17 17:18:44,288 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,288 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,288 - INFO - 
+Processing source #10:
+2025-08-17 17:18:44,288 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 5713, z: 8.959
+2025-08-17 17:18:44,301 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-17 17:18:44,313 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-17 17:18:44,314 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,314 - INFO -     RA: 214.928739, DEC: 52.935500
+2025-08-17 17:18:44,314 - INFO -     FLUX_AUTO: 0.44
+2025-08-17 17:18:44,315 - INFO -   Found 718 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,315 - INFO -   Best flux match: Brenjit ID 5726
+2025-08-17 17:18:44,315 - INFO -     Brenjit FLUX_AUTO: 0.44 (diff: 0.0%)
+2025-08-17 17:18:44,315 - INFO -     Brenjit position: RA 214.928739, DEC 52.935500
+2025-08-17 17:18:44,315 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,315 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,315 - INFO - 
+Processing source #11:
+2025-08-17 17:18:44,315 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 10837, z: 8.667
+2025-08-17 17:18:44,326 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-17 17:18:44,339 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-17 17:18:44,339 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,339 - INFO -     RA: 214.902237, DEC: 52.939369
+2025-08-17 17:18:44,339 - INFO -     FLUX_AUTO: 1.44
+2025-08-17 17:18:44,340 - INFO -   Found 443 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,340 - INFO -   Best flux match: Brenjit ID 11316
+2025-08-17 17:18:44,340 - INFO -     Brenjit FLUX_AUTO: 1.44 (diff: 0.0%)
+2025-08-17 17:18:44,340 - INFO -     Brenjit position: RA 214.902237, DEC 52.939369
+2025-08-17 17:18:44,340 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,340 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,340 - INFO - 
+Processing source #12:
+2025-08-17 17:18:44,340 - INFO -   From z9 catalog - POINTING: nircam3, Romeo_ID: 9976, z: 9.059
+2025-08-17 17:18:44,399 - INFO - Successfully loaded catalog: nircam3_f410m_catalog.cat with 12233 sources
+2025-08-17 17:18:44,459 - INFO - Successfully loaded catalog: nircam3_f410m_catalog.cat with 12249 sources
+2025-08-17 17:18:44,459 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,459 - INFO -     RA: 214.830686, DEC: 52.887773
+2025-08-17 17:18:44,459 - INFO -     FLUX_AUTO: 2.82
+2025-08-17 17:18:44,460 - INFO -   Found 260 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,460 - INFO -   Best flux match: Brenjit ID 9992
+2025-08-17 17:18:44,460 - INFO -     Brenjit FLUX_AUTO: 2.82 (diff: 0.0%)
+2025-08-17 17:18:44,460 - INFO -     Brenjit position: RA 214.830686, DEC 52.887773
+2025-08-17 17:18:44,460 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,460 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,460 - INFO - 
+Processing source #13:
+2025-08-17 17:18:44,460 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 314, z: 8.763
+2025-08-17 17:18:44,523 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,588 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,588 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,588 - INFO -     RA: 214.795549, DEC: 52.767287
+2025-08-17 17:18:44,589 - INFO -     FLUX_AUTO: 0.64
+2025-08-17 17:18:44,590 - INFO -   Found 545 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,590 - INFO -   Best flux match: Brenjit ID 315
+2025-08-17 17:18:44,590 - INFO -     Brenjit FLUX_AUTO: 0.64 (diff: 0.0%)
+2025-08-17 17:18:44,590 - INFO -     Brenjit position: RA 214.795549, DEC 52.767287
+2025-08-17 17:18:44,590 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,590 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,590 - INFO - 
+Processing source #14:
+2025-08-17 17:18:44,590 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1667, z: 8.763
+2025-08-17 17:18:44,604 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,617 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,617 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,617 - INFO -     RA: 214.744565, DEC: 52.738506
+2025-08-17 17:18:44,617 - INFO -     FLUX_AUTO: 0.40
+2025-08-17 17:18:44,618 - INFO -   Found 663 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,618 - INFO -   Best flux match: Brenjit ID 1669
+2025-08-17 17:18:44,618 - INFO -     Brenjit FLUX_AUTO: 0.40 (diff: 0.0%)
+2025-08-17 17:18:44,618 - INFO -     Brenjit position: RA 214.744565, DEC 52.738506
+2025-08-17 17:18:44,618 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,618 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,618 - INFO - 
+Processing source #15:
+2025-08-17 17:18:44,618 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1840, z: 8.763
+2025-08-17 17:18:44,630 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,644 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,644 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,644 - INFO -     RA: 214.815277, DEC: 52.789716
+2025-08-17 17:18:44,644 - INFO -     FLUX_AUTO: 0.33
+2025-08-17 17:18:44,646 - INFO -   Found 665 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,646 - INFO -   Best flux match: Brenjit ID 1843
+2025-08-17 17:18:44,646 - INFO -     Brenjit FLUX_AUTO: 0.33 (diff: 0.0%)
+2025-08-17 17:18:44,646 - INFO -     Brenjit position: RA 214.815277, DEC 52.789716
+2025-08-17 17:18:44,646 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,646 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,646 - INFO - 
+Processing source #16:
+2025-08-17 17:18:44,646 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1980, z: 8.667
+2025-08-17 17:18:44,661 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,675 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,676 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,676 - INFO -     RA: 214.786699, DEC: 52.770149
+2025-08-17 17:18:44,676 - INFO -     FLUX_AUTO: 0.64
+2025-08-17 17:18:44,677 - INFO -   Found 542 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,677 - INFO -   Best flux match: Brenjit ID 9859
+2025-08-17 17:18:44,677 - INFO -     Brenjit FLUX_AUTO: 0.64 (diff: 0.0%)
+2025-08-17 17:18:44,677 - INFO -     Brenjit position: RA 214.756222, DEC 52.778264
+2025-08-17 17:18:44,677 - INFO -     Position separation: 72.52 arcsec
+2025-08-17 17:18:44,677 - WARNING -   WARNING: Flux match but large position difference
+2025-08-17 17:18:44,677 - INFO - 
+Processing source #17:
+2025-08-17 17:18:44,677 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 9434, z: 8.571
+2025-08-17 17:18:44,690 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,703 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,704 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,704 - INFO -     RA: 214.761582, DEC: 52.780344
+2025-08-17 17:18:44,704 - INFO -     FLUX_AUTO: 0.89
+2025-08-17 17:18:44,705 - INFO -   Found 489 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,705 - INFO -   Best flux match: Brenjit ID 9427
+2025-08-17 17:18:44,705 - INFO -     Brenjit FLUX_AUTO: 0.89 (diff: 0.0%)
+2025-08-17 17:18:44,705 - INFO -     Brenjit position: RA 214.761582, DEC 52.780344
+2025-08-17 17:18:44,705 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,705 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,705 - INFO - 
+Processing source #18:
+2025-08-17 17:18:44,705 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 11354, z: 8.571
+2025-08-17 17:18:44,717 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,731 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,731 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,731 - INFO -     RA: 214.708864, DEC: 52.760061
+2025-08-17 17:18:44,731 - INFO -     FLUX_AUTO: 4.08
+2025-08-17 17:18:44,732 - INFO -   Found 194 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,732 - INFO -   Best flux match: Brenjit ID 12415
+2025-08-17 17:18:44,732 - INFO -     Brenjit FLUX_AUTO: 4.08 (diff: 0.0%)
+2025-08-17 17:18:44,732 - INFO -     Brenjit position: RA 214.708864, DEC 52.760061
+2025-08-17 17:18:44,732 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,732 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,732 - INFO - 
+Processing source #19:
+2025-08-17 17:18:44,732 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 11572, z: 9.059
+2025-08-17 17:18:44,746 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-17 17:18:44,758 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-17 17:18:44,759 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:44,759 - INFO -     RA: 214.695152, DEC: 52.748565
+2025-08-17 17:18:44,759 - INFO -     FLUX_AUTO: 3.20
+2025-08-17 17:18:44,760 - INFO -   Found 232 flux matches in Brenjit's catalog
+2025-08-17 17:18:44,760 - INFO -   Best flux match: Brenjit ID 11659
+2025-08-17 17:18:44,760 - INFO -     Brenjit FLUX_AUTO: 3.20 (diff: 0.0%)
+2025-08-17 17:18:44,760 - INFO -     Brenjit position: RA 214.695152, DEC 52.748565
+2025-08-17 17:18:44,760 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:44,760 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:44,760 - INFO - 
+Processing source #20:
+2025-08-17 17:18:44,760 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 4542, z: 8.763
+2025-08-17 17:18:44,839 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-17 17:18:45,838 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-17 17:18:45,838 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:45,838 - INFO -     RA: 214.924336, DEC: 52.868592
+2025-08-17 17:18:45,838 - INFO -     FLUX_AUTO: 0.37
+2025-08-17 17:18:45,839 - INFO -   Found 659 flux matches in Brenjit's catalog
+2025-08-17 17:18:45,839 - INFO -   Best flux match: Brenjit ID 4547
+2025-08-17 17:18:45,839 - INFO -     Brenjit FLUX_AUTO: 0.37 (diff: 0.0%)
+2025-08-17 17:18:45,839 - INFO -     Brenjit position: RA 214.924336, DEC 52.868592
+2025-08-17 17:18:45,839 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:45,839 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:45,839 - INFO - 
+Processing source #21:
+2025-08-17 17:18:45,839 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 9888, z: 9.16
+2025-08-17 17:18:45,855 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-17 17:18:45,871 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-17 17:18:45,871 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:45,871 - INFO -     RA: 214.977354, DEC: 52.926497
+2025-08-17 17:18:45,871 - INFO -     FLUX_AUTO: 2.26
+2025-08-17 17:18:45,872 - INFO -   Found 298 flux matches in Brenjit's catalog
+2025-08-17 17:18:45,872 - INFO -   Best flux match: Brenjit ID 9883
+2025-08-17 17:18:45,872 - INFO -     Brenjit FLUX_AUTO: 2.26 (diff: 0.0%)
+2025-08-17 17:18:45,872 - INFO -     Brenjit position: RA 214.977354, DEC 52.926497
+2025-08-17 17:18:45,872 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:45,872 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:45,872 - INFO - 
+Processing source #22:
+2025-08-17 17:18:45,872 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12081, z: 8.959
+2025-08-17 17:18:45,888 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-17 17:18:45,905 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-17 17:18:45,906 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:45,906 - INFO -     RA: 214.968698, DEC: 52.929647
+2025-08-17 17:18:45,906 - INFO -     FLUX_AUTO: 3.00
+2025-08-17 17:18:45,907 - INFO -   Found 263 flux matches in Brenjit's catalog
+2025-08-17 17:18:45,907 - INFO -   Best flux match: Brenjit ID 12083
+2025-08-17 17:18:45,907 - INFO -     Brenjit FLUX_AUTO: 3.00 (diff: 0.0%)
+2025-08-17 17:18:45,907 - INFO -     Brenjit position: RA 214.968698, DEC 52.929647
+2025-08-17 17:18:45,907 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:45,907 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:45,907 - INFO - 
+Processing source #23:
+2025-08-17 17:18:45,907 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12776, z: 9.059
+2025-08-17 17:18:45,923 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-17 17:18:45,940 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-17 17:18:45,941 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:45,941 - INFO -     RA: 214.938642, DEC: 52.911748
+2025-08-17 17:18:45,941 - INFO -     FLUX_AUTO: 2.85
+2025-08-17 17:18:45,942 - INFO -   Found 256 flux matches in Brenjit's catalog
+2025-08-17 17:18:45,942 - INFO -   Best flux match: Brenjit ID 12779
+2025-08-17 17:18:45,942 - INFO -     Brenjit FLUX_AUTO: 2.85 (diff: 0.0%)
+2025-08-17 17:18:45,942 - INFO -     Brenjit position: RA 214.938642, DEC 52.911748
+2025-08-17 17:18:45,942 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:45,942 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:45,942 - INFO - 
+Processing source #24:
+2025-08-17 17:18:45,942 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12889, z: 8.667
+2025-08-17 17:18:45,961 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-17 17:18:45,978 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-17 17:18:45,978 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:45,978 - INFO -     RA: 214.967528, DEC: 52.932954
+2025-08-17 17:18:45,978 - INFO -     FLUX_AUTO: 3.57
+2025-08-17 17:18:45,979 - INFO -   Found 205 flux matches in Brenjit's catalog
+2025-08-17 17:18:45,979 - INFO -   Best flux match: Brenjit ID 12888
+2025-08-17 17:18:45,979 - INFO -     Brenjit FLUX_AUTO: 3.57 (diff: 0.0%)
+2025-08-17 17:18:45,979 - INFO -     Brenjit position: RA 214.967528, DEC 52.932954
+2025-08-17 17:18:45,979 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:45,979 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:45,979 - INFO - 
+Processing source #25:
+2025-08-17 17:18:45,979 - INFO -   From z9 catalog - POINTING: nircam6, Romeo_ID: 3191, z: 8.571
+2025-08-17 17:18:46,041 - INFO - Successfully loaded catalog: nircam6_f410m_catalog.cat with 11929 sources
+2025-08-17 17:18:46,107 - INFO - Successfully loaded catalog: nircam6_f410m_catalog.cat with 11949 sources
+2025-08-17 17:18:46,107 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,107 - INFO -     RA: 214.879347, DEC: 52.837735
+2025-08-17 17:18:46,107 - INFO -     FLUX_AUTO: 1.06
+2025-08-17 17:18:46,108 - INFO -   Found 433 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,108 - INFO -   Best flux match: Brenjit ID 3206
+2025-08-17 17:18:46,108 - INFO -     Brenjit FLUX_AUTO: 1.06 (diff: 0.0%)
+2025-08-17 17:18:46,108 - INFO -     Brenjit position: RA 214.879347, DEC 52.837735
+2025-08-17 17:18:46,108 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,108 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,108 - INFO - 
+Processing source #26:
+2025-08-17 17:18:46,108 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 7068, z: 8.667
+2025-08-17 17:18:46,196 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,285 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,286 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,286 - INFO -     RA: 215.155532, DEC: 52.982561
+2025-08-17 17:18:46,286 - INFO -     FLUX_AUTO: 0.43
+2025-08-17 17:18:46,287 - INFO -   Found 667 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,287 - INFO -   Best flux match: Brenjit ID 7070
+2025-08-17 17:18:46,287 - INFO -     Brenjit FLUX_AUTO: 0.43 (diff: 0.0%)
+2025-08-17 17:18:46,287 - INFO -     Brenjit position: RA 215.155532, DEC 52.982561
+2025-08-17 17:18:46,287 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,287 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,287 - INFO - 
+Processing source #27:
+2025-08-17 17:18:46,287 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 9444, z: 9.261
+2025-08-17 17:18:46,308 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,328 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,328 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,328 - INFO -     RA: 215.072670, DEC: 52.932292
+2025-08-17 17:18:46,328 - INFO -     FLUX_AUTO: 1.03
+2025-08-17 17:18:46,329 - INFO -   Found 470 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,329 - INFO -   Best flux match: Brenjit ID 9437
+2025-08-17 17:18:46,329 - INFO -     Brenjit FLUX_AUTO: 1.03 (diff: 0.0%)
+2025-08-17 17:18:46,329 - INFO -     Brenjit position: RA 215.072670, DEC 52.932292
+2025-08-17 17:18:46,329 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,329 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,329 - INFO - 
+Processing source #28:
+2025-08-17 17:18:46,329 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 9963, z: 8.763
+2025-08-17 17:18:46,348 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,369 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,369 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,369 - INFO -     RA: 215.067853, DEC: 52.930249
+2025-08-17 17:18:46,369 - INFO -     FLUX_AUTO: 0.51
+2025-08-17 17:18:46,370 - INFO -   Found 622 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,370 - INFO -   Best flux match: Brenjit ID 9959
+2025-08-17 17:18:46,370 - INFO -     Brenjit FLUX_AUTO: 0.51 (diff: 0.0%)
+2025-08-17 17:18:46,370 - INFO -     Brenjit position: RA 215.067853, DEC 52.930249
+2025-08-17 17:18:46,370 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,370 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,370 - INFO - 
+Processing source #29:
+2025-08-17 17:18:46,370 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11621, z: 8.667
+2025-08-17 17:18:46,388 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,407 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,407 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,407 - INFO -     RA: 215.061784, DEC: 52.931176
+2025-08-17 17:18:46,407 - INFO -     FLUX_AUTO: 1.62
+2025-08-17 17:18:46,408 - INFO -   Found 401 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,408 - INFO -   Best flux match: Brenjit ID 11615
+2025-08-17 17:18:46,408 - INFO -     Brenjit FLUX_AUTO: 1.62 (diff: 0.0%)
+2025-08-17 17:18:46,408 - INFO -     Brenjit position: RA 215.061784, DEC 52.931176
+2025-08-17 17:18:46,408 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,408 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,408 - INFO - 
+Processing source #30:
+2025-08-17 17:18:46,408 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11755, z: 8.667
+2025-08-17 17:18:46,425 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,442 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,442 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,442 - INFO -     RA: 215.120031, DEC: 52.972564
+2025-08-17 17:18:46,442 - INFO -     FLUX_AUTO: 1.55
+2025-08-17 17:18:46,443 - INFO -   Found 402 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,443 - INFO -   Best flux match: Brenjit ID 11754
+2025-08-17 17:18:46,443 - INFO -     Brenjit FLUX_AUTO: 1.55 (diff: 0.0%)
+2025-08-17 17:18:46,443 - INFO -     Brenjit position: RA 215.120031, DEC 52.972564
+2025-08-17 17:18:46,443 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,443 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,443 - INFO - 
+Processing source #31:
+2025-08-17 17:18:46,443 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11919, z: 8.571
+2025-08-17 17:18:46,462 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,481 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,482 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,482 - INFO -     RA: 215.120643, DEC: 52.973583
+2025-08-17 17:18:46,482 - INFO -     FLUX_AUTO: 1.82
+2025-08-17 17:18:46,483 - INFO -   Found 369 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,483 - INFO -   Best flux match: Brenjit ID 3581
+2025-08-17 17:18:46,483 - INFO -     Brenjit FLUX_AUTO: 1.82 (diff: -0.0%)
+2025-08-17 17:18:46,483 - INFO -     Brenjit position: RA 215.085789, DEC 52.921545
+2025-08-17 17:18:46,483 - INFO -     Position separation: 202.02 arcsec
+2025-08-17 17:18:46,483 - WARNING -   WARNING: Flux match but large position difference
+2025-08-17 17:18:46,483 - INFO - 
+Processing source #32:
+2025-08-17 17:18:46,483 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 13408, z: 8.959
+2025-08-17 17:18:46,499 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,516 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,517 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,517 - INFO -     RA: 215.079068, DEC: 52.949634
+2025-08-17 17:18:46,517 - INFO -     FLUX_AUTO: 0.27
+2025-08-17 17:18:46,518 - INFO -   Found 822 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,518 - INFO -   Best flux match: Brenjit ID 13394
+2025-08-17 17:18:46,518 - INFO -     Brenjit FLUX_AUTO: 0.27 (diff: 0.0%)
+2025-08-17 17:18:46,518 - INFO -     Brenjit position: RA 215.079068, DEC 52.949634
+2025-08-17 17:18:46,518 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,518 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,518 - INFO - 
+Processing source #33:
+2025-08-17 17:18:46,518 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 13755, z: 9.364
+2025-08-17 17:18:46,536 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,553 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,553 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,553 - INFO -     RA: 215.062509, DEC: 52.940339
+2025-08-17 17:18:46,553 - INFO -     FLUX_AUTO: 10.76
+2025-08-17 17:18:46,554 - INFO -   Found 98 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,554 - INFO -   Best flux match: Brenjit ID 13743
+2025-08-17 17:18:46,554 - INFO -     Brenjit FLUX_AUTO: 10.76 (diff: -0.0%)
+2025-08-17 17:18:46,554 - INFO -     Brenjit position: RA 215.062509, DEC 52.940339
+2025-08-17 17:18:46,554 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,554 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,554 - INFO - 
+Processing source #34:
+2025-08-17 17:18:46,554 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 14107, z: 9.059
+2025-08-17 17:18:46,571 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,587 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,588 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,588 - INFO -     RA: 215.059747, DEC: 52.939340
+2025-08-17 17:18:46,588 - INFO -     FLUX_AUTO: 1.70
+2025-08-17 17:18:46,589 - INFO -   Found 379 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,589 - INFO -   Best flux match: Brenjit ID 14097
+2025-08-17 17:18:46,589 - INFO -     Brenjit FLUX_AUTO: 1.70 (diff: 0.0%)
+2025-08-17 17:18:46,589 - INFO -     Brenjit position: RA 215.059747, DEC 52.939340
+2025-08-17 17:18:46,589 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,589 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,589 - INFO - 
+Processing source #35:
+2025-08-17 17:18:46,589 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 14220, z: 8.763
+2025-08-17 17:18:46,606 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-17 17:18:46,622 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-17 17:18:46,623 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,623 - INFO -     RA: 215.113981, DEC: 52.978065
+2025-08-17 17:18:46,623 - INFO -     FLUX_AUTO: 1.82
+2025-08-17 17:18:46,624 - INFO -   Found 364 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,624 - INFO -   Best flux match: Brenjit ID 14208
+2025-08-17 17:18:46,624 - INFO -     Brenjit FLUX_AUTO: 1.82 (diff: 0.0%)
+2025-08-17 17:18:46,624 - INFO -     Brenjit position: RA 215.113981, DEC 52.978065
+2025-08-17 17:18:46,624 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,624 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,624 - INFO - 
+Processing source #36:
+2025-08-17 17:18:46,624 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 1398, z: 8.763
+2025-08-17 17:18:46,708 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:46,795 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:46,795 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,795 - INFO -     RA: 215.079629, DEC: 52.909563
+2025-08-17 17:18:46,795 - INFO -     FLUX_AUTO: 1.28
+2025-08-17 17:18:46,796 - INFO -   Found 412 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,796 - INFO -   Best flux match: Brenjit ID 1398
+2025-08-17 17:18:46,796 - INFO -     Brenjit FLUX_AUTO: 1.28 (diff: 0.0%)
+2025-08-17 17:18:46,796 - INFO -     Brenjit position: RA 215.079629, DEC 52.909563
+2025-08-17 17:18:46,796 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,796 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,796 - INFO - 
+Processing source #37:
+2025-08-17 17:18:46,796 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 2087, z: 8.861
+2025-08-17 17:18:46,817 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:46,837 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:46,838 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,838 - INFO -     RA: 214.996401, DEC: 52.854155
+2025-08-17 17:18:46,838 - INFO -     FLUX_AUTO: 1.38
+2025-08-17 17:18:46,839 - INFO -   Found 427 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,839 - INFO -   Best flux match: Brenjit ID 2080
+2025-08-17 17:18:46,839 - INFO -     Brenjit FLUX_AUTO: 1.38 (diff: 0.0%)
+2025-08-17 17:18:46,839 - INFO -     Brenjit position: RA 214.996401, DEC 52.854155
+2025-08-17 17:18:46,839 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,839 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,839 - INFO - 
+Processing source #38:
+2025-08-17 17:18:46,839 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 2293, z: 8.571
+2025-08-17 17:18:46,856 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:46,873 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:46,874 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,874 - INFO -     RA: 215.001712, DEC: 52.858999
+2025-08-17 17:18:46,874 - INFO -     FLUX_AUTO: 0.53
+2025-08-17 17:18:46,875 - INFO -   Found 616 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,875 - INFO -   Best flux match: Brenjit ID 2288
+2025-08-17 17:18:46,875 - INFO -     Brenjit FLUX_AUTO: 0.53 (diff: 0.0%)
+2025-08-17 17:18:46,875 - INFO -     Brenjit position: RA 215.001712, DEC 52.858999
+2025-08-17 17:18:46,875 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,875 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,875 - INFO - 
+Processing source #39:
+2025-08-17 17:18:46,875 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 3405, z: 8.861
+2025-08-17 17:18:46,891 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:46,909 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:46,910 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,910 - INFO -     RA: 215.008673, DEC: 52.868310
+2025-08-17 17:18:46,910 - INFO -     FLUX_AUTO: 3.91
+2025-08-17 17:18:46,911 - INFO -   Found 204 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,911 - INFO -   Best flux match: Brenjit ID 4493
+2025-08-17 17:18:46,911 - INFO -     Brenjit FLUX_AUTO: 3.91 (diff: 0.0%)
+2025-08-17 17:18:46,911 - INFO -     Brenjit position: RA 215.061182, DEC 52.908743
+2025-08-17 17:18:46,911 - INFO -     Position separation: 184.92 arcsec
+2025-08-17 17:18:46,911 - WARNING -   WARNING: Flux match but large position difference
+2025-08-17 17:18:46,911 - INFO - 
+Processing source #40:
+2025-08-17 17:18:46,911 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 6990, z: 8.763
+2025-08-17 17:18:46,928 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:46,945 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:46,946 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,946 - INFO -     RA: 214.987393, DEC: 52.865544
+2025-08-17 17:18:46,946 - INFO -     FLUX_AUTO: 1.00
+2025-08-17 17:18:46,946 - INFO -   Found 482 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,946 - INFO -   Best flux match: Brenjit ID 6986
+2025-08-17 17:18:46,946 - INFO -     Brenjit FLUX_AUTO: 1.00 (diff: 0.0%)
+2025-08-17 17:18:46,946 - INFO -     Brenjit position: RA 214.987393, DEC 52.865544
+2025-08-17 17:18:46,946 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,946 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,946 - INFO - 
+Processing source #41:
+2025-08-17 17:18:46,946 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 8966, z: 8.959
+2025-08-17 17:18:46,964 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:46,981 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:46,981 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:46,981 - INFO -     RA: 214.994199, DEC: 52.876472
+2025-08-17 17:18:46,981 - INFO -     FLUX_AUTO: 0.45
+2025-08-17 17:18:46,982 - INFO -   Found 683 flux matches in Brenjit's catalog
+2025-08-17 17:18:46,982 - INFO -   Best flux match: Brenjit ID 8954
+2025-08-17 17:18:46,982 - INFO -     Brenjit FLUX_AUTO: 0.45 (diff: 0.0%)
+2025-08-17 17:18:46,982 - INFO -     Brenjit position: RA 214.994199, DEC 52.876472
+2025-08-17 17:18:46,982 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:46,982 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:46,982 - INFO - 
+Processing source #42:
+2025-08-17 17:18:46,982 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 9467, z: 8.959
+2025-08-17 17:18:47,001 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:47,019 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:47,020 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,020 - INFO -     RA: 214.982886, DEC: 52.870243
+2025-08-17 17:18:47,020 - INFO -     FLUX_AUTO: 0.61
+2025-08-17 17:18:47,021 - INFO -   Found 554 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,021 - INFO -   Best flux match: Brenjit ID 9454
+2025-08-17 17:18:47,021 - INFO -     Brenjit FLUX_AUTO: 0.61 (diff: 0.0%)
+2025-08-17 17:18:47,021 - INFO -     Brenjit position: RA 214.982886, DEC 52.870243
+2025-08-17 17:18:47,021 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,021 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,021 - INFO - 
+Processing source #43:
+2025-08-17 17:18:47,021 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 11729, z: 9.261
+2025-08-17 17:18:47,039 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:47,056 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:47,056 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,056 - INFO -     RA: 214.983827, DEC: 52.877668
+2025-08-17 17:18:47,056 - INFO -     FLUX_AUTO: 1.51
+2025-08-17 17:18:47,057 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,057 - INFO -   Best flux match: Brenjit ID 11712
+2025-08-17 17:18:47,057 - INFO -     Brenjit FLUX_AUTO: 1.51 (diff: 0.0%)
+2025-08-17 17:18:47,057 - INFO -     Brenjit position: RA 214.983827, DEC 52.877668
+2025-08-17 17:18:47,057 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,057 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,057 - INFO - 
+Processing source #44:
+2025-08-17 17:18:47,057 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 14625, z: 8.763
+2025-08-17 17:18:47,075 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-17 17:18:47,094 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-17 17:18:47,094 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,094 - INFO -     RA: 214.964383, DEC: 52.875522
+2025-08-17 17:18:47,094 - INFO -     FLUX_AUTO: 0.85
+2025-08-17 17:18:47,095 - INFO -   Found 547 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,095 - INFO -   Best flux match: Brenjit ID 14604
+2025-08-17 17:18:47,095 - INFO -     Brenjit FLUX_AUTO: 0.85 (diff: 0.0%)
+2025-08-17 17:18:47,095 - INFO -     Brenjit position: RA 214.964383, DEC 52.875522
+2025-08-17 17:18:47,095 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,095 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,095 - INFO - 
+Processing source #45:
+2025-08-17 17:18:47,095 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 2643, z: 9.261
+2025-08-17 17:18:47,184 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-17 17:18:47,271 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-17 17:18:47,272 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,272 - INFO -     RA: 214.901708, DEC: 52.792665
+2025-08-17 17:18:47,272 - INFO -     FLUX_AUTO: 0.46
+2025-08-17 17:18:47,273 - INFO -   Found 667 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,273 - INFO -   Best flux match: Brenjit ID 2646
+2025-08-17 17:18:47,273 - INFO -     Brenjit FLUX_AUTO: 0.46 (diff: 0.0%)
+2025-08-17 17:18:47,273 - INFO -     Brenjit position: RA 214.901708, DEC 52.792665
+2025-08-17 17:18:47,273 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,273 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,273 - INFO - 
+Processing source #46:
+2025-08-17 17:18:47,273 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 3086, z: 9.059
+2025-08-17 17:18:47,292 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-17 17:18:47,310 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-17 17:18:47,310 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,310 - INFO -     RA: 214.961113, DEC: 52.836512
+2025-08-17 17:18:47,310 - INFO -     FLUX_AUTO: 1.09
+2025-08-17 17:18:47,311 - INFO -   Found 417 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,311 - INFO -   Best flux match: Brenjit ID 3096
+2025-08-17 17:18:47,311 - INFO -     Brenjit FLUX_AUTO: 1.09 (diff: 0.0%)
+2025-08-17 17:18:47,311 - INFO -     Brenjit position: RA 214.961113, DEC 52.836512
+2025-08-17 17:18:47,311 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,311 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,311 - INFO - 
+Processing source #47:
+2025-08-17 17:18:47,311 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 5590, z: 8.763
+2025-08-17 17:18:47,330 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-17 17:18:47,347 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-17 17:18:47,348 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,348 - INFO -     RA: 214.899803, DEC: 52.801540
+2025-08-17 17:18:47,348 - INFO -     FLUX_AUTO: 2.02
+2025-08-17 17:18:47,349 - INFO -   Found 350 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,349 - INFO -   Best flux match: Brenjit ID 5572
+2025-08-17 17:18:47,349 - INFO -     Brenjit FLUX_AUTO: 2.02 (diff: 0.0%)
+2025-08-17 17:18:47,349 - INFO -     Brenjit position: RA 214.899803, DEC 52.801540
+2025-08-17 17:18:47,349 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,349 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,349 - INFO - 
+Processing source #48:
+2025-08-17 17:18:47,349 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 9084, z: 9.261
+2025-08-17 17:18:47,366 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-17 17:18:47,386 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-17 17:18:47,387 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,387 - INFO -     RA: 214.954423, DEC: 52.852402
+2025-08-17 17:18:47,387 - INFO -     FLUX_AUTO: 1.13
+2025-08-17 17:18:47,388 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,388 - INFO -   Best flux match: Brenjit ID 9061
+2025-08-17 17:18:47,388 - INFO -     Brenjit FLUX_AUTO: 1.13 (diff: 0.0%)
+2025-08-17 17:18:47,388 - INFO -     Brenjit position: RA 214.954423, DEC 52.852402
+2025-08-17 17:18:47,388 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,388 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,388 - INFO - 
+Processing source #49:
+2025-08-17 17:18:47,388 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 10723, z: 8.571
+2025-08-17 17:18:47,406 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-17 17:18:47,422 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-17 17:18:47,422 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,422 - INFO -     RA: 214.885899, DEC: 52.809150
+2025-08-17 17:18:47,422 - INFO -     FLUX_AUTO: 0.77
+2025-08-17 17:18:47,423 - INFO -   Found 512 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,423 - INFO -   Best flux match: Brenjit ID 8076
+2025-08-17 17:18:47,424 - INFO -     Brenjit FLUX_AUTO: 0.77 (diff: 0.0%)
+2025-08-17 17:18:47,424 - INFO -     Brenjit position: RA 214.889847, DEC 52.803348
+2025-08-17 17:18:47,424 - INFO -     Position separation: 22.59 arcsec
+2025-08-17 17:18:47,424 - WARNING -   WARNING: Flux match but large position difference
+2025-08-17 17:18:47,424 - INFO - 
+Processing source #50:
+2025-08-17 17:18:47,424 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 1428, z: 8.763
+2025-08-17 17:18:47,481 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-17 17:18:47,538 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-17 17:18:47,538 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,538 - INFO -     RA: 214.804184, DEC: 52.725189
+2025-08-17 17:18:47,539 - INFO -     FLUX_AUTO: 1.26
+2025-08-17 17:18:47,539 - INFO -   Found 406 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,539 - INFO -   Best flux match: Brenjit ID 1424
+2025-08-17 17:18:47,539 - INFO -     Brenjit FLUX_AUTO: 1.26 (diff: 0.0%)
+2025-08-17 17:18:47,539 - INFO -     Brenjit position: RA 214.804184, DEC 52.725189
+2025-08-17 17:18:47,539 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,539 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,539 - INFO - 
+Processing source #51:
+2025-08-17 17:18:47,539 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 1940, z: 8.667
+2025-08-17 17:18:47,549 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-17 17:18:47,559 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-17 17:18:47,559 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,559 - INFO -     RA: 214.865305, DEC: 52.771857
+2025-08-17 17:18:47,559 - INFO -     FLUX_AUTO: 0.47
+2025-08-17 17:18:47,560 - INFO -   Found 538 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,560 - INFO -   Best flux match: Brenjit ID 1935
+2025-08-17 17:18:47,560 - INFO -     Brenjit FLUX_AUTO: 0.47 (diff: 0.0%)
+2025-08-17 17:18:47,560 - INFO -     Brenjit position: RA 214.865305, DEC 52.771857
+2025-08-17 17:18:47,560 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,560 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,560 - INFO - 
+Processing source #52:
+2025-08-17 17:18:47,561 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 7842, z: 8.571
+2025-08-17 17:18:47,570 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-17 17:18:47,580 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-17 17:18:47,580 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,580 - INFO -     RA: 214.781456, DEC: 52.737270
+2025-08-17 17:18:47,581 - INFO -     FLUX_AUTO: 1.86
+2025-08-17 17:18:47,581 - INFO -   Found 332 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,581 - INFO -   Best flux match: Brenjit ID 7847
+2025-08-17 17:18:47,581 - INFO -     Brenjit FLUX_AUTO: 1.86 (diff: 0.0%)
+2025-08-17 17:18:47,581 - INFO -     Brenjit position: RA 214.781456, DEC 52.737270
+2025-08-17 17:18:47,581 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,581 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,582 - INFO - 
+Processing source #53:
+2025-08-17 17:18:47,582 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 9562, z: 9.059
+2025-08-17 17:18:47,593 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-17 17:18:47,603 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-17 17:18:47,603 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,603 - INFO -     RA: 214.855951, DEC: 52.798145
+2025-08-17 17:18:47,603 - INFO -     FLUX_AUTO: 1.02
+2025-08-17 17:18:47,604 - INFO -   Found 444 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,604 - INFO -   Best flux match: Brenjit ID 9562
+2025-08-17 17:18:47,604 - INFO -     Brenjit FLUX_AUTO: 1.02 (diff: 0.0%)
+2025-08-17 17:18:47,604 - INFO -     Brenjit position: RA 214.855951, DEC 52.798145
+2025-08-17 17:18:47,604 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,604 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,604 - INFO - 
+Processing source #54:
+2025-08-17 17:18:47,604 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 10843, z: 8.667
+2025-08-17 17:18:47,614 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-17 17:18:47,624 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-17 17:18:47,624 - INFO -   Found in Romeo's catalog:
+2025-08-17 17:18:47,624 - INFO -     RA: 214.795551, DEC: 52.767282
+2025-08-17 17:18:47,624 - INFO -     FLUX_AUTO: 0.42
+2025-08-17 17:18:47,625 - INFO -   Found 576 flux matches in Brenjit's catalog
+2025-08-17 17:18:47,625 - INFO -   Best flux match: Brenjit ID 10415
+2025-08-17 17:18:47,625 - INFO -     Brenjit FLUX_AUTO: 0.42 (diff: 0.0%)
+2025-08-17 17:18:47,625 - INFO -     Brenjit position: RA 214.795551, DEC 52.767282
+2025-08-17 17:18:47,625 - INFO -     Position separation: 0.00 arcsec
+2025-08-17 17:18:47,625 - INFO -   GOOD POSITION MATCH
+2025-08-17 17:18:47,629 - INFO - 
+Matching Statistics:
+2025-08-17 17:18:47,629 - INFO - Total sources processed: 54
+2025-08-17 17:18:47,629 - INFO - Romeo sources not found: 0
+2025-08-17 17:18:47,629 - INFO - Good flux+position matches: 49
+2025-08-17 17:18:47,629 - INFO - Flux matches but position differs: 5
+2025-08-17 17:18:47,629 - INFO - No matches found: 0
+2025-08-17 17:18:47,629 - INFO - 
+Final catalogue saved to /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/Romeo_s_data/Drive_cat/final_matched_catalogue.txt
+2025-08-18 10:13:10,602 - INFO - 
+Processing source #1:
+2025-08-18 10:13:10,602 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 2853, z: 8.667
+2025-08-18 10:13:10,663 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,723 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,724 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,724 - INFO -     RA: 215.015290, DEC: 52.985053
+2025-08-18 10:13:10,724 - INFO -     FLUX_AUTO: 0.48
+2025-08-18 10:13:10,726 - INFO -   Found 665 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,726 - INFO -   Best flux match: Brenjit ID 2858
+2025-08-18 10:13:10,726 - INFO -     Brenjit FLUX_AUTO: 0.48 (diff: 0.0%)
+2025-08-18 10:13:10,726 - INFO -     Brenjit position: RA 215.015290, DEC 52.985053
+2025-08-18 10:13:10,726 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:10,726 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:10,726 - INFO - 
+Processing source #2:
+2025-08-18 10:13:10,726 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 4007, z: 9.059
+2025-08-18 10:13:10,739 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,750 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,750 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,750 - INFO -     RA: 215.011708, DEC: 52.988304
+2025-08-18 10:13:10,750 - INFO -     FLUX_AUTO: 1.65
+2025-08-18 10:13:10,751 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,751 - INFO -   Best flux match: Brenjit ID 4010
+2025-08-18 10:13:10,751 - INFO -     Brenjit FLUX_AUTO: 1.65 (diff: 0.0%)
+2025-08-18 10:13:10,751 - INFO -     Brenjit position: RA 215.011708, DEC 52.988304
+2025-08-18 10:13:10,751 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:10,751 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:10,751 - INFO - 
+Processing source #3:
+2025-08-18 10:13:10,751 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 6803, z: 9.059
+2025-08-18 10:13:10,762 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,774 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,774 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,774 - INFO -     RA: 214.994400, DEC: 52.989379
+2025-08-18 10:13:10,774 - INFO -     FLUX_AUTO: 1.67
+2025-08-18 10:13:10,775 - INFO -   Found 428 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,775 - INFO -   Best flux match: Brenjit ID 6802
+2025-08-18 10:13:10,775 - INFO -     Brenjit FLUX_AUTO: 1.67 (diff: 0.0%)
+2025-08-18 10:13:10,775 - INFO -     Brenjit position: RA 214.994400, DEC 52.989379
+2025-08-18 10:13:10,775 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:10,775 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:10,775 - INFO - 
+Processing source #4:
+2025-08-18 10:13:10,775 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 8215, z: 9.059
+2025-08-18 10:13:10,786 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,797 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,797 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,797 - INFO -     RA: 214.985114, DEC: 52.990463
+2025-08-18 10:13:10,797 - INFO -     FLUX_AUTO: 2.60
+2025-08-18 10:13:10,798 - INFO -   Found 295 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,798 - INFO -   Best flux match: Brenjit ID 8216
+2025-08-18 10:13:10,798 - INFO -     Brenjit FLUX_AUTO: 2.60 (diff: 0.0%)
+2025-08-18 10:13:10,798 - INFO -     Brenjit position: RA 214.985114, DEC 52.990463
+2025-08-18 10:13:10,798 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:10,798 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:10,798 - INFO - 
+Processing source #5:
+2025-08-18 10:13:10,798 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 9949, z: 8.861
+2025-08-18 10:13:10,809 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,820 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,820 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,820 - INFO -     RA: 214.938073, DEC: 52.964824
+2025-08-18 10:13:10,820 - INFO -     FLUX_AUTO: 1.43
+2025-08-18 10:13:10,821 - INFO -   Found 450 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,821 - INFO -   Best flux match: Brenjit ID 11572
+2025-08-18 10:13:10,821 - INFO -     Brenjit FLUX_AUTO: 1.43 (diff: 0.0%)
+2025-08-18 10:13:10,821 - INFO -     Brenjit position: RA 214.938073, DEC 52.964824
+2025-08-18 10:13:10,821 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:10,821 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:10,821 - INFO - 
+Processing source #6:
+2025-08-18 10:13:10,821 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 10909, z: 8.959
+2025-08-18 10:13:10,832 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,846 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,846 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,846 - INFO -     RA: 214.919709, DEC: 52.957778
+2025-08-18 10:13:10,846 - INFO -     FLUX_AUTO: 0.34
+2025-08-18 10:13:10,847 - INFO -   Found 634 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,847 - INFO -   Best flux match: Brenjit ID 10899
+2025-08-18 10:13:10,847 - INFO -     Brenjit FLUX_AUTO: 0.34 (diff: 0.0%)
+2025-08-18 10:13:10,847 - INFO -     Brenjit position: RA 214.919709, DEC 52.957778
+2025-08-18 10:13:10,847 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:10,847 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:10,847 - INFO - 
+Processing source #7:
+2025-08-18 10:13:10,847 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 11437, z: 8.959
+2025-08-18 10:13:10,858 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:13:10,869 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:13:10,870 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:10,870 - INFO -     RA: 215.005239, DEC: 53.017772
+2025-08-18 10:13:10,870 - INFO -     FLUX_AUTO: 1.01
+2025-08-18 10:13:10,871 - INFO -   Found 526 flux matches in Brenjit's catalog
+2025-08-18 10:13:10,871 - INFO -   Best flux match: Brenjit ID 8272
+2025-08-18 10:13:10,871 - INFO -     Brenjit FLUX_AUTO: 1.01 (diff: -0.0%)
+2025-08-18 10:13:10,871 - INFO -     Brenjit position: RA 214.963397, DEC 52.974852
+2025-08-18 10:13:10,871 - INFO -     Position separation: 179.15 arcsec
+2025-08-18 10:13:10,871 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:13:10,871 - INFO - 
+Processing source #8:
+2025-08-18 10:13:10,871 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 1329, z: 8.861
+2025-08-18 10:13:10,936 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:13:11,000 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:13:11,000 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,000 - INFO -     RA: 214.885552, DEC: 52.884017
+2025-08-18 10:13:11,000 - INFO -     FLUX_AUTO: 1.01
+2025-08-18 10:13:11,001 - INFO -   Found 459 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,001 - INFO -   Best flux match: Brenjit ID 1332
+2025-08-18 10:13:11,001 - INFO -     Brenjit FLUX_AUTO: 1.01 (diff: 0.0%)
+2025-08-18 10:13:11,001 - INFO -     Brenjit position: RA 214.885552, DEC 52.884017
+2025-08-18 10:13:11,001 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,001 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,001 - INFO - 
+Processing source #9:
+2025-08-18 10:13:11,001 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 2034, z: 9.059
+2025-08-18 10:13:11,013 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:13:11,025 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:13:11,026 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,026 - INFO -     RA: 214.876147, DEC: 52.880824
+2025-08-18 10:13:11,026 - INFO -     FLUX_AUTO: 4.57
+2025-08-18 10:13:11,027 - INFO -   Found 189 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,027 - INFO -   Best flux match: Brenjit ID 2034
+2025-08-18 10:13:11,027 - INFO -     Brenjit FLUX_AUTO: 4.57 (diff: 0.0%)
+2025-08-18 10:13:11,027 - INFO -     Brenjit position: RA 214.876147, DEC 52.880824
+2025-08-18 10:13:11,027 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,027 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,027 - INFO - 
+Processing source #10:
+2025-08-18 10:13:11,027 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 5713, z: 8.959
+2025-08-18 10:13:11,042 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:13:11,054 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:13:11,055 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,055 - INFO -     RA: 214.928739, DEC: 52.935500
+2025-08-18 10:13:11,055 - INFO -     FLUX_AUTO: 0.44
+2025-08-18 10:13:11,055 - INFO -   Found 718 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,055 - INFO -   Best flux match: Brenjit ID 5726
+2025-08-18 10:13:11,055 - INFO -     Brenjit FLUX_AUTO: 0.44 (diff: 0.0%)
+2025-08-18 10:13:11,055 - INFO -     Brenjit position: RA 214.928739, DEC 52.935500
+2025-08-18 10:13:11,055 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,055 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,055 - INFO - 
+Processing source #11:
+2025-08-18 10:13:11,055 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 10837, z: 8.667
+2025-08-18 10:13:11,068 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:13:11,079 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:13:11,080 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,080 - INFO -     RA: 214.902237, DEC: 52.939369
+2025-08-18 10:13:11,080 - INFO -     FLUX_AUTO: 1.44
+2025-08-18 10:13:11,081 - INFO -   Found 443 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,081 - INFO -   Best flux match: Brenjit ID 11316
+2025-08-18 10:13:11,081 - INFO -     Brenjit FLUX_AUTO: 1.44 (diff: 0.0%)
+2025-08-18 10:13:11,081 - INFO -     Brenjit position: RA 214.902237, DEC 52.939369
+2025-08-18 10:13:11,081 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,081 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,081 - INFO - 
+Processing source #12:
+2025-08-18 10:13:11,081 - INFO -   From z9 catalog - POINTING: nircam3, Romeo_ID: 9976, z: 9.059
+2025-08-18 10:13:11,143 - INFO - Successfully loaded catalog: nircam3_f410m_catalog.cat with 12233 sources
+2025-08-18 10:13:11,203 - INFO - Successfully loaded catalog: nircam3_f410m_catalog.cat with 12249 sources
+2025-08-18 10:13:11,203 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,203 - INFO -     RA: 214.830686, DEC: 52.887773
+2025-08-18 10:13:11,203 - INFO -     FLUX_AUTO: 2.82
+2025-08-18 10:13:11,204 - INFO -   Found 260 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,204 - INFO -   Best flux match: Brenjit ID 9992
+2025-08-18 10:13:11,204 - INFO -     Brenjit FLUX_AUTO: 2.82 (diff: 0.0%)
+2025-08-18 10:13:11,204 - INFO -     Brenjit position: RA 214.830686, DEC 52.887773
+2025-08-18 10:13:11,204 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,204 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,204 - INFO - 
+Processing source #13:
+2025-08-18 10:13:11,204 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 314, z: 8.763
+2025-08-18 10:13:11,267 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,330 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,330 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,330 - INFO -     RA: 214.795549, DEC: 52.767287
+2025-08-18 10:13:11,330 - INFO -     FLUX_AUTO: 0.64
+2025-08-18 10:13:11,331 - INFO -   Found 545 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,331 - INFO -   Best flux match: Brenjit ID 315
+2025-08-18 10:13:11,331 - INFO -     Brenjit FLUX_AUTO: 0.64 (diff: 0.0%)
+2025-08-18 10:13:11,331 - INFO -     Brenjit position: RA 214.795549, DEC 52.767287
+2025-08-18 10:13:11,331 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,331 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,331 - INFO - 
+Processing source #14:
+2025-08-18 10:13:11,331 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1667, z: 8.763
+2025-08-18 10:13:11,343 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,355 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,355 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,355 - INFO -     RA: 214.744565, DEC: 52.738506
+2025-08-18 10:13:11,355 - INFO -     FLUX_AUTO: 0.40
+2025-08-18 10:13:11,356 - INFO -   Found 663 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,356 - INFO -   Best flux match: Brenjit ID 1669
+2025-08-18 10:13:11,356 - INFO -     Brenjit FLUX_AUTO: 0.40 (diff: 0.0%)
+2025-08-18 10:13:11,356 - INFO -     Brenjit position: RA 214.744565, DEC 52.738506
+2025-08-18 10:13:11,356 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,356 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,356 - INFO - 
+Processing source #15:
+2025-08-18 10:13:11,356 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1840, z: 8.763
+2025-08-18 10:13:11,368 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,380 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,381 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,381 - INFO -     RA: 214.815277, DEC: 52.789716
+2025-08-18 10:13:11,381 - INFO -     FLUX_AUTO: 0.33
+2025-08-18 10:13:11,382 - INFO -   Found 665 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,382 - INFO -   Best flux match: Brenjit ID 1843
+2025-08-18 10:13:11,382 - INFO -     Brenjit FLUX_AUTO: 0.33 (diff: 0.0%)
+2025-08-18 10:13:11,382 - INFO -     Brenjit position: RA 214.815277, DEC 52.789716
+2025-08-18 10:13:11,382 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,382 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,382 - INFO - 
+Processing source #16:
+2025-08-18 10:13:11,382 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1980, z: 8.667
+2025-08-18 10:13:11,394 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,406 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,407 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,407 - INFO -     RA: 214.786699, DEC: 52.770149
+2025-08-18 10:13:11,407 - INFO -     FLUX_AUTO: 0.64
+2025-08-18 10:13:11,407 - INFO -   Found 542 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,407 - INFO -   Best flux match: Brenjit ID 9859
+2025-08-18 10:13:11,407 - INFO -     Brenjit FLUX_AUTO: 0.64 (diff: 0.0%)
+2025-08-18 10:13:11,407 - INFO -     Brenjit position: RA 214.756222, DEC 52.778264
+2025-08-18 10:13:11,407 - INFO -     Position separation: 72.52 arcsec
+2025-08-18 10:13:11,407 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:13:11,408 - INFO - 
+Processing source #17:
+2025-08-18 10:13:11,408 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 9434, z: 8.571
+2025-08-18 10:13:11,420 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,433 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,434 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,434 - INFO -     RA: 214.761582, DEC: 52.780344
+2025-08-18 10:13:11,434 - INFO -     FLUX_AUTO: 0.89
+2025-08-18 10:13:11,434 - INFO -   Found 489 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,434 - INFO -   Best flux match: Brenjit ID 9427
+2025-08-18 10:13:11,434 - INFO -     Brenjit FLUX_AUTO: 0.89 (diff: 0.0%)
+2025-08-18 10:13:11,434 - INFO -     Brenjit position: RA 214.761582, DEC 52.780344
+2025-08-18 10:13:11,434 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,434 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,434 - INFO - 
+Processing source #18:
+2025-08-18 10:13:11,434 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 11354, z: 8.571
+2025-08-18 10:13:11,447 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,459 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,459 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,459 - INFO -     RA: 214.708864, DEC: 52.760061
+2025-08-18 10:13:11,459 - INFO -     FLUX_AUTO: 4.08
+2025-08-18 10:13:11,460 - INFO -   Found 194 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,460 - INFO -   Best flux match: Brenjit ID 12415
+2025-08-18 10:13:11,460 - INFO -     Brenjit FLUX_AUTO: 4.08 (diff: 0.0%)
+2025-08-18 10:13:11,460 - INFO -     Brenjit position: RA 214.708864, DEC 52.760061
+2025-08-18 10:13:11,460 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,460 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,460 - INFO - 
+Processing source #19:
+2025-08-18 10:13:11,460 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 11572, z: 9.059
+2025-08-18 10:13:11,471 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:13:11,484 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:13:11,484 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,484 - INFO -     RA: 214.695152, DEC: 52.748565
+2025-08-18 10:13:11,484 - INFO -     FLUX_AUTO: 3.20
+2025-08-18 10:13:11,485 - INFO -   Found 232 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,485 - INFO -   Best flux match: Brenjit ID 11659
+2025-08-18 10:13:11,485 - INFO -     Brenjit FLUX_AUTO: 3.20 (diff: 0.0%)
+2025-08-18 10:13:11,485 - INFO -     Brenjit position: RA 214.695152, DEC 52.748565
+2025-08-18 10:13:11,485 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,485 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,485 - INFO - 
+Processing source #20:
+2025-08-18 10:13:11,485 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 4542, z: 8.763
+2025-08-18 10:13:11,565 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:13:11,645 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:13:11,646 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,646 - INFO -     RA: 214.924336, DEC: 52.868592
+2025-08-18 10:13:11,646 - INFO -     FLUX_AUTO: 0.37
+2025-08-18 10:13:11,646 - INFO -   Found 659 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,646 - INFO -   Best flux match: Brenjit ID 4547
+2025-08-18 10:13:11,646 - INFO -     Brenjit FLUX_AUTO: 0.37 (diff: 0.0%)
+2025-08-18 10:13:11,646 - INFO -     Brenjit position: RA 214.924336, DEC 52.868592
+2025-08-18 10:13:11,646 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,646 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,647 - INFO - 
+Processing source #21:
+2025-08-18 10:13:11,647 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 9888, z: 9.16
+2025-08-18 10:13:11,661 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:13:11,676 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:13:11,677 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,677 - INFO -     RA: 214.977354, DEC: 52.926497
+2025-08-18 10:13:11,677 - INFO -     FLUX_AUTO: 2.26
+2025-08-18 10:13:11,677 - INFO -   Found 298 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,677 - INFO -   Best flux match: Brenjit ID 9883
+2025-08-18 10:13:11,677 - INFO -     Brenjit FLUX_AUTO: 2.26 (diff: 0.0%)
+2025-08-18 10:13:11,677 - INFO -     Brenjit position: RA 214.977354, DEC 52.926497
+2025-08-18 10:13:11,677 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,677 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,677 - INFO - 
+Processing source #22:
+2025-08-18 10:13:11,677 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12081, z: 8.959
+2025-08-18 10:13:11,692 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:13:11,707 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:13:11,708 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,708 - INFO -     RA: 214.968698, DEC: 52.929647
+2025-08-18 10:13:11,708 - INFO -     FLUX_AUTO: 3.00
+2025-08-18 10:13:11,708 - INFO -   Found 263 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,708 - INFO -   Best flux match: Brenjit ID 12083
+2025-08-18 10:13:11,708 - INFO -     Brenjit FLUX_AUTO: 3.00 (diff: 0.0%)
+2025-08-18 10:13:11,709 - INFO -     Brenjit position: RA 214.968698, DEC 52.929647
+2025-08-18 10:13:11,709 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,709 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,709 - INFO - 
+Processing source #23:
+2025-08-18 10:13:11,709 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12776, z: 9.059
+2025-08-18 10:13:11,724 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:13:11,739 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:13:11,739 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,740 - INFO -     RA: 214.938642, DEC: 52.911748
+2025-08-18 10:13:11,740 - INFO -     FLUX_AUTO: 2.85
+2025-08-18 10:13:11,740 - INFO -   Found 256 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,740 - INFO -   Best flux match: Brenjit ID 12779
+2025-08-18 10:13:11,740 - INFO -     Brenjit FLUX_AUTO: 2.85 (diff: 0.0%)
+2025-08-18 10:13:11,740 - INFO -     Brenjit position: RA 214.938642, DEC 52.911748
+2025-08-18 10:13:11,740 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,740 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,740 - INFO - 
+Processing source #24:
+2025-08-18 10:13:11,740 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12889, z: 8.667
+2025-08-18 10:13:11,757 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:13:11,772 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:13:11,772 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,772 - INFO -     RA: 214.967528, DEC: 52.932954
+2025-08-18 10:13:11,772 - INFO -     FLUX_AUTO: 3.57
+2025-08-18 10:13:11,773 - INFO -   Found 205 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,773 - INFO -   Best flux match: Brenjit ID 12888
+2025-08-18 10:13:11,773 - INFO -     Brenjit FLUX_AUTO: 3.57 (diff: 0.0%)
+2025-08-18 10:13:11,773 - INFO -     Brenjit position: RA 214.967528, DEC 52.932954
+2025-08-18 10:13:11,773 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,773 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,773 - INFO - 
+Processing source #25:
+2025-08-18 10:13:11,773 - INFO -   From z9 catalog - POINTING: nircam6, Romeo_ID: 3191, z: 8.571
+2025-08-18 10:13:11,832 - INFO - Successfully loaded catalog: nircam6_f410m_catalog.cat with 11929 sources
+2025-08-18 10:13:11,891 - INFO - Successfully loaded catalog: nircam6_f410m_catalog.cat with 11949 sources
+2025-08-18 10:13:11,892 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:11,892 - INFO -     RA: 214.879347, DEC: 52.837735
+2025-08-18 10:13:11,892 - INFO -     FLUX_AUTO: 1.06
+2025-08-18 10:13:11,892 - INFO -   Found 433 flux matches in Brenjit's catalog
+2025-08-18 10:13:11,893 - INFO -   Best flux match: Brenjit ID 3206
+2025-08-18 10:13:11,893 - INFO -     Brenjit FLUX_AUTO: 1.06 (diff: 0.0%)
+2025-08-18 10:13:11,893 - INFO -     Brenjit position: RA 214.879347, DEC 52.837735
+2025-08-18 10:13:11,893 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:11,893 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:11,893 - INFO - 
+Processing source #26:
+2025-08-18 10:13:11,893 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 7068, z: 8.667
+2025-08-18 10:13:11,978 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,064 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,064 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,064 - INFO -     RA: 215.155532, DEC: 52.982561
+2025-08-18 10:13:12,064 - INFO -     FLUX_AUTO: 0.43
+2025-08-18 10:13:12,065 - INFO -   Found 667 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,065 - INFO -   Best flux match: Brenjit ID 7070
+2025-08-18 10:13:12,065 - INFO -     Brenjit FLUX_AUTO: 0.43 (diff: 0.0%)
+2025-08-18 10:13:12,065 - INFO -     Brenjit position: RA 215.155532, DEC 52.982561
+2025-08-18 10:13:12,065 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,065 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,065 - INFO - 
+Processing source #27:
+2025-08-18 10:13:12,065 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 9444, z: 9.261
+2025-08-18 10:13:12,081 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,097 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,098 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,098 - INFO -     RA: 215.072670, DEC: 52.932292
+2025-08-18 10:13:12,098 - INFO -     FLUX_AUTO: 1.03
+2025-08-18 10:13:12,099 - INFO -   Found 470 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,099 - INFO -   Best flux match: Brenjit ID 9437
+2025-08-18 10:13:12,099 - INFO -     Brenjit FLUX_AUTO: 1.03 (diff: 0.0%)
+2025-08-18 10:13:12,099 - INFO -     Brenjit position: RA 215.072670, DEC 52.932292
+2025-08-18 10:13:12,099 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,099 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,099 - INFO - 
+Processing source #28:
+2025-08-18 10:13:12,099 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 9963, z: 8.763
+2025-08-18 10:13:12,114 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,133 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,133 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,133 - INFO -     RA: 215.067853, DEC: 52.930249
+2025-08-18 10:13:12,133 - INFO -     FLUX_AUTO: 0.51
+2025-08-18 10:13:12,134 - INFO -   Found 622 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,134 - INFO -   Best flux match: Brenjit ID 9959
+2025-08-18 10:13:12,134 - INFO -     Brenjit FLUX_AUTO: 0.51 (diff: 0.0%)
+2025-08-18 10:13:12,134 - INFO -     Brenjit position: RA 215.067853, DEC 52.930249
+2025-08-18 10:13:12,134 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,134 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,134 - INFO - 
+Processing source #29:
+2025-08-18 10:13:12,134 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11621, z: 8.667
+2025-08-18 10:13:12,151 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,169 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,170 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,170 - INFO -     RA: 215.061784, DEC: 52.931176
+2025-08-18 10:13:12,170 - INFO -     FLUX_AUTO: 1.62
+2025-08-18 10:13:12,171 - INFO -   Found 401 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,171 - INFO -   Best flux match: Brenjit ID 11615
+2025-08-18 10:13:12,171 - INFO -     Brenjit FLUX_AUTO: 1.62 (diff: 0.0%)
+2025-08-18 10:13:12,171 - INFO -     Brenjit position: RA 215.061784, DEC 52.931176
+2025-08-18 10:13:12,171 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,171 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,171 - INFO - 
+Processing source #30:
+2025-08-18 10:13:12,171 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11755, z: 8.667
+2025-08-18 10:13:12,187 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,204 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,205 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,205 - INFO -     RA: 215.120031, DEC: 52.972564
+2025-08-18 10:13:12,205 - INFO -     FLUX_AUTO: 1.55
+2025-08-18 10:13:12,206 - INFO -   Found 402 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,206 - INFO -   Best flux match: Brenjit ID 11754
+2025-08-18 10:13:12,206 - INFO -     Brenjit FLUX_AUTO: 1.55 (diff: 0.0%)
+2025-08-18 10:13:12,206 - INFO -     Brenjit position: RA 215.120031, DEC 52.972564
+2025-08-18 10:13:12,206 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,206 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,206 - INFO - 
+Processing source #31:
+2025-08-18 10:13:12,206 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11919, z: 8.571
+2025-08-18 10:13:12,222 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,238 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,239 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,239 - INFO -     RA: 215.120643, DEC: 52.973583
+2025-08-18 10:13:12,239 - INFO -     FLUX_AUTO: 1.82
+2025-08-18 10:13:12,240 - INFO -   Found 369 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,240 - INFO -   Best flux match: Brenjit ID 3581
+2025-08-18 10:13:12,240 - INFO -     Brenjit FLUX_AUTO: 1.82 (diff: -0.0%)
+2025-08-18 10:13:12,240 - INFO -     Brenjit position: RA 215.085789, DEC 52.921545
+2025-08-18 10:13:12,240 - INFO -     Position separation: 202.02 arcsec
+2025-08-18 10:13:12,240 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:13:12,240 - INFO - 
+Processing source #32:
+2025-08-18 10:13:12,240 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 13408, z: 8.959
+2025-08-18 10:13:12,257 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,276 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,277 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,277 - INFO -     RA: 215.079068, DEC: 52.949634
+2025-08-18 10:13:12,277 - INFO -     FLUX_AUTO: 0.27
+2025-08-18 10:13:12,278 - INFO -   Found 822 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,278 - INFO -   Best flux match: Brenjit ID 13394
+2025-08-18 10:13:12,278 - INFO -     Brenjit FLUX_AUTO: 0.27 (diff: 0.0%)
+2025-08-18 10:13:12,278 - INFO -     Brenjit position: RA 215.079068, DEC 52.949634
+2025-08-18 10:13:12,278 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,278 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,278 - INFO - 
+Processing source #33:
+2025-08-18 10:13:12,278 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 13755, z: 9.364
+2025-08-18 10:13:12,295 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,312 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,312 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,312 - INFO -     RA: 215.062509, DEC: 52.940339
+2025-08-18 10:13:12,312 - INFO -     FLUX_AUTO: 10.76
+2025-08-18 10:13:12,313 - INFO -   Found 98 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,313 - INFO -   Best flux match: Brenjit ID 13743
+2025-08-18 10:13:12,313 - INFO -     Brenjit FLUX_AUTO: 10.76 (diff: -0.0%)
+2025-08-18 10:13:12,313 - INFO -     Brenjit position: RA 215.062509, DEC 52.940339
+2025-08-18 10:13:12,313 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,313 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,313 - INFO - 
+Processing source #34:
+2025-08-18 10:13:12,313 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 14107, z: 9.059
+2025-08-18 10:13:12,329 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,345 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,346 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,346 - INFO -     RA: 215.059747, DEC: 52.939340
+2025-08-18 10:13:12,346 - INFO -     FLUX_AUTO: 1.70
+2025-08-18 10:13:12,347 - INFO -   Found 379 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,347 - INFO -   Best flux match: Brenjit ID 14097
+2025-08-18 10:13:12,347 - INFO -     Brenjit FLUX_AUTO: 1.70 (diff: 0.0%)
+2025-08-18 10:13:12,347 - INFO -     Brenjit position: RA 215.059747, DEC 52.939340
+2025-08-18 10:13:12,347 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,347 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,347 - INFO - 
+Processing source #35:
+2025-08-18 10:13:12,347 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 14220, z: 8.763
+2025-08-18 10:13:12,364 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:13:12,380 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:13:12,381 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,381 - INFO -     RA: 215.113981, DEC: 52.978065
+2025-08-18 10:13:12,381 - INFO -     FLUX_AUTO: 1.82
+2025-08-18 10:13:12,382 - INFO -   Found 364 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,382 - INFO -   Best flux match: Brenjit ID 14208
+2025-08-18 10:13:12,382 - INFO -     Brenjit FLUX_AUTO: 1.82 (diff: 0.0%)
+2025-08-18 10:13:12,382 - INFO -     Brenjit position: RA 215.113981, DEC 52.978065
+2025-08-18 10:13:12,382 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,382 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,382 - INFO - 
+Processing source #36:
+2025-08-18 10:13:12,382 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 1398, z: 8.763
+2025-08-18 10:13:12,466 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,551 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,551 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,551 - INFO -     RA: 215.079629, DEC: 52.909563
+2025-08-18 10:13:12,551 - INFO -     FLUX_AUTO: 1.28
+2025-08-18 10:13:12,552 - INFO -   Found 412 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,552 - INFO -   Best flux match: Brenjit ID 1398
+2025-08-18 10:13:12,552 - INFO -     Brenjit FLUX_AUTO: 1.28 (diff: 0.0%)
+2025-08-18 10:13:12,552 - INFO -     Brenjit position: RA 215.079629, DEC 52.909563
+2025-08-18 10:13:12,552 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,552 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,552 - INFO - 
+Processing source #37:
+2025-08-18 10:13:12,552 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 2087, z: 8.861
+2025-08-18 10:13:12,568 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,584 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,585 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,585 - INFO -     RA: 214.996401, DEC: 52.854155
+2025-08-18 10:13:12,585 - INFO -     FLUX_AUTO: 1.38
+2025-08-18 10:13:12,585 - INFO -   Found 427 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,585 - INFO -   Best flux match: Brenjit ID 2080
+2025-08-18 10:13:12,585 - INFO -     Brenjit FLUX_AUTO: 1.38 (diff: 0.0%)
+2025-08-18 10:13:12,585 - INFO -     Brenjit position: RA 214.996401, DEC 52.854155
+2025-08-18 10:13:12,585 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,586 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,586 - INFO - 
+Processing source #38:
+2025-08-18 10:13:12,586 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 2293, z: 8.571
+2025-08-18 10:13:12,603 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,624 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,625 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,625 - INFO -     RA: 215.001712, DEC: 52.858999
+2025-08-18 10:13:12,625 - INFO -     FLUX_AUTO: 0.53
+2025-08-18 10:13:12,626 - INFO -   Found 616 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,626 - INFO -   Best flux match: Brenjit ID 2288
+2025-08-18 10:13:12,626 - INFO -     Brenjit FLUX_AUTO: 0.53 (diff: 0.0%)
+2025-08-18 10:13:12,626 - INFO -     Brenjit position: RA 215.001712, DEC 52.858999
+2025-08-18 10:13:12,626 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,626 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,626 - INFO - 
+Processing source #39:
+2025-08-18 10:13:12,626 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 3405, z: 8.861
+2025-08-18 10:13:12,645 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,662 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,663 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,663 - INFO -     RA: 215.008673, DEC: 52.868310
+2025-08-18 10:13:12,663 - INFO -     FLUX_AUTO: 3.91
+2025-08-18 10:13:12,664 - INFO -   Found 204 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,664 - INFO -   Best flux match: Brenjit ID 4493
+2025-08-18 10:13:12,664 - INFO -     Brenjit FLUX_AUTO: 3.91 (diff: 0.0%)
+2025-08-18 10:13:12,664 - INFO -     Brenjit position: RA 215.061182, DEC 52.908743
+2025-08-18 10:13:12,664 - INFO -     Position separation: 184.92 arcsec
+2025-08-18 10:13:12,664 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:13:12,664 - INFO - 
+Processing source #40:
+2025-08-18 10:13:12,664 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 6990, z: 8.763
+2025-08-18 10:13:12,680 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,697 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,697 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,697 - INFO -     RA: 214.987393, DEC: 52.865544
+2025-08-18 10:13:12,697 - INFO -     FLUX_AUTO: 1.00
+2025-08-18 10:13:12,698 - INFO -   Found 482 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,698 - INFO -   Best flux match: Brenjit ID 6986
+2025-08-18 10:13:12,698 - INFO -     Brenjit FLUX_AUTO: 1.00 (diff: 0.0%)
+2025-08-18 10:13:12,698 - INFO -     Brenjit position: RA 214.987393, DEC 52.865544
+2025-08-18 10:13:12,698 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,698 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,698 - INFO - 
+Processing source #41:
+2025-08-18 10:13:12,698 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 8966, z: 8.959
+2025-08-18 10:13:12,716 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,732 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,732 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,732 - INFO -     RA: 214.994199, DEC: 52.876472
+2025-08-18 10:13:12,732 - INFO -     FLUX_AUTO: 0.45
+2025-08-18 10:13:12,733 - INFO -   Found 683 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,733 - INFO -   Best flux match: Brenjit ID 8954
+2025-08-18 10:13:12,733 - INFO -     Brenjit FLUX_AUTO: 0.45 (diff: 0.0%)
+2025-08-18 10:13:12,733 - INFO -     Brenjit position: RA 214.994199, DEC 52.876472
+2025-08-18 10:13:12,733 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,733 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,733 - INFO - 
+Processing source #42:
+2025-08-18 10:13:12,733 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 9467, z: 8.959
+2025-08-18 10:13:12,749 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,766 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,766 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,767 - INFO -     RA: 214.982886, DEC: 52.870243
+2025-08-18 10:13:12,767 - INFO -     FLUX_AUTO: 0.61
+2025-08-18 10:13:12,767 - INFO -   Found 554 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,767 - INFO -   Best flux match: Brenjit ID 9454
+2025-08-18 10:13:12,767 - INFO -     Brenjit FLUX_AUTO: 0.61 (diff: 0.0%)
+2025-08-18 10:13:12,767 - INFO -     Brenjit position: RA 214.982886, DEC 52.870243
+2025-08-18 10:13:12,767 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,767 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,767 - INFO - 
+Processing source #43:
+2025-08-18 10:13:12,767 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 11729, z: 9.261
+2025-08-18 10:13:12,784 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,800 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,800 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,800 - INFO -     RA: 214.983827, DEC: 52.877668
+2025-08-18 10:13:12,800 - INFO -     FLUX_AUTO: 1.51
+2025-08-18 10:13:12,801 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,801 - INFO -   Best flux match: Brenjit ID 11712
+2025-08-18 10:13:12,801 - INFO -     Brenjit FLUX_AUTO: 1.51 (diff: 0.0%)
+2025-08-18 10:13:12,801 - INFO -     Brenjit position: RA 214.983827, DEC 52.877668
+2025-08-18 10:13:12,801 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,801 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,801 - INFO - 
+Processing source #44:
+2025-08-18 10:13:12,801 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 14625, z: 8.763
+2025-08-18 10:13:12,818 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:13:12,834 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:13:12,834 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:12,834 - INFO -     RA: 214.964383, DEC: 52.875522
+2025-08-18 10:13:12,834 - INFO -     FLUX_AUTO: 0.85
+2025-08-18 10:13:12,835 - INFO -   Found 547 flux matches in Brenjit's catalog
+2025-08-18 10:13:12,835 - INFO -   Best flux match: Brenjit ID 14604
+2025-08-18 10:13:12,835 - INFO -     Brenjit FLUX_AUTO: 0.85 (diff: 0.0%)
+2025-08-18 10:13:12,835 - INFO -     Brenjit position: RA 214.964383, DEC 52.875522
+2025-08-18 10:13:12,835 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:12,835 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:12,835 - INFO - 
+Processing source #45:
+2025-08-18 10:13:12,835 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 2643, z: 9.261
+2025-08-18 10:13:12,921 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:13:13,009 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:13:13,009 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,009 - INFO -     RA: 214.901708, DEC: 52.792665
+2025-08-18 10:13:13,009 - INFO -     FLUX_AUTO: 0.46
+2025-08-18 10:13:13,010 - INFO -   Found 667 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,010 - INFO -   Best flux match: Brenjit ID 2646
+2025-08-18 10:13:13,010 - INFO -     Brenjit FLUX_AUTO: 0.46 (diff: 0.0%)
+2025-08-18 10:13:13,010 - INFO -     Brenjit position: RA 214.901708, DEC 52.792665
+2025-08-18 10:13:13,010 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,010 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,010 - INFO - 
+Processing source #46:
+2025-08-18 10:13:13,010 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 3086, z: 9.059
+2025-08-18 10:13:13,027 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:13:13,043 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:13:13,043 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,043 - INFO -     RA: 214.961113, DEC: 52.836512
+2025-08-18 10:13:13,043 - INFO -     FLUX_AUTO: 1.09
+2025-08-18 10:13:13,044 - INFO -   Found 417 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,044 - INFO -   Best flux match: Brenjit ID 3096
+2025-08-18 10:13:13,044 - INFO -     Brenjit FLUX_AUTO: 1.09 (diff: 0.0%)
+2025-08-18 10:13:13,044 - INFO -     Brenjit position: RA 214.961113, DEC 52.836512
+2025-08-18 10:13:13,044 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,044 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,044 - INFO - 
+Processing source #47:
+2025-08-18 10:13:13,044 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 5590, z: 8.763
+2025-08-18 10:13:13,060 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:13:13,076 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:13:13,077 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,077 - INFO -     RA: 214.899803, DEC: 52.801540
+2025-08-18 10:13:13,077 - INFO -     FLUX_AUTO: 2.02
+2025-08-18 10:13:13,077 - INFO -   Found 350 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,077 - INFO -   Best flux match: Brenjit ID 5572
+2025-08-18 10:13:13,077 - INFO -     Brenjit FLUX_AUTO: 2.02 (diff: 0.0%)
+2025-08-18 10:13:13,078 - INFO -     Brenjit position: RA 214.899803, DEC 52.801540
+2025-08-18 10:13:13,078 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,078 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,078 - INFO - 
+Processing source #48:
+2025-08-18 10:13:13,078 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 9084, z: 9.261
+2025-08-18 10:13:13,094 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:13:13,110 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:13:13,110 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,110 - INFO -     RA: 214.954423, DEC: 52.852402
+2025-08-18 10:13:13,110 - INFO -     FLUX_AUTO: 1.13
+2025-08-18 10:13:13,111 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,111 - INFO -   Best flux match: Brenjit ID 9061
+2025-08-18 10:13:13,111 - INFO -     Brenjit FLUX_AUTO: 1.13 (diff: 0.0%)
+2025-08-18 10:13:13,111 - INFO -     Brenjit position: RA 214.954423, DEC 52.852402
+2025-08-18 10:13:13,111 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,111 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,111 - INFO - 
+Processing source #49:
+2025-08-18 10:13:13,111 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 10723, z: 8.571
+2025-08-18 10:13:13,127 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:13:13,144 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:13:13,144 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,144 - INFO -     RA: 214.885899, DEC: 52.809150
+2025-08-18 10:13:13,144 - INFO -     FLUX_AUTO: 0.77
+2025-08-18 10:13:13,145 - INFO -   Found 512 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,145 - INFO -   Best flux match: Brenjit ID 8076
+2025-08-18 10:13:13,145 - INFO -     Brenjit FLUX_AUTO: 0.77 (diff: 0.0%)
+2025-08-18 10:13:13,145 - INFO -     Brenjit position: RA 214.889847, DEC 52.803348
+2025-08-18 10:13:13,145 - INFO -     Position separation: 22.59 arcsec
+2025-08-18 10:13:13,145 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:13:13,145 - INFO - 
+Processing source #50:
+2025-08-18 10:13:13,145 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 1428, z: 8.763
+2025-08-18 10:13:13,202 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:13:13,357 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:13:13,358 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,358 - INFO -     RA: 214.804184, DEC: 52.725189
+2025-08-18 10:13:13,358 - INFO -     FLUX_AUTO: 1.26
+2025-08-18 10:13:13,358 - INFO -   Found 406 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,358 - INFO -   Best flux match: Brenjit ID 1424
+2025-08-18 10:13:13,358 - INFO -     Brenjit FLUX_AUTO: 1.26 (diff: 0.0%)
+2025-08-18 10:13:13,358 - INFO -     Brenjit position: RA 214.804184, DEC 52.725189
+2025-08-18 10:13:13,358 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,358 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,359 - INFO - 
+Processing source #51:
+2025-08-18 10:13:13,359 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 1940, z: 8.667
+2025-08-18 10:13:13,368 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:13:13,378 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:13:13,378 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,378 - INFO -     RA: 214.865305, DEC: 52.771857
+2025-08-18 10:13:13,378 - INFO -     FLUX_AUTO: 0.47
+2025-08-18 10:13:13,379 - INFO -   Found 538 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,379 - INFO -   Best flux match: Brenjit ID 1935
+2025-08-18 10:13:13,379 - INFO -     Brenjit FLUX_AUTO: 0.47 (diff: 0.0%)
+2025-08-18 10:13:13,379 - INFO -     Brenjit position: RA 214.865305, DEC 52.771857
+2025-08-18 10:13:13,379 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,379 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,379 - INFO - 
+Processing source #52:
+2025-08-18 10:13:13,379 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 7842, z: 8.571
+2025-08-18 10:13:13,389 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:13:13,399 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:13:13,399 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,399 - INFO -     RA: 214.781456, DEC: 52.737270
+2025-08-18 10:13:13,399 - INFO -     FLUX_AUTO: 1.86
+2025-08-18 10:13:13,400 - INFO -   Found 332 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,400 - INFO -   Best flux match: Brenjit ID 7847
+2025-08-18 10:13:13,400 - INFO -     Brenjit FLUX_AUTO: 1.86 (diff: 0.0%)
+2025-08-18 10:13:13,400 - INFO -     Brenjit position: RA 214.781456, DEC 52.737270
+2025-08-18 10:13:13,400 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,400 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,400 - INFO - 
+Processing source #53:
+2025-08-18 10:13:13,400 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 9562, z: 9.059
+2025-08-18 10:13:13,410 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:13:13,419 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:13:13,420 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,420 - INFO -     RA: 214.855951, DEC: 52.798145
+2025-08-18 10:13:13,420 - INFO -     FLUX_AUTO: 1.02
+2025-08-18 10:13:13,420 - INFO -   Found 444 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,420 - INFO -   Best flux match: Brenjit ID 9562
+2025-08-18 10:13:13,420 - INFO -     Brenjit FLUX_AUTO: 1.02 (diff: 0.0%)
+2025-08-18 10:13:13,420 - INFO -     Brenjit position: RA 214.855951, DEC 52.798145
+2025-08-18 10:13:13,420 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,420 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,420 - INFO - 
+Processing source #54:
+2025-08-18 10:13:13,420 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 10843, z: 8.667
+2025-08-18 10:13:13,430 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:13:13,440 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:13:13,440 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:13:13,440 - INFO -     RA: 214.795551, DEC: 52.767282
+2025-08-18 10:13:13,440 - INFO -     FLUX_AUTO: 0.42
+2025-08-18 10:13:13,441 - INFO -   Found 576 flux matches in Brenjit's catalog
+2025-08-18 10:13:13,441 - INFO -   Best flux match: Brenjit ID 10415
+2025-08-18 10:13:13,441 - INFO -     Brenjit FLUX_AUTO: 0.42 (diff: 0.0%)
+2025-08-18 10:13:13,441 - INFO -     Brenjit position: RA 214.795551, DEC 52.767282
+2025-08-18 10:13:13,441 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:13:13,441 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:13:13,445 - INFO - 
+Matching Statistics:
+2025-08-18 10:13:13,445 - INFO - Total sources processed: 54
+2025-08-18 10:13:13,445 - INFO - Romeo sources not found: 0
+2025-08-18 10:13:13,445 - INFO - Good flux+position matches: 49
+2025-08-18 10:13:13,445 - INFO - Flux matches but position differs: 5
+2025-08-18 10:13:13,445 - INFO - No matches found: 0
+2025-08-18 10:13:13,445 - INFO - 
+Final catalogue saved to /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/Romeo_s_data/Drive_cat/final_matched_catalogue.txt
+2025-08-18 10:14:26,812 - INFO - 
+Processing source #1:
+2025-08-18 10:14:26,812 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 2853, z: 8.667
+2025-08-18 10:14:26,870 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:26,928 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:26,929 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:26,929 - INFO -     RA: 215.015290, DEC: 52.985053
+2025-08-18 10:14:26,929 - INFO -     FLUX_AUTO: 0.48
+2025-08-18 10:14:26,930 - INFO -   Found 665 flux matches in Brenjit's catalog
+2025-08-18 10:14:26,931 - INFO -   Best flux match: Brenjit ID 2858
+2025-08-18 10:14:26,931 - INFO -     Brenjit FLUX_AUTO: 0.48 (diff: 0.0%)
+2025-08-18 10:14:26,931 - INFO -     Brenjit position: RA 215.015290, DEC 52.985053
+2025-08-18 10:14:26,931 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:26,931 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:26,931 - INFO - 
+Processing source #2:
+2025-08-18 10:14:26,931 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 4007, z: 9.059
+2025-08-18 10:14:26,946 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:26,959 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:26,960 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:26,960 - INFO -     RA: 215.011708, DEC: 52.988304
+2025-08-18 10:14:26,960 - INFO -     FLUX_AUTO: 1.65
+2025-08-18 10:14:26,961 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-18 10:14:26,961 - INFO -   Best flux match: Brenjit ID 4010
+2025-08-18 10:14:26,961 - INFO -     Brenjit FLUX_AUTO: 1.65 (diff: 0.0%)
+2025-08-18 10:14:26,961 - INFO -     Brenjit position: RA 215.011708, DEC 52.988304
+2025-08-18 10:14:26,961 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:26,961 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:26,961 - INFO - 
+Processing source #3:
+2025-08-18 10:14:26,961 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 6803, z: 9.059
+2025-08-18 10:14:26,974 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:26,985 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:26,987 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:26,987 - INFO -     RA: 214.994400, DEC: 52.989379
+2025-08-18 10:14:26,987 - INFO -     FLUX_AUTO: 1.67
+2025-08-18 10:14:26,988 - INFO -   Found 428 flux matches in Brenjit's catalog
+2025-08-18 10:14:26,988 - INFO -   Best flux match: Brenjit ID 6802
+2025-08-18 10:14:26,988 - INFO -     Brenjit FLUX_AUTO: 1.67 (diff: 0.0%)
+2025-08-18 10:14:26,988 - INFO -     Brenjit position: RA 214.994400, DEC 52.989379
+2025-08-18 10:14:26,988 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:26,988 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:26,988 - INFO - 
+Processing source #4:
+2025-08-18 10:14:26,988 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 8215, z: 9.059
+2025-08-18 10:14:27,000 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:27,012 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:27,012 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,012 - INFO -     RA: 214.985114, DEC: 52.990463
+2025-08-18 10:14:27,012 - INFO -     FLUX_AUTO: 2.60
+2025-08-18 10:14:27,013 - INFO -   Found 295 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,013 - INFO -   Best flux match: Brenjit ID 8216
+2025-08-18 10:14:27,013 - INFO -     Brenjit FLUX_AUTO: 2.60 (diff: 0.0%)
+2025-08-18 10:14:27,013 - INFO -     Brenjit position: RA 214.985114, DEC 52.990463
+2025-08-18 10:14:27,013 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,013 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,013 - INFO - 
+Processing source #5:
+2025-08-18 10:14:27,013 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 9949, z: 8.861
+2025-08-18 10:14:27,024 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:27,039 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:27,039 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,039 - INFO -     RA: 214.938073, DEC: 52.964824
+2025-08-18 10:14:27,039 - INFO -     FLUX_AUTO: 1.43
+2025-08-18 10:14:27,040 - INFO -   Found 450 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,040 - INFO -   Best flux match: Brenjit ID 11572
+2025-08-18 10:14:27,040 - INFO -     Brenjit FLUX_AUTO: 1.43 (diff: 0.0%)
+2025-08-18 10:14:27,040 - INFO -     Brenjit position: RA 214.938073, DEC 52.964824
+2025-08-18 10:14:27,040 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,040 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,040 - INFO - 
+Processing source #6:
+2025-08-18 10:14:27,040 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 10909, z: 8.959
+2025-08-18 10:14:27,052 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:27,065 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:27,065 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,065 - INFO -     RA: 214.919709, DEC: 52.957778
+2025-08-18 10:14:27,065 - INFO -     FLUX_AUTO: 0.34
+2025-08-18 10:14:27,066 - INFO -   Found 634 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,066 - INFO -   Best flux match: Brenjit ID 10899
+2025-08-18 10:14:27,066 - INFO -     Brenjit FLUX_AUTO: 0.34 (diff: 0.0%)
+2025-08-18 10:14:27,066 - INFO -     Brenjit position: RA 214.919709, DEC 52.957778
+2025-08-18 10:14:27,066 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,066 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,066 - INFO - 
+Processing source #7:
+2025-08-18 10:14:27,066 - INFO -   From z9 catalog - POINTING: nircam1, Romeo_ID: 11437, z: 8.959
+2025-08-18 10:14:27,077 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12087 sources
+2025-08-18 10:14:27,089 - INFO - Successfully loaded catalog: nircam1_f410m_catalog.cat with 12084 sources
+2025-08-18 10:14:27,089 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,089 - INFO -     RA: 215.005239, DEC: 53.017772
+2025-08-18 10:14:27,089 - INFO -     FLUX_AUTO: 1.01
+2025-08-18 10:14:27,090 - INFO -   Found 526 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,090 - INFO -   Best flux match: Brenjit ID 8272
+2025-08-18 10:14:27,090 - INFO -     Brenjit FLUX_AUTO: 1.01 (diff: -0.0%)
+2025-08-18 10:14:27,090 - INFO -     Brenjit position: RA 214.963397, DEC 52.974852
+2025-08-18 10:14:27,090 - INFO -     Position separation: 179.15 arcsec
+2025-08-18 10:14:27,090 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:14:27,090 - INFO - 
+Processing source #8:
+2025-08-18 10:14:27,090 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 1329, z: 8.861
+2025-08-18 10:14:27,415 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:14:27,477 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:14:27,478 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,478 - INFO -     RA: 214.885552, DEC: 52.884017
+2025-08-18 10:14:27,478 - INFO -     FLUX_AUTO: 1.01
+2025-08-18 10:14:27,479 - INFO -   Found 459 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,479 - INFO -   Best flux match: Brenjit ID 1332
+2025-08-18 10:14:27,479 - INFO -     Brenjit FLUX_AUTO: 1.01 (diff: 0.0%)
+2025-08-18 10:14:27,479 - INFO -     Brenjit position: RA 214.885552, DEC 52.884017
+2025-08-18 10:14:27,479 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,479 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,479 - INFO - 
+Processing source #9:
+2025-08-18 10:14:27,479 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 2034, z: 9.059
+2025-08-18 10:14:27,494 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:14:27,507 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:14:27,507 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,507 - INFO -     RA: 214.876147, DEC: 52.880824
+2025-08-18 10:14:27,507 - INFO -     FLUX_AUTO: 4.57
+2025-08-18 10:14:27,508 - INFO -   Found 189 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,508 - INFO -   Best flux match: Brenjit ID 2034
+2025-08-18 10:14:27,508 - INFO -     Brenjit FLUX_AUTO: 4.57 (diff: 0.0%)
+2025-08-18 10:14:27,508 - INFO -     Brenjit position: RA 214.876147, DEC 52.880824
+2025-08-18 10:14:27,508 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,508 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,508 - INFO - 
+Processing source #10:
+2025-08-18 10:14:27,508 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 5713, z: 8.959
+2025-08-18 10:14:27,521 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:14:27,535 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:14:27,535 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,535 - INFO -     RA: 214.928739, DEC: 52.935500
+2025-08-18 10:14:27,535 - INFO -     FLUX_AUTO: 0.44
+2025-08-18 10:14:27,536 - INFO -   Found 718 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,536 - INFO -   Best flux match: Brenjit ID 5726
+2025-08-18 10:14:27,536 - INFO -     Brenjit FLUX_AUTO: 0.44 (diff: 0.0%)
+2025-08-18 10:14:27,536 - INFO -     Brenjit position: RA 214.928739, DEC 52.935500
+2025-08-18 10:14:27,536 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,536 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,536 - INFO - 
+Processing source #11:
+2025-08-18 10:14:27,536 - INFO -   From z9 catalog - POINTING: nircam2, Romeo_ID: 10837, z: 8.667
+2025-08-18 10:14:27,549 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13300 sources
+2025-08-18 10:14:27,561 - INFO - Successfully loaded catalog: nircam2_f410m_catalog.cat with 13315 sources
+2025-08-18 10:14:27,561 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,562 - INFO -     RA: 214.902237, DEC: 52.939369
+2025-08-18 10:14:27,562 - INFO -     FLUX_AUTO: 1.44
+2025-08-18 10:14:27,562 - INFO -   Found 443 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,562 - INFO -   Best flux match: Brenjit ID 11316
+2025-08-18 10:14:27,562 - INFO -     Brenjit FLUX_AUTO: 1.44 (diff: 0.0%)
+2025-08-18 10:14:27,562 - INFO -     Brenjit position: RA 214.902237, DEC 52.939369
+2025-08-18 10:14:27,562 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,562 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,563 - INFO - 
+Processing source #12:
+2025-08-18 10:14:27,563 - INFO -   From z9 catalog - POINTING: nircam3, Romeo_ID: 9976, z: 9.059
+2025-08-18 10:14:27,623 - INFO - Successfully loaded catalog: nircam3_f410m_catalog.cat with 12233 sources
+2025-08-18 10:14:27,684 - INFO - Successfully loaded catalog: nircam3_f410m_catalog.cat with 12249 sources
+2025-08-18 10:14:27,684 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:27,684 - INFO -     RA: 214.830686, DEC: 52.887773
+2025-08-18 10:14:27,684 - INFO -     FLUX_AUTO: 2.82
+2025-08-18 10:14:27,685 - INFO -   Found 260 flux matches in Brenjit's catalog
+2025-08-18 10:14:27,685 - INFO -   Best flux match: Brenjit ID 9992
+2025-08-18 10:14:27,685 - INFO -     Brenjit FLUX_AUTO: 2.82 (diff: 0.0%)
+2025-08-18 10:14:27,685 - INFO -     Brenjit position: RA 214.830686, DEC 52.887773
+2025-08-18 10:14:27,685 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:27,685 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:27,685 - INFO - 
+Processing source #13:
+2025-08-18 10:14:27,685 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 314, z: 8.763
+2025-08-18 10:14:28,107 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,169 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,169 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,169 - INFO -     RA: 214.795549, DEC: 52.767287
+2025-08-18 10:14:28,169 - INFO -     FLUX_AUTO: 0.64
+2025-08-18 10:14:28,170 - INFO -   Found 545 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,170 - INFO -   Best flux match: Brenjit ID 315
+2025-08-18 10:14:28,170 - INFO -     Brenjit FLUX_AUTO: 0.64 (diff: 0.0%)
+2025-08-18 10:14:28,170 - INFO -     Brenjit position: RA 214.795549, DEC 52.767287
+2025-08-18 10:14:28,170 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,170 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,170 - INFO - 
+Processing source #14:
+2025-08-18 10:14:28,170 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1667, z: 8.763
+2025-08-18 10:14:28,182 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,197 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,198 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,198 - INFO -     RA: 214.744565, DEC: 52.738506
+2025-08-18 10:14:28,198 - INFO -     FLUX_AUTO: 0.40
+2025-08-18 10:14:28,199 - INFO -   Found 663 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,199 - INFO -   Best flux match: Brenjit ID 1669
+2025-08-18 10:14:28,199 - INFO -     Brenjit FLUX_AUTO: 0.40 (diff: 0.0%)
+2025-08-18 10:14:28,199 - INFO -     Brenjit position: RA 214.744565, DEC 52.738506
+2025-08-18 10:14:28,199 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,199 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,199 - INFO - 
+Processing source #15:
+2025-08-18 10:14:28,199 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1840, z: 8.763
+2025-08-18 10:14:28,216 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,231 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,231 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,231 - INFO -     RA: 214.815277, DEC: 52.789716
+2025-08-18 10:14:28,231 - INFO -     FLUX_AUTO: 0.33
+2025-08-18 10:14:28,232 - INFO -   Found 665 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,232 - INFO -   Best flux match: Brenjit ID 1843
+2025-08-18 10:14:28,232 - INFO -     Brenjit FLUX_AUTO: 0.33 (diff: 0.0%)
+2025-08-18 10:14:28,232 - INFO -     Brenjit position: RA 214.815277, DEC 52.789716
+2025-08-18 10:14:28,232 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,232 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,232 - INFO - 
+Processing source #16:
+2025-08-18 10:14:28,232 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 1980, z: 8.667
+2025-08-18 10:14:28,251 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,265 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,266 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,266 - INFO -     RA: 214.786699, DEC: 52.770149
+2025-08-18 10:14:28,266 - INFO -     FLUX_AUTO: 0.64
+2025-08-18 10:14:28,267 - INFO -   Found 542 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,267 - INFO -   Best flux match: Brenjit ID 9859
+2025-08-18 10:14:28,267 - INFO -     Brenjit FLUX_AUTO: 0.64 (diff: 0.0%)
+2025-08-18 10:14:28,267 - INFO -     Brenjit position: RA 214.756222, DEC 52.778264
+2025-08-18 10:14:28,267 - INFO -     Position separation: 72.52 arcsec
+2025-08-18 10:14:28,267 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:14:28,267 - INFO - 
+Processing source #17:
+2025-08-18 10:14:28,267 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 9434, z: 8.571
+2025-08-18 10:14:28,280 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,296 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,296 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,296 - INFO -     RA: 214.761582, DEC: 52.780344
+2025-08-18 10:14:28,297 - INFO -     FLUX_AUTO: 0.89
+2025-08-18 10:14:28,297 - INFO -   Found 489 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,297 - INFO -   Best flux match: Brenjit ID 9427
+2025-08-18 10:14:28,297 - INFO -     Brenjit FLUX_AUTO: 0.89 (diff: 0.0%)
+2025-08-18 10:14:28,297 - INFO -     Brenjit position: RA 214.761582, DEC 52.780344
+2025-08-18 10:14:28,297 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,298 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,298 - INFO - 
+Processing source #18:
+2025-08-18 10:14:28,298 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 11354, z: 8.571
+2025-08-18 10:14:28,313 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,326 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,327 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,327 - INFO -     RA: 214.708864, DEC: 52.760061
+2025-08-18 10:14:28,327 - INFO -     FLUX_AUTO: 4.08
+2025-08-18 10:14:28,327 - INFO -   Found 194 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,327 - INFO -   Best flux match: Brenjit ID 12415
+2025-08-18 10:14:28,328 - INFO -     Brenjit FLUX_AUTO: 4.08 (diff: 0.0%)
+2025-08-18 10:14:28,328 - INFO -     Brenjit position: RA 214.708864, DEC 52.760061
+2025-08-18 10:14:28,328 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,328 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,328 - INFO - 
+Processing source #19:
+2025-08-18 10:14:28,328 - INFO -   From z9 catalog - POINTING: nircam4, Romeo_ID: 11572, z: 9.059
+2025-08-18 10:14:28,342 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12981 sources
+2025-08-18 10:14:28,364 - INFO - Successfully loaded catalog: nircam4_f410m_catalog.cat with 12969 sources
+2025-08-18 10:14:28,365 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,365 - INFO -     RA: 214.695152, DEC: 52.748565
+2025-08-18 10:14:28,365 - INFO -     FLUX_AUTO: 3.20
+2025-08-18 10:14:28,367 - INFO -   Found 232 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,367 - INFO -   Best flux match: Brenjit ID 11659
+2025-08-18 10:14:28,368 - INFO -     Brenjit FLUX_AUTO: 3.20 (diff: 0.0%)
+2025-08-18 10:14:28,368 - INFO -     Brenjit position: RA 214.695152, DEC 52.748565
+2025-08-18 10:14:28,368 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,368 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,368 - INFO - 
+Processing source #20:
+2025-08-18 10:14:28,368 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 4542, z: 8.763
+2025-08-18 10:14:28,447 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:14:28,527 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:14:28,527 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,527 - INFO -     RA: 214.924336, DEC: 52.868592
+2025-08-18 10:14:28,527 - INFO -     FLUX_AUTO: 0.37
+2025-08-18 10:14:28,528 - INFO -   Found 659 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,528 - INFO -   Best flux match: Brenjit ID 4547
+2025-08-18 10:14:28,528 - INFO -     Brenjit FLUX_AUTO: 0.37 (diff: 0.0%)
+2025-08-18 10:14:28,528 - INFO -     Brenjit position: RA 214.924336, DEC 52.868592
+2025-08-18 10:14:28,528 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,528 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,528 - INFO - 
+Processing source #21:
+2025-08-18 10:14:28,528 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 9888, z: 9.16
+2025-08-18 10:14:28,546 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:14:28,562 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:14:28,563 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,563 - INFO -     RA: 214.977354, DEC: 52.926497
+2025-08-18 10:14:28,563 - INFO -     FLUX_AUTO: 2.26
+2025-08-18 10:14:28,564 - INFO -   Found 298 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,564 - INFO -   Best flux match: Brenjit ID 9883
+2025-08-18 10:14:28,564 - INFO -     Brenjit FLUX_AUTO: 2.26 (diff: 0.0%)
+2025-08-18 10:14:28,564 - INFO -     Brenjit position: RA 214.977354, DEC 52.926497
+2025-08-18 10:14:28,564 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,564 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,564 - INFO - 
+Processing source #22:
+2025-08-18 10:14:28,564 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12081, z: 8.959
+2025-08-18 10:14:28,579 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:14:28,597 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:14:28,597 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,597 - INFO -     RA: 214.968698, DEC: 52.929647
+2025-08-18 10:14:28,597 - INFO -     FLUX_AUTO: 3.00
+2025-08-18 10:14:28,598 - INFO -   Found 263 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,598 - INFO -   Best flux match: Brenjit ID 12083
+2025-08-18 10:14:28,598 - INFO -     Brenjit FLUX_AUTO: 3.00 (diff: 0.0%)
+2025-08-18 10:14:28,598 - INFO -     Brenjit position: RA 214.968698, DEC 52.929647
+2025-08-18 10:14:28,598 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,598 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,598 - INFO - 
+Processing source #23:
+2025-08-18 10:14:28,598 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12776, z: 9.059
+2025-08-18 10:14:28,614 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:14:28,629 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:14:28,630 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,630 - INFO -     RA: 214.938642, DEC: 52.911748
+2025-08-18 10:14:28,630 - INFO -     FLUX_AUTO: 2.85
+2025-08-18 10:14:28,630 - INFO -   Found 256 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,630 - INFO -   Best flux match: Brenjit ID 12779
+2025-08-18 10:14:28,630 - INFO -     Brenjit FLUX_AUTO: 2.85 (diff: 0.0%)
+2025-08-18 10:14:28,630 - INFO -     Brenjit position: RA 214.938642, DEC 52.911748
+2025-08-18 10:14:28,630 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,631 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,631 - INFO - 
+Processing source #24:
+2025-08-18 10:14:28,631 - INFO -   From z9 catalog - POINTING: nircam5, Romeo_ID: 12889, z: 8.667
+2025-08-18 10:14:28,650 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16621 sources
+2025-08-18 10:14:28,666 - INFO - Successfully loaded catalog: nircam5_f410m_catalog.cat with 16612 sources
+2025-08-18 10:14:28,666 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:28,666 - INFO -     RA: 214.967528, DEC: 52.932954
+2025-08-18 10:14:28,666 - INFO -     FLUX_AUTO: 3.57
+2025-08-18 10:14:28,667 - INFO -   Found 205 flux matches in Brenjit's catalog
+2025-08-18 10:14:28,667 - INFO -   Best flux match: Brenjit ID 12888
+2025-08-18 10:14:28,667 - INFO -     Brenjit FLUX_AUTO: 3.57 (diff: 0.0%)
+2025-08-18 10:14:28,667 - INFO -     Brenjit position: RA 214.967528, DEC 52.932954
+2025-08-18 10:14:28,667 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:28,667 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:28,667 - INFO - 
+Processing source #25:
+2025-08-18 10:14:28,667 - INFO -   From z9 catalog - POINTING: nircam6, Romeo_ID: 3191, z: 8.571
+2025-08-18 10:14:29,190 - INFO - Successfully loaded catalog: nircam6_f410m_catalog.cat with 11929 sources
+2025-08-18 10:14:29,248 - INFO - Successfully loaded catalog: nircam6_f410m_catalog.cat with 11949 sources
+2025-08-18 10:14:29,248 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,248 - INFO -     RA: 214.879347, DEC: 52.837735
+2025-08-18 10:14:29,249 - INFO -     FLUX_AUTO: 1.06
+2025-08-18 10:14:29,249 - INFO -   Found 433 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,249 - INFO -   Best flux match: Brenjit ID 3206
+2025-08-18 10:14:29,249 - INFO -     Brenjit FLUX_AUTO: 1.06 (diff: 0.0%)
+2025-08-18 10:14:29,249 - INFO -     Brenjit position: RA 214.879347, DEC 52.837735
+2025-08-18 10:14:29,249 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,249 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,249 - INFO - 
+Processing source #26:
+2025-08-18 10:14:29,249 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 7068, z: 8.667
+2025-08-18 10:14:29,333 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,419 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,419 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,419 - INFO -     RA: 215.155532, DEC: 52.982561
+2025-08-18 10:14:29,419 - INFO -     FLUX_AUTO: 0.43
+2025-08-18 10:14:29,420 - INFO -   Found 667 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,420 - INFO -   Best flux match: Brenjit ID 7070
+2025-08-18 10:14:29,420 - INFO -     Brenjit FLUX_AUTO: 0.43 (diff: 0.0%)
+2025-08-18 10:14:29,420 - INFO -     Brenjit position: RA 215.155532, DEC 52.982561
+2025-08-18 10:14:29,420 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,420 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,420 - INFO - 
+Processing source #27:
+2025-08-18 10:14:29,420 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 9444, z: 9.261
+2025-08-18 10:14:29,437 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,454 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,454 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,454 - INFO -     RA: 215.072670, DEC: 52.932292
+2025-08-18 10:14:29,454 - INFO -     FLUX_AUTO: 1.03
+2025-08-18 10:14:29,455 - INFO -   Found 470 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,455 - INFO -   Best flux match: Brenjit ID 9437
+2025-08-18 10:14:29,455 - INFO -     Brenjit FLUX_AUTO: 1.03 (diff: 0.0%)
+2025-08-18 10:14:29,455 - INFO -     Brenjit position: RA 215.072670, DEC 52.932292
+2025-08-18 10:14:29,455 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,455 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,455 - INFO - 
+Processing source #28:
+2025-08-18 10:14:29,455 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 9963, z: 8.763
+2025-08-18 10:14:29,472 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,489 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,489 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,489 - INFO -     RA: 215.067853, DEC: 52.930249
+2025-08-18 10:14:29,489 - INFO -     FLUX_AUTO: 0.51
+2025-08-18 10:14:29,490 - INFO -   Found 622 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,490 - INFO -   Best flux match: Brenjit ID 9959
+2025-08-18 10:14:29,490 - INFO -     Brenjit FLUX_AUTO: 0.51 (diff: 0.0%)
+2025-08-18 10:14:29,490 - INFO -     Brenjit position: RA 215.067853, DEC 52.930249
+2025-08-18 10:14:29,490 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,490 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,490 - INFO - 
+Processing source #29:
+2025-08-18 10:14:29,490 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11621, z: 8.667
+2025-08-18 10:14:29,507 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,526 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,527 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,527 - INFO -     RA: 215.061784, DEC: 52.931176
+2025-08-18 10:14:29,527 - INFO -     FLUX_AUTO: 1.62
+2025-08-18 10:14:29,528 - INFO -   Found 401 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,528 - INFO -   Best flux match: Brenjit ID 11615
+2025-08-18 10:14:29,528 - INFO -     Brenjit FLUX_AUTO: 1.62 (diff: 0.0%)
+2025-08-18 10:14:29,528 - INFO -     Brenjit position: RA 215.061784, DEC 52.931176
+2025-08-18 10:14:29,528 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,528 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,528 - INFO - 
+Processing source #30:
+2025-08-18 10:14:29,528 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11755, z: 8.667
+2025-08-18 10:14:29,545 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,565 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,565 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,565 - INFO -     RA: 215.120031, DEC: 52.972564
+2025-08-18 10:14:29,565 - INFO -     FLUX_AUTO: 1.55
+2025-08-18 10:14:29,566 - INFO -   Found 402 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,566 - INFO -   Best flux match: Brenjit ID 11754
+2025-08-18 10:14:29,566 - INFO -     Brenjit FLUX_AUTO: 1.55 (diff: 0.0%)
+2025-08-18 10:14:29,566 - INFO -     Brenjit position: RA 215.120031, DEC 52.972564
+2025-08-18 10:14:29,566 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,566 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,566 - INFO - 
+Processing source #31:
+2025-08-18 10:14:29,566 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 11919, z: 8.571
+2025-08-18 10:14:29,583 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,602 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,603 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,603 - INFO -     RA: 215.120643, DEC: 52.973583
+2025-08-18 10:14:29,603 - INFO -     FLUX_AUTO: 1.82
+2025-08-18 10:14:29,604 - INFO -   Found 369 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,604 - INFO -   Best flux match: Brenjit ID 3581
+2025-08-18 10:14:29,604 - INFO -     Brenjit FLUX_AUTO: 1.82 (diff: -0.0%)
+2025-08-18 10:14:29,604 - INFO -     Brenjit position: RA 215.085789, DEC 52.921545
+2025-08-18 10:14:29,604 - INFO -     Position separation: 202.02 arcsec
+2025-08-18 10:14:29,604 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:14:29,604 - INFO - 
+Processing source #32:
+2025-08-18 10:14:29,604 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 13408, z: 8.959
+2025-08-18 10:14:29,621 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,638 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,638 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,638 - INFO -     RA: 215.079068, DEC: 52.949634
+2025-08-18 10:14:29,638 - INFO -     FLUX_AUTO: 0.27
+2025-08-18 10:14:29,640 - INFO -   Found 822 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,640 - INFO -   Best flux match: Brenjit ID 13394
+2025-08-18 10:14:29,640 - INFO -     Brenjit FLUX_AUTO: 0.27 (diff: 0.0%)
+2025-08-18 10:14:29,640 - INFO -     Brenjit position: RA 215.079068, DEC 52.949634
+2025-08-18 10:14:29,640 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,640 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,640 - INFO - 
+Processing source #33:
+2025-08-18 10:14:29,640 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 13755, z: 9.364
+2025-08-18 10:14:29,660 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,677 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,678 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,678 - INFO -     RA: 215.062509, DEC: 52.940339
+2025-08-18 10:14:29,678 - INFO -     FLUX_AUTO: 10.76
+2025-08-18 10:14:29,679 - INFO -   Found 98 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,679 - INFO -   Best flux match: Brenjit ID 13743
+2025-08-18 10:14:29,679 - INFO -     Brenjit FLUX_AUTO: 10.76 (diff: -0.0%)
+2025-08-18 10:14:29,679 - INFO -     Brenjit position: RA 215.062509, DEC 52.940339
+2025-08-18 10:14:29,679 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,679 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,679 - INFO - 
+Processing source #34:
+2025-08-18 10:14:29,679 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 14107, z: 9.059
+2025-08-18 10:14:29,696 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,713 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,714 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,714 - INFO -     RA: 215.059747, DEC: 52.939340
+2025-08-18 10:14:29,714 - INFO -     FLUX_AUTO: 1.70
+2025-08-18 10:14:29,715 - INFO -   Found 379 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,715 - INFO -   Best flux match: Brenjit ID 14097
+2025-08-18 10:14:29,715 - INFO -     Brenjit FLUX_AUTO: 1.70 (diff: 0.0%)
+2025-08-18 10:14:29,715 - INFO -     Brenjit position: RA 215.059747, DEC 52.939340
+2025-08-18 10:14:29,715 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,715 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,715 - INFO - 
+Processing source #35:
+2025-08-18 10:14:29,715 - INFO -   From z9 catalog - POINTING: nircam7, Romeo_ID: 14220, z: 8.763
+2025-08-18 10:14:29,732 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18155 sources
+2025-08-18 10:14:29,749 - INFO - Successfully loaded catalog: nircam7_f410m_catalog.cat with 18140 sources
+2025-08-18 10:14:29,750 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,750 - INFO -     RA: 215.113981, DEC: 52.978065
+2025-08-18 10:14:29,750 - INFO -     FLUX_AUTO: 1.82
+2025-08-18 10:14:29,751 - INFO -   Found 364 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,751 - INFO -   Best flux match: Brenjit ID 14208
+2025-08-18 10:14:29,751 - INFO -     Brenjit FLUX_AUTO: 1.82 (diff: 0.0%)
+2025-08-18 10:14:29,751 - INFO -     Brenjit position: RA 215.113981, DEC 52.978065
+2025-08-18 10:14:29,751 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,751 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,751 - INFO - 
+Processing source #36:
+2025-08-18 10:14:29,751 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 1398, z: 8.763
+2025-08-18 10:14:29,836 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:29,920 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:29,920 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,920 - INFO -     RA: 215.079629, DEC: 52.909563
+2025-08-18 10:14:29,920 - INFO -     FLUX_AUTO: 1.28
+2025-08-18 10:14:29,921 - INFO -   Found 412 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,921 - INFO -   Best flux match: Brenjit ID 1398
+2025-08-18 10:14:29,921 - INFO -     Brenjit FLUX_AUTO: 1.28 (diff: 0.0%)
+2025-08-18 10:14:29,921 - INFO -     Brenjit position: RA 215.079629, DEC 52.909563
+2025-08-18 10:14:29,921 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,921 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,921 - INFO - 
+Processing source #37:
+2025-08-18 10:14:29,921 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 2087, z: 8.861
+2025-08-18 10:14:29,941 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:29,958 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:29,958 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:29,958 - INFO -     RA: 214.996401, DEC: 52.854155
+2025-08-18 10:14:29,958 - INFO -     FLUX_AUTO: 1.38
+2025-08-18 10:14:29,959 - INFO -   Found 427 flux matches in Brenjit's catalog
+2025-08-18 10:14:29,959 - INFO -   Best flux match: Brenjit ID 2080
+2025-08-18 10:14:29,959 - INFO -     Brenjit FLUX_AUTO: 1.38 (diff: 0.0%)
+2025-08-18 10:14:29,959 - INFO -     Brenjit position: RA 214.996401, DEC 52.854155
+2025-08-18 10:14:29,959 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:29,959 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:29,959 - INFO - 
+Processing source #38:
+2025-08-18 10:14:29,959 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 2293, z: 8.571
+2025-08-18 10:14:29,975 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:29,999 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,000 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,000 - INFO -     RA: 215.001712, DEC: 52.858999
+2025-08-18 10:14:30,000 - INFO -     FLUX_AUTO: 0.53
+2025-08-18 10:14:30,003 - INFO -   Found 616 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,003 - INFO -   Best flux match: Brenjit ID 2288
+2025-08-18 10:14:30,003 - INFO -     Brenjit FLUX_AUTO: 0.53 (diff: 0.0%)
+2025-08-18 10:14:30,004 - INFO -     Brenjit position: RA 215.001712, DEC 52.858999
+2025-08-18 10:14:30,004 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,004 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,004 - INFO - 
+Processing source #39:
+2025-08-18 10:14:30,004 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 3405, z: 8.861
+2025-08-18 10:14:30,049 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:30,073 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,074 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,074 - INFO -     RA: 215.008673, DEC: 52.868310
+2025-08-18 10:14:30,074 - INFO -     FLUX_AUTO: 3.91
+2025-08-18 10:14:30,075 - INFO -   Found 204 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,075 - INFO -   Best flux match: Brenjit ID 4493
+2025-08-18 10:14:30,075 - INFO -     Brenjit FLUX_AUTO: 3.91 (diff: 0.0%)
+2025-08-18 10:14:30,075 - INFO -     Brenjit position: RA 215.061182, DEC 52.908743
+2025-08-18 10:14:30,075 - INFO -     Position separation: 184.92 arcsec
+2025-08-18 10:14:30,075 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:14:30,075 - INFO - 
+Processing source #40:
+2025-08-18 10:14:30,076 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 6990, z: 8.763
+2025-08-18 10:14:30,097 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:30,117 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,117 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,117 - INFO -     RA: 214.987393, DEC: 52.865544
+2025-08-18 10:14:30,117 - INFO -     FLUX_AUTO: 1.00
+2025-08-18 10:14:30,118 - INFO -   Found 482 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,118 - INFO -   Best flux match: Brenjit ID 6986
+2025-08-18 10:14:30,118 - INFO -     Brenjit FLUX_AUTO: 1.00 (diff: 0.0%)
+2025-08-18 10:14:30,118 - INFO -     Brenjit position: RA 214.987393, DEC 52.865544
+2025-08-18 10:14:30,118 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,118 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,118 - INFO - 
+Processing source #41:
+2025-08-18 10:14:30,118 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 8966, z: 8.959
+2025-08-18 10:14:30,136 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:30,157 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,157 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,157 - INFO -     RA: 214.994199, DEC: 52.876472
+2025-08-18 10:14:30,157 - INFO -     FLUX_AUTO: 0.45
+2025-08-18 10:14:30,158 - INFO -   Found 683 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,158 - INFO -   Best flux match: Brenjit ID 8954
+2025-08-18 10:14:30,158 - INFO -     Brenjit FLUX_AUTO: 0.45 (diff: 0.0%)
+2025-08-18 10:14:30,158 - INFO -     Brenjit position: RA 214.994199, DEC 52.876472
+2025-08-18 10:14:30,158 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,158 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,158 - INFO - 
+Processing source #42:
+2025-08-18 10:14:30,158 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 9467, z: 8.959
+2025-08-18 10:14:30,176 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:30,194 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,195 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,195 - INFO -     RA: 214.982886, DEC: 52.870243
+2025-08-18 10:14:30,195 - INFO -     FLUX_AUTO: 0.61
+2025-08-18 10:14:30,196 - INFO -   Found 554 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,196 - INFO -   Best flux match: Brenjit ID 9454
+2025-08-18 10:14:30,196 - INFO -     Brenjit FLUX_AUTO: 0.61 (diff: 0.0%)
+2025-08-18 10:14:30,196 - INFO -     Brenjit position: RA 214.982886, DEC 52.870243
+2025-08-18 10:14:30,196 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,196 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,196 - INFO - 
+Processing source #43:
+2025-08-18 10:14:30,196 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 11729, z: 9.261
+2025-08-18 10:14:30,214 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:30,231 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,232 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,232 - INFO -     RA: 214.983827, DEC: 52.877668
+2025-08-18 10:14:30,232 - INFO -     FLUX_AUTO: 1.51
+2025-08-18 10:14:30,233 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,233 - INFO -   Best flux match: Brenjit ID 11712
+2025-08-18 10:14:30,233 - INFO -     Brenjit FLUX_AUTO: 1.51 (diff: 0.0%)
+2025-08-18 10:14:30,233 - INFO -     Brenjit position: RA 214.983827, DEC 52.877668
+2025-08-18 10:14:30,233 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,233 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,233 - INFO - 
+Processing source #44:
+2025-08-18 10:14:30,233 - INFO -   From z9 catalog - POINTING: nircam8, Romeo_ID: 14625, z: 8.763
+2025-08-18 10:14:30,254 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18109 sources
+2025-08-18 10:14:30,273 - INFO - Successfully loaded catalog: nircam8_f410m_catalog.cat with 18088 sources
+2025-08-18 10:14:30,273 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,273 - INFO -     RA: 214.964383, DEC: 52.875522
+2025-08-18 10:14:30,273 - INFO -     FLUX_AUTO: 0.85
+2025-08-18 10:14:30,274 - INFO -   Found 547 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,274 - INFO -   Best flux match: Brenjit ID 14604
+2025-08-18 10:14:30,274 - INFO -     Brenjit FLUX_AUTO: 0.85 (diff: 0.0%)
+2025-08-18 10:14:30,274 - INFO -     Brenjit position: RA 214.964383, DEC 52.875522
+2025-08-18 10:14:30,274 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,274 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,274 - INFO - 
+Processing source #45:
+2025-08-18 10:14:30,274 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 2643, z: 9.261
+2025-08-18 10:14:30,360 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:14:30,445 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:14:30,446 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,446 - INFO -     RA: 214.901708, DEC: 52.792665
+2025-08-18 10:14:30,446 - INFO -     FLUX_AUTO: 0.46
+2025-08-18 10:14:30,446 - INFO -   Found 667 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,446 - INFO -   Best flux match: Brenjit ID 2646
+2025-08-18 10:14:30,446 - INFO -     Brenjit FLUX_AUTO: 0.46 (diff: 0.0%)
+2025-08-18 10:14:30,446 - INFO -     Brenjit position: RA 214.901708, DEC 52.792665
+2025-08-18 10:14:30,447 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,447 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,447 - INFO - 
+Processing source #46:
+2025-08-18 10:14:30,447 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 3086, z: 9.059
+2025-08-18 10:14:30,463 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:14:30,479 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:14:30,479 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,479 - INFO -     RA: 214.961113, DEC: 52.836512
+2025-08-18 10:14:30,479 - INFO -     FLUX_AUTO: 1.09
+2025-08-18 10:14:30,480 - INFO -   Found 417 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,480 - INFO -   Best flux match: Brenjit ID 3096
+2025-08-18 10:14:30,480 - INFO -     Brenjit FLUX_AUTO: 1.09 (diff: 0.0%)
+2025-08-18 10:14:30,480 - INFO -     Brenjit position: RA 214.961113, DEC 52.836512
+2025-08-18 10:14:30,480 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,480 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,480 - INFO - 
+Processing source #47:
+2025-08-18 10:14:30,480 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 5590, z: 8.763
+2025-08-18 10:14:30,497 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:14:30,513 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:14:30,514 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,514 - INFO -     RA: 214.899803, DEC: 52.801540
+2025-08-18 10:14:30,514 - INFO -     FLUX_AUTO: 2.02
+2025-08-18 10:14:30,514 - INFO -   Found 350 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,514 - INFO -   Best flux match: Brenjit ID 5572
+2025-08-18 10:14:30,514 - INFO -     Brenjit FLUX_AUTO: 2.02 (diff: 0.0%)
+2025-08-18 10:14:30,514 - INFO -     Brenjit position: RA 214.899803, DEC 52.801540
+2025-08-18 10:14:30,514 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,515 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,515 - INFO - 
+Processing source #48:
+2025-08-18 10:14:30,515 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 9084, z: 9.261
+2025-08-18 10:14:30,531 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:14:30,547 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:14:30,548 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,548 - INFO -     RA: 214.954423, DEC: 52.852402
+2025-08-18 10:14:30,548 - INFO -     FLUX_AUTO: 1.13
+2025-08-18 10:14:30,549 - INFO -   Found 415 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,549 - INFO -   Best flux match: Brenjit ID 9061
+2025-08-18 10:14:30,549 - INFO -     Brenjit FLUX_AUTO: 1.13 (diff: 0.0%)
+2025-08-18 10:14:30,549 - INFO -     Brenjit position: RA 214.954423, DEC 52.852402
+2025-08-18 10:14:30,549 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,549 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,549 - INFO - 
+Processing source #49:
+2025-08-18 10:14:30,549 - INFO -   From z9 catalog - POINTING: nircam9, Romeo_ID: 10723, z: 8.571
+2025-08-18 10:14:30,565 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18116 sources
+2025-08-18 10:14:30,582 - INFO - Successfully loaded catalog: nircam9_f410m_catalog.cat with 18086 sources
+2025-08-18 10:14:30,583 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,583 - INFO -     RA: 214.885899, DEC: 52.809150
+2025-08-18 10:14:30,583 - INFO -     FLUX_AUTO: 0.77
+2025-08-18 10:14:30,583 - INFO -   Found 512 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,583 - INFO -   Best flux match: Brenjit ID 8076
+2025-08-18 10:14:30,584 - INFO -     Brenjit FLUX_AUTO: 0.77 (diff: 0.0%)
+2025-08-18 10:14:30,584 - INFO -     Brenjit position: RA 214.889847, DEC 52.803348
+2025-08-18 10:14:30,584 - INFO -     Position separation: 22.59 arcsec
+2025-08-18 10:14:30,584 - WARNING -   WARNING: Flux match but large position difference
+2025-08-18 10:14:30,584 - INFO - 
+Processing source #50:
+2025-08-18 10:14:30,584 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 1428, z: 8.763
+2025-08-18 10:14:30,640 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:14:30,696 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:14:30,696 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,696 - INFO -     RA: 214.804184, DEC: 52.725189
+2025-08-18 10:14:30,696 - INFO -     FLUX_AUTO: 1.26
+2025-08-18 10:14:30,697 - INFO -   Found 406 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,697 - INFO -   Best flux match: Brenjit ID 1424
+2025-08-18 10:14:30,697 - INFO -     Brenjit FLUX_AUTO: 1.26 (diff: 0.0%)
+2025-08-18 10:14:30,697 - INFO -     Brenjit position: RA 214.804184, DEC 52.725189
+2025-08-18 10:14:30,697 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,697 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,697 - INFO - 
+Processing source #51:
+2025-08-18 10:14:30,697 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 1940, z: 8.667
+2025-08-18 10:14:30,707 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:14:30,716 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:14:30,717 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,717 - INFO -     RA: 214.865305, DEC: 52.771857
+2025-08-18 10:14:30,717 - INFO -     FLUX_AUTO: 0.47
+2025-08-18 10:14:30,718 - INFO -   Found 538 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,718 - INFO -   Best flux match: Brenjit ID 1935
+2025-08-18 10:14:30,718 - INFO -     Brenjit FLUX_AUTO: 0.47 (diff: 0.0%)
+2025-08-18 10:14:30,718 - INFO -     Brenjit position: RA 214.865305, DEC 52.771857
+2025-08-18 10:14:30,718 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,718 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,718 - INFO - 
+Processing source #52:
+2025-08-18 10:14:30,718 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 7842, z: 8.571
+2025-08-18 10:14:30,727 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:14:30,738 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:14:30,738 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,738 - INFO -     RA: 214.781456, DEC: 52.737270
+2025-08-18 10:14:30,738 - INFO -     FLUX_AUTO: 1.86
+2025-08-18 10:14:30,739 - INFO -   Found 332 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,739 - INFO -   Best flux match: Brenjit ID 7847
+2025-08-18 10:14:30,739 - INFO -     Brenjit FLUX_AUTO: 1.86 (diff: 0.0%)
+2025-08-18 10:14:30,739 - INFO -     Brenjit position: RA 214.781456, DEC 52.737270
+2025-08-18 10:14:30,739 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,739 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,739 - INFO - 
+Processing source #53:
+2025-08-18 10:14:30,739 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 9562, z: 9.059
+2025-08-18 10:14:30,749 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:14:30,758 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:14:30,759 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,759 - INFO -     RA: 214.855951, DEC: 52.798145
+2025-08-18 10:14:30,759 - INFO -     FLUX_AUTO: 1.02
+2025-08-18 10:14:30,759 - INFO -   Found 444 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,759 - INFO -   Best flux match: Brenjit ID 9562
+2025-08-18 10:14:30,759 - INFO -     Brenjit FLUX_AUTO: 1.02 (diff: 0.0%)
+2025-08-18 10:14:30,759 - INFO -     Brenjit position: RA 214.855951, DEC 52.798145
+2025-08-18 10:14:30,759 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,759 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,759 - INFO - 
+Processing source #54:
+2025-08-18 10:14:30,759 - INFO -   From z9 catalog - POINTING: nircam10, Romeo_ID: 10843, z: 8.667
+2025-08-18 10:14:30,769 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11690 sources
+2025-08-18 10:14:30,779 - INFO - Successfully loaded catalog: nircam10_f410m_catalog.cat with 11695 sources
+2025-08-18 10:14:30,780 - INFO -   Found in Romeo's catalog:
+2025-08-18 10:14:30,780 - INFO -     RA: 214.795551, DEC: 52.767282
+2025-08-18 10:14:30,780 - INFO -     FLUX_AUTO: 0.42
+2025-08-18 10:14:30,780 - INFO -   Found 576 flux matches in Brenjit's catalog
+2025-08-18 10:14:30,780 - INFO -   Best flux match: Brenjit ID 10415
+2025-08-18 10:14:30,780 - INFO -     Brenjit FLUX_AUTO: 0.42 (diff: 0.0%)
+2025-08-18 10:14:30,780 - INFO -     Brenjit position: RA 214.795551, DEC 52.767282
+2025-08-18 10:14:30,780 - INFO -     Position separation: 0.00 arcsec
+2025-08-18 10:14:30,780 - INFO -   GOOD POSITION MATCH
+2025-08-18 10:14:30,784 - INFO - 
+Matching Statistics:
+2025-08-18 10:14:30,784 - INFO - Total sources processed: 54
+2025-08-18 10:14:30,784 - INFO - Romeo sources not found: 0
+2025-08-18 10:14:30,784 - INFO - Good flux+position matches: 49
+2025-08-18 10:14:30,784 - INFO - Flux matches but position differs: 5
+2025-08-18 10:14:30,784 - INFO - No matches found: 0
+2025-08-18 10:14:30,784 - INFO - 
+Final catalogue saved to /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/Romeo_s_data/Drive_cat/final_matched_catalogue.txt

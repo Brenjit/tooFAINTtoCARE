@@ -1,0 +1,86 @@
+
+==================================================
+Processing Log - 2025-08-19 10:48:00
+==================================================
+
+Starting processing of 10 pointings
+Output will be saved to: ./snr_and_selection_plots_mine_1
+Applying F115W (z=8.5-12) selection...
+
+Processing nircam1...
+Found 387 candidates.
+Total Brenjit_ID sources: 3/7
+Recovery rate: 42.9%
+Recovered IDs: 4010, 6802, 8216
+Missed IDs: 2858, 8272, 10899, 11572
+
+Processing nircam2...
+Found 439 candidates.
+Total Brenjit_ID sources: 3/4
+Recovery rate: 75.0%
+Recovered IDs: 2034, 5726, 11316
+Missed IDs: 1332
+
+Processing nircam3...
+Found 469 candidates.
+Total Brenjit_ID sources: 0/1
+Recovery rate: 0.0%
+Missed IDs: 9992
+
+Processing nircam4...
+Found 629 candidates.
+Total Brenjit_ID sources: 3/7
+Recovery rate: 42.9%
+Recovered IDs: 1843, 9427, 11659
+Missed IDs: 315, 1669, 9859, 12415
+
+Processing nircam5...
+Found 1284 candidates.
+Total Brenjit_ID sources: 3/5
+Recovery rate: 60.0%
+Recovered IDs: 4547, 9883, 12779
+Missed IDs: 12083, 12888
+
+Processing nircam6...
+Found 473 candidates.
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 3206
+
+Processing nircam7...
+Found 1530 candidates.
+Total Brenjit_ID sources: 4/10
+Recovery rate: 40.0%
+Recovered IDs: 11615, 11754, 13394, 14208
+Missed IDs: 3581, 7070, 9437, 9959, 13743, 14097
+
+Processing nircam8...
+Found 1592 candidates.
+Total Brenjit_ID sources: 2/9
+Recovery rate: 22.2%
+Recovered IDs: 1398, 14604
+Missed IDs: 2080, 2288, 4493, 6986, 8954, 9454, 11712
+
+Processing nircam9...
+Found 1511 candidates.
+Total Brenjit_ID sources: 2/5
+Recovery rate: 40.0%
+Recovered IDs: 2646, 9061
+Missed IDs: 3096, 5572, 8076
+
+Processing nircam10...
+Found 455 candidates.
+Total Brenjit_ID sources: 2/5
+Recovery rate: 40.0%
+Recovered IDs: 1424, 1935
+Missed IDs: 7847, 9562, 10415
+
+==================================================
+FINAL RECOVERY SUMMARY:
+Total Brenjit_ID sources across all pointings: 54
+Total recovered after criteria: 23
+Overall recovery rate: 42.6%
+==================================================
+
+Processing complete. All outputs saved to: ./snr_and_selection_plots_mine_1
+Detailed log saved to: ./snr_and_selection_plots_mine_1/processing_log_with_all_filter_snr_without_star_galaxy.txt

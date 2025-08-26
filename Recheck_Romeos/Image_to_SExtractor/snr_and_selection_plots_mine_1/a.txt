@@ -1,0 +1,66 @@
+================================================================================
+DIAGNOSTIC ANALYSIS TABLE
+================================================================================
+Pointing  ID      SNR_f150w SNR_f200w SNR_f277w SNR_f356w SNR_f410m SNR_f606w SNR_f814w Color_Relation      Other_Criteria          Result
+================================================================================
+NIRCam1   2858    24.9      24.1      28.3      23.5      4.5       -         3.4       0.95 ≯ 1.21        -                      FAIL
+NIRCam1   4010    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam1   6802    -         -         -         -         -         -         -         1.09 ≯ 1.24        -                      FAIL
+NIRCam1   8216    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam1   11572   -         -         -         -         -         -         4.8       -                  -                      FAIL
+NIRCam1   10899   16.6      20.5      22.4      20.1      3.2       5.1       7.0       -                  -                      FAIL
+NIRCam1   8272    1.1       6.7       10.6      3.6       -         -         -         -1.98 ≯ 2.24       Color1: -1.98, Color2: 2.02 FAIL
+NIRCam2   1332    -         -         -         -         -         -         3.0       0.71 ≯ 1.14        -                      FAIL
+NIRCam2   2034    -         -         -         -         -         -         -         1.00 ≯ 1.40        -                      FAIL
+NIRCam2   5726    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam2   11316   -         -         -         -         -         -         -         0.53 ≯ 1.52        -                      FAIL
+NIRCam3   9992    -         -         -         -         -         -         4.1       -                  -                      FAIL
+NIRCam4   315     -         -         -         -         -         -         3.5       -                  -                      FAIL
+NIRCam4   1669    26.1      19.3      14.1      15.2      4.9       3.8       4.6       -                  -                      FAIL
+NIRCam4   1843    -         -         -         -         -         -         -         1.05 ≯ 1.15        -                      FAIL
+NIRCam4   9859    29.9      44.5      28.4      21.1      4.6       4.3       7.5       0.31 ≯ 1.16        -                      FAIL
+NIRCam4   9427    -         -         -         -         -         -         -         0.68 ≯ 1.29        -                      FAIL
+NIRCam4   12415   -         -         -         -         -         -         2.5       -                  -                      FAIL
+NIRCam4   11659   -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam5   4547    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam5   9883    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam5   12083   -         -         -         -         -         -         4.1       1.31 ≯ 1.41        -                      FAIL
+NIRCam5   12779   -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam5   12888   -         -         -         -         -         -         2.1       0.83 ≯ 1.27        -                      FAIL
+NIRCam6   3206    -         -         -         -         -         -         -         0.73 ≯ 1.17        -                      FAIL
+NIRCam7   7070    -         -         -         -         -         -         4.8       0.98 ≯ 0.98        -                      FAIL
+NIRCam7   9437    -         -         -         -         -         -         3.1       -                  -                      FAIL
+NIRCam7   9959    -         -         -         -         -         2.3       6.1       -                  -                      FAIL
+NIRCam7   11615   -         -         -         -         -         -         -         0.75 ≯ 1.37        -                      FAIL
+NIRCam7   11754   -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam7   3581    -         -         -         -         -         9.8       6.1       0.21 ≯ 1.46        -                      FAIL
+NIRCam7   13394   -         -         -         -         -         -         -         0.98 ≯ 1.16        -                      FAIL
+NIRCam7   13743   -         -         -         -         -         6.0       4.8       1.10 ≯ 1.47        -                      FAIL
+NIRCam7   14097   -         -         -         -         -         6.0       -         -                  -                      FAIL
+NIRCam7   14208   -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam8   1398    -         -         -         -         -         -         -         1.25 ≯ 1.34        -                      FAIL
+NIRCam8   2080    -         -         -         -         -         -         4.6       -                  -                      FAIL
+NIRCam8   2288    -         -         -         -         -         3.7       2.1       0.70 ≯ 1.17        -                      FAIL
+NIRCam8   4493    -         -         -         -         -         10.5      6.7       0.76 ≯ 1.29        -                      FAIL
+NIRCam8   6986    -         -         -         -         -         -         2.5       -                  -                      FAIL
+NIRCam8   8954    -         -         -         -         -         2.7       -         -                  -                      FAIL
+NIRCam8   9454    -         -         -         -         -         3.5       5.5       -                  -                      FAIL
+NIRCam8   11712   -         -         -         -         -         4.4       2.5       -                  -                      FAIL
+NIRCam8   14604   -         -         -         -         -         -         -         0.74 ≯ 1.10        -                      FAIL
+NIRCam9   2646    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam9   3096    -         -         -         -         -         2.6       4.0       -                  -                      FAIL
+NIRCam9   5572    -         -         -         -         -         3.6       -         1.54 ≯ 1.79        -                      FAIL
+NIRCam9   9061    -         -         -         -         -         -         -         0.66 ≯ 1.57        -                      FAIL
+NIRCam9   8076    84.4      877.1     -1386.4   -0.6      -         2.4       -         -1.98 ≯ 2.24       Color1: -2.32, Color2: -64.63 FAIL
+NIRCam10  1424    -         -         -         -         -         -         -         -                  All passed             PASS
+NIRCam10  1935    -         -         -         -         -         -         -         1.05 ≯ 1.11        -                      FAIL
+NIRCam10  7847    -         -         -         -         -         4.8       4.3       0.69 ≯ 0.94        -                      FAIL
+NIRCam10  9562    -         -         -         -         -         3.4       -         -                  -                      FAIL
+NIRCam10  10415   -         -         -         -         -         -         4.4       1.04 ≯ 1.08        -                      FAIL
+
+================================================================================
+SUMMARY:
+Total Brenjit Sources: 54
+Total Passed: 11
+Overall Recovery Rate: 20.4%
+================================================================================

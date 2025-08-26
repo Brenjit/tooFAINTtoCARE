@@ -1,0 +1,69 @@
+
+================================================================================
+DIAGNOSTIC ANALYSIS LOG - 2025-08-24 14:39:33
+================================================================================
+
+Starting detailed diagnostic analysis and parameter optimization
+Output will be saved to: ./Diagnostic_Analysis_optimization_finding
+
+================================================================================
+PROCESSING NIRCAM1
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam1/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam1/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam1
+
+================================================================================
+PROCESSING NIRCAM2
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam2/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam2/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam2
+
+================================================================================
+PROCESSING NIRCAM3
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam3/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam3/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam3
+
+================================================================================
+PROCESSING NIRCAM4
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam4/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam4/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam4
+
+================================================================================
+PROCESSING NIRCAM5
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam5/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam5/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam5
+
+================================================================================
+PROCESSING NIRCAM6
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam6/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam6/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam6
+
+================================================================================
+PROCESSING NIRCAM7
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam7/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam7/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam7
+
+================================================================================
+PROCESSING NIRCAM8
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam8/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam8/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam8
+
+================================================================================
+PROCESSING NIRCAM9
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam9/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam9/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam9
+
+================================================================================
+PROCESSING NIRCAM10
+================================================================================
+Error reading /Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam10/catalogue_z7/f150dropout_f606w_catalog.cat: [Errno 2] No such file or directory: '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/nircam10/catalogue_z7/f150dropout_f606w_catalog.cat'
+Missing f606w data for nircam10
+
+=== FINAL SUMMARY ===

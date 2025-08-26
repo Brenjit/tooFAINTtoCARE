@@ -1,0 +1,288 @@
+
+================================================================================
+DIAGNOSTIC ANALYSIS LOG - 2025-08-26 15:37:01
+================================================================================
+
+Starting detailed diagnostic analysis of 10 pointings
+Output will be saved to: ./5_new_Diagnostic_Analysis
+
+================================================================================
+ANALYZING NIRCAM1
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM1
+============================================================
+Found 241 candidates (selection without cut3).
+
+SUMMARY FOR nircam1:
+Total Brenjit sources: 7
+Pass selection: 3
+Fail selection: 4
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2858: FAIL - Low SNR in detection bands: f410m(4.5); High SNR in veto bands: f814w(3.4); Color relation failed: 0.95 ≯ 1.21
+      SNR values: f150w= 24.9, f200w= 24.1, f277w= 28.3, f356w= 23.5
+ID 4010: PASS - All criteria passed
+ID 6802: PASS - Color relation failed: 1.09 ≯ 1.24
+ID 8216: PASS - All criteria passed
+ID 11572: FAIL - High SNR in veto bands: f814w(4.8)
+ID 10899: FAIL - Low SNR in detection bands: f410m(3.2); High SNR in veto bands: f606w(5.1), f814w(7.0)
+      SNR values: f150w= 16.6, f200w= 20.5, f277w= 22.4, f356w= 20.1
+ID 8272: FAIL - Low SNR in detection bands: f150w(1.1), f356w(3.6); Color1 failed: f115w SNR=8.0, color1=-1.98; Color2 out of range: 2.02 not in (-1.5, 1.0); Color relation failed: -1.98 ≯ 2.24
+      SNR values: f150w=  1.1, f200w=  6.7, f277w= 10.6, f356w=  3.6
+Found 241 candidates (selection without cut3).
+Total Brenjit_ID sources: 3/7
+Recovery rate: 42.9%
+Recovered IDs: 4010, 6802, 8216
+Missed IDs: 2858, 8272, 10899, 11572
+
+================================================================================
+ANALYZING NIRCAM2
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM2
+============================================================
+Found 264 candidates (selection without cut3).
+
+SUMMARY FOR nircam2:
+Total Brenjit sources: 4
+Pass selection: 3
+Fail selection: 1
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1332: FAIL - High SNR in veto bands: f814w(3.0); Color relation failed: 0.71 ≯ 1.14
+ID 2034: PASS - Color relation failed: 1.00 ≯ 1.40
+ID 5726: PASS - All criteria passed
+ID 11316: PASS - Color relation failed: 0.53 ≯ 1.52
+Found 264 candidates (selection without cut3).
+Total Brenjit_ID sources: 3/4
+Recovery rate: 75.0%
+Recovered IDs: 2034, 5726, 11316
+Missed IDs: 1332
+
+================================================================================
+ANALYZING NIRCAM3
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM3
+============================================================
+Found 265 candidates (selection without cut3).
+
+SUMMARY FOR nircam3:
+Total Brenjit sources: 1
+Pass selection: 0
+Fail selection: 1
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 9992: FAIL - High SNR in veto bands: f814w(4.1)
+Found 265 candidates (selection without cut3).
+Total Brenjit_ID sources: 0/1
+Recovery rate: 0.0%
+Missed IDs: 9992
+
+================================================================================
+ANALYZING NIRCAM4
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM4
+============================================================
+Found 333 candidates (selection without cut3).
+
+SUMMARY FOR nircam4:
+Total Brenjit sources: 7
+Pass selection: 3
+Fail selection: 4
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID  315: FAIL - High SNR in veto bands: f814w(3.5)
+ID 1669: FAIL - Low SNR in detection bands: f410m(4.9); High SNR in veto bands: f606w(3.8), f814w(4.6)
+      SNR values: f150w= 26.1, f200w= 19.3, f277w= 14.1, f356w= 15.2
+ID 1843: PASS - Color relation failed: 1.05 ≯ 1.15
+ID 9859: FAIL - Low SNR in detection bands: f410m(4.6); High SNR in veto bands: f606w(4.3), f814w(7.5); Color relation failed: 0.31 ≯ 1.16
+      SNR values: f150w= 29.9, f200w= 44.5, f277w= 28.4, f356w= 21.1
+ID 9427: PASS - Color relation failed: 0.68 ≯ 1.29
+ID 12415: FAIL - High SNR in veto bands: f814w(2.5)
+ID 11659: PASS - All criteria passed
+Found 333 candidates (selection without cut3).
+Total Brenjit_ID sources: 3/7
+Recovery rate: 42.9%
+Recovered IDs: 1843, 9427, 11659
+Missed IDs: 315, 1669, 9859, 12415
+
+================================================================================
+ANALYZING NIRCAM5
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM5
+============================================================
+Found 661 candidates (selection without cut3).
+
+SUMMARY FOR nircam5:
+Total Brenjit sources: 5
+Pass selection: 3
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 4547: PASS - All criteria passed
+ID 9883: PASS - All criteria passed
+ID 12083: FAIL - High SNR in veto bands: f814w(4.1); Color relation failed: 1.31 ≯ 1.41
+ID 12779: PASS - All criteria passed
+ID 12888: FAIL - High SNR in veto bands: f814w(2.1); Color relation failed: 0.83 ≯ 1.27
+Found 661 candidates (selection without cut3).
+Total Brenjit_ID sources: 3/5
+Recovery rate: 60.0%
+Recovered IDs: 4547, 9883, 12779
+Missed IDs: 12083, 12888
+
+================================================================================
+ANALYZING NIRCAM6
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM6
+============================================================
+Found 276 candidates (selection without cut3).
+
+SUMMARY FOR nircam6:
+Total Brenjit sources: 1
+Pass selection: 1
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 3206: PASS - Color relation failed: 0.73 ≯ 1.17
+Found 276 candidates (selection without cut3).
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 3206
+
+================================================================================
+ANALYZING NIRCAM7
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM7
+============================================================
+Found 741 candidates (selection without cut3).
+
+SUMMARY FOR nircam7:
+Total Brenjit sources: 10
+Pass selection: 4
+Fail selection: 6
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 7070: FAIL - High SNR in veto bands: f814w(4.8); Color relation failed: 0.98 ≯ 0.98
+ID 9437: FAIL - High SNR in veto bands: f814w(3.1)
+ID 9959: FAIL - High SNR in veto bands: f606w(2.3), f814w(6.1)
+ID 11615: PASS - Color relation failed: 0.75 ≯ 1.37
+ID 11754: PASS - All criteria passed
+ID 3581: FAIL - High SNR in veto bands: f606w(9.8), f814w(6.1); Color relation failed: 0.21 ≯ 1.46
+ID 13394: PASS - Color relation failed: 0.98 ≯ 1.16
+ID 13743: FAIL - High SNR in veto bands: f606w(6.0), f814w(4.8); Color relation failed: 1.10 ≯ 1.47
+ID 14097: FAIL - High SNR in veto bands: f606w(6.0)
+ID 14208: PASS - All criteria passed
+Found 741 candidates (selection without cut3).
+Total Brenjit_ID sources: 4/10
+Recovery rate: 40.0%
+Recovered IDs: 11615, 11754, 13394, 14208
+Missed IDs: 3581, 7070, 9437, 9959, 13743, 14097
+
+================================================================================
+ANALYZING NIRCAM8
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM8
+============================================================
+Found 781 candidates (selection without cut3).
+
+SUMMARY FOR nircam8:
+Total Brenjit sources: 9
+Pass selection: 2
+Fail selection: 7
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1398: PASS - Color relation failed: 1.25 ≯ 1.34
+ID 2080: FAIL - High SNR in veto bands: f814w(4.6)
+ID 2288: FAIL - High SNR in veto bands: f606w(3.7), f814w(2.1); Color relation failed: 0.70 ≯ 1.17
+ID 4493: FAIL - High SNR in veto bands: f606w(10.5), f814w(6.7); Color relation failed: 0.76 ≯ 1.29
+ID 6986: FAIL - High SNR in veto bands: f814w(2.5)
+ID 8954: FAIL - High SNR in veto bands: f606w(2.7)
+ID 9454: FAIL - High SNR in veto bands: f606w(3.5), f814w(5.5)
+ID 11712: FAIL - High SNR in veto bands: f606w(4.4), f814w(2.5)
+ID 14604: PASS - Color relation failed: 0.74 ≯ 1.10
+Found 781 candidates (selection without cut3).
+Total Brenjit_ID sources: 2/9
+Recovery rate: 22.2%
+Recovered IDs: 1398, 14604
+Missed IDs: 2080, 2288, 4493, 6986, 8954, 9454, 11712
+
+================================================================================
+ANALYZING NIRCAM9
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM9
+============================================================
+Found 753 candidates (selection without cut3).
+
+SUMMARY FOR nircam9:
+Total Brenjit sources: 5
+Pass selection: 2
+Fail selection: 3
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2646: PASS - All criteria passed
+ID 3096: FAIL - High SNR in veto bands: f606w(2.6), f814w(4.0)
+ID 5572: FAIL - High SNR in veto bands: f606w(3.6); Color relation failed: 1.54 ≯ 1.79
+ID 9061: PASS - Color relation failed: 0.66 ≯ 1.57
+ID 8076: FAIL - Low SNR in detection bands: f277w(-1386.4), f356w(-0.6); High SNR in veto bands: f606w(2.4); Color1 failed: f115w SNR=3.1, color1=-2.32; Color2 out of range: -64.63 not in (-1.5, 1.0)
+      SNR values: f150w= 84.4, f200w=877.1, f277w=-1386.4, f356w= -0.6
+Found 753 candidates (selection without cut3).
+Total Brenjit_ID sources: 2/5
+Recovery rate: 40.0%
+Recovered IDs: 2646, 9061
+Missed IDs: 3096, 5572, 8076
+
+================================================================================
+ANALYZING NIRCAM10
+================================================================================
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM10
+============================================================
+Found 260 candidates (selection without cut3).
+
+SUMMARY FOR nircam10:
+Total Brenjit sources: 5
+Pass selection: 2
+Fail selection: 3
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1424: PASS - All criteria passed
+ID 1935: PASS - Color relation failed: 1.05 ≯ 1.11
+ID 7847: FAIL - High SNR in veto bands: f606w(4.8), f814w(4.3); Color relation failed: 0.69 ≯ 0.94
+ID 9562: FAIL - High SNR in veto bands: f606w(3.4)
+ID 10415: FAIL - High SNR in veto bands: f814w(4.4); Color relation failed: 1.04 ≯ 1.08
+Found 260 candidates (selection without cut3).
+Total Brenjit_ID sources: 2/5
+Recovery rate: 40.0%
+Recovered IDs: 1424, 1935
+Missed IDs: 7847, 9562, 10415
+Summary report saved to: ./5_new_Diagnostic_Analysis/diagnostic_summary_report.txt
+
+Diagnostic analysis complete. All outputs saved to: ./5_new_Diagnostic_Analysis
