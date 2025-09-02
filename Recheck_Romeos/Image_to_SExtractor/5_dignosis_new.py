@@ -1,4 +1,4 @@
-#In this code, I am trying to make a new diagnostic plot for the 54 galaxies
+# In this code, I am trying to make a new diagnostic plot for the 54 galaxies
 # Modifications were made after looking into the galaxy pltos of 4_snr_color_all_54_galaxy_analysis plots manually
 # We removed the second color cut criteria F150-F277 > 0.5
 
@@ -124,7 +124,7 @@ def apply_f115w_selection(data_dict):
     print(f"Found {np.sum(mask)} candidates (selection without cut3).")
     return mask
 
-def plot_snr_values(filter_data, pointing, highlight_ids, output_dir):
+def plot_snr_values(filter_data, pointing, highlight_ids, output_dir, selection_mask=None):
     """Generate SNR plots with Brenjit_ID sources marked with green outline if they meet criteria."""
     os.makedirs(output_dir, exist_ok=True)
     
@@ -132,8 +132,9 @@ def plot_snr_values(filter_data, pointing, highlight_ids, output_dir):
     source_ids = filter_data['f150w']['NUMBER']
     highlight_mask = np.isin(source_ids, highlight_ids)
     
-    # Calculate selection criteria
-    selection_mask = apply_f115w_selection(filter_data)
+    # Calculate selection criteria if not provided
+    if selection_mask is None:
+        selection_mask = apply_f115w_selection(filter_data)
     
     # Identify which Brenjit sources meet the criteria
     brenjit_meet_criteria = highlight_mask & selection_mask
@@ -190,14 +191,10 @@ def plot_snr_values(filter_data, pointing, highlight_ids, output_dir):
                 x = source_ids[idx]
                 y = snr_values[idx]
                 
-                # Adjust label position to avoid overlap
-                offset_x = 0.02 * (max(source_ids) - min(source_ids))
-                offset_y = 0.05 * (max(snr_values) - min(snr_values))
-                
                 plt.annotate(str(src_id), 
                             (x, y),
                             textcoords="offset points",
-                            xytext=(10, 10),  # Adjust as needed
+                            xytext=(10, 10),
                             ha='center',
                             fontsize=8,
                             bbox=dict(boxstyle='round,pad=0.2',
@@ -235,7 +232,7 @@ def plot_snr_values(filter_data, pointing, highlight_ids, output_dir):
     
     return total_brenjit, recovered_brenjit
 
-def analyze_missed_galaxies_detailed(filter_data, highlight_ids, pointing):
+def analyze_missed_galaxies_detailed(filter_data, highlight_ids, pointing, selection_mask=None):
     """Detailed analysis of why specific galaxies are being missed (WITHOUT cut3)."""
     
     print(f"\n{'='*60}")
@@ -245,8 +242,9 @@ def analyze_missed_galaxies_detailed(filter_data, highlight_ids, pointing):
     source_ids = filter_data['f150w']['NUMBER']
     highlight_mask = np.isin(source_ids, highlight_ids)
     
-    # Apply current selection criteria (without cut3)
-    selection_mask = apply_f115w_selection(filter_data)
+    # Apply current selection criteria (without cut3) if not provided
+    if selection_mask is None:
+        selection_mask = apply_f115w_selection(filter_data)
     
     # Identify which sources meet/don't meet criteria
     brenjit_meet_criteria = highlight_mask & selection_mask
@@ -497,12 +495,70 @@ def generate_summary_report(all_analysis_results):
     
     print(f"Summary report saved to: {summary_file}")
 
+#catalogue_creation_of_filtered_sources
+def create_filtered_catalogs(filter_data, selection_mask, pointing, output_base_dir):
+    """Create filtered catalogs for sources that meet the selection criteria."""
+    catalog_dir = os.path.join(output_base_dir, 'catalogue_lyman_filtered', pointing)
+    os.makedirs(catalog_dir, exist_ok=True)
+    
+    print(f"Creating filtered catalogs for {pointing} in {catalog_dir}")
+    
+    # For each filter, create a filtered catalog
+    for filt in filters:
+        if filt not in filter_data:
+            continue
+            
+        # Get the original catalog
+        catalog = filter_data[filt]
+        
+        # Apply the selection mask
+        filtered_catalog = catalog[selection_mask]
+        
+        # Define the output path
+        output_path = os.path.join(catalog_dir, f"f150dropout_{filt}_catalog.cat")
+        
+        # Write the filtered catalog
+        try:
+            ascii.write(filtered_catalog, output_path, format='commented_header')
+            print(f"  Created {output_path} with {len(filtered_catalog)} sources")
+        except Exception as e:
+            print(f"  Error writing {output_path}: {e}")
+            
+#for summary 
+def generate_final_summary(all_analysis_results):
+    """Generate a final summary table with counts and percentages."""
+    print(f"\n{'='*60}")
+    print("FINAL SUMMARY TABLE")
+    print(f"{'='*60}")
+    
+    total_selected = 0
+    total_galaxies = 0
+    
+    # Print header
+    print(f"{'Pointing':<10} {'Selected':<10} {'Total':<10} {'Percentage':<10}")
+    print(f"{'-'*10} {'-'*10} {'-'*10} {'-'*10}")
+    
+    # Process each pointing
+    for pointing, df in all_analysis_results.items():
+        total = len(df)
+        selected = len(df[df['Status'] == 'PASS'])
+        percentage = (selected / total) * 100 if total > 0 else 0
+        
+        print(f"{pointing:<10} {selected:<10} {total:<10} {percentage:.1f}%")
+        
+        total_selected += selected
+        total_galaxies += total
+    
+    # Print total
+    if total_galaxies > 0:
+        total_percentage = (total_selected / total_galaxies) * 100
+        print(f"{'-'*10} {'-'*10} {'-'*10} {'-'*10}")
+        print(f"{'TOTAL':<10} {total_selected:<10} {total_galaxies:<10} {total_percentage:.1f}%")
+
+
 def main():
     """Main function with detailed diagnostic analysis (without cut3)."""
-    # Change output directory to indicate no cut3
-    global output_base_dir
-    output_base_dir = './3_Diagnostic_Analysis_NO_CUT3'
-    
+    # Use the single output directory defined at the top
     os.makedirs(output_base_dir, exist_ok=True)
     
     # Setup logging
@@ -538,24 +594,35 @@ def main():
             filter_data[filt] = data
             
         if not missing_data:
-            # Run detailed analysis
+            # Apply selection criteria to get the mask
+            selection_mask = apply_f115w_selection(filter_data)
+            
+            # Create filtered catalogs
+            create_filtered_catalogs(filter_data, selection_mask, pointing, output_base_dir)
+            
+            # Run detailed analysis - pass the selection_mask to avoid recalculating
             analysis_df = analyze_missed_galaxies_detailed(
                 filter_data, 
                 highlight_ids.get(pointing, []),
-                pointing
+                pointing,
+                selection_mask  # Add this parameter
             )
             all_analysis_results[pointing] = analysis_df
             
-            # Also run the original plotting for comparison
+            # Also run the original plotting for comparison - pass the selection_mask
             total, recovered = plot_snr_values(
                 filter_data, 
                 pointing, 
                 highlight_ids.get(pointing, []),
-                os.path.join(output_base_dir, pointing)
+                os.path.join(output_base_dir, pointing),
+                selection_mask  # Add this parameter
             )
     
     # Generate summary report across all pointings
     generate_summary_report(all_analysis_results)
+    
+    # Generate final summary table
+    generate_final_summary(all_analysis_results)
     
     print(f"\nDiagnostic analysis complete. All outputs saved to: {output_base_dir}")
 

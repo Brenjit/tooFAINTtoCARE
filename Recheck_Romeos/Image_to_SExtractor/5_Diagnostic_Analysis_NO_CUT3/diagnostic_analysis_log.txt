@@ -1,0 +1,289 @@
+DIAGNOSTIC ANALYSIS LOG - 2025-08-29 16:50:01
+================================================================================
+
+2025-08-29 16:50:01,952 - INFO - Starting detailed diagnostic analysis of 10 pointings (NO CUT3)
+2025-08-29 16:50:01,952 - INFO - Output will be saved to: ./5_Diagnostic_Analysis_NO_CUT3
+2025-08-29 16:50:01,952 - INFO - 
+================================================================================
+2025-08-29 16:50:01,952 - INFO - ANALYZING NIRCAM1 (NO CUT3)
+2025-08-29 16:50:01,952 - INFO - ================================================================================
+2025-08-29 16:50:03,657 - INFO - 
+============================================================
+2025-08-29 16:50:03,657 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM1 (NO CUT3)
+2025-08-29 16:50:03,657 - INFO - ============================================================
+2025-08-29 16:50:03,658 - INFO - Found 1146 candidates (selection without cut3).
+2025-08-29 16:50:03,661 - INFO - 
+SUMMARY FOR nircam1 (NO CUT3):
+2025-08-29 16:50:03,661 - INFO - Total Brenjit sources: 7
+2025-08-29 16:50:03,661 - INFO - Pass selection: 5
+2025-08-29 16:50:03,661 - INFO - Fail selection: 2
+2025-08-29 16:50:03,661 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:03,661 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:03,662 - INFO - ID 2858: PASS - All criteria passed | Colors: F115W-F150W=0.95, F150W-F277W=-0.32
+2025-08-29 16:50:03,662 - INFO - ID 4010: PASS - All criteria passed | Colors: F115W-F150W=1.96, F150W-F277W=-0.53
+2025-08-29 16:50:03,662 - INFO - ID 6802: PASS - All criteria passed | Colors: F115W-F150W=1.09, F150W-F277W=-0.26
+2025-08-29 16:50:03,662 - INFO - ID 8216: PASS - All criteria passed | Colors: F115W-F150W=4.47, F150W-F277W=0.31
+2025-08-29 16:50:03,662 - INFO - ID 11572: PASS - All criteria passed | Colors: F115W-F150W=1.45, F150W-F277W=-0.66
+2025-08-29 16:50:03,662 - INFO - ID 10899: FAIL - High SNR in veto bands: f606w(5.1), f814w(7.0) | Colors: F115W-F150W=2.34, F150W-F277W=-0.13
+2025-08-29 16:50:03,662 - INFO - ID 8272: FAIL - Low SNR in detection bands: f150w(1.1), f356w(3.6); Color1 failed: f115w SNR=8.0, color1=-1.98; Color2 out of range: 2.02 not in (-1.5, 1.0) | Colors: F115W-F150W=-1.98, F150W-F277W=2.02
+2025-08-29 16:50:03,662 - INFO -       SNR values: f150w=  1.1, f200w=  6.7, f277w= 10.6, f356w=  3.6
+2025-08-29 16:50:04,334 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam1/diagnostics_no_cut3
+2025-08-29 16:50:04,335 - INFO - Found 1146 candidates (selection without cut3).
+2025-08-29 16:50:04,335 - INFO - Total Brenjit_ID sources: 5/7
+2025-08-29 16:50:04,335 - INFO - Recovery rate: 71.4%
+2025-08-29 16:50:04,335 - INFO - Recovered IDs: 2858, 4010, 6802, 8216, 11572
+2025-08-29 16:50:04,335 - INFO - Missed IDs: 8272, 10899
+2025-08-29 16:50:07,948 - INFO - 
+================================================================================
+2025-08-29 16:50:07,948 - INFO - ANALYZING NIRCAM2 (NO CUT3)
+2025-08-29 16:50:07,948 - INFO - ================================================================================
+2025-08-29 16:50:09,378 - INFO - 
+============================================================
+2025-08-29 16:50:09,378 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM2 (NO CUT3)
+2025-08-29 16:50:09,378 - INFO - ============================================================
+2025-08-29 16:50:09,380 - INFO - Found 1165 candidates (selection without cut3).
+2025-08-29 16:50:09,387 - INFO - 
+SUMMARY FOR nircam2 (NO CUT3):
+2025-08-29 16:50:09,387 - INFO - Total Brenjit sources: 4
+2025-08-29 16:50:09,387 - INFO - Pass selection: 4
+2025-08-29 16:50:09,387 - INFO - Fail selection: 0
+2025-08-29 16:50:09,387 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:09,387 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:09,387 - INFO - ID 1332: PASS - All criteria passed | Colors: F115W-F150W=0.71, F150W-F277W=-0.49
+2025-08-29 16:50:09,388 - INFO - ID 2034: PASS - All criteria passed | Colors: F115W-F150W=1.00, F150W-F277W=0.11
+2025-08-29 16:50:09,388 - INFO - ID 5726: PASS - All criteria passed | Colors: F115W-F150W=1.79, F150W-F277W=-0.55
+2025-08-29 16:50:09,388 - INFO - ID 11316: PASS - All criteria passed | Colors: F115W-F150W=0.53, F150W-F277W=0.37
+2025-08-29 16:50:09,854 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam2/diagnostics_no_cut3
+2025-08-29 16:50:09,854 - INFO - Found 1165 candidates (selection without cut3).
+2025-08-29 16:50:09,855 - INFO - Total Brenjit_ID sources: 4/4
+2025-08-29 16:50:09,855 - INFO - Recovery rate: 100.0%
+2025-08-29 16:50:09,855 - INFO - Recovered IDs: 1332, 2034, 5726, 11316
+2025-08-29 16:50:13,863 - INFO - 
+================================================================================
+2025-08-29 16:50:13,863 - INFO - ANALYZING NIRCAM3 (NO CUT3)
+2025-08-29 16:50:13,864 - INFO - ================================================================================
+2025-08-29 16:50:15,439 - INFO - 
+============================================================
+2025-08-29 16:50:15,440 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM3 (NO CUT3)
+2025-08-29 16:50:15,440 - INFO - ============================================================
+2025-08-29 16:50:15,441 - INFO - Found 1261 candidates (selection without cut3).
+2025-08-29 16:50:15,446 - INFO - 
+SUMMARY FOR nircam3 (NO CUT3):
+2025-08-29 16:50:15,446 - INFO - Total Brenjit sources: 1
+2025-08-29 16:50:15,446 - INFO - Pass selection: 1
+2025-08-29 16:50:15,446 - INFO - Fail selection: 0
+2025-08-29 16:50:15,446 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:15,446 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:15,446 - INFO - ID 9992: PASS - All criteria passed | Colors: F115W-F150W=1.83, F150W-F277W=-0.09
+2025-08-29 16:50:16,002 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam3/diagnostics_no_cut3
+2025-08-29 16:50:16,003 - INFO - Found 1261 candidates (selection without cut3).
+2025-08-29 16:50:16,003 - INFO - Total Brenjit_ID sources: 1/1
+2025-08-29 16:50:16,003 - INFO - Recovery rate: 100.0%
+2025-08-29 16:50:16,003 - INFO - Recovered IDs: 9992
+2025-08-29 16:50:19,069 - INFO - 
+================================================================================
+2025-08-29 16:50:19,069 - INFO - ANALYZING NIRCAM4 (NO CUT3)
+2025-08-29 16:50:19,069 - INFO - ================================================================================
+2025-08-29 16:50:20,318 - INFO - 
+============================================================
+2025-08-29 16:50:20,318 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM4 (NO CUT3)
+2025-08-29 16:50:20,318 - INFO - ============================================================
+2025-08-29 16:50:20,319 - INFO - Found 1290 candidates (selection without cut3).
+2025-08-29 16:50:20,320 - INFO - 
+SUMMARY FOR nircam4 (NO CUT3):
+2025-08-29 16:50:20,320 - INFO - Total Brenjit sources: 7
+2025-08-29 16:50:20,320 - INFO - Pass selection: 6
+2025-08-29 16:50:20,320 - INFO - Fail selection: 1
+2025-08-29 16:50:20,320 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:20,320 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:20,320 - INFO - ID  315: PASS - All criteria passed | Colors: F115W-F150W=1.31, F150W-F277W=-0.65
+2025-08-29 16:50:20,320 - INFO - ID 1669: PASS - All criteria passed | Colors: F115W-F150W=1.38, F150W-F277W=-1.04
+2025-08-29 16:50:20,320 - INFO - ID 1843: PASS - All criteria passed | Colors: F115W-F150W=1.05, F150W-F277W=-0.45
+2025-08-29 16:50:20,320 - INFO - ID 9859: FAIL - High SNR in veto bands: f814w(7.5) | Colors: F115W-F150W=0.31, F150W-F277W=-0.43
+2025-08-29 16:50:20,320 - INFO - ID 9427: PASS - All criteria passed | Colors: F115W-F150W=0.68, F150W-F277W=-0.15
+2025-08-29 16:50:20,320 - INFO - ID 12415: PASS - All criteria passed | Colors: F115W-F150W=2.15, F150W-F277W=-0.02
+2025-08-29 16:50:20,320 - INFO - ID 11659: PASS - All criteria passed | Colors: F115W-F150W=2.17, F150W-F277W=-0.01
+2025-08-29 16:50:20,772 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam4/diagnostics_no_cut3
+2025-08-29 16:50:20,772 - INFO - Found 1290 candidates (selection without cut3).
+2025-08-29 16:50:20,772 - INFO - Total Brenjit_ID sources: 6/7
+2025-08-29 16:50:20,772 - INFO - Recovery rate: 85.7%
+2025-08-29 16:50:20,772 - INFO - Recovered IDs: 315, 1669, 1843, 9427, 11659, 12415
+2025-08-29 16:50:20,772 - INFO - Missed IDs: 9859
+2025-08-29 16:50:24,178 - INFO - 
+================================================================================
+2025-08-29 16:50:24,178 - INFO - ANALYZING NIRCAM5 (NO CUT3)
+2025-08-29 16:50:24,178 - INFO - ================================================================================
+2025-08-29 16:50:25,733 - INFO - 
+============================================================
+2025-08-29 16:50:25,733 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM5 (NO CUT3)
+2025-08-29 16:50:25,733 - INFO - ============================================================
+2025-08-29 16:50:25,734 - INFO - Found 1792 candidates (selection without cut3).
+2025-08-29 16:50:25,736 - INFO - 
+SUMMARY FOR nircam5 (NO CUT3):
+2025-08-29 16:50:25,736 - INFO - Total Brenjit sources: 5
+2025-08-29 16:50:25,736 - INFO - Pass selection: 5
+2025-08-29 16:50:25,736 - INFO - Fail selection: 0
+2025-08-29 16:50:25,736 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:25,736 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:25,736 - INFO - ID 4547: PASS - All criteria passed | Colors: F115W-F150W=1.82, F150W-F277W=-0.73
+2025-08-29 16:50:25,736 - INFO - ID 9883: PASS - All criteria passed | Colors: F115W-F150W=1.84, F150W-F277W=-0.18
+2025-08-29 16:50:25,736 - INFO - ID 12083: PASS - All criteria passed | Colors: F115W-F150W=1.31, F150W-F277W=0.14
+2025-08-29 16:50:25,736 - INFO - ID 12779: PASS - All criteria passed | Colors: F115W-F150W=1.98, F150W-F277W=-0.45
+2025-08-29 16:50:25,736 - INFO - ID 12888: PASS - All criteria passed | Colors: F115W-F150W=0.83, F150W-F277W=-0.20
+2025-08-29 16:50:26,231 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam5/diagnostics_no_cut3
+2025-08-29 16:50:26,232 - INFO - Found 1792 candidates (selection without cut3).
+2025-08-29 16:50:26,232 - INFO - Total Brenjit_ID sources: 5/5
+2025-08-29 16:50:26,232 - INFO - Recovery rate: 100.0%
+2025-08-29 16:50:26,232 - INFO - Recovered IDs: 4547, 9883, 12083, 12779, 12888
+2025-08-29 16:50:29,891 - INFO - 
+================================================================================
+2025-08-29 16:50:29,891 - INFO - ANALYZING NIRCAM6 (NO CUT3)
+2025-08-29 16:50:29,891 - INFO - ================================================================================
+2025-08-29 16:50:31,035 - INFO - 
+============================================================
+2025-08-29 16:50:31,035 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM6 (NO CUT3)
+2025-08-29 16:50:31,035 - INFO - ============================================================
+2025-08-29 16:50:31,036 - INFO - Found 1225 candidates (selection without cut3).
+2025-08-29 16:50:31,037 - INFO - 
+SUMMARY FOR nircam6 (NO CUT3):
+2025-08-29 16:50:31,037 - INFO - Total Brenjit sources: 1
+2025-08-29 16:50:31,037 - INFO - Pass selection: 1
+2025-08-29 16:50:31,037 - INFO - Fail selection: 0
+2025-08-29 16:50:31,037 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:31,037 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:31,037 - INFO - ID 3206: PASS - All criteria passed | Colors: F115W-F150W=0.73, F150W-F277W=-0.42
+2025-08-29 16:50:31,440 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam6/diagnostics_no_cut3
+2025-08-29 16:50:31,441 - INFO - Found 1225 candidates (selection without cut3).
+2025-08-29 16:50:31,441 - INFO - Total Brenjit_ID sources: 1/1
+2025-08-29 16:50:31,441 - INFO - Recovery rate: 100.0%
+2025-08-29 16:50:31,441 - INFO - Recovered IDs: 3206
+2025-08-29 16:50:34,390 - INFO - 
+================================================================================
+2025-08-29 16:50:34,390 - INFO - ANALYZING NIRCAM7 (NO CUT3)
+2025-08-29 16:50:34,390 - INFO - ================================================================================
+2025-08-29 16:50:36,052 - INFO - 
+============================================================
+2025-08-29 16:50:36,053 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM7 (NO CUT3)
+2025-08-29 16:50:36,053 - INFO - ============================================================
+2025-08-29 16:50:36,055 - INFO - Found 1967 candidates (selection without cut3).
+2025-08-29 16:50:36,057 - INFO - 
+SUMMARY FOR nircam7 (NO CUT3):
+2025-08-29 16:50:36,057 - INFO - Total Brenjit sources: 10
+2025-08-29 16:50:36,057 - INFO - Pass selection: 6
+2025-08-29 16:50:36,057 - INFO - Fail selection: 4
+2025-08-29 16:50:36,057 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:36,057 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:36,057 - INFO - ID 7070: PASS - All criteria passed | Colors: F115W-F150W=0.98, F150W-F277W=-0.85
+2025-08-29 16:50:36,057 - INFO - ID 9437: PASS - All criteria passed | Colors: F115W-F150W=70.60, F150W-F277W=0.24
+2025-08-29 16:50:36,057 - INFO - ID 9959: FAIL - High SNR in veto bands: f814w(6.1) | Colors: F115W-F150W=1.00, F150W-F277W=-0.98
+2025-08-29 16:50:36,057 - INFO - ID 11615: PASS - All criteria passed | Colors: F115W-F150W=0.75, F150W-F277W=0.04
+2025-08-29 16:50:36,057 - INFO - ID 11754: PASS - All criteria passed | Colors: F115W-F150W=1.17, F150W-F277W=-0.54
+2025-08-29 16:50:36,058 - INFO - ID 3581: FAIL - High SNR in veto bands: f606w(9.8), f814w(6.1) | Colors: F115W-F150W=0.21, F150W-F277W=0.25
+2025-08-29 16:50:36,058 - INFO - ID 13394: PASS - All criteria passed | Colors: F115W-F150W=0.98, F150W-F277W=-0.43
+2025-08-29 16:50:36,058 - INFO - ID 13743: FAIL - High SNR in veto bands: f606w(6.0) | Colors: F115W-F150W=1.10, F150W-F277W=0.27
+2025-08-29 16:50:36,058 - INFO - ID 14097: FAIL - High SNR in veto bands: f606w(6.0) | Colors: F115W-F150W=1.40, F150W-F277W=-0.12
+2025-08-29 16:50:36,058 - INFO - ID 14208: PASS - All criteria passed | Colors: F115W-F150W=71.69, F150W-F277W=-0.55
+2025-08-29 16:50:36,646 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam7/diagnostics_no_cut3
+2025-08-29 16:50:36,647 - INFO - Found 1967 candidates (selection without cut3).
+2025-08-29 16:50:36,647 - INFO - Total Brenjit_ID sources: 6/10
+2025-08-29 16:50:36,647 - INFO - Recovery rate: 60.0%
+2025-08-29 16:50:36,647 - INFO - Recovered IDs: 7070, 9437, 11615, 11754, 13394, 14208
+2025-08-29 16:50:36,647 - INFO - Missed IDs: 3581, 9959, 13743, 14097
+2025-08-29 16:50:41,042 - INFO - 
+================================================================================
+2025-08-29 16:50:41,042 - INFO - ANALYZING NIRCAM8 (NO CUT3)
+2025-08-29 16:50:41,042 - INFO - ================================================================================
+2025-08-29 16:50:42,756 - INFO - 
+============================================================
+2025-08-29 16:50:42,756 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM8 (NO CUT3)
+2025-08-29 16:50:42,756 - INFO - ============================================================
+2025-08-29 16:50:42,757 - INFO - Found 2074 candidates (selection without cut3).
+2025-08-29 16:50:42,759 - INFO - 
+SUMMARY FOR nircam8 (NO CUT3):
+2025-08-29 16:50:42,759 - INFO - Total Brenjit sources: 9
+2025-08-29 16:50:42,759 - INFO - Pass selection: 7
+2025-08-29 16:50:42,759 - INFO - Fail selection: 2
+2025-08-29 16:50:42,759 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:42,759 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:42,759 - INFO - ID 1398: PASS - All criteria passed | Colors: F115W-F150W=1.25, F150W-F277W=-0.03
+2025-08-29 16:50:42,760 - INFO - ID 2080: PASS - All criteria passed | Colors: F115W-F150W=2.46, F150W-F277W=-0.20
+2025-08-29 16:50:42,760 - INFO - ID 2288: PASS - All criteria passed | Colors: F115W-F150W=0.70, F150W-F277W=-0.41
+2025-08-29 16:50:42,760 - INFO - ID 4493: FAIL - High SNR in veto bands: f606w(10.5), f814w(6.7) | Colors: F115W-F150W=0.76, F150W-F277W=-0.14
+2025-08-29 16:50:42,760 - INFO - ID 6986: PASS - All criteria passed | Colors: F115W-F150W=1.33, F150W-F277W=-0.89
+2025-08-29 16:50:42,760 - INFO - ID 8954: PASS - All criteria passed | Colors: F115W-F150W=5.27, F150W-F277W=-0.27
+2025-08-29 16:50:42,760 - INFO - ID 9454: FAIL - High SNR in veto bands: f814w(5.5) | Colors: F115W-F150W=2.19, F150W-F277W=-0.27
+2025-08-29 16:50:42,760 - INFO - ID 11712: PASS - All criteria passed | Colors: F115W-F150W=3.26, F150W-F277W=0.20
+2025-08-29 16:50:42,760 - INFO - ID 14604: PASS - All criteria passed | Colors: F115W-F150W=0.74, F150W-F277W=-0.56
+2025-08-29 16:50:43,363 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam8/diagnostics_no_cut3
+2025-08-29 16:50:43,364 - INFO - Found 2074 candidates (selection without cut3).
+2025-08-29 16:50:43,364 - INFO - Total Brenjit_ID sources: 7/9
+2025-08-29 16:50:43,364 - INFO - Recovery rate: 77.8%
+2025-08-29 16:50:43,364 - INFO - Recovered IDs: 1398, 2080, 2288, 6986, 8954, 11712, 14604
+2025-08-29 16:50:43,364 - INFO - Missed IDs: 4493, 9454
+2025-08-29 16:50:47,579 - INFO - 
+================================================================================
+2025-08-29 16:50:47,579 - INFO - ANALYZING NIRCAM9 (NO CUT3)
+2025-08-29 16:50:47,579 - INFO - ================================================================================
+2025-08-29 16:50:49,229 - INFO - 
+============================================================
+2025-08-29 16:50:49,230 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM9 (NO CUT3)
+2025-08-29 16:50:49,230 - INFO - ============================================================
+2025-08-29 16:50:49,230 - INFO - Found 2027 candidates (selection without cut3).
+2025-08-29 16:50:49,268 - INFO - 
+SUMMARY FOR nircam9 (NO CUT3):
+2025-08-29 16:50:49,268 - INFO - Total Brenjit sources: 5
+2025-08-29 16:50:49,268 - INFO - Pass selection: 4
+2025-08-29 16:50:49,268 - INFO - Fail selection: 1
+2025-08-29 16:50:49,268 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:49,268 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:49,269 - INFO - ID 2646: PASS - All criteria passed | Colors: F115W-F150W=6.48, F150W-F277W=-0.09
+2025-08-29 16:50:49,269 - INFO - ID 3096: PASS - All criteria passed | Colors: F115W-F150W=1.43, F150W-F277W=-0.64
+2025-08-29 16:50:49,269 - INFO - ID 5572: PASS - All criteria passed | Colors: F115W-F150W=1.54, F150W-F277W=0.99
+2025-08-29 16:50:49,269 - INFO - ID 9061: PASS - All criteria passed | Colors: F115W-F150W=0.66, F150W-F277W=0.50
+2025-08-29 16:50:49,269 - INFO - ID 8076: FAIL - Low SNR in detection bands: f277w(-1386.4), f356w(-0.6); Color1 failed: f115w SNR=3.1, color1=-2.32; Color2 out of range: -64.63 not in (-1.5, 1.0) | Colors: F115W-F150W=-2.32, F150W-F277W=-64.63
+2025-08-29 16:50:49,269 - INFO -       SNR values: f150w= 84.4, f200w=877.1, f277w=-1386.4, f356w= -0.6
+2025-08-29 16:50:49,760 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam9/diagnostics_no_cut3
+2025-08-29 16:50:49,761 - INFO - Found 2027 candidates (selection without cut3).
+2025-08-29 16:50:49,761 - INFO - Total Brenjit_ID sources: 4/5
+2025-08-29 16:50:49,761 - INFO - Recovery rate: 80.0%
+2025-08-29 16:50:49,761 - INFO - Recovered IDs: 2646, 3096, 5572, 9061
+2025-08-29 16:50:49,761 - INFO - Missed IDs: 8076
+2025-08-29 16:50:53,598 - INFO - 
+================================================================================
+2025-08-29 16:50:53,599 - INFO - ANALYZING NIRCAM10 (NO CUT3)
+2025-08-29 16:50:53,599 - INFO - ================================================================================
+2025-08-29 16:50:54,653 - INFO - 
+============================================================
+2025-08-29 16:50:54,654 - INFO - DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM10 (NO CUT3)
+2025-08-29 16:50:54,654 - INFO - ============================================================
+2025-08-29 16:50:54,654 - INFO - Found 1151 candidates (selection without cut3).
+2025-08-29 16:50:54,655 - INFO - 
+SUMMARY FOR nircam10 (NO CUT3):
+2025-08-29 16:50:54,655 - INFO - Total Brenjit sources: 5
+2025-08-29 16:50:54,655 - INFO - Pass selection: 5
+2025-08-29 16:50:54,655 - INFO - Fail selection: 0
+2025-08-29 16:50:54,655 - INFO - 
+DETAILED ANALYSIS:
+2025-08-29 16:50:54,655 - INFO - ------------------------------------------------------------------------------------------------------------------------
+2025-08-29 16:50:54,655 - INFO - ID 1424: PASS - All criteria passed | Colors: F115W-F150W=1.24, F150W-F277W=-0.71
+2025-08-29 16:50:54,655 - INFO - ID 1935: PASS - All criteria passed | Colors: F115W-F150W=1.05, F150W-F277W=-0.55
+2025-08-29 16:50:54,655 - INFO - ID 7847: PASS - All criteria passed | Colors: F115W-F150W=0.69, F150W-F277W=-0.94
+2025-08-29 16:50:54,655 - INFO - ID 9562: PASS - All criteria passed | Colors: F115W-F150W=1.55, F150W-F277W=-0.43
+2025-08-29 16:50:54,655 - INFO - ID 10415: PASS - All criteria passed | Colors: F115W-F150W=1.04, F150W-F277W=-0.62
+2025-08-29 16:50:55,048 - INFO - Diagnostic plots saved to: ./5_Diagnostic_Analysis_NO_CUT3/nircam10/diagnostics_no_cut3
+2025-08-29 16:50:55,049 - INFO - Found 1151 candidates (selection without cut3).
+2025-08-29 16:50:55,049 - INFO - Total Brenjit_ID sources: 5/5
+2025-08-29 16:50:55,049 - INFO - Recovery rate: 100.0%
+2025-08-29 16:50:55,049 - INFO - Recovered IDs: 1424, 1935, 7847, 9562, 10415
+2025-08-29 16:50:58,687 - INFO - Summary report saved to: ./5_Diagnostic_Analysis_NO_CUT3/diagnostic_summary_report.txt
+2025-08-29 16:50:58,688 - INFO - 
+Diagnostic analysis complete. All outputs saved to: ./5_Diagnostic_Analysis_NO_CUT3
