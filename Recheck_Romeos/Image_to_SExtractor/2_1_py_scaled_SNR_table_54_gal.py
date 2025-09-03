@@ -2,13 +2,21 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 from astropy.io import ascii
+import pandas as pd
 
 # === Configuration ===
 base_dir = '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/'
 catalog_subdir = 'catalogue_z7'
+eazy_catalog_dir = '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/EAZY/eazy-photoz/inputs/Eazy_catalogue/'
 pointings = [f'nircam{i}' for i in range(1, 11)]
 filters = ['f606w', 'f814w', 'f115w', 'f150w', 'f200w', 'f277w', 'f356w', 'f410m', 'f444w']
-print("Running code 1 again")
+print("Running code for all SNRs (SExtractor, Scaled, NMAD)")
+
+# Filter mapping for EAZY catalog
+filter_mapping = {
+    'f606w': 'F606W', 'f814w': 'F814W', 'f115w': 'F115W', 'f150w': 'F150W',
+    'f200w': 'F200W', 'f277w': 'F277W', 'f356w': 'F356W', 'f410m': 'F410M', 'f444w': 'F444W'
+}
 
 # Scaling factors for each pointing and filter (from fit: NMAD_SNR = k × SEXTRACTOR_SNR)
 scaling_factors = {
@@ -100,12 +108,74 @@ def read_sextractor_catalog(filepath, pointing, filter_name):
     
     return data
 
+# === Function to read EAZY catalog with NMAD flux measurements ===
+def read_eazy_catalog(filepath):
+    """Reads the EAZY catalog with NMAD flux measurements."""
+    try:
+        # Read the catalog
+        with open(filepath, 'r') as f:
+            lines = f.readlines()
+        
+        # Extract header information
+        header = []
+        data_lines = []
+        for line in lines:
+            if line.startswith('#'):
+                header.append(line.strip())
+            else:
+                data_lines.append(line.strip())
+        
+        # Parse the data
+        data = []
+        for line in data_lines:
+            values = line.split()
+            if len(values) == 19:  # id + 9 filters (flux + error each)
+                row = {
+                    'id': int(values[0]),
+                    'f_F606W': float(values[1]), 'e_F606W': float(values[2]),
+                    'f_F814W': float(values[3]), 'e_F814W': float(values[4]),
+                    'f_F115W': float(values[5]), 'e_F115W': float(values[6]),
+                    'f_F150W': float(values[7]), 'e_F150W': float(values[8]),
+                    'f_F200W': float(values[9]), 'e_F200W': float(values[10]),
+                    'f_F277W': float(values[11]), 'e_F277W': float(values[12]),
+                    'f_F356W': float(values[13]), 'e_F356W': float(values[14]),
+                    'f_F410M': float(values[15]), 'e_F410M': float(values[16]),
+                    'f_F444W': float(values[17]), 'e_F444W': float(values[18])
+                }
+                data.append(row)
+        
+        return pd.DataFrame(data)
+    except Exception as e:
+        print(f"Error reading EAZY catalog {filepath}: {e}")
+        return None
+
+# === Function to calculate NMAD SNR from EAZY data ===
+def calculate_nmad_snr(eazy_data):
+    """Calculate SNR from NMAD flux and error measurements."""
+    snr_data = {}
+    for filt in filters:
+        eazy_filt = filter_mapping[filt]
+        flux_col = f'f_{eazy_filt}'
+        err_col = f'e_{eazy_filt}'
+        
+        if flux_col in eazy_data.columns and err_col in eazy_data.columns:
+            with np.errstate(divide='ignore', invalid='ignore'):
+                snr = eazy_data[flux_col] / eazy_data[err_col]
+            snr[np.isinf(snr) | np.isnan(snr)] = 0
+            snr_data[filt] = snr
+        else:
+            print(f"Warning: Columns {flux_col} or {err_col} not found in EAZY data")
+            snr_data[filt] = np.zeros(len(eazy_data))
+    
+    return snr_data
+
 # === Function to create comparison plots for each pointing ===
-def create_comparison_plots_for_pointing(pointing, filter_data, all_snr_data, output_dir):
+def create_comparison_plots_for_pointing(pointing, filter_data, eazy_data, nmad_snr, all_snr_data, output_dir):
     """
-    Create comparison plots for a pointing with two sections:
+    Create comparison plots for a pointing with three columns:
     Left: Original SExtractor SNR for highlighted galaxies
-    Right: Scaled SNR for highlighted galaxies
+    Middle: Scaled SNR for highlighted galaxies
+    Right: NMAD SNR for highlighted galaxies
     """
     if pointing not in all_snr_data or not all_snr_data[pointing]:
         return
@@ -115,7 +185,7 @@ def create_comparison_plots_for_pointing(pointing, filter_data, all_snr_data, ou
     n_galaxies = len(galaxy_ids)
     
     # Create a figure with subplots
-    fig, axes = plt.subplots(n_galaxies, 2, figsize=(12, 3*n_galaxies))
+    fig, axes = plt.subplots(n_galaxies, 3, figsize=(18, 3*n_galaxies))
     fig.suptitle(f'SNR Comparison - {pointing.upper()}', fontsize=16)
     
     # If only one galaxy, make axes 2D for consistent indexing
@@ -124,9 +194,10 @@ def create_comparison_plots_for_pointing(pointing, filter_data, all_snr_data, ou
     
     # Plot each galaxy
     for idx, galaxy_id in enumerate(galaxy_ids):
-        # Get original and scaled SNR values
+        # Get original, scaled, and NMAD SNR values
         original_snr_values = []
         scaled_snr_values = []
+        nmad_snr_values = []
         
         for filt in filters:
             if filt in filter_data:
@@ -141,6 +212,16 @@ def create_comparison_plots_for_pointing(pointing, filter_data, all_snr_data, ou
             else:
                 original_snr_values.append(0)
                 scaled_snr_values.append(0)
+            
+            # Get NMAD SNR
+            if eazy_data is not None:
+                eazy_match = eazy_data[eazy_data['id'] == galaxy_id]
+                if len(eazy_match) > 0:
+                    nmad_snr_values.append(nmad_snr[filt].iloc[eazy_match.index[0]])
+                else:
+                    nmad_snr_values.append(0)
+            else:
+                nmad_snr_values.append(0)
         
         # Left: Original SExtractor SNR
         ax_left = axes[idx, 0]
@@ -161,19 +242,37 @@ def create_comparison_plots_for_pointing(pointing, filter_data, all_snr_data, ou
         ax_left.grid(True, alpha=0.3, axis='y')
         ax_left.axhline(y=5, color='r', linestyle='--', alpha=0.7, linewidth=1)
         
-        # Right: Scaled SNR
-        ax_right = axes[idx, 1]
-        bars_right = ax_right.bar(x_pos, scaled_snr_values, alpha=0.7, color='orange')
+        # Middle: Scaled SNR
+        ax_middle = axes[idx, 1]
+        bars_middle = ax_middle.bar(x_pos, scaled_snr_values, alpha=0.7, color='orange')
         
         # Add value labels on top of bars
         for i, v in enumerate(scaled_snr_values):
             if v > 0:
-                ax_right.text(i, v + max(scaled_snr_values)*0.02, f'{v:.1f}', 
+                ax_middle.text(i, v + max(scaled_snr_values)*0.02, f'{v:.1f}', 
                              ha='center', va='bottom', fontsize=8)
         
-        ax_right.set_title(f'Galaxy ID: {galaxy_id} - Scaled SNR', fontsize=10)
+        ax_middle.set_title(f'Galaxy ID: {galaxy_id} - Scaled SNR', fontsize=10)
+        ax_middle.set_xlabel('Filter')
+        ax_middle.set_ylabel('SNR (Scaled)')
+        ax_middle.set_xticks(x_pos)
+        ax_middle.set_xticklabels([f.upper() for f in filters], rotation=45, ha='right')
+        ax_middle.grid(True, alpha=0.3, axis='y')
+        ax_middle.axhline(y=5, color='r', linestyle='--', alpha=0.7, linewidth=1)
+        
+        # Right: NMAD SNR
+        ax_right = axes[idx, 2]
+        bars_right = ax_right.bar(x_pos, nmad_snr_values, alpha=0.7, color='green')
+        
+        # Add value labels on top of bars
+        for i, v in enumerate(nmad_snr_values):
+            if v > 0:
+                ax_right.text(i, v + max(nmad_snr_values)*0.02, f'{v:.1f}', 
+                             ha='center', va='bottom', fontsize=8)
+        
+        ax_right.set_title(f'Galaxy ID: {galaxy_id} - NMAD SNR', fontsize=10)
         ax_right.set_xlabel('Filter')
-        ax_right.set_ylabel('SNR (NMAD equivalent)')
+        ax_right.set_ylabel('SNR (NMAD)')
         ax_right.set_xticks(x_pos)
         ax_right.set_xticklabels([f.upper() for f in filters], rotation=45, ha='right')
         ax_right.grid(True, alpha=0.3, axis='y')
@@ -190,30 +289,29 @@ def create_comparison_plots_for_pointing(pointing, filter_data, all_snr_data, ou
     print(f"Created SNR comparison plot for {pointing}")
 
 # === Function to create individual galaxy plots ===
-def create_individual_galaxy_plots(all_snr_data, output_dir):
+def create_individual_galaxy_plots(all_snr_data, all_original_snr_data, all_nmad_snr_data, output_dir):
     """
-    Create individual plots for each highlighted galaxy showing both original and scaled SNR
+    Create individual plots for each highlighted galaxy showing original, scaled, and NMAD SNR
     """
     individual_plots_dir = os.path.join(output_dir, "individual_galaxies")
     os.makedirs(individual_plots_dir, exist_ok=True)
     
     for pointing, snr_dict in all_snr_data.items():
         for galaxy_id, snr_values in snr_dict.items():
-            # We need to get the original SNR values for this galaxy
-            # This will be handled in the main function
+            original_snr_values = all_original_snr_data[pointing][galaxy_id]
+            nmad_snr_values = all_nmad_snr_data[pointing][galaxy_id]
             
-            # For now, just create a placeholder
-            plt.figure(figsize=(12, 6))
+            plt.figure(figsize=(18, 6))
             
-            # Create two subplots
-            plt.subplot(1, 2, 1)
+            # Create three subplots
+            plt.subplot(1, 3, 1)
             x_pos = np.arange(len(filters))
-            bars = plt.bar(x_pos, snr_values, alpha=0.7, color='steelblue')
+            bars = plt.bar(x_pos, original_snr_values, alpha=0.7, color='steelblue')
             
             # Add value labels on top of bars
-            for i, v in enumerate(snr_values):
+            for i, v in enumerate(original_snr_values):
                 if v > 0:
-                    plt.text(i, v + max(snr_values)*0.02, f'{v:.1f}', 
+                    plt.text(i, v + max(original_snr_values)*0.02, f'{v:.1f}', 
                             ha='center', va='bottom', fontsize=10)
             
             plt.title(f'Original SNR - {pointing.upper()} Galaxy ID: {galaxy_id}', fontsize=12)
@@ -223,7 +321,7 @@ def create_individual_galaxy_plots(all_snr_data, output_dir):
             plt.grid(True, alpha=0.3, axis='y')
             plt.axhline(y=5, color='r', linestyle='--', alpha=0.7, linewidth=1.5)
             
-            plt.subplot(1, 2, 2)
+            plt.subplot(1, 3, 2)
             bars = plt.bar(x_pos, snr_values, alpha=0.7, color='orange')
             
             # Add value labels on top of bars
@@ -234,7 +332,23 @@ def create_individual_galaxy_plots(all_snr_data, output_dir):
             
             plt.title(f'Scaled SNR - {pointing.upper()} Galaxy ID: {galaxy_id}', fontsize=12)
             plt.xlabel('Filter')
-            plt.ylabel('SNR (NMAD equivalent)')
+            plt.ylabel('SNR (Scaled)')
+            plt.xticks(x_pos, [f.upper() for f in filters], rotation=45)
+            plt.grid(True, alpha=0.3, axis='y')
+            plt.axhline(y=5, color='r', linestyle='--', alpha=0.7, linewidth=1.5)
+            
+            plt.subplot(1, 3, 3)
+            bars = plt.bar(x_pos, nmad_snr_values, alpha=0.7, color='green')
+            
+            # Add value labels on top of bars
+            for i, v in enumerate(nmad_snr_values):
+                if v > 0:
+                    plt.text(i, v + max(nmad_snr_values)*0.02, f'{v:.1f}', 
+                            ha='center', va='bottom', fontsize=10)
+            
+            plt.title(f'NMAD SNR - {pointing.upper()} Galaxy ID: {galaxy_id}', fontsize=12)
+            plt.xlabel('Filter')
+            plt.ylabel('SNR (NMAD)')
             plt.xticks(x_pos, [f.upper() for f in filters], rotation=45)
             plt.grid(True, alpha=0.3, axis='y')
             plt.axhline(y=5, color='r', linestyle='--', alpha=0.7, linewidth=1.5)
@@ -253,6 +367,7 @@ def main():
     # Store all SNR data for plotting
     all_snr_data = {}
     all_original_snr_data = {}  # Store original SNR values
+    all_nmad_snr_data = {}  # Store NMAD SNR values
     all_filter_data = {}  # Store all filter data
 
     with open(output_file, "w") as f:
@@ -281,21 +396,38 @@ def main():
             # Store filter data for comparison plots
             all_filter_data[pointing] = filter_data
             
+            # Read EAZY catalog for NMAD SNR
+            eazy_file = os.path.join(eazy_catalog_dir, f"{pointing}_eazy_catalogue_54_gal.cat")
+            eazy_data = None
+            nmad_snr = None
+            
+            if os.path.exists(eazy_file):
+                eazy_data = read_eazy_catalog(eazy_file)
+                if eazy_data is not None:
+                    nmad_snr = calculate_nmad_snr(eazy_data)
+                else:
+                    print(f"Could not read EAZY data for {pointing}")
+            else:
+                print(f"EAZY catalog not found: {eazy_file}")
+            
             # Initialize SNR data for this pointing
             all_snr_data[pointing] = {}
             all_original_snr_data[pointing] = {}
+            all_nmad_snr_data[pointing] = {}
             
             # Process only Brenjit IDs for this pointing
             for bid in highlight_ids.get(pointing, []):
                 row_values = [pointing, str(bid)]
                 snr_values = []
                 original_snr_values = []
+                nmad_snr_values = []
                 
                 for filt in filters:
                     if filt not in filter_data:
                         row_values += ["NA", "NA", "NA"]
                         snr_values.append(0)
                         original_snr_values.append(0)
+                        nmad_snr_values.append(0)
                         continue
                         
                     data = filter_data[filt]
@@ -313,21 +445,30 @@ def main():
                         row_values += ["NA", "NA", "NA"]
                         snr_values.append(0)
                         original_snr_values.append(0)
+                    
+                    # Get NMAD SNR
+                    if eazy_data is not None and nmad_snr is not None:
+                        eazy_match = eazy_data[eazy_data['id'] == bid]
+                        if len(eazy_match) > 0:
+                            nmad_snr_values.append(nmad_snr[filt].iloc[eazy_match.index[0]])
+                        else:
+                            nmad_snr_values.append(0)
+                    else:
+                        nmad_snr_values.append(0)
                 
                 f.write("\t".join(row_values) + "\n")
                 all_snr_data[pointing][bid] = snr_values
                 all_original_snr_data[pointing][bid] = original_snr_values
+                all_nmad_snr_data[pointing][bid] = nmad_snr_values
+            
+            # Create comparison plots for this pointing
+            create_comparison_plots_for_pointing(pointing, filter_data, eazy_data, nmad_snr, all_snr_data, output_dir)
 
     print(f"✅ Done! Output saved to {output_file}")
 
-    # === Create SNR comparison plots ===
-    print("Creating SNR comparison plots...")
-    for pointing in all_filter_data:
-        create_comparison_plots_for_pointing(pointing, all_filter_data[pointing], all_snr_data, output_dir)
-
     # === Create individual galaxy plots ===
     print("Creating individual galaxy plots...")
-    create_individual_galaxy_plots(all_snr_data, output_dir)
+    create_individual_galaxy_plots(all_snr_data, all_original_snr_data, all_nmad_snr_data, output_dir)
 
     print(f"✅ All plots saved to {output_dir}")
 

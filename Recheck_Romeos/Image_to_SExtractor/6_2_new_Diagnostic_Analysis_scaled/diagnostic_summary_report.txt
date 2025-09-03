@@ -106,10 +106,78 @@ High SNR in veto bands: f606w(2.5), f814w(2.5): 1 galaxies
 Color3 failed: color1=0.69 <= 0.94: 1 galaxies
 Color3 failed: color1=1.04 <= 1.08: 1 galaxies
 
-CRITERIA FAILURE SUMMARY:
-==============================
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
 Low SNR in detection bands: 9 galaxies (16.7%)
+--------------------------------------------------
+  Source 8272 in nircam10 : F150W(0.6), F200W(3.0), F356W(3.0), F444W(4.6)
+  Source 11316 in nircam10 : F150W(3.3)
+  Source 9859 in nircam10 : F444W(4.2)
+  Source 4547 in nircam10 : F444W(4.2)
+  Source 11615 in nircam10 : F150W(4.6)
+  Source 2646 in nircam10 : F444W(4.3)
+  Source 5572 in nircam10 : F150W(4.1)
+  Source 9061 in nircam10 : F150W(4.1)
+  Source 8076 in nircam10 : F150W(0.1), F200W(1.4), F277W(-1.5), F356W(-0.3), F444W(1.3)
+
 High SNR in veto bands: 19 galaxies (35.2%)
+--------------------------------------------------
+  Source 10899 in nircam10 : F606W(3.6), F814W(2.3)
+  Source 1332 in nircam10 : F814W(2.0)
+  Source 9992 in nircam10 : F814W(2.5)
+  Source 1669 in nircam10 : F606W(2.8)
+  Source 9859 in nircam10 : F606W(3.2), F814W(3.0)
+  Source 12083 in nircam10 : F814W(2.9)
+  Source 7070 in nircam10 : F814W(2.3)
+  Source 9959 in nircam10 : F814W(3.0)
+  Source 3581 in nircam10 : F606W(5.0), F814W(3.0)
+  Source 13743 in nircam10 : F606W(3.1), F814W(2.3)
+  Source 14097 in nircam10 : F606W(3.0)
+  Source 2080 in nircam10 : F814W(2.0)
+  Source 4493 in nircam10 : F606W(3.8), F814W(2.9)
+  Source 9454 in nircam10 : F814W(2.4)
+  Source 3096 in nircam10 : F606W(2.4), F814W(3.2)
+  Source 5572 in nircam10 : F606W(3.2)
+  Source 8076 in nircam10 : F606W(2.2)
+  Source 7847 in nircam10 : F606W(2.5), F814W(2.5)
+  Source 10415 in nircam10 : F814W(2.5)
+
 Color1 failed: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam10 : F115W SNR=5.8, Color1=-1.98
+  Source 8076 in nircam10 : F115W SNR=2.1, Color1=-2.32
+
 Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam10 : Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam10 : Color2=-64.63 (range: -1.5 to 1.0)
+
 Color3 failed: 26 galaxies (48.1%)
+--------------------------------------------------
+  Source 2858 in nircam10 : Color1=0.95, Threshold=1.21
+  Source 6802 in nircam10 : Color1=1.09, Threshold=1.24
+  Source 8272 in nircam10 : Color1=-1.98, Threshold=2.24
+  Source 1332 in nircam10 : Color1=0.71, Threshold=1.14
+  Source 2034 in nircam10 : Color1=1.00, Threshold=1.40
+  Source 11316 in nircam10 : Color1=0.53, Threshold=1.52
+  Source 1843 in nircam10 : Color1=1.05, Threshold=1.15
+  Source 9859 in nircam10 : Color1=0.31, Threshold=1.16
+  Source 9427 in nircam10 : Color1=0.68, Threshold=1.29
+  Source 12083 in nircam10 : Color1=1.31, Threshold=1.41
+  Source 12888 in nircam10 : Color1=0.83, Threshold=1.27
+  Source 3206 in nircam10 : Color1=0.73, Threshold=1.17
+  Source 7070 in nircam10 : Color1=0.98, Threshold=0.98
+  Source 11615 in nircam10 : Color1=0.75, Threshold=1.37
+  Source 3581 in nircam10 : Color1=0.21, Threshold=1.46
+  Source 13394 in nircam10 : Color1=0.98, Threshold=1.16
+  Source 13743 in nircam10 : Color1=1.10, Threshold=1.47
+  Source 1398 in nircam10 : Color1=1.25, Threshold=1.34
+  Source 2288 in nircam10 : Color1=0.70, Threshold=1.17
+  Source 4493 in nircam10 : Color1=0.76, Threshold=1.29
+  Source 14604 in nircam10 : Color1=0.74, Threshold=1.10
+  Source 5572 in nircam10 : Color1=1.54, Threshold=1.79
+  Source 9061 in nircam10 : Color1=0.66, Threshold=1.57
+  Source 1935 in nircam10 : Color1=1.05, Threshold=1.11
+  Source 7847 in nircam10 : Color1=0.69, Threshold=0.94
+  Source 10415 in nircam10 : Color1=1.04, Threshold=1.08

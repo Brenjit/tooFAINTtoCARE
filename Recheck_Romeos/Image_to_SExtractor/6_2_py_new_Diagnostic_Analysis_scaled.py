@@ -589,7 +589,7 @@ def create_filtered_catalogs(filter_data, selection_mask, pointing, output_base_
             print(f"  Error writing {output_path}: {e}")
             
 def generate_final_summary(all_analysis_results):
-    """Generate a final summary table with counts and percentages."""
+    """Generate a final summary table with counts and percentages and detailed criteria failure information."""
     print(f"\n{'='*80}")
     print("FINAL SUMMARY TABLE")
     print(f"{'='*80}")
@@ -597,14 +597,14 @@ def generate_final_summary(all_analysis_results):
     total_selected = 0
     total_galaxies = 0
     
-    # Initialize criteria counters
+    # Initialize criteria counters and detailed failure information
     criteria_failures = {
-        'Low SNR in detection bands': 0,
-        'High SNR in veto bands': 0,
-        'Color1 failed': 0,
-        'Color2 out of range': 0,
-        'Color3 failed': 0,
-        'Not found in catalog': 0
+        'Low SNR in detection bands': {'count': 0, 'details': {}},
+        'High SNR in veto bands': {'count': 0, 'details': {}},
+        'Color1 failed': {'count': 0, 'details': {}},
+        'Color2 out of range': {'count': 0, 'details': {}},
+        'Color3 failed': {'count': 0, 'details': {}},
+        'Not found in catalog': {'count': 0, 'details': {}}
     }
     
     # Print header
@@ -631,25 +631,82 @@ def generate_final_summary(all_analysis_results):
             if row['Status'] == 'FAIL':
                 reasons = row['Reasons'].split('; ')
                 for reason in reasons:
-                    # Categorize the failure reason
+                    # Categorize the failure reason and store details with pointing info
                     if 'Low SNR in detection bands' in reason:
                         pointing_failures['Low SNR in detection bands'] += 1
-                        criteria_failures['Low SNR in detection bands'] += 1
+                        criteria_failures['Low SNR in detection bands']['count'] += 1
+                        # Extract which filters failed
+                        failed_filters = []
+                        if row['f150w_SNR'] <= 5: failed_filters.append(f"F150W({row['f150w_SNR']:.1f})")
+                        if row['f200w_SNR'] <= 5: failed_filters.append(f"F200W({row['f200w_SNR']:.1f})")
+                        if row['f277w_SNR'] <= 5: failed_filters.append(f"F277W({row['f277w_SNR']:.1f})")
+                        if row['f356w_SNR'] <= 5: failed_filters.append(f"F356W({row['f356w_SNR']:.1f})")
+                        if row['f444w_SNR'] <= 5: failed_filters.append(f"F444W({row['f444w_SNR']:.1f})")
+                        # Store with pointing information
+                        key = f"{pointing}_{row['ID']}"
+                        criteria_failures['Low SNR in detection bands']['details'][key] = {
+                            'pointing': pointing,
+                            'id': row['ID'],
+                            'details': failed_filters
+                        }
+                        
                     elif 'High SNR in veto bands' in reason:
                         pointing_failures['High SNR in veto bands'] += 1
-                        criteria_failures['High SNR in veto bands'] += 1
+                        criteria_failures['High SNR in veto bands']['count'] += 1
+                        # Extract which veto filters failed
+                        failed_veto = []
+                        if row['f606w_SNR'] >= 2: failed_veto.append(f"F606W({row['f606w_SNR']:.1f})")
+                        if row['f814w_SNR'] >= 2: failed_veto.append(f"F814W({row['f814w_SNR']:.1f})")
+                        # Store with pointing information
+                        key = f"{pointing}_{row['ID']}"
+                        criteria_failures['High SNR in veto bands']['details'][key] = {
+                            'pointing': pointing,
+                            'id': row['ID'],
+                            'details': failed_veto
+                        }
+                        
                     elif 'Color1 failed' in reason:
                         pointing_failures['Color1 failed'] += 1
-                        criteria_failures['Color1 failed'] += 1
+                        criteria_failures['Color1 failed']['count'] += 1
+                        # Store with pointing information
+                        key = f"{pointing}_{row['ID']}"
+                        criteria_failures['Color1 failed']['details'][key] = {
+                            'pointing': pointing,
+                            'id': row['ID'],
+                            'details': f"F115W SNR={row['f115w_SNR']:.1f}, Color1={row['Color1']:.2f}"
+                        }
+                        
                     elif 'Color2 out of range' in reason:
                         pointing_failures['Color2 out of range'] += 1
-                        criteria_failures['Color2 out of range'] += 1
+                        criteria_failures['Color2 out of range']['count'] += 1
+                        # Store with pointing information
+                        key = f"{pointing}_{row['ID']}"
+                        criteria_failures['Color2 out of range']['details'][key] = {
+                            'pointing': pointing,
+                            'id': row['ID'],
+                            'details': f"Color2={row['Color2']:.2f} (range: -1.5 to 1.0)"
+                        }
+                        
                     elif 'Color3 failed' in reason:
                         pointing_failures['Color3 failed'] += 1
-                        criteria_failures['Color3 failed'] += 1
+                        criteria_failures['Color3 failed']['count'] += 1
+                        # Store with pointing information
+                        key = f"{pointing}_{row['ID']}"
+                        criteria_failures['Color3 failed']['details'][key] = {
+                            'pointing': pointing,
+                            'id': row['ID'],
+                            'details': f"Color1={row['Color1']:.2f}, Threshold={row['Cut3_Threshold']:.2f}"
+                        }
             elif row['Status'] == 'Not found in catalog':
                 pointing_failures['Not found in catalog'] += 1
-                criteria_failures['Not found in catalog'] += 1
+                criteria_failures['Not found in catalog']['count'] += 1
+                # Store with pointing information
+                key = f"{pointing}_{row['ID']}"
+                criteria_failures['Not found in catalog']['details'][key] = {
+                    'pointing': pointing,
+                    'id': row['ID'],
+                    'details': "Source ID not present in catalog"
+                }
         
         # Create criteria string for this pointing
         criteria_str = ""
@@ -670,23 +727,50 @@ def generate_final_summary(all_analysis_results):
         print(f"{'-'*10} {'-'*10} {'-'*10} {'-'*10} {'-'*20}")
         print(f"{'TOTAL':<10} {total_selected:<10} {total_galaxies:<10} {total_percentage:>9.1f}%")
         
-        # Print criteria summary
-        print(f"\n{'CRITERIA FAILURE SUMMARY':<30} {'Count':<10} {'Percentage':<10}")
-        print(f"{'-'*30} {'-'*10} {'-'*10}")
-        for criterion, count in criteria_failures.items():
-            if count > 0:
-                percentage = (count / total_galaxies) * 100
-                print(f"{criterion:<30} {count:<10} {percentage:>9.1f}%")
+        # Print detailed criteria failure summary
+        print(f"\n{'DETAILED CRITERIA FAILURE ANALYSIS':<50}")
+        print(f"{'='*50}")
+        
+        for criterion, data in criteria_failures.items():
+            if data['count'] > 0:
+                percentage = (data['count'] / total_galaxies) * 100
+                print(f"\n{criterion}: {data['count']} galaxies ({percentage:.1f}%)")
+                print("-" * 50)
+                
+                for key, failure_info in data['details'].items():
+                    pointing = failure_info['pointing']
+                    gal_id = failure_info['id']
+                    details = failure_info['details']
+                    
+                    if isinstance(details, list):
+                        # For multiple filter failures
+                        print(f"  Source {gal_id} in {pointing}: {', '.join(details)}")
+                    else:
+                        # For single value failures
+                        print(f"  Source {gal_id} in {pointing}: {details}")
     
-    # Also add criteria information to the summary report
+    # Also add detailed criteria information to the summary report
     summary_file = os.path.join(output_base_dir, "diagnostic_summary_report.txt")
     with open(summary_file, 'a') as f:
-        f.write(f"\nCRITERIA FAILURE SUMMARY:\n")
-        f.write("=" * 30 + "\n")
-        for criterion, count in criteria_failures.items():
-            if count > 0:
-                percentage = (count / total_galaxies) * 100
-                f.write(f"{criterion}: {count} galaxies ({percentage:.1f}%)\n")
+        f.write(f"\n{'DETAILED CRITERIA FAILURE ANALYSIS':<50}\n")
+        f.write("=" * 50 + "\n")
+        
+        for criterion, data in criteria_failures.items():
+            if data['count'] > 0:
+                percentage = (data['count'] / total_galaxies) * 100
+                f.write(f"\n{criterion}: {data['count']} galaxies ({percentage:.1f}%)\n")
+                f.write("-" * 50 + "\n")
+                
+                for key, failure_info in data['details'].items():
+                    pointing = failure_info['pointing']
+                    gal_id = failure_info['id']
+                    details = failure_info['details']
+                    
+                    if isinstance(details, list):
+                        f.write(f"  Source {gal_id} in {pointing}: {', '.join(details)}\n")
+                    else:
+                        f.write(f"  Source {gal_id} in {pointing}: {details}\n")
+                        
 def main():
     """Main function with detailed diagnostic analysis."""
     # Use the single output directory defined at the top
