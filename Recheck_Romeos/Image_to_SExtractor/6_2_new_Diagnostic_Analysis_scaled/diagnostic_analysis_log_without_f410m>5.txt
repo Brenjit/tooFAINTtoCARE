@@ -1,6 +1,6 @@
 
 ================================================================================
-DIAGNOSTIC ANALYSIS LOG - 2025-09-03 10:57:38
+DIAGNOSTIC ANALYSIS LOG - 2025-09-03 11:16:29
 ================================================================================
 
 Starting detailed diagnostic analysis of 10 pointings
@@ -19,7 +19,7 @@ Applied scaling factor 0.651900 to f277w SNR for nircam1
 Applied scaling factor 0.831900 to f356w SNR for nircam1
 Applied scaling factor 0.657200 to f410m SNR for nircam1
 Applied scaling factor 0.617500 to f444w SNR for nircam1
-Found 79 candidates.
+Found 983 candidates.
 Creating filtered catalogs for nircam1 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam1
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam1/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam1/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam1/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam1/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -37,23 +37,23 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM1
 
 SUMMARY FOR nircam1:
 Total Brenjit sources: 7
-Pass selection: 3
-Fail selection: 4
+Pass selection: 6
+Fail selection: 1
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
-ID 2858: FAIL - Color3 failed: color1=0.95 <= 1.21
+ID 2858: PASS - All criteria passed
 ID 4010: PASS - All criteria passed
-ID 6802: FAIL - Color3 failed: color1=1.09 <= 1.24
+ID 6802: PASS - All criteria passed
 ID 8216: PASS - All criteria passed
 ID 11572: PASS - All criteria passed
-ID 10899: FAIL - High SNR in veto bands: f606w(3.6), f814w(2.3)
-ID 8272: FAIL - Low SNR in detection bands: f150w(0.6), f200w(3.0), f356w(3.0), f444w(4.6); Color1 failed: f115w SNR=5.8, color1=-1.98; Color2 out of range: 2.02 not in (-1.5, 1.0); Color3 failed: color1=-1.98 <= 2.24
+ID 10899: PASS - All criteria passed
+ID 8272: FAIL - Low SNR in detection bands: f150w(0.6), f200w(3.0), f356w(3.0), f444w(4.6); Color1 failed: f115w SNR=5.8, color1=-1.98; Color2 out of range: 2.02 not in (-1.5, 1.0)
       SNR values: f150w=  0.6, f200w=  3.0, f277w=  6.9, f356w=  3.0, f444w=  4.6
-Total Brenjit_ID sources: 3/7
-Recovery rate: 42.9%
-Recovered IDs: 4010, 8216, 11572
-Missed IDs: 2858, 6802, 8272, 10899
+Total Brenjit_ID sources: 6/7
+Recovery rate: 85.7%
+Recovered IDs: 2858, 4010, 6802, 8216, 10899, 11572
+Missed IDs: 8272
 
 ================================================================================
 ANALYZING NIRCAM2
@@ -67,7 +67,7 @@ Applied scaling factor 0.479500 to f277w SNR for nircam2
 Applied scaling factor 0.536700 to f356w SNR for nircam2
 Applied scaling factor 0.733200 to f410m SNR for nircam2
 Applied scaling factor 0.731700 to f444w SNR for nircam2
-Found 40 candidates.
+Found 525 candidates.
 Creating filtered catalogs for nircam2 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam2
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam2/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam2/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam2/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam2/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -85,20 +85,20 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM2
 
 SUMMARY FOR nircam2:
 Total Brenjit sources: 4
-Pass selection: 1
-Fail selection: 3
+Pass selection: 3
+Fail selection: 1
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
-ID 1332: FAIL - High SNR in veto bands: f814w(2.0); Color3 failed: color1=0.71 <= 1.14
-ID 2034: FAIL - Color3 failed: color1=1.00 <= 1.40
+ID 1332: PASS - All criteria passed
+ID 2034: PASS - All criteria passed
 ID 5726: PASS - All criteria passed
-ID 11316: FAIL - Low SNR in detection bands: f150w(3.3); Color3 failed: color1=0.53 <= 1.52
+ID 11316: FAIL - Low SNR in detection bands: f150w(3.3)
       SNR values: f150w=  3.3, f200w=  9.1, f277w= 10.2, f356w= 22.0, f444w= 38.7
-Total Brenjit_ID sources: 1/4
-Recovery rate: 25.0%
-Recovered IDs: 5726
-Missed IDs: 1332, 2034, 11316
+Total Brenjit_ID sources: 3/4
+Recovery rate: 75.0%
+Recovered IDs: 1332, 2034, 5726
+Missed IDs: 11316
 
 ================================================================================
 ANALYZING NIRCAM3
@@ -112,7 +112,7 @@ Applied scaling factor 0.452300 to f277w SNR for nircam3
 Applied scaling factor 0.515900 to f356w SNR for nircam3
 Applied scaling factor 0.886600 to f410m SNR for nircam3
 Applied scaling factor 0.843200 to f444w SNR for nircam3
-Found 28 candidates.
+Found 721 candidates.
 Creating filtered catalogs for nircam3 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam3
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam3/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam3/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam3/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam3/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -130,15 +130,15 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM3
 
 SUMMARY FOR nircam3:
 Total Brenjit sources: 1
-Pass selection: 0
-Fail selection: 1
+Pass selection: 1
+Fail selection: 0
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
-ID 9992: FAIL - High SNR in veto bands: f814w(2.5)
-Total Brenjit_ID sources: 0/1
-Recovery rate: 0.0%
-Missed IDs: 9992
+ID 9992: PASS - All criteria passed
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 9992
 
 ================================================================================
 ANALYZING NIRCAM4
@@ -152,7 +152,7 @@ Applied scaling factor 0.442700 to f277w SNR for nircam4
 Applied scaling factor 0.569600 to f356w SNR for nircam4
 Applied scaling factor 0.696000 to f410m SNR for nircam4
 Applied scaling factor 0.634200 to f444w SNR for nircam4
-Found 37 candidates.
+Found 895 candidates.
 Creating filtered catalogs for nircam4 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam4
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam4/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam4/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam4/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam4/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -170,23 +170,23 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM4
 
 SUMMARY FOR nircam4:
 Total Brenjit sources: 7
-Pass selection: 3
-Fail selection: 4
+Pass selection: 6
+Fail selection: 1
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
 ID  315: PASS - All criteria passed
-ID 1669: FAIL - High SNR in veto bands: f606w(2.8)
-ID 1843: FAIL - Color3 failed: color1=1.05 <= 1.15
-ID 9859: FAIL - Low SNR in detection bands: f444w(4.2); High SNR in veto bands: f606w(3.2), f814w(3.0); Color3 failed: color1=0.31 <= 1.16
+ID 1669: PASS - All criteria passed
+ID 1843: PASS - All criteria passed
+ID 9859: FAIL - Low SNR in detection bands: f444w(4.2)
       SNR values: f150w= 10.5, f200w= 20.6, f277w= 12.6, f356w= 12.0, f444w=  4.2
-ID 9427: FAIL - Color3 failed: color1=0.68 <= 1.29
+ID 9427: PASS - All criteria passed
 ID 12415: PASS - All criteria passed
 ID 11659: PASS - All criteria passed
-Total Brenjit_ID sources: 3/7
-Recovery rate: 42.9%
-Recovered IDs: 315, 11659, 12415
-Missed IDs: 1669, 1843, 9427, 9859
+Total Brenjit_ID sources: 6/7
+Recovery rate: 85.7%
+Recovered IDs: 315, 1669, 1843, 9427, 11659, 12415
+Missed IDs: 9859
 
 ================================================================================
 ANALYZING NIRCAM5
@@ -200,7 +200,7 @@ Applied scaling factor 0.001200 to f277w SNR for nircam5
 Applied scaling factor 0.718100 to f356w SNR for nircam5
 Applied scaling factor 0.001000 to f410m SNR for nircam5
 Applied scaling factor 0.000600 to f444w SNR for nircam5
-Found 43 candidates.
+Found 614 candidates.
 Creating filtered catalogs for nircam5 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam5
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam5/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam5/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam5/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam5/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -218,21 +218,21 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM5
 
 SUMMARY FOR nircam5:
 Total Brenjit sources: 5
-Pass selection: 2
-Fail selection: 3
+Pass selection: 4
+Fail selection: 1
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
 ID 4547: FAIL - Low SNR in detection bands: f444w(4.2)
       SNR values: f150w= 18.8, f200w= 13.7, f277w= 11.9, f356w= 16.4, f444w=  4.2
 ID 9883: PASS - All criteria passed
-ID 12083: FAIL - High SNR in veto bands: f814w(2.9); Color3 failed: color1=1.31 <= 1.41
+ID 12083: PASS - All criteria passed
 ID 12779: PASS - All criteria passed
-ID 12888: FAIL - Color3 failed: color1=0.83 <= 1.27
-Total Brenjit_ID sources: 2/5
-Recovery rate: 40.0%
-Recovered IDs: 9883, 12779
-Missed IDs: 4547, 12083, 12888
+ID 12888: PASS - All criteria passed
+Total Brenjit_ID sources: 4/5
+Recovery rate: 80.0%
+Recovered IDs: 9883, 12083, 12779, 12888
+Missed IDs: 4547
 
 ================================================================================
 ANALYZING NIRCAM6
@@ -246,7 +246,7 @@ Applied scaling factor 0.469600 to f277w SNR for nircam6
 Applied scaling factor 0.591100 to f356w SNR for nircam6
 Applied scaling factor 0.532500 to f410m SNR for nircam6
 Applied scaling factor 0.926200 to f444w SNR for nircam6
-Found 14 candidates.
+Found 504 candidates.
 Creating filtered catalogs for nircam6 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam6
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam6/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam6/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam6/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam6/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -264,15 +264,15 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM6
 
 SUMMARY FOR nircam6:
 Total Brenjit sources: 1
-Pass selection: 0
-Fail selection: 1
+Pass selection: 1
+Fail selection: 0
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
-ID 3206: FAIL - Color3 failed: color1=0.73 <= 1.17
-Total Brenjit_ID sources: 0/1
-Recovery rate: 0.0%
-Missed IDs: 3206
+ID 3206: PASS - All criteria passed
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 3206
 
 ================================================================================
 ANALYZING NIRCAM7
@@ -286,7 +286,7 @@ Applied scaling factor 0.001100 to f277w SNR for nircam7
 Applied scaling factor 0.553600 to f356w SNR for nircam7
 Applied scaling factor 0.001000 to f410m SNR for nircam7
 Applied scaling factor 0.000800 to f444w SNR for nircam7
-Found 61 candidates.
+Found 1062 candidates.
 Creating filtered catalogs for nircam7 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam7
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam7/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam7/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam7/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam7/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
@@ -304,26 +304,26 @@ DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM7
 
 SUMMARY FOR nircam7:
 Total Brenjit sources: 10
-Pass selection: 3
-Fail selection: 7
+Pass selection: 8
+Fail selection: 2
 
 DETAILED ANALYSIS:
 ------------------------------------------------------------------------------------------------------------------------
-ID 7070: FAIL - High SNR in veto bands: f814w(2.3); Color3 failed: color1=0.98 <= 0.98
+ID 7070: PASS - All criteria passed
 ID 9437: PASS - All criteria passed
-ID 9959: FAIL - High SNR in veto bands: f814w(3.0)
-ID 11615: FAIL - Low SNR in detection bands: f150w(4.6); Color3 failed: color1=0.75 <= 1.37
+ID 9959: PASS - All criteria passed
+ID 11615: FAIL - Low SNR in detection bands: f150w(4.6)
       SNR values: f150w=  4.6, f200w=  6.5, f277w=  6.7, f356w= 16.5, f444w= 28.2
 ID 11754: PASS - All criteria passed
-ID 3581: FAIL - High SNR in veto bands: f606w(5.0), f814w(3.0); Color3 failed: color1=0.21 <= 1.46
-ID 13394: FAIL - Color3 failed: color1=0.98 <= 1.16
-ID 13743: FAIL - High SNR in veto bands: f606w(3.1), f814w(2.3); Color3 failed: color1=1.10 <= 1.47
-ID 14097: FAIL - High SNR in veto bands: f606w(3.0)
+ID 3581: FAIL - High SNR in veto bands: f606w(5.0)
+ID 13394: PASS - All criteria passed
+ID 13743: PASS - All criteria passed
+ID 14097: PASS - All criteria passed
 ID 14208: PASS - All criteria passed
-Total Brenjit_ID sources: 3/10
-Recovery rate: 30.0%
-Recovered IDs: 9437, 11754, 14208
-Missed IDs: 3581, 7070, 9959, 11615, 13394, 13743, 14097
+Total Brenjit_ID sources: 8/10
+Recovery rate: 80.0%
+Recovered IDs: 7070, 9437, 9959, 11754, 13394, 13743, 14097, 14208
+Missed IDs: 3581, 11615
 
 ================================================================================
 ANALYZING NIRCAM8
@@ -337,9 +337,181 @@ Applied scaling factor 0.001000 to f277w SNR for nircam8
 Applied scaling factor 0.506600 to f356w SNR for nircam8
 Applied scaling factor 0.000900 to f410m SNR for nircam8
 Applied scaling factor 0.000600 to f444w SNR for nircam8
-Found 61 candidates.
+Found 1242 candidates.
 Creating filtered catalogs for nircam8 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f115w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
   Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f150w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f200w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f277w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f356w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f410m_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f444w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam8/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM8
+============================================================
+
+SUMMARY FOR nircam8:
+Total Brenjit sources: 9
+Pass selection: 9
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1398: PASS - All criteria passed
+ID 2080: PASS - All criteria passed
+ID 2288: PASS - All criteria passed
+ID 4493: PASS - All criteria passed
+ID 6986: PASS - All criteria passed
+ID 8954: PASS - All criteria passed
+ID 9454: PASS - All criteria passed
+ID 11712: PASS - All criteria passed
+ID 14604: PASS - All criteria passed
+Total Brenjit_ID sources: 9/9
+Recovery rate: 100.0%
+Recovered IDs: 1398, 2080, 2288, 4493, 6986, 8954, 9454, 11712, 14604
+
+================================================================================
+ANALYZING NIRCAM9
+================================================================================
+Applied scaling factor 0.896800 to f606w SNR for nircam9
+Applied scaling factor 0.783900 to f814w SNR for nircam9
+Applied scaling factor 0.670500 to f115w SNR for nircam9
+Applied scaling factor 0.001400 to f150w SNR for nircam9
+Applied scaling factor 0.001600 to f200w SNR for nircam9
+Applied scaling factor 0.001100 to f277w SNR for nircam9
+Applied scaling factor 0.576300 to f356w SNR for nircam9
+Applied scaling factor 0.000600 to f410m SNR for nircam9
+Applied scaling factor 0.000600 to f444w SNR for nircam9
+Found 623 candidates.
+Creating filtered catalogs for nircam9 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f115w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f150w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f200w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f277w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f356w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f410m_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f444w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam9/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM9
+============================================================
+
+SUMMARY FOR nircam9:
+Total Brenjit sources: 5
+Pass selection: 1
+Fail selection: 4
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2646: FAIL - Low SNR in detection bands: f444w(4.3)
+      SNR values: f150w=  6.5, f200w= 10.2, f277w=  8.5, f356w=  8.7, f444w=  4.3
+ID 3096: PASS - All criteria passed
+ID 5572: FAIL - Low SNR in detection bands: f150w(4.1)
+      SNR values: f150w=  4.1, f200w=  5.7, f277w= 14.4, f356w= 26.0, f444w= 39.7
+ID 9061: FAIL - Low SNR in detection bands: f150w(4.1)
+      SNR values: f150w=  4.1, f200w=  6.7, f277w=  9.1, f356w=  8.0, f444w=  7.7
+ID 8076: FAIL - Low SNR in detection bands: f150w(0.1), f200w(1.4), f277w(-1.5), f356w(-0.3), f444w(1.3); Color1 failed: f115w SNR=2.1, color1=-2.32; Color2 out of range: -64.63 not in (-1.5, 1.0)
+      SNR values: f150w=  0.1, f200w=  1.4, f277w= -1.5, f356w= -0.3, f444w=  1.3
+Total Brenjit_ID sources: 1/5
+Recovery rate: 20.0%
+Recovered IDs: 3096
+Missed IDs: 2646, 5572, 8076, 9061
+
+================================================================================
+ANALYZING NIRCAM10
+================================================================================
+Applied scaling factor 0.528000 to f606w SNR for nircam10
+Applied scaling factor 0.569000 to f814w SNR for nircam10
+Applied scaling factor 0.377400 to f115w SNR for nircam10
+Applied scaling factor 0.326300 to f150w SNR for nircam10
+Applied scaling factor 0.324700 to f200w SNR for nircam10
+Applied scaling factor 0.423400 to f277w SNR for nircam10
+Applied scaling factor 0.502200 to f356w SNR for nircam10
+Applied scaling factor 0.635500 to f410m SNR for nircam10
+Applied scaling factor 0.561400 to f444w SNR for nircam10
+Found 640 candidates.
+Creating filtered catalogs for nircam10 in ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f606w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f814w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f115w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f150w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f200w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f277w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f356w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f410m_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f444w_catalog.cat: File ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered/nircam10/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM10
+============================================================
+
+SUMMARY FOR nircam10:
+Total Brenjit sources: 5
+Pass selection: 5
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1424: PASS - All criteria passed
+ID 1935: PASS - All criteria passed
+ID 7847: PASS - All criteria passed
+ID 9562: PASS - All criteria passed
+ID 10415: PASS - All criteria passed
+Total Brenjit_ID sources: 5/5
+Recovery rate: 100.0%
+Recovered IDs: 1424, 1935, 7847, 9562, 10415
+Summary report saved to: ./6_2_new_Diagnostic_Analysis_scaled/diagnostic_summary_report.txt
+
+================================================================================
+FINAL SUMMARY TABLE
+================================================================================
+Pointing   Selected   Total      Percentage Criteria Failed     
+---------- ---------- ---------- ---------- --------------------
+nircam1    6          7               85.7% L:1, C:1, C:1       
+nircam2    3          4               75.0% L:1                 
+nircam3    1          1              100.0%                     
+nircam4    6          7               85.7% L:1                 
+nircam5    4          5               80.0% L:1                 
+nircam6    1          1              100.0%                     
+nircam7    8          10              80.0% L:1, H:1            
+nircam8    9          9              100.0%                     
+nircam9    1          5               20.0% L:4, C:1, C:1       
+nircam10   5          5              100.0%                     
+---------- ---------- ---------- ---------- --------------------
+TOTAL      44         54              81.5%
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 9 galaxies (16.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: F150W(0.6), F200W(3.0), F356W(3.0), F444W(4.6)
+  Source 11316 in nircam2: F150W(3.3)
+  Source 9859 in nircam4: F444W(4.2)
+  Source 4547 in nircam5: F444W(4.2)
+  Source 11615 in nircam7: F150W(4.6)
+  Source 2646 in nircam9: F444W(4.3)
+  Source 5572 in nircam9: F150W(4.1)
+  Source 9061 in nircam9: F150W(4.1)
+  Source 8076 in nircam9: F150W(0.1), F200W(1.4), F277W(-1.5), F356W(-0.3), F444W(1.3)
+
+High SNR in veto bands: 1 galaxies (1.9%)
+--------------------------------------------------
+  Source 3581 in nircam7: F606W(5.0)
+
+Color1 failed: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: F115W SNR=5.8, Color1=-1.98
+  Source 8076 in nircam9: F115W SNR=2.1, Color1=-2.32
+
+Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam9: Color2=-64.63 (range: -1.5 to 1.0)
+
+Diagnostic analysis complete. All outputs saved to: ./6_2_new_Diagnostic_Analysis_scaled

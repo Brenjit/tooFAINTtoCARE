@@ -254,7 +254,7 @@ def plot_individual_source_comparison(comparison_data, pointing, output_dir):
             x_fit = np.linspace(0, max_val, 100)
             y_fit = (10**fit_result['intercept']) * x_fit
             plt.plot(x_fit, y_fit, 'r-', linewidth=2, 
-                    label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
+                    label=f'Median Fit: y = {10**fit_result["intercept"]:.5f}x')
         
         plt.yscale('log')
         plt.xscale('log')
@@ -297,7 +297,7 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
         x_fit = np.linspace(0, max_val, 100)
         y_fit = (10**fit_result['intercept']) * x_fit
         plt.plot(x_fit, y_fit, 'r-', linewidth=2, 
-                label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
+                label=f'Median Fit: y = {10**fit_result["intercept"]:.5f}x')
     
     plt.yscale('log')
     plt.xscale('log')
@@ -332,7 +332,7 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
             x_fit = np.linspace(0, max_val, 100)
             y_fit = (10**fit_result['intercept']) * x_fit
             plt.plot(x_fit, y_fit, 'r-', linewidth=2, 
-                    label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
+                    label=f'Median Fit: y = {10**fit_result["intercept"]:.5f}x')
         
         plt.yscale('log')
         plt.xscale('log')
@@ -427,7 +427,7 @@ def save_fit_summary(all_comparison_data, output_dir, sigma_clip=3.0):
             if fit_result:
                 scale_factor = 10**fit_result["intercept"]
                 fit_values.append(scale_factor)
-                summary_lines.append(f"  {filt.upper()}: {scale_factor:.4f}")
+                summary_lines.append(f"  {filt.upper()}: {scale_factor:.5f}")
             else:
                 summary_lines.append(f"  {filt.upper()}: NA")
         
@@ -436,7 +436,7 @@ def save_fit_summary(all_comparison_data, output_dir, sigma_clip=3.0):
             fit_array = np.array(fit_values)
             clipped, _, _ = stats.sigmaclip(fit_array, low=sigma_clip, high=sigma_clip)
             avg_scale = np.mean(clipped) if len(clipped) > 0 else np.nan
-            summary_lines.append(f"  Average (sigma-clipped): {avg_scale:.4f}")
+            summary_lines.append(f"  Average (sigma-clipped): {avg_scale:.5f}")
         else:
             summary_lines.append(f"  Average (sigma-clipped): NA")
     

@@ -1,0 +1,84 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT
+==================================================
+
+
+NIRCAM1:
+------------------------------
+Passed: 6, Failed: 1, Not found: 0
+
+NIRCAM2:
+------------------------------
+Passed: 3, Failed: 1, Not found: 0
+
+NIRCAM3:
+------------------------------
+Passed: 1, Failed: 0, Not found: 0
+
+NIRCAM4:
+------------------------------
+Passed: 7, Failed: 0, Not found: 0
+
+NIRCAM5:
+------------------------------
+Passed: 5, Failed: 0, Not found: 0
+
+NIRCAM6:
+------------------------------
+Passed: 1, Failed: 0, Not found: 0
+
+NIRCAM7:
+------------------------------
+Passed: 9, Failed: 1, Not found: 0
+
+NIRCAM8:
+------------------------------
+Passed: 9, Failed: 0, Not found: 0
+
+NIRCAM9:
+------------------------------
+Passed: 4, Failed: 1, Not found: 0
+
+NIRCAM10:
+------------------------------
+Passed: 5, Failed: 0, Not found: 0
+
+OVERALL SUMMARY:
+==============================
+Total galaxies analyzed: 54
+Total passed selection: 50
+Total failed selection: 4
+Overall success rate: 92.6%
+
+FAILURE REASONS (by frequency):
+==============================
+Low SNR in detection bands: f150w(0.6), f200w(3.0), f356w(3.0): 1 galaxies
+Color1 failed: f115w SNR=5.8, color1=-1.98: 1 galaxies
+Color2 out of range: 2.02 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.3): 1 galaxies
+High SNR in veto bands: f606w(5.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(1.4), f277w(-1.6), f356w(-0.3), f444w(1.3): 1 galaxies
+Color1 failed: f115w SNR=2.1, color1=-2.32: 1 galaxies
+Color2 out of range: -64.63 not in (-1.5, 1.0): 1 galaxies
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 3 galaxies (5.6%)
+--------------------------------------------------
+  Source 8272 in nircam1: F150W(0.6), F200W(3.0), F356W(3.0)
+  Source 11316 in nircam2: F150W(3.3)
+  Source 8076 in nircam9: F150W(0.1), F200W(1.4), F277W(-1.6), F356W(-0.3), F444W(1.3)
+
+High SNR in veto bands: 1 galaxies (1.9%)
+--------------------------------------------------
+  Source 3581 in nircam7: F606W(5.0)
+
+Color1 failed: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: F115W SNR=5.8, Color1=-1.98
+  Source 8076 in nircam9: F115W SNR=2.1, Color1=-2.32
+
+Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam9: Color2=-64.63 (range: -1.5 to 1.0)
