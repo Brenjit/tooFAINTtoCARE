@@ -6,17 +6,15 @@ from astropy.table import Table
 import pandas as pd
 from pathlib import Path
 import matplotlib.cm as cm
-from scipy import stats
-import warnings
-warnings.filterwarnings('ignore')
+from scipy import stats # Still useful for median calculations
 
-# Configuration (same as before)
+# Configuration
 sextractor_base_dir = '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/'
 eazy_catalog_dir = '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/EAZY/eazy-photoz/inputs/Eazy_catalogue/'
-output_dir = './6_1_SNR_Comparison_scaling_Analysis'
+output_dir = './6_1_SNR_Comparison_Analysis'
 pointings = [f'nircam{i}' for i in range(1, 11)]
 
-# Brenjit_IDs to analyze (same as before)
+# Brenjit_IDs to analyze
 highlight_ids = {
     'nircam1': [2858, 4010, 6802, 8216, 11572, 10899, 8272],
     'nircam2': [1332, 2034, 5726, 11316],
@@ -192,129 +190,46 @@ def create_comparison_catalog(sextractor_data, eazy_data, nmad_snr, pointing, ou
     
     return df, summary_df
 
-def perform_linear_fitting(comparison_data, pointing, output_dir):
-    """Perform linear regression to find scaling relationship between SExtractor and NMAD SNR."""
-    scaling_results = {}
+def calculate_median_fit(sex_snr, nmad_snr):
+    """
+    Calculates the intercept for a line with slope 1
+    that passes through the median of the log-transformed data.
+    """
+    # Filter out invalid values
+    valid_mask = (sex_snr > 0) & (nmad_snr > 0) & np.isfinite(sex_snr) & np.isfinite(nmad_snr)
     
-    # Create directory for scaling analysis
-    scaling_dir = os.path.join(output_dir, pointing, 'scaling_analysis')
-    os.makedirs(scaling_dir, exist_ok=True)
+    if np.sum(valid_mask) == 0:
+        return None
     
-    # Fit for each filter separately
-    for filt in filters:
-        filter_data = comparison_data[comparison_data['FILTER'] == filt.upper()]
-        
-        if len(filter_data) < 2:
-            print(f"Not enough data for {filt} in {pointing}")
-            continue
-        
-        # Extract SNR values
-        sex_snr = filter_data['SEX_SNR'].values
-        nmad_snr = filter_data['NMAD_SNR'].values
-        
-        # Filter out zeros and very small values
-        valid_mask = (sex_snr > 0.1) & (nmad_snr > 0.1) & np.isfinite(sex_snr) & np.isfinite(nmad_snr)
-        
-        if np.sum(valid_mask) < 2:
-            print(f"Not enough valid data for {filt} in {pointing}")
-            continue
-        
-        sex_snr_valid = sex_snr[valid_mask]
-        nmad_snr_valid = nmad_snr[valid_mask]
-        
-        # Perform linear regression in log space (since we expect multiplicative scaling)
-        log_sex = np.log10(sex_snr_valid)
-        log_nmad = np.log10(nmad_snr_valid)
-        
-        # Fit linear model: log10(NMAD_SNR) = slope * log10(SEX_SNR) + intercept
-        slope, intercept, r_value, p_value, std_err = stats.linregress(log_sex, log_nmad)
-        
-        # Convert back to linear space: NMAD_SNR = 10^intercept * (SEX_SNR)^slope
-        scaling_factor = 10**intercept
-        power_law_exponent = slope
-        
-        # Also fit simple linear model in linear space: NMAD_SNR = a * SEX_SNR + b
-        slope_linear, intercept_linear, r_value_linear, p_value_linear, std_err_linear = stats.linregress(
-            sex_snr_valid, nmad_snr_valid
-        )
-        
-        # Calculate goodness of fit metrics
-        predicted_log = slope * log_sex + intercept
-        predicted_linear = slope_linear * sex_snr_valid + intercept_linear
-        
-        r2_log = r_value**2
-        r2_linear = r_value_linear**2
-        
-        mae_log = np.mean(np.abs(10**log_nmad - 10**predicted_log))
-        mae_linear = np.mean(np.abs(nmad_snr_valid - predicted_linear))
-        
-        # Store results
-        scaling_results[filt] = {
-            'log_fit': {
-                'slope': slope,
-                'intercept': intercept,
-                'scaling_factor': scaling_factor,
-                'power_law_exponent': power_law_exponent,
-                'r_value': r_value,
-                'r2': r2_log,
-                'p_value': p_value,
-                'std_err': std_err,
-                'mae': mae_log
-            },
-            'linear_fit': {
-                'slope': slope_linear,
-                'intercept': intercept_linear,
-                'r_value': r_value_linear,
-                'r2': r2_linear,
-                'p_value': p_value_linear,
-                'std_err': std_err_linear,
-                'mae': mae_linear
-            },
-            'n_points': len(sex_snr_valid)
-        }
-        
-        # Create plot for this filter
-        plt.figure(figsize=(10, 8))
-        
-        # Plot data points
-        plt.scatter(sex_snr_valid, nmad_snr_valid, alpha=0.6, s=50, label='Data points')
-        
-        # Plot 1:1 line
-        max_val = max(sex_snr_valid.max(), nmad_snr_valid.max())
-        plt.plot([0.1, max_val], [0.1, max_val], 'k--', alpha=0.7, label='1:1 line')
-        
-        # Plot log fit
-        x_fit = np.logspace(np.log10(0.1), np.log10(max_val), 100)
-        y_fit_log = scaling_factor * (x_fit ** power_law_exponent)
-        plt.plot(x_fit, y_fit_log, 'r-', linewidth=2, 
-                label=f'Power law fit: y = {scaling_factor:.3f} * x^{power_law_exponent:.3f}\nR² = {r2_log:.3f}')
-        
-        # Plot linear fit
-        y_fit_linear = slope_linear * x_fit + intercept_linear
-        plt.plot(x_fit, y_fit_linear, 'b-', linewidth=2, 
-                label=f'Linear fit: y = {slope_linear:.3f}x + {intercept_linear:.3f}\nR² = {r2_linear:.3f}')
-        
-        plt.xscale('log')
-        plt.yscale('log')
-        plt.xlabel('SExtractor SNR')
-        plt.ylabel('NMAD SNR')
-        plt.title(f'{pointing} - {filt.upper()}: SNR Scaling Relationship')
-        plt.legend()
-        plt.grid(True, alpha=0.3)
-        
-        plt.savefig(os.path.join(scaling_dir, f'{pointing}_{filt}_scaling_fit.png'), 
-                   dpi=150, bbox_inches='tight')
-        plt.close()
+    sex_valid = sex_snr[valid_mask]
+    nmad_valid = nmad_snr[valid_mask]
     
-    return scaling_results
-
+    # Take the logarithm of the valid data
+    log_sex_snr = np.log10(sex_valid)
+    log_nmad_snr = np.log10(nmad_valid)
+    
+    # Find the median of the log-transformed data
+    median_log_x = np.median(log_sex_snr)
+    median_log_y = np.median(log_nmad_snr)
+    
+    # The line is log(y) = 1 * log(x) + c.
+    # We find c by plugging in the median point.
+    intercept = median_log_y - median_log_x
+    
+    # The slope is fixed at 1
+    slope = 1.0
+    
+    return {
+        'slope': slope,
+        'intercept': intercept,
+        'n_points': len(sex_valid)
+    }
 
 def plot_individual_source_comparison(comparison_data, pointing, output_dir):
     """Generate individual plots for each source showing SExtractor vs NMAD SNR across filters."""
     individual_dir = os.path.join(output_dir, pointing, 'individual_sources')
     os.makedirs(individual_dir, exist_ok=True)
     
-    # Get unique source IDs
     source_ids = comparison_data['NUMBER'].unique()
     
     for src_id in source_ids:
@@ -322,16 +237,25 @@ def plot_individual_source_comparison(comparison_data, pointing, output_dir):
         
         plt.figure(figsize=(12, 8))
         
-        # Plot each filter for this source
         for i, filt in enumerate(filters):
             filter_data = src_data[src_data['FILTER'] == filt.upper()]
             if len(filter_data) > 0:
                 plt.scatter(filter_data['SEX_SNR'], filter_data['NMAD_SNR'], 
-                          color=plt.cm.tab10(i), s=100, label=filt.upper(), alpha=0.8)
+                        color=plt.cm.tab10(i), s=100, label=filt.upper(), alpha=0.8)
         
-        # Add 1:1 line
         max_val = max(src_data['SEX_SNR'].max(), src_data['NMAD_SNR'].max())
         plt.plot([0, max_val], [0, max_val], 'k--', alpha=0.7, label='1:1 line')
+        
+        sex_all = src_data['SEX_SNR'].values
+        nmad_all = src_data['NMAD_SNR'].values
+        fit_result = calculate_median_fit(sex_all, nmad_all)
+        
+        if fit_result:
+            x_fit = np.linspace(0, max_val, 100)
+            y_fit = (10**fit_result['intercept']) * x_fit
+            plt.plot(x_fit, y_fit, 'r-', linewidth=2, 
+                    label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
+        
         plt.yscale('log')
         plt.xscale('log')
         plt.xlabel('SExtractor SNR')
@@ -350,7 +274,6 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
     all_sources_dir = os.path.join(output_dir, pointing, 'all_sources_comparison')
     os.makedirs(all_sources_dir, exist_ok=True)
     
-    # Create a color map for sources
     source_ids = comparison_data['NUMBER'].unique()
     colors = cm.rainbow(np.linspace(0, 1, len(source_ids)))
     color_map = dict(zip(source_ids, colors))
@@ -361,10 +284,21 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
     for src_id in source_ids:
         src_data = comparison_data[comparison_data['NUMBER'] == src_id]
         plt.scatter(src_data['SEX_SNR'], src_data['NMAD_SNR'], 
-                   color=color_map[src_id], s=50, alpha=0.7, label=f'ID {src_id}')
+                color=color_map[src_id], s=50, alpha=0.7, label=f'ID {src_id}')
     
     max_val = max(comparison_data['SEX_SNR'].max(), comparison_data['NMAD_SNR'].max())
     plt.plot([0, max_val], [0, max_val], 'k--', alpha=0.7, label='1:1 line')
+    
+    sex_all = comparison_data['SEX_SNR'].values
+    nmad_all = comparison_data['NMAD_SNR'].values
+    fit_result = calculate_median_fit(sex_all, nmad_all)
+    
+    if fit_result:
+        x_fit = np.linspace(0, max_val, 100)
+        y_fit = (10**fit_result['intercept']) * x_fit
+        plt.plot(x_fit, y_fit, 'r-', linewidth=2, 
+                label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
+    
     plt.yscale('log')
     plt.xscale('log')
     plt.xlabel('SExtractor SNR')
@@ -376,7 +310,7 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
     plt.savefig(os.path.join(all_sources_dir, f'{pointing}_all_sources_comparison.png'), dpi=150, bbox_inches='tight')
     plt.close()
     
-    # Plot 2: Separate plot for each filter
+    # Plot 2: Separate plot for each filter with median fit
     for filt in filters:
         plt.figure(figsize=(12, 8))
         filter_data = comparison_data[comparison_data['FILTER'] == filt.upper()]
@@ -385,10 +319,21 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
             src_filter_data = filter_data[filter_data['NUMBER'] == src_id]
             if len(src_filter_data) > 0:
                 plt.scatter(src_filter_data['SEX_SNR'], src_filter_data['NMAD_SNR'], 
-                           color=color_map[src_id], s=100, label=f'ID {src_id}', alpha=0.8)
+                        color=color_map[src_id], s=100, label=f'ID {src_id}', alpha=0.8)
         
         max_val = max(filter_data['SEX_SNR'].max(), filter_data['NMAD_SNR'].max())
         plt.plot([0, max_val], [0, max_val], 'k--', alpha=0.7, label='1:1 line')
+        
+        sex_filter = filter_data['SEX_SNR'].values
+        nmad_filter = filter_data['NMAD_SNR'].values
+        fit_result = calculate_median_fit(sex_filter, nmad_filter)
+        
+        if fit_result:
+            x_fit = np.linspace(0, max_val, 100)
+            y_fit = (10**fit_result['intercept']) * x_fit
+            plt.plot(x_fit, y_fit, 'r-', linewidth=2, 
+                    label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
+        
         plt.yscale('log')
         plt.xscale('log')
         plt.xlabel('SExtractor SNR')
@@ -400,127 +345,13 @@ def plot_all_sources_comparison(comparison_data, pointing, output_dir):
         plt.savefig(os.path.join(all_sources_dir, f'{pointing}_{filt}_sources_comparison.png'), dpi=150, bbox_inches='tight')
         plt.close()
 
-
-def plot_scaling_summary(scaling_results, pointing, output_dir):
-    """Create summary plots of scaling factors across filters."""
-    if not scaling_results:
-        return
-    
-    scaling_dir = os.path.join(output_dir, pointing, 'scaling_analysis')
-    
-    # Extract scaling factors
-    filters_plot = []
-    scaling_factors = []
-    power_law_exponents = []
-    linear_slopes = []
-    r2_values_log = []
-    r2_values_linear = []
-    
-    for filt, results in scaling_results.items():
-        filters_plot.append(filt.upper())
-        scaling_factors.append(results['log_fit']['scaling_factor'])
-        power_law_exponents.append(results['log_fit']['power_law_exponent'])
-        linear_slopes.append(results['linear_fit']['slope'])
-        r2_values_log.append(results['log_fit']['r2'])
-        r2_values_linear.append(results['linear_fit']['r2'])
-    
-    # Plot scaling factors
-    plt.figure(figsize=(12, 8))
-    
-    x_pos = np.arange(len(filters_plot))
-    
-    plt.subplot(2, 1, 1)
-    plt.bar(x_pos - 0.2, scaling_factors, width=0.4, label='Scaling Factor (10^intercept)', alpha=0.7)
-    plt.bar(x_pos + 0.2, linear_slopes, width=0.4, label='Linear Slope', alpha=0.7)
-    plt.axhline(y=1, color='r', linestyle='--', alpha=0.7, label='No scaling (1:1)')
-    plt.xticks(x_pos, filters_plot, rotation=45)
-    plt.ylabel('Scaling Parameter')
-    plt.title(f'{pointing}: Scaling Parameters by Filter')
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-    
-    plt.subplot(2, 1, 2)
-    plt.bar(x_pos - 0.2, r2_values_log, width=0.4, label='Power Law R²', alpha=0.7)
-    plt.bar(x_pos + 0.2, r2_values_linear, width=0.4, label='Linear R²', alpha=0.7)
-    plt.xticks(x_pos, filters_plot, rotation=45)
-    plt.ylabel('R² Value')
-    plt.xlabel('Filter')
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-    
-    plt.tight_layout()
-    plt.savefig(os.path.join(scaling_dir, f'{pointing}_scaling_summary.png'), 
-               dpi=150, bbox_inches='tight')
-    plt.close()
-    
-    # Plot power law exponents
-    plt.figure(figsize=(10, 6))
-    plt.bar(x_pos, power_law_exponents, alpha=0.7)
-    plt.axhline(y=1, color='r', linestyle='--', alpha=0.7, label='No scaling (exponent=1)')
-    plt.xticks(x_pos, filters_plot, rotation=45)
-    plt.ylabel('Power Law Exponent')
-    plt.title(f'{pointing}: Power Law Exponents by Filter')
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-    
-    plt.tight_layout()
-    plt.savefig(os.path.join(scaling_dir, f'{pointing}_power_law_exponents.png'), 
-               dpi=150, bbox_inches='tight')
-    plt.close()
-
-def save_scaling_parameters(scaling_results, pointing, output_dir):
-    """Save scaling parameters to a CSV file."""
-    scaling_dir = os.path.join(output_dir, pointing, 'scaling_analysis')
-    
-    scaling_data = []
-    for filt, results in scaling_results.items():
-        row = {
-            'filter': filt.upper(),
-            'log_slope': results['log_fit']['slope'],
-            'log_intercept': results['log_fit']['intercept'],
-            'scaling_factor': results['log_fit']['scaling_factor'],
-            'power_law_exponent': results['log_fit']['power_law_exponent'],
-            'log_r_value': results['log_fit']['r_value'],
-            'log_r2': results['log_fit']['r2'],
-            'log_p_value': results['log_fit']['p_value'],
-            'log_std_err': results['log_fit']['std_err'],
-            'log_mae': results['log_fit']['mae'],
-            'linear_slope': results['linear_fit']['slope'],
-            'linear_intercept': results['linear_fit']['intercept'],
-            'linear_r_value': results['linear_fit']['r_value'],
-            'linear_r2': results['linear_fit']['r2'],
-            'linear_p_value': results['linear_fit']['p_value'],
-            'linear_std_err': results['linear_fit']['std_err'],
-            'linear_mae': results['linear_fit']['mae'],
-            'n_points': results['n_points']
-        }
-        scaling_data.append(row)
-    
-    scaling_df = pd.DataFrame(scaling_data)
-    scaling_file = os.path.join(scaling_dir, f'{pointing}_scaling_parameters.csv')
-    scaling_df.to_csv(scaling_file, index=False)
-    
-    return scaling_df
-
 def plot_snr_comparison(comparison_data, pointing, output_dir):
-    """Generate plots comparing SNR values from both methods with scaling fits."""
+    """Generate plots comparing SNR values from both methods."""
     os.makedirs(output_dir, exist_ok=True)
     
-    # Perform linear fitting analysis
-    scaling_results = perform_linear_fitting(comparison_data, pointing, output_dir)
-    
-    # Save scaling parameters
-    if scaling_results:
-        scaling_df = save_scaling_parameters(scaling_results, pointing, output_dir)
-        plot_scaling_summary(scaling_results, pointing, output_dir)
-    
-    # Create individual source plots (existing function)
     plot_individual_source_comparison(comparison_data, pointing, output_dir)
-    
-    # Create all sources comparison plots (existing function)
     plot_all_sources_comparison(comparison_data, pointing, output_dir)
     
-    # Filter-based plots with scaling fits
     pointing_data = comparison_data[comparison_data['pointing'] == pointing]
     if len(pointing_data) == 0:
         print(f"No data found for {pointing}")
@@ -540,26 +371,26 @@ def plot_snr_comparison(comparison_data, pointing, output_dir):
             axes[i].set_visible(False)
             continue
         
-        # Color by source ID
         source_ids = filter_data['NUMBER'].unique()
         colors = cm.rainbow(np.linspace(0, 1, len(source_ids)))
         
         for j, src_id in enumerate(source_ids):
             src_data = filter_data[filter_data['NUMBER'] == src_id]
             axes[i].scatter(src_data['SEX_SNR'], src_data['NMAD_SNR'], 
-                          color=colors[j], s=50, alpha=0.7, label=f'ID {src_id}')
+                        color=colors[j], s=50, alpha=0.7, label=f'ID {src_id}')
         
-        # Add 1:1 line
         max_val = max(filter_data['SEX_SNR'].max(), filter_data['NMAD_SNR'].max())
-        axes[i].plot([0.1, max_val], [0.1, max_val], 'k--', alpha=0.7, label='1:1 line')
+        axes[i].plot([0, max_val], [0, max_val], 'k--', alpha=0.7, label='1:1 line')
         
-        # Add scaling fit if available
-        if filt in scaling_results:
-            fit = scaling_results[filt]['log_fit']
-            x_fit = np.logspace(np.log10(0.1), np.log10(max_val), 100)
-            y_fit = fit['scaling_factor'] * (x_fit ** fit['power_law_exponent'])
+        sex_filter = filter_data['SEX_SNR'].values
+        nmad_filter = filter_data['NMAD_SNR'].values
+        fit_result = calculate_median_fit(sex_filter, nmad_filter)
+        
+        if fit_result:
+            x_fit = np.linspace(0, max_val, 100)
+            y_fit = (10**fit_result['intercept']) * x_fit
             axes[i].plot(x_fit, y_fit, 'r-', linewidth=2, 
-                       label=f'Fit: y={fit["scaling_factor"]:.2f}*x^{fit["power_law_exponent"]:.2f}')
+                    label=f'Median Fit: y = {10**fit_result["intercept"]:.3f}x')
         
         axes[i].set_yscale('log')
         axes[i].set_xscale('log')
@@ -569,93 +400,123 @@ def plot_snr_comparison(comparison_data, pointing, output_dir):
         axes[i].grid(True, alpha=0.3)
         axes[i].legend(fontsize=8)
     
-    # Hide unused subplots
     for j in range(i+1, len(axes)):
         axes[j].set_visible(False)
     
     plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f'{pointing}_snr_comparison_with_fits.png'), 
-               dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(output_dir, f'{pointing}_snr_comparison_by_filter.png'), dpi=150, bbox_inches='tight')
     plt.close()
+
+def save_fit_summary(all_comparison_data, output_dir, sigma_clip=3.0):
+    """
+    Save a text file with pointing, filter, 10^intercept values, and average per pointing.
+    Uses sigma-clipping to remove high-end deviations before averaging.
+    """
+    summary_lines = []
+    
+    for pointing, comp_data in all_comparison_data.items():
+        fit_values = []
+        summary_lines.append(f"\nPointing: {pointing}")
+        
+        for filt in filters:
+            filter_data = comp_data[comp_data['FILTER'] == filt.upper()]
+            sex_snr = filter_data['SEX_SNR'].values
+            nmad_snr = filter_data['NMAD_SNR'].values
+            
+            fit_result = calculate_median_fit(sex_snr, nmad_snr)
+            if fit_result:
+                scale_factor = 10**fit_result["intercept"]
+                fit_values.append(scale_factor)
+                summary_lines.append(f"  {filt.upper()}: {scale_factor:.4f}")
+            else:
+                summary_lines.append(f"  {filt.upper()}: NA")
+        
+        # Sigma-clip high-end deviations
+        if len(fit_values) > 0:
+            fit_array = np.array(fit_values)
+            clipped, _, _ = stats.sigmaclip(fit_array, low=sigma_clip, high=sigma_clip)
+            avg_scale = np.mean(clipped) if len(clipped) > 0 else np.nan
+            summary_lines.append(f"  Average (sigma-clipped): {avg_scale:.4f}")
+        else:
+            summary_lines.append(f"  Average (sigma-clipped): NA")
+    
+    # Write to txt
+    output_file = os.path.join(output_dir, "snr_fit_summary.txt")
+    with open(output_file, "w") as f:
+        f.write("\n".join(summary_lines))
+    
+    print(f"Saved fit summary to {output_file}")
+
 
 def main():
     """Main function to compare SNR values from SExtractor and NMAD methods."""
     os.makedirs(output_dir, exist_ok=True)
     
-    print(f"Starting SNR comparison analysis with scaling fits")
+    print(f"Starting SNR comparison analysis")
     print(f"Output will be saved to: {output_dir}")
     
-    all_comparison_data = []
-    all_scaling_results = {}
+    all_comparison_data = {}  # use dict instead of list
     
     for pointing in pointings:
         print(f"\nProcessing {pointing}")
         
-        # Skip if no highlight IDs for this pointing
         if pointing not in highlight_ids or len(highlight_ids[pointing]) == 0:
             print(f"No highlight IDs for {pointing}, skipping")
             continue
         
-        # Load SExtractor catalogs (existing code)
-        # Load EAZY catalog (existing code)
-        # Calculate NMAD SNR (existing code)
-        # Create comparison catalog (existing code)
+        sextractor_data = {}
+        catalog_dir = os.path.join(sextractor_base_dir, pointing, 'catalogue_z7')
         
-        # Add scaling analysis
-        scaling_results = perform_linear_fitting(comparison_df, pointing, output_dir)
-        if scaling_results:
-            all_scaling_results[pointing] = scaling_results
-            save_scaling_parameters(scaling_results, pointing, output_dir)
-            plot_scaling_summary(scaling_results, pointing, output_dir)
+        missing_data = False
+        for filt in filters:
+            cat_path = os.path.join(catalog_dir, f"f150dropout_{filt}_catalog.cat")
+            data = read_sextractor_catalog(cat_path)
+            if data is None:
+                print(f"Missing {filt} data for {pointing}")
+                missing_data = True
+                break
+            sextractor_data[filt] = data
         
-        # Add pointing information to the dataframe
+        if missing_data:
+            continue
+        
+        eazy_file = os.path.join(eazy_catalog_dir, f"{pointing}_eazy_catalogue_54_gal.cat")
+        if not os.path.exists(eazy_file):
+            print(f"EAZY catalog not found: {eazy_file}")
+            continue
+        
+        eazy_data = read_eazy_catalog(eazy_file)
+        if eazy_data is None or len(eazy_data) == 0:
+            print(f"Could not read EAZY data for {pointing}")
+            continue
+        
+        nmad_snr = calculate_nmad_snr(eazy_data)
+        comparison_df, summary_df = create_comparison_catalog(
+            sextractor_data, eazy_data, nmad_snr, pointing, output_dir
+        )
+        
         comparison_df['pointing'] = pointing
-        all_comparison_data.append(comparison_df)
+        all_comparison_data[pointing] = comparison_df  # save per pointing
         
-        # Generate plots with scaling fits
         plot_snr_comparison(comparison_df, pointing, os.path.join(output_dir, pointing))
         
         print(f"Processed {len(highlight_ids[pointing])} sources for {pointing}")
     
-    # Combine all data and create overall summary
     if all_comparison_data:
         all_data = pd.concat(all_comparison_data, ignore_index=True)
         all_data.to_csv(os.path.join(output_dir, 'all_pointings_snr_comparison.csv'), index=False)
+        save_fit_summary(all_comparison_data, output_dir)
         
-        # Create overall scaling summary
-        if all_scaling_results:
-            overall_scaling_data = []
-            for pointing, scaling_dict in all_scaling_results.items():
-                for filt, results in scaling_dict.items():
-                    row = {
-                        'pointing': pointing,
-                        'filter': filt.upper(),
-                        'scaling_factor': results['log_fit']['scaling_factor'],
-                        'power_law_exponent': results['log_fit']['power_law_exponent'],
-                        'linear_slope': results['linear_fit']['slope'],
-                        'log_r2': results['log_fit']['r2'],
-                        'linear_r2': results['linear_fit']['r2'],
-                        'n_points': results['n_points']
-                    }
-                    overall_scaling_data.append(row)
-            
-            overall_scaling_df = pd.DataFrame(overall_scaling_data)
-            overall_scaling_file = os.path.join(output_dir, 'overall_scaling_parameters.csv')
-            overall_scaling_df.to_csv(overall_scaling_file, index=False)
-            
-            # Create summary statistics by filter
-            scaling_summary = overall_scaling_df.groupby('filter').agg({
-                'scaling_factor': ['mean', 'std', 'count'],
-                'power_law_exponent': ['mean', 'std'],
-                'linear_slope': ['mean', 'std'],
-                'log_r2': ['mean', 'std'],
-                'linear_r2': ['mean', 'std']
-            }).round(3)
-            
-            scaling_summary.to_csv(os.path.join(output_dir, 'scaling_summary_by_filter.csv'))
+        overall_summary = all_data.groupby(['FILTER']).agg({
+            'SEX_SNR': ['mean', 'std', 'count'],
+            'NMAD_SNR': ['mean', 'std', 'count'],
+            'SNR_DIFF': ['mean', 'std', 'count'],
+            'SNR_RATIO': ['mean', 'std', 'count']
+        }).round(3)
+        
+        overall_summary.to_csv(os.path.join(output_dir, 'overall_snr_summary.csv'))
         
         print(f"\nAnalysis complete. Processed {len(all_data)} measurements across {len(pointings)} pointings")
-        print(f"Scaling parameters saved for future use")
     else:
         print("No data was processed")
 

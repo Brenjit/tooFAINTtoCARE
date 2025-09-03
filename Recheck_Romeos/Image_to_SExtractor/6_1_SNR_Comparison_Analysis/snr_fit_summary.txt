@@ -1,0 +1,120 @@
+
+Pointing: nircam1
+  F606W: 0.6962
+  F814W: 0.3317
+  F115W: 0.7178
+  F150W: 0.5154
+  F200W: 0.4458
+  F277W: 0.6519
+  F356W: 0.8319
+  F410M: 0.6572
+  F444W: 0.6175
+  Average (sigma-clipped): 0.6073
+
+Pointing: nircam2
+  F606W: 0.7730
+  F814W: 0.6742
+  F115W: 0.3593
+  F150W: 0.3372
+  F200W: 0.3592
+  F277W: 0.4795
+  F356W: 0.5367
+  F410M: 0.7332
+  F444W: 0.7317
+  Average (sigma-clipped): 0.5538
+
+Pointing: nircam3
+  F606W: NA
+  F814W: 0.6090
+  F115W: 0.5086
+  F150W: 0.4157
+  F200W: 0.4917
+  F277W: 0.4523
+  F356W: 0.5159
+  F410M: 0.8866
+  F444W: 0.8432
+  Average (sigma-clipped): 0.5904
+
+Pointing: nircam4
+  F606W: 0.7337
+  F814W: 0.3977
+  F115W: 0.4239
+  F150W: 0.3499
+  F200W: 0.4636
+  F277W: 0.4427
+  F356W: 0.5696
+  F410M: 0.6960
+  F444W: 0.6342
+  Average (sigma-clipped): 0.5235
+
+Pointing: nircam5
+  F606W: NA
+  F814W: 0.7252
+  F115W: 0.7634
+  F150W: 0.0020
+  F200W: 0.0016
+  F277W: 0.0012
+  F356W: 0.7181
+  F410M: 0.0010
+  F444W: 0.0006
+  Average (sigma-clipped): 0.2766
+
+Pointing: nircam6
+  F606W: NA
+  F814W: NA
+  F115W: 0.4591
+  F150W: 0.4421
+  F200W: 0.3999
+  F277W: 0.4696
+  F356W: 0.5911
+  F410M: 0.5325
+  F444W: 0.9262
+  Average (sigma-clipped): 0.5458
+
+Pointing: nircam7
+  F606W: 0.5093
+  F814W: 0.4855
+  F115W: 0.4379
+  F150W: 0.0015
+  F200W: 0.0011
+  F277W: 0.0011
+  F356W: 0.5536
+  F410M: 0.0010
+  F444W: 0.0008
+  Average (sigma-clipped): 0.2213
+
+Pointing: nircam8
+  F606W: 0.3593
+  F814W: 0.4383
+  F115W: 0.5701
+  F150W: 0.0015
+  F200W: 0.0015
+  F277W: 0.0010
+  F356W: 0.5066
+  F410M: 0.0009
+  F444W: 0.0006
+  Average (sigma-clipped): 0.2089
+
+Pointing: nircam9
+  F606W: 0.8968
+  F814W: 0.7839
+  F115W: 0.6705
+  F150W: 0.0014
+  F200W: 0.0016
+  F277W: 0.0011
+  F356W: 0.5763
+  F410M: 0.0006
+  F444W: 0.0006
+  Average (sigma-clipped): 0.3259
+
+Pointing: nircam10
+  F606W: 0.5280
+  F814W: 0.5690
+  F115W: 0.3774
+  F150W: 0.3263
+  F200W: 0.3247
+  F277W: 0.4234
+  F356W: 0.5022
+  F410M: 0.6355
+  F444W: 0.5614
+  Average (sigma-clipped): 0.4720

@@ -1,0 +1,115 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT
+==================================================
+
+
+NIRCAM1:
+------------------------------
+Passed: 3, Failed: 4, Not found: 0
+
+NIRCAM2:
+------------------------------
+Passed: 1, Failed: 3, Not found: 0
+
+NIRCAM3:
+------------------------------
+Passed: 0, Failed: 1, Not found: 0
+
+NIRCAM4:
+------------------------------
+Passed: 3, Failed: 4, Not found: 0
+
+NIRCAM5:
+------------------------------
+Passed: 2, Failed: 3, Not found: 0
+
+NIRCAM6:
+------------------------------
+Passed: 0, Failed: 1, Not found: 0
+
+NIRCAM7:
+------------------------------
+Passed: 3, Failed: 7, Not found: 0
+
+NIRCAM8:
+------------------------------
+Passed: 3, Failed: 6, Not found: 0
+
+NIRCAM9:
+------------------------------
+Passed: 0, Failed: 5, Not found: 0
+
+NIRCAM10:
+------------------------------
+Passed: 2, Failed: 3, Not found: 0
+
+OVERALL SUMMARY:
+==============================
+Total galaxies analyzed: 54
+Total passed selection: 17
+Total failed selection: 37
+Overall success rate: 31.5%
+
+FAILURE REASONS (by frequency):
+==============================
+High SNR in veto bands: f814w(2.0): 2 galaxies
+High SNR in veto bands: f814w(2.5): 2 galaxies
+Low SNR in detection bands: f444w(4.2): 2 galaxies
+Low SNR in detection bands: f150w(4.1): 2 galaxies
+Color3 failed: color1=0.95 <= 1.21: 1 galaxies
+Color3 failed: color1=1.09 <= 1.24: 1 galaxies
+High SNR in veto bands: f606w(3.6), f814w(2.3): 1 galaxies
+Low SNR in detection bands: f150w(0.6), f200w(3.0), f356w(3.0), f444w(4.6): 1 galaxies
+Color1 failed: f115w SNR=5.8, color1=-1.98: 1 galaxies
+Color2 out of range: 2.02 not in (-1.5, 1.0): 1 galaxies
+Color3 failed: color1=-1.98 <= 2.24: 1 galaxies
+Color3 failed: color1=0.71 <= 1.14: 1 galaxies
+Color3 failed: color1=1.00 <= 1.40: 1 galaxies
+Low SNR in detection bands: f150w(3.3): 1 galaxies
+Color3 failed: color1=0.53 <= 1.52: 1 galaxies
+High SNR in veto bands: f606w(2.8): 1 galaxies
+Color3 failed: color1=1.05 <= 1.15: 1 galaxies
+High SNR in veto bands: f606w(3.2), f814w(3.0): 1 galaxies
+Color3 failed: color1=0.31 <= 1.16: 1 galaxies
+Color3 failed: color1=0.68 <= 1.29: 1 galaxies
+High SNR in veto bands: f814w(2.9): 1 galaxies
+Color3 failed: color1=1.31 <= 1.41: 1 galaxies
+Color3 failed: color1=0.83 <= 1.27: 1 galaxies
+Color3 failed: color1=0.73 <= 1.17: 1 galaxies
+High SNR in veto bands: f814w(2.3): 1 galaxies
+Color3 failed: color1=0.98 <= 0.98: 1 galaxies
+High SNR in veto bands: f814w(3.0): 1 galaxies
+Low SNR in detection bands: f150w(4.6): 1 galaxies
+Color3 failed: color1=0.75 <= 1.37: 1 galaxies
+High SNR in veto bands: f606w(5.0), f814w(3.0): 1 galaxies
+Color3 failed: color1=0.21 <= 1.46: 1 galaxies
+Color3 failed: color1=0.98 <= 1.16: 1 galaxies
+High SNR in veto bands: f606w(3.1), f814w(2.3): 1 galaxies
+Color3 failed: color1=1.10 <= 1.47: 1 galaxies
+High SNR in veto bands: f606w(3.0): 1 galaxies
+Color3 failed: color1=1.25 <= 1.34: 1 galaxies
+Color3 failed: color1=0.70 <= 1.17: 1 galaxies
+High SNR in veto bands: f606w(3.8), f814w(2.9): 1 galaxies
+Color3 failed: color1=0.76 <= 1.29: 1 galaxies
+High SNR in veto bands: f814w(2.4): 1 galaxies
+Color3 failed: color1=0.74 <= 1.10: 1 galaxies
+Low SNR in detection bands: f444w(4.3): 1 galaxies
+High SNR in veto bands: f606w(2.4), f814w(3.2): 1 galaxies
+High SNR in veto bands: f606w(3.2): 1 galaxies
+Color3 failed: color1=1.54 <= 1.79: 1 galaxies
+Color3 failed: color1=0.66 <= 1.57: 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(1.4), f277w(-1.5), f356w(-0.3), f444w(1.3): 1 galaxies
+High SNR in veto bands: f606w(2.2): 1 galaxies
+Color1 failed: f115w SNR=2.1, color1=-2.32: 1 galaxies
+Color2 out of range: -64.63 not in (-1.5, 1.0): 1 galaxies
+Color3 failed: color1=1.05 <= 1.11: 1 galaxies
+High SNR in veto bands: f606w(2.5), f814w(2.5): 1 galaxies
+Color3 failed: color1=0.69 <= 0.94: 1 galaxies
+Color3 failed: color1=1.04 <= 1.08: 1 galaxies
+
+CRITERIA FAILURE SUMMARY:
+==============================
+Low SNR in detection bands: 9 galaxies (16.7%)
+High SNR in veto bands: 19 galaxies (35.2%)
+Color1 failed: 2 galaxies (3.7%)
+Color2 out of range: 2 galaxies (3.7%)
+Color3 failed: 26 galaxies (48.1%)

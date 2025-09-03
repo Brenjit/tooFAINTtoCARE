@@ -8,7 +8,7 @@ base_dir = '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results
 catalog_subdir = 'catalogue_z7'
 pointings = [f'nircam{i}' for i in range(1, 11)]
 filters = ['f606w', 'f814w', 'f115w', 'f150w', 'f200w', 'f277w', 'f356w', 'f410m', 'f444w']
-
+print("running code 1")
 highlight_ids = {
     'nircam1': [2858, 4010, 6802, 8216, 11572, 10899, 8272],
     'nircam2': [1332, 2034, 5726, 11316],
