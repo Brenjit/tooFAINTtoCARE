@@ -1,0 +1,117 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT
+==================================================
+
+
+NIRCAM1:
+------------------------------
+Passed: 5, Failed: 2, Not found: 0
+
+NIRCAM2:
+------------------------------
+Passed: 3, Failed: 1, Not found: 0
+
+NIRCAM3:
+------------------------------
+Passed: 1, Failed: 0, Not found: 0
+
+NIRCAM4:
+------------------------------
+Passed: 2, Failed: 5, Not found: 0
+
+NIRCAM5:
+------------------------------
+Passed: 4, Failed: 1, Not found: 0
+
+NIRCAM6:
+------------------------------
+Passed: 0, Failed: 1, Not found: 0
+
+NIRCAM7:
+------------------------------
+Passed: 5, Failed: 5, Not found: 0
+
+NIRCAM8:
+------------------------------
+Passed: 6, Failed: 3, Not found: 0
+
+NIRCAM9:
+------------------------------
+Passed: 3, Failed: 2, Not found: 0
+
+NIRCAM10:
+------------------------------
+Passed: 4, Failed: 1, Not found: 0
+
+OVERALL SUMMARY:
+==============================
+Total galaxies analyzed: 54
+Total passed selection: 33
+Total failed selection: 21
+Overall success rate: 61.1%
+
+FAILURE REASONS (by frequency):
+==============================
+High SNR in veto bands: f606w(5.5): 2 galaxies
+High SNR in veto bands: f814w(4.7): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(2.6), f277w(3.2), f356w(2.0): 1 galaxies
+Color1 failed: f115w SNR=2.6, color1=-1.98: 1 galaxies
+Color2 out of range: 2.02 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(2.9): 1 galaxies
+Low SNR in detection bands: f444w(3.7): 1 galaxies
+Low SNR in detection bands: f277w(3.3): 1 galaxies
+Low SNR in detection bands: f444w(2.8): 1 galaxies
+High SNR in veto bands: f814w(6.0): 1 galaxies
+Low SNR in detection bands: f150w(3.3): 1 galaxies
+Low SNR in detection bands: f150w(3.1): 1 galaxies
+Low SNR in detection bands: f356w(3.6), f444w(3.3): 1 galaxies
+Low SNR in detection bands: f444w(3.8): 1 galaxies
+High SNR in veto bands: f814w(4.9): 1 galaxies
+Low SNR in detection bands: f150w(3.9): 1 galaxies
+High SNR in veto bands: f606w(9.0), f814w(4.9): 1 galaxies
+Low SNR in detection bands: f356w(3.3): 1 galaxies
+High SNR in veto bands: f606w(5.4): 1 galaxies
+Low SNR in detection bands: f356w(3.9): 1 galaxies
+Low SNR in detection bands: f444w(3.2): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(1.1), f277w(-1.0), f356w(-0.2), f444w(1.0): 1 galaxies
+Color2 out of range: -64.63 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f606w(5.6): 1 galaxies
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 14 galaxies (25.9%)
+--------------------------------------------------
+  Source 8272 in nircam1: F150W(0.3), F200W(2.6), F277W(3.2), F356W(2.0)
+  Source 5726 in nircam2: F444W(2.9)
+  Source 315 in nircam4: F444W(3.7)
+  Source 1669 in nircam4: F277W(3.3)
+  Source 9859 in nircam4: F444W(2.8)
+  Source 9427 in nircam4: F150W(3.3)
+  Source 11659 in nircam4: F150W(3.1)
+  Source 4547 in nircam5: F356W(3.6), F444W(3.3)
+  Source 3206 in nircam6: F444W(3.8)
+  Source 11615 in nircam7: F150W(3.9)
+  Source 2288 in nircam8: F356W(3.3)
+  Source 14604 in nircam8: F356W(3.9)
+  Source 2646 in nircam9: F444W(3.2)
+  Source 8076 in nircam9: F150W(0.1), F200W(1.1), F277W(-1.0), F356W(-0.2), F444W(1.0)
+
+High SNR in veto bands: 8 galaxies (14.8%)
+--------------------------------------------------
+  Source 10899 in nircam1: F814W(4.7)
+  Source 9859 in nircam4: F814W(6.0)
+  Source 9959 in nircam7: F814W(4.9)
+  Source 3581 in nircam7: F606W(9.0), F814W(4.9)
+  Source 13743 in nircam7: F606W(5.5)
+  Source 14097 in nircam7: F606W(5.5)
+  Source 4493 in nircam8: F606W(5.4)
+  Source 7847 in nircam10: F606W(5.6)
+
+Color1 failed: 1 galaxies (1.9%)
+--------------------------------------------------
+  Source 8272 in nircam1: F115W SNR=2.6, Color1=-1.98
+
+Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam9: Color2=-64.63 (range: -1.5 to 1.0)
