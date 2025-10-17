@@ -1,6 +1,6 @@
 # Original Diagnosis criteria from the paper
 # Sextractor errors are scaled based on the NMAD-SExtractor SNR scaling
-# The scaling values are in the 6_1_SNR_comparison_analysis/snr_fit_summary..txt
+# The scaling values are in the 6_1_SNR_comparison_analysis/snr_fit_summary.txt
 # The code is inpired by 3_z_Diagnosis
 
 import numpy as np
@@ -12,7 +12,7 @@ from astropy.table import Table
 from datetime import datetime
 import pandas as pd
 from scipy import stats
-print("Running 6_2 without 410m final summaruy")
+print("Running 6_2 without 410m final summary")
 # Configuration (same as your original)
 base_dir = '/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/'
 output_base_dir = './6_2_new_Diagnostic_Analysis_scaled'
