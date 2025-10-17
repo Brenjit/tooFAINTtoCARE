@@ -1,0 +1,113 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT - redshift_z8-10
+==================================================
+
+
+NIRCAM1:
+------------------------------
+Passed: 5, Failed: 2, Not found: 0
+
+NIRCAM2:
+------------------------------
+Passed: 3, Failed: 1, Not found: 0
+
+NIRCAM3:
+------------------------------
+Passed: 1, Failed: 0, Not found: 0
+
+NIRCAM4:
+------------------------------
+Passed: 5, Failed: 2, Not found: 0
+
+NIRCAM5:
+------------------------------
+Passed: 3, Failed: 2, Not found: 0
+
+NIRCAM6:
+------------------------------
+Passed: 1, Failed: 0, Not found: 0
+
+NIRCAM7:
+------------------------------
+Passed: 6, Failed: 4, Not found: 0
+
+NIRCAM8:
+------------------------------
+Passed: 6, Failed: 3, Not found: 0
+
+NIRCAM9:
+------------------------------
+Passed: 2, Failed: 3, Not found: 0
+
+NIRCAM10:
+------------------------------
+Passed: 3, Failed: 2, Not found: 0
+
+OVERALL SUMMARY FOR redshift_z8-10:
+==============================
+Total galaxies analyzed: 54
+Total passed selection: 35
+Total failed selection: 19
+Overall success rate: 64.8%
+
+FAILURE REASONS (by frequency):
+==============================
+Low SNR in detection bands: f444w(2.8): 2 galaxies
+High SNR in veto bands: f814w(4.0): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(1.6), f277w(3.8), f356w(1.8), f444w(3.8): 1 galaxies
+Color1 failed: f115w SNR=2.3, color1=-1.98: 1 galaxies
+Color2 out of range: 2.02 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(3.8): 1 galaxies
+Low SNR in detection bands: f444w(3.6): 1 galaxies
+High SNR in veto bands: f814w(5.0): 1 galaxies
+High SNR in veto bands: f814w(4.1): 1 galaxies
+High SNR in veto bands: f814w(4.5): 1 galaxies
+High SNR in veto bands: f606w(7.3), f814w(4.5): 1 galaxies
+High SNR in veto bands: f606w(4.5): 1 galaxies
+High SNR in veto bands: f606w(4.4): 1 galaxies
+Low SNR in detection bands: f277w(3.4): 1 galaxies
+High SNR in veto bands: f606w(6.4): 1 galaxies
+Low SNR in detection bands: f277w(3.9): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(3.8): 1 galaxies
+Low SNR in detection bands: f150w(2.7): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(0.9), f277w(-1.5), f356w(-0.3), f444w(1.4): 1 galaxies
+Color2 out of range: -64.63 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f814w(5.1): 1 galaxies
+High SNR in veto bands: f814w(5.2): 1 galaxies
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 10 galaxies (18.5%)
+--------------------------------------------------
+  Source 8272 in nircam1: F150W(0.3), F200W(1.6), F277W(3.8), F356W(1.8), F444W(3.8)
+  Source 5726 in nircam2: F444W(3.8)
+  Source 315 in nircam4: F444W(3.6)
+  Source 9859 in nircam4: F444W(2.8)
+  Source 4547 in nircam5: F444W(2.8)
+  Source 2288 in nircam8: F277W(3.4)
+  Source 14604 in nircam8: F277W(3.9)
+  Source 5572 in nircam9: F150W(2.8), F200W(3.8)
+  Source 9061 in nircam9: F150W(2.7)
+  Source 8076 in nircam9: F150W(0.1), F200W(0.9), F277W(-1.5), F356W(-0.3), F444W(1.4)
+
+High SNR in veto bands: 10 galaxies (18.5%)
+--------------------------------------------------
+  Source 10899 in nircam1: F814W(4.0)
+  Source 9859 in nircam4: F814W(5.0)
+  Source 12083 in nircam5: F814W(4.1)
+  Source 9959 in nircam7: F814W(4.5)
+  Source 3581 in nircam7: F606W(7.3), F814W(4.5)
+  Source 13743 in nircam7: F606W(4.5)
+  Source 14097 in nircam7: F606W(4.4)
+  Source 4493 in nircam8: F606W(6.4)
+  Source 7847 in nircam10: F814W(5.1)
+  Source 10415 in nircam10: F814W(5.2)
+
+Color1 failed: 1 galaxies (1.9%)
+--------------------------------------------------
+  Source 8272 in nircam1: F115W SNR=2.3, Color1=-1.98
+
+Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam9: Color2=-64.63 (range: -1.5 to 1.0)

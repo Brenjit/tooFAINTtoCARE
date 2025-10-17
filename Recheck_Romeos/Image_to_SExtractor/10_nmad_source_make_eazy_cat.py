@@ -150,133 +150,178 @@ def create_output_directory_structure(base_output_dir, redshift_bin, pointing):
     }
 
 def process_single_source(source_data, filter_name, paths, perform_empty_aperture, generate_cutouts, hst_photflam_lamda, aperture_corrections, cutouts_dir):
-    """Process a single source for NMAD calculation"""
+    """Process a single source for NMAD calculation - FIXED VERSION"""
     print(f"Processing source {source_data['NUMBER']} for filter {filter_name}")
-    results = {}
     
     source_number = int(source_data['NUMBER'])
     x_image = source_data['X_IMAGE']
     y_image = source_data['Y_IMAGE']
     
+    # Get redshift bin and pointing with proper validation
+    redshift_bin = source_data.get('REDSHIFT_BIN', 'unknown') if isinstance(source_data, dict) else getattr(source_data, 'REDSHIFT_BIN', 'unknown')
+    pointing = source_data.get('POINTING', 'unknown') if isinstance(source_data, dict) else getattr(source_data, 'POINTING', 'unknown')
+    
     correction = aperture_corrections[filter_name]
     print(f"Aperture correction for {filter_name}: {correction}")
     
-    if perform_empty_aperture == 'yes':
-        print("Performing empty aperture calculation...")
+    # FIRST: Read the actual SExtractor flux values for this source
+    try:
+        # Read SExtractor catalog for this filter
+        sex_catalog = pd.read_csv(paths['catalog'], sep=r'\s+', comment='#', header=None)
+        sex_catalog.columns = ['NUMBER', 'X_IMAGE', 'Y_IMAGE', 'MAG_AUTO', 'MAGERR_AUTO',
+                             'MAG_APER', 'MAGERR_APER', 'CLASS_STAR', 'FLUX_AUTO',
+                             'FLUXERR_AUTO', 'FLUX_APER', 'FLUXERR_APER',
+                             'ALPHA_J2000', 'DELTA_J2000']
         
-        with fits.open(paths['segmentation']) as hdul:
-            seg_map = hdul[0].data
-        with fits.open(paths['fits']) as hdul:
-            image_data = hdul[0].data
-        with fits.open(paths['rms']) as hdul:
-            rms_map = hdul[0].data
+        # Find this source in SExtractor catalog
+        source_mask = sex_catalog['NUMBER'] == source_number
+        if not source_mask.any():
+            print(f"Warning: Source {source_number} not found in SExtractor catalog for {filter_name}")
+            return None
+            
+        sex_row = sex_catalog[source_mask].iloc[0]
+        sex_flux_aper = sex_row['FLUX_APER']
+        sex_fluxerr_aper = sex_row['FLUXERR_APER']
         
-        print("Segmentation map, image data, and RMS map loaded.")
-        
-        empty_region_mask = (seg_map == 0) & (rms_map != 0)
-        print(f"Empty region mask created. Shape of mask: {empty_region_mask.shape}")
-        
-        kernel = disk(5)
-        eroded_empty_mask = binary_erosion(empty_region_mask, structure=kernel)
-        empty_pixels = np.argwhere(eroded_empty_mask)
-        empty_pixel_coords = empty_pixels[:, [1, 0]]
-        kdtree = cKDTree(empty_pixel_coords)
-        
-        print("Empty pixels eroded and KDTree created.")
-        
-        closest_empty_apertures = find_closest_empty_apertures(
-            x_image, y_image, kdtree, num_apertures=200
-        )
-        
-        apertures = CircularAperture(closest_empty_apertures, r=5)
-        phot_table = aperture_photometry(image_data, apertures)
-        fluxes = phot_table['aperture_sum']
-        photometric_error = nmad(fluxes)
-        
+        # Apply flux conversion
         if filter_name in hst_photflam_lamda:
             photflam = hst_photflam_lamda[filter_name]['photflam']
             lamda = hst_photflam_lamda[filter_name]['lamda']
-            photometric_error_uJy = hst_flux_to_ujy(photometric_error, photflam, lamda)
+            sex_flux_aper_uJy = hst_flux_to_ujy(sex_flux_aper, photflam, lamda) * correction
+            sex_fluxerr_aper_uJy = hst_flux_to_ujy(sex_fluxerr_aper, photflam, lamda) * correction
         else:
             pixar_sr = flux_conversion_scale(paths['fits'])
-            photometric_error_uJy = photometric_error * pixar_sr * 1e12
+            sex_flux_aper_uJy = sex_flux_aper * pixar_sr * 1e12 * correction
+            sex_fluxerr_aper_uJy = sex_fluxerr_aper * pixar_sr * 1e12 * correction
+            
+        print(f"Source {source_number} - {filter_name}: FLUX_APER = {sex_flux_aper_uJy:.6f} µJy")
         
-        if generate_cutouts == 'yes':
-            print(f"Creating cutouts for source {source_number}")
-            
-            cutout_size = 150
-            x, y = x_image, y_image
-            x_min, x_max = int(x - cutout_size // 2), int(x + cutout_size // 2)
-            y_min, y_max = int(y - cutout_size // 2), int(y + cutout_size // 2)
-            
-            # Ensure cutout coordinates are within image bounds
-            y_min = max(0, y_min)
-            y_max = min(image_data.shape[0], y_max)
-            x_min = max(0, x_min)
-            x_max = min(image_data.shape[1], x_max)
-            
-            cutout_image = image_data[y_min:y_max, x_min:x_max]
-            cutout_seg = seg_map[y_min:y_max, x_min:x_max]
-            
-            fig, axes = plt.subplots(1, 2, figsize=(10, 5), sharex=True, sharey=True)
-            titles = ["Image Data", "Segmentation Map"]
-            cutouts = [cutout_image, cutout_seg]
-            cmaps = ["gray", "gray"]
-            
-            for i, ax in enumerate(axes):
-                ax.imshow(cutouts[i], cmap=cmaps[i], origin="lower", 
-                        interpolation="nearest", aspect="equal")
-                ax.set_title(titles[i], fontsize=14)
-                ax.axis("off")
-                
-                # Source aperture
-                source_x = cutout_size // 2 if (x_min <= x_image <= x_max and y_min <= y_image <= y_max) else -100
-                source_y = cutout_size // 2 if (x_min <= x_image <= x_max and y_min <= y_image <= y_max) else -100
-                if source_x >= 0 and source_y >= 0:
-                    aperture = Circle((source_x, source_y), 5, edgecolor='red', facecolor='none', lw=2)
-                    ax.add_patch(aperture)
-                
-                # Empty apertures
-                for coord in apertures.positions:
-                    aperture_x = coord[0] - x_min
-                    aperture_y = coord[1] - y_min
-                    if 0 <= aperture_x < cutout_size and 0 <= aperture_y < cutout_size:
-                        aperture = Circle((aperture_x, aperture_y), 5, 
-                                        edgecolor='green', facecolor='none', 
-                                        lw=1, linestyle='-')
-                        ax.add_patch(aperture)
-            
-            flux_info = f"NMAD: {photometric_error_uJy:.5f} µJy"
-            plt.suptitle(f"Source {source_number} - {filter_name} - {flux_info}", fontsize=12)
-            output_path = os.path.join(cutouts_dir, f"cutout_{filter_name}_source_{source_number}.png")
-            plt.savefig(output_path, dpi=300, bbox_inches='tight')
-            plt.close()
-            
-            print(f"✅ Saved cutout: {output_path}")
+    except Exception as e:
+        print(f"Error reading SExtractor flux for source {source_number}, filter {filter_name}: {e}")
+        return None
+    
+    # SECOND: Calculate NMAD error if requested
+    nmad_error_uJy = 0
+    if perform_empty_aperture == 'yes':
+        print("Performing empty aperture calculation...")
         
-        results = {
-            'source_number': source_number,
-            'filter': filter_name,
-            'x_image': x_image,
-            'y_image': y_image,
-            'nmad_flux_error': photometric_error_uJy,
-            'redshift_bin': source_data.get('REDSHIFT_BIN', 'unknown'),
-            'pointing': source_data.get('POINTING', 'unknown')
-        }
+        try:
+            with fits.open(paths['segmentation']) as hdul:
+                seg_map = hdul[0].data
+            with fits.open(paths['fits']) as hdul:
+                image_data = hdul[0].data
+            with fits.open(paths['rms']) as hdul:
+                rms_map = hdul[0].data
+            
+            empty_region_mask = (seg_map == 0) & (rms_map != 0)
+            
+            kernel = disk(5)
+            eroded_empty_mask = binary_erosion(empty_region_mask, structure=kernel)
+            empty_pixels = np.argwhere(eroded_empty_mask)
+            empty_pixel_coords = empty_pixels[:, [1, 0]]
+            kdtree = cKDTree(empty_pixel_coords)
+            
+            closest_empty_apertures = find_closest_empty_apertures(
+                x_image, y_image, kdtree, num_apertures=200
+            )
+            
+            apertures = CircularAperture(closest_empty_apertures, r=5)
+            phot_table = aperture_photometry(image_data, apertures)
+            fluxes = phot_table['aperture_sum']
+            photometric_error = nmad(fluxes)
+            
+            # Convert NMAD error to µJy
+            if filter_name in hst_photflam_lamda:
+                photflam = hst_photflam_lamda[filter_name]['photflam']
+                lamda = hst_photflam_lamda[filter_name]['lamda']
+                nmad_error_uJy = hst_flux_to_ujy(photometric_error, photflam, lamda)
+            else:
+                pixar_sr = flux_conversion_scale(paths['fits'])
+                nmad_error_uJy = photometric_error * pixar_sr * 1e12
+                
+            print(f"NMAD error for {filter_name}: {nmad_error_uJy:.6f} µJy")
+            
+            # Generate cutouts if requested
+            if generate_cutouts == 'yes':
+                generate_cutout_image(source_number, filter_name, x_image, y_image, image_data, 
+                                    seg_map, apertures, nmad_error_uJy, cutouts_dir)
+                
+        except Exception as e:
+            print(f"Error in NMAD calculation for source {source_number}, filter {filter_name}: {e}")
+            nmad_error_uJy = sex_fluxerr_aper_uJy  # Fallback to SExtractor error
+    
     else:
-        print("Skipping empty aperture calculation.")
-        results = {
-            'source_number': source_number,
-            'filter': filter_name,
-            'x_image': x_image,
-            'y_image': y_image,
-            'nmad_flux_error': 0,  # Placeholder if not calculating NMAD
-            'redshift_bin': source_data.get('REDSHIFT_BIN', 'unknown'),
-            'pointing': source_data.get('POINTING', 'unknown')
-        }
+        # If not doing NMAD, use SExtractor error
+        nmad_error_uJy = sex_fluxerr_aper_uJy
+    
+    # Return both the actual flux and the proper error
+    results = {
+        'source_number': source_number,
+        'filter': filter_name,
+        'x_image': x_image,
+        'y_image': y_image,
+        'sex_flux_ujy': sex_flux_aper_uJy,  # ACTUAL flux value
+        'nmad_error_ujy': nmad_error_uJy,   # PROPER error value
+        'redshift_bin': redshift_bin,
+        'pointing': pointing
+    }
     
     print(f"Processing for source {source_number} in filter {filter_name} completed.")
     return results
+
+def generate_cutout_image(source_number, filter_name, x_image, y_image, image_data, seg_map, apertures, nmad_error, cutouts_dir):
+    """Generate cutout image - separated for clarity"""
+    print(f"Creating cutouts for source {source_number}")
+    
+    cutout_size = 150
+    x, y = x_image, y_image
+    x_min, x_max = int(x - cutout_size // 2), int(x + cutout_size // 2)
+    y_min, y_max = int(y - cutout_size // 2), int(y + cutout_size // 2)
+    
+    # Ensure cutout coordinates are within image bounds
+    y_min = max(0, y_min)
+    y_max = min(image_data.shape[0], y_max)
+    x_min = max(0, x_min)
+    x_max = min(image_data.shape[1], x_max)
+    
+    cutout_image = image_data[y_min:y_max, x_min:x_max]
+    cutout_seg = seg_map[y_min:y_max, x_min:x_max]
+    
+    fig, axes = plt.subplots(1, 2, figsize=(10, 5), sharex=True, sharey=True)
+    titles = ["Image Data", "Segmentation Map"]
+    cutouts = [cutout_image, cutout_seg]
+    cmaps = ["gray", "gray"]
+    
+    for i, ax in enumerate(axes):
+        ax.imshow(cutouts[i], cmap=cmaps[i], origin="lower", 
+                interpolation="nearest", aspect="equal")
+        ax.set_title(titles[i], fontsize=14)
+        ax.axis("off")
+        
+        # Source aperture
+        source_x = cutout_size // 2 if (x_min <= x_image <= x_max and y_min <= y_image <= y_max) else -100
+        source_y = cutout_size // 2 if (x_min <= x_image <= x_max and y_min <= y_image <= y_max) else -100
+        if source_x >= 0 and source_y >= 0:
+            aperture = Circle((source_x, source_y), 5, edgecolor='red', facecolor='none', lw=2)
+            ax.add_patch(aperture)
+        
+        # Empty apertures
+        for coord in apertures.positions:
+            aperture_x = coord[0] - x_min
+            aperture_y = coord[1] - y_min
+            if 0 <= aperture_x < cutout_size and 0 <= aperture_y < cutout_size:
+                aperture = Circle((aperture_x, aperture_y), 5, 
+                                edgecolor='green', facecolor='none', 
+                                lw=1, linestyle='-')
+                ax.add_patch(aperture)
+    
+    flux_info = f"NMAD: {nmad_error:.5f} µJy"
+    plt.suptitle(f"Source {source_number} - {filter_name} - {flux_info}", fontsize=12)
+    output_path = os.path.join(cutouts_dir, f"cutout_{filter_name}_source_{source_number}.png")
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    print(f"✅ Saved cutout: {output_path}")
 
 def process_single_filter_for_high_z(filter_name, paths, redshift_catalog, perform_empty_aperture, generate_cutouts, hst_photflam_lamda, aperture_corrections, cutouts_dir):
     """Process all high-z sources for a single filter"""
@@ -300,29 +345,107 @@ def process_single_filter_for_high_z(filter_name, paths, redshift_catalog, perfo
     print(f"Processing for filter {filter_name} completed. Processed {len(results)} sources.")
     return filter_name, results
 
+def create_nmad_catalog(all_results, redshift_pointing_catalog, catalog_files, catalogs_dir, pointing, redshift_bin):
+    """Create NMAD catalog with proper flux and error values - FIXED VERSION"""
+    print("Creating NMAD catalog in EAZY format...")
+    
+    # Group results by source and filter
+    source_results = {}
+    for result in all_results:
+        if result is None:
+            continue
+        source_num = result['source_number']
+        filter_name = result['filter']
+        
+        if source_num not in source_results:
+            source_results[source_num] = {}
+        
+        source_results[source_num][filter_name] = {
+            'flux': result['sex_flux_ujy'],
+            'error': result['nmad_error_ujy']
+        }
+    
+    # Prepare catalog data
+    catalog_data = []
+    
+    for source_number in source_results.keys():
+        catalog_row = [source_number]
+        
+        for filter_name in catalog_files.keys():
+            if filter_name in source_results[source_number]:
+                # Use the actual calculated values
+                flux_val = source_results[source_number][filter_name]['flux']
+                error_val = source_results[source_number][filter_name]['error']
+            else:
+                # Source not found in this filter, use zeros
+                flux_val = 0
+                error_val = 0
+            
+            catalog_row.extend([flux_val, error_val])
+        
+        catalog_data.append(catalog_row)
+    
+    # Save NMAD catalog
+    nmad_catalogue_file = os.path.join(catalogs_dir, f"{pointing}_{redshift_bin}_nmad_catalogue.cat")
+    try:
+        with open(nmad_catalogue_file, 'w') as f:
+            # Write header
+            f.write('# id ' + ' '.join([f'f_{filter_name} e_{filter_name}' for filter_name in catalog_files.keys()]) + '\n')
+            
+            # Write data
+            for row in catalog_data:
+                f.write(f"{int(row[0])} ")
+                # Format numbers properly
+                formatted_values = []
+                for i, val in enumerate(row[1:]):
+                    if i % 2 == 0:  # Flux values
+                        formatted_values.append(f"{val:.8f}")
+                    else:  # Error values  
+                        formatted_values.append(f"{val:.8f}")
+                f.write(' '.join(formatted_values) + '\n')
+        
+        print(f"NMAD catalog saved to {nmad_catalogue_file}")
+        
+        # Print first few lines for verification
+        print("First 3 lines of catalog:")
+        with open(nmad_catalogue_file, 'r') as f:
+            for i, line in enumerate(f):
+                if i < 4:  # Header + 3 data lines
+                    print(line.strip())
+                else:
+                    break
+                    
+    except Exception as e:
+        print(f"Error saving NMAD catalog to {nmad_catalogue_file}: {e}")
+
 def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_version, base_output_dir, perform_empty_aperture, generate_cutouts):
-    """Process a specific redshift bin and pointing combination"""
+    """Process a specific redshift bin and pointing combination - FIXED VERSION"""
     print(f"Processing redshift bin {redshift_bin} for pointing {pointing}")
     
-    # Filter catalog for current redshift bin and pointing
-    redshift_pointing_catalog = pointing_catalog[
-        (pointing_catalog['REDSHIFT_BIN'] == redshift_bin) & 
-        (pointing_catalog['POINTING'] == pointing)
-    ]
+    # Filter catalog for current redshift bin and pointing WITH VALIDATION
+    if 'REDSHIFT_BIN' in pointing_catalog.columns and 'POINTING' in pointing_catalog.columns:
+        redshift_pointing_catalog = pointing_catalog[
+            (pointing_catalog['REDSHIFT_BIN'] == redshift_bin) & 
+            (pointing_catalog['POINTING'] == pointing)
+        ]
+    else:
+        # If columns don't exist, use all sources (fallback)
+        print(f"Warning: REDSHIFT_BIN or POINTING columns not found. Using all {len(pointing_catalog)} sources.")
+        redshift_pointing_catalog = pointing_catalog
     
     if len(redshift_pointing_catalog) == 0:
         print(f"No sources found for redshift bin {redshift_bin} in pointing {pointing}")
         return None
     
-    print(f"Found {len(redshift_pointing_catalog)} sources for redshift bin {redshift_bin} in pointing {pointing}")
+    print(f"Found {len(redshift_pointing_catalog)} sources for processing")
     
     # Create output directory structure
     dirs = create_output_directory_structure(base_output_dir, redshift_bin, pointing)
     
     # Updated directory paths
-    base_image_dir = f"/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/Romeo_s_data/{pointing}"
-    base_catalog_dir = f"/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/{pointing}/catalogue_z7"
-    base_segmentation_dir = f"/Volumes/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/{pointing}/segmentations_z7"
+    base_image_dir = f"/media/iit-t/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/Romeo_s_data/{pointing}"
+    base_catalog_dir = f"/media/iit-t/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/{pointing}/catalogue_z7"
+    base_segmentation_dir = f"/media/iit-t/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/{pointing}/segmentations_z7"
     
     catalog_files = {  
         "F606W": {
@@ -330,15 +453,13 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"egs_all_acs_wfc_f606w_030mas_v1.9_{pointing}_mef_SCI_BKSUB.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f606w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"egs_all_acs_wfc_f606w_030mas_v1.9_{pointing}_mef_RMS.fits"),
-            "pointing": pointing
-        },          
+        },
         
         "F814W": {
             "catalog": os.path.join(base_catalog_dir, f"f150dropout_f814w_catalog.cat"),
             "fits": os.path.join(base_image_dir, f"egs_all_acs_wfc_f814w_030mas_v1.9_{pointing}_mef_SCI_BKSUB.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f814w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"egs_all_acs_wfc_f814w_030mas_v1.9_{pointing}_mef_RMS.fits"),
-            "pointing": pointing
         },
         
         "F115W": {
@@ -346,7 +467,6 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f115w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f115w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f115w_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         },
         
         "F150W": {
@@ -354,7 +474,6 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f150w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f150w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f150w_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         },
         
         "F200W": {
@@ -362,7 +481,6 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f200w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f200w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f200w_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         },
         
         "F277W": {
@@ -370,7 +488,6 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f277w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f277w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f277w_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         },
         
         "F356W": {
@@ -378,7 +495,6 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f356w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f356w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f356w_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         },
         
         "F410M": {
@@ -386,15 +502,13 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f410m_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f410m_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f410m_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         },
         
         "F444W": {
-            "catalog": os.path.join(base_catalog_dir, f"selected_f444w_catalog.cat"),
+            "catalog": os.path.join(base_catalog_dir, f"f150dropout_f444w_catalog.cat"),  # FIXED
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f444w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f444w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f444w_{dr_version}_i2d_RMS.fits"),
-            "pointing": pointing
         }
     }
     
@@ -438,7 +552,13 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
     
     # Save results
     if all_results:
-        results_df = pd.DataFrame(all_results)
+        # Filter out None results
+        valid_results = [r for r in all_results if r is not None]
+        if not valid_results:
+            print("No valid results to save.")
+            return None
+            
+        results_df = pd.DataFrame(valid_results)
         
         # Save detailed results
         output_file = os.path.join(dirs['results_dir'], f"{pointing}_{redshift_bin}_nmad_results.txt")
@@ -448,47 +568,8 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
         except Exception as e:
             print(f"Error saving results to {output_file}: {e}")
         
-        # Create NMAD catalog in EAZY format
-        print("Creating NMAD catalog in EAZY format...")
-        
-        # Group results by source
-        source_results = {}
-        for result in all_results:
-            source_num = result['source_number']
-            if source_num not in source_results:
-                source_results[source_num] = {}
-            source_results[source_num][result['filter']] = result['nmad_flux_error']
-        
-        # Prepare catalog data
-        catalog_data = []
-        for source_number, filter_data in source_results.items():
-            catalog_row = [source_number]
-            for filter_name in catalog_files.keys():
-                # Use the flux values from the original catalog
-                sex_flux_col = f'SEX_FLUX_{filter_name}'
-                if sex_flux_col in redshift_pointing_catalog.columns:
-                    flux_val = redshift_pointing_catalog[redshift_pointing_catalog['NUMBER'] == source_number][sex_flux_col].values
-                    flux_val = flux_val[0] if len(flux_val) > 0 else 0
-                else:
-                    flux_val = 0
-                
-                # Use NMAD as error
-                error_val = filter_data.get(filter_name, 0)
-                
-                catalog_row.extend([flux_val, error_val])
-            catalog_data.append(catalog_row)
-        
-        # Save NMAD catalog
-        nmad_catalogue_file = os.path.join(dirs['catalogs_dir'], f"{pointing}_{redshift_bin}_nmad_catalogue.cat")
-        try:
-            with open(nmad_catalogue_file, 'w') as f:
-                f.write('# id ' + ' '.join([f'f_{filter_name} e_{filter_name}' for filter_name in catalog_files.keys()]) + '\n')
-                for row in catalog_data:
-                    f.write(f"{int(row[0])} ")
-                    f.write(' '.join(f"{value}" for value in row[1:]) + '\n')
-            print(f"NMAD catalog saved to {nmad_catalogue_file}")
-        except Exception as e:
-            print(f"Error saving NMAD catalog to {nmad_catalogue_file}: {e}")
+        # Create NMAD catalog using the dedicated function
+        create_nmad_catalog(valid_results, redshift_pointing_catalog, catalog_files, dirs['catalogs_dir'], pointing, redshift_bin)
         
         return results_df
     else:
@@ -498,7 +579,7 @@ def process_redshift_bin_pointing(redshift_bin, pointing, pointing_catalog, dr_v
 def process_high_z_nmad():
     """Main function to process NMAD for high-z sources with organized directory structure"""
     # Load high-z catalog
-    high_z_catalog_file = "/Users/brenjithazarika/Desktop/PhD_computer/Codes/TooFAINTtooCARE/Recheck_Romeos/Image_to_SExtractor/9_6_high_z_catalogues_for_nmad/all_high_z_sources_master_catalog.txt"
+    high_z_catalog_file = "/media/iit-t/MY_SSD_1TB/Work_PhD/Codes/TooFAINTtooCARE/Recheck_Romeos/Image_to_SExtractor/9_6_high_z_catalogues_for_nmad/all_high_z_sources_master_catalog.txt"
     high_z_catalog = load_high_z_catalog(high_z_catalog_file)
     
     if high_z_catalog is None:
@@ -506,7 +587,7 @@ def process_high_z_nmad():
         return
     
     # Base output directory
-    base_output_dir = "/Users/brenjithazarika/Desktop/PhD_computer/Codes/TooFAINTtooCARE/Recheck_Romeos/Image_to_SExtractor/10_nmad_selected"
+    base_output_dir = "/media/iit-t/MY_SSD_1TB/Work_PhD/Codes/TooFAINTtooCARE/Recheck_Romeos/Image_to_SExtractor/10_nmad_selected_15_Oct"
     os.makedirs(base_output_dir, exist_ok=True)
     
     # Get processing preferences
@@ -539,8 +620,8 @@ def process_high_z_nmad():
     }
     
     # Get unique redshift bins and pointings
-    redshift_bins = high_z_catalog['REDSHIFT_BIN'].unique()
-    pointings = pointings = ['nircam9', 'nircam10']         #high_z_catalog['POINTING'].unique()
+    redshift_bins = high_z_catalog['REDSHIFT_BIN'].unique() if 'REDSHIFT_BIN' in high_z_catalog.columns else ['z7-8', 'z8-10', 'z10-15'] #['z7-8', 'z8-10', 'z10-15']
+    pointings = ['nircam1','nircam2','nircam3','nircam4','nircam5','nircam6','nircam7','nircam8','nircam9','nircam10']
     
     print(f"Found redshift bins: {redshift_bins}")
     print(f"Found pointings: {pointings}")
@@ -601,4 +682,4 @@ def process_high_z_nmad():
 
 if __name__ == "__main__":
     process_high_z_nmad()
-    print("All high-z NMAD processing completed.")
+   

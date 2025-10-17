@@ -1,0 +1,264 @@
+
+Pointing: nircam1, Redshift Bin: redshift_z7-8
+  F606W: 0.44425
+  F814W: 0.94359
+  F115W: 0.32377
+  F150W: 0.31828
+  F200W: 0.28548
+  F277W: 0.36995
+  F356W: 0.37382
+  F410M: 0.43644
+  F444W: 0.39307
+  Average (sigma-clipped): 0.43207
+
+Pointing: nircam1, Redshift Bin: redshift_z8-10
+  F606W: 0.58872
+  F814W: 0.57886
+  F115W: 0.29037
+  F150W: 0.26694
+  F200W: 0.23314
+  F277W: 0.35570
+  F356W: 0.49560
+  F410M: 0.58673
+  F444W: 0.51127
+  Average (sigma-clipped): 0.43415
+
+Pointing: nircam1, Redshift Bin: redshift_z10-15
+  F606W: 0.71155
+  F814W: 0.40486
+  F115W: 0.20581
+  F150W: 0.14174
+  F200W: 0.21676
+  F277W: 0.28521
+  F356W: 0.53533
+  F410M: 0.51696
+  F444W: 0.46229
+  Average (sigma-clipped): 0.38672
+
+Pointing: nircam2, Redshift Bin: redshift_z7-8
+  F606W: 0.46817
+  F814W: 0.29063
+  F115W: 0.25130
+  F150W: 0.25449
+  F200W: 0.25893
+  F277W: 0.35534
+  F356W: 0.38422
+  F410M: 0.47733
+  F444W: 0.67121
+  Average (sigma-clipped): 0.37907
+
+Pointing: nircam2, Redshift Bin: redshift_z8-10
+  F606W: 0.45809
+  F814W: 0.64341
+  F115W: 0.48546
+  F150W: 0.41495
+  F200W: 0.34713
+  F277W: 0.41378
+  F356W: 0.36551
+  F410M: 0.59093
+  F444W: 0.43524
+  Average (sigma-clipped): 0.46161
+
+Pointing: nircam2, Redshift Bin: redshift_z10-15
+  F606W: 0.67979
+  F814W: 0.51949
+  F115W: 0.38280
+  F150W: 0.35875
+  F200W: 0.25667
+  F277W: 0.36211
+  F356W: 0.41661
+  F410M: 0.45274
+  F444W: 0.44029
+  Average (sigma-clipped): 0.42992
+
+Pointing: nircam3, Redshift Bin: redshift_z7-8
+  F606W: 0.49854
+  F814W: 0.29429
+  F115W: 0.35094
+  F150W: 0.30895
+  F200W: 0.35214
+  F277W: 0.38739
+  F356W: 0.40268
+  F410M: 0.48492
+  F444W: 0.41642
+  Average (sigma-clipped): 0.38847
+
+Pointing: nircam3, Redshift Bin: redshift_z8-10
+  F606W: 0.40348
+  F814W: 0.60713
+  F115W: 0.32835
+  F150W: 0.31544
+  F200W: 0.38578
+  F277W: 0.39534
+  F356W: 0.49202
+  F410M: 0.54286
+  F444W: 0.54307
+  Average (sigma-clipped): 0.44594
+
+Pointing: nircam4, Redshift Bin: redshift_z7-8
+  F606W: 0.35044
+  F814W: 0.58841
+  F115W: 0.33114
+  F150W: 0.26362
+  F200W: 0.37969
+  F277W: 0.24671
+  F356W: 0.41291
+  F410M: 0.54390
+  F444W: 0.60661
+  Average (sigma-clipped): 0.41372
+
+Pointing: nircam4, Redshift Bin: redshift_z8-10
+  F606W: 0.58251
+  F814W: 0.65825
+  F115W: 0.39301
+  F150W: 0.50072
+  F200W: 0.39625
+  F277W: 0.42507
+  F356W: 0.32546
+  F410M: 0.41754
+  F444W: 0.42655
+  Average (sigma-clipped): 0.45837
+
+Pointing: nircam5, Redshift Bin: redshift_z7-8
+  F606W: 0.99551
+  F814W: 0.40510
+  F115W: 0.61449
+  F150W: 0.00131
+  F200W: 0.00124
+  F277W: 0.00060
+  F356W: 0.38991
+  F410M: 0.00063
+  F444W: 0.00053
+  Average (sigma-clipped): 0.26770
+
+Pointing: nircam5, Redshift Bin: redshift_z8-10
+  F606W: 0.59093
+  F814W: 1.01243
+  F115W: 0.38550
+  F150W: 0.00120
+  F200W: 0.00075
+  F277W: 0.00052
+  F356W: 0.30793
+  F410M: 0.00067
+  F444W: 0.00040
+  Average (sigma-clipped): 0.25559
+
+Pointing: nircam6, Redshift Bin: redshift_z7-8
+  F606W: 0.79781
+  F814W: 0.48600
+  F115W: 0.28519
+  F150W: 0.28450
+  F200W: 0.21107
+  F277W: 0.30908
+  F356W: 0.43305
+  F410M: 0.50285
+  F444W: 0.39970
+  Average (sigma-clipped): 0.41214
+
+Pointing: nircam6, Redshift Bin: redshift_z8-10
+  F606W: 0.70072
+  F814W: 0.72310
+  F115W: 0.37096
+  F150W: 0.32440
+  F200W: 0.38879
+  F277W: 0.40010
+  F356W: 0.43015
+  F410M: 0.55265
+  F444W: 0.57451
+  Average (sigma-clipped): 0.49615
+
+Pointing: nircam7, Redshift Bin: redshift_z7-8
+  F606W: 0.45283
+  F814W: 0.78611
+  F115W: 0.40646
+  F150W: 0.00103
+  F200W: 0.00105
+  F277W: 0.00094
+  F356W: 0.40765
+  F410M: 0.00075
+  F444W: 0.00045
+  Average (sigma-clipped): 0.22858
+
+Pointing: nircam7, Redshift Bin: redshift_z8-10
+  F606W: 0.74336
+  F814W: 0.73994
+  F115W: 0.32561
+  F150W: 0.00135
+  F200W: 0.00103
+  F277W: 0.00115
+  F356W: 0.40213
+  F410M: 0.00082
+  F444W: 0.00069
+  Average (sigma-clipped): 0.24623
+
+Pointing: nircam8, Redshift Bin: redshift_z7-8
+  F606W: 0.80936
+  F814W: 0.26215
+  F115W: 0.28197
+  F150W: 0.00128
+  F200W: 0.00116
+  F277W: 0.00093
+  F356W: 0.47549
+  F410M: 0.00065
+  F444W: 0.00053
+  Average (sigma-clipped): 0.20372
+
+Pointing: nircam8, Redshift Bin: redshift_z8-10
+  F606W: 0.61114
+  F814W: 0.51166
+  F115W: 0.23317
+  F150W: 0.00118
+  F200W: 0.00108
+  F277W: 0.00045
+  F356W: 0.41045
+  F410M: 0.00065
+  F444W: 0.00060
+  Average (sigma-clipped): 0.19671
+
+Pointing: nircam9, Redshift Bin: redshift_z7-8
+  F606W: 1.30243
+  F814W: 0.81618
+  F115W: 0.29756
+  F150W: 0.00123
+  F200W: 0.00135
+  F277W: 0.00102
+  F356W: 0.47493
+  F410M: 0.00084
+  F444W: 0.00048
+  Average (sigma-clipped): 0.32178
+
+Pointing: nircam9, Redshift Bin: redshift_z8-10
+  F606W: 0.54956
+  F814W: 0.55448
+  F115W: 0.38806
+  F150W: 0.00094
+  F200W: 0.00107
+  F277W: 0.00105
+  F356W: 0.57188
+  F410M: 0.00087
+  F444W: 0.00062
+  Average (sigma-clipped): 0.22984
+
+Pointing: nircam10, Redshift Bin: redshift_z7-8
+  F606W: 0.48060
+  F814W: 0.41211
+  F115W: 0.32441
+  F150W: 0.33997
+  F200W: 0.34191
+  F277W: 0.25212
+  F356W: 0.37680
+  F410M: 0.57548
+  F444W: 0.55501
+  Average (sigma-clipped): 0.40649
+
+Pointing: nircam10, Redshift Bin: redshift_z8-10
+  F606W: 0.40465
+  F814W: 1.17101
+  F115W: 0.34618
+  F150W: 0.33353
+  F200W: 0.23889
+  F277W: 0.30233
+  F356W: 0.42710
+  F410M: 0.63934
+  F444W: 0.48032
+  Average (sigma-clipped): 0.48260

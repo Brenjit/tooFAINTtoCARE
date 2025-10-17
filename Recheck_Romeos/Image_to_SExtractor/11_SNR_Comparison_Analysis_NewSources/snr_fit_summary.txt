@@ -1,0 +1,403 @@
+SNR Fit Summary (SExtractor vs NMAD)
+============================================================
+
+Pointing: nircam1, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 6.29771 (n=11)
+  F814W: 4.50909 (n=8)
+  F115W: 21.75968 (n=17)
+  F150W: 23.80342 (n=17)
+  F200W: 17.02244 (n=17)
+  F277W: 11.70526 (n=19)
+  F356W: 15.38182 (n=19)
+  F410M: 16.41916 (n=20)
+  F444W: 14.32686 (n=18)
+  Average (sigma-clipped): 14.58060
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam1, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam1, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam2, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 10.36293 (n=9)
+  F814W: 3.99576 (n=12)
+  F115W: 18.67289 (n=19)
+  F150W: 19.69884 (n=17)
+  F200W: 19.36115 (n=18)
+  F277W: 16.10005 (n=20)
+  F356W: 22.40819 (n=19)
+  F410M: 16.54424 (n=20)
+  F444W: 23.95681 (n=19)
+  Average (sigma-clipped): 16.78899
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam2, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam2, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam3, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 5.60092 (n=8)
+  F814W: 3.18173 (n=9)
+  F115W: 13.20908 (n=17)
+  F150W: 12.99666 (n=19)
+  F200W: 13.09235 (n=17)
+  F277W: 11.08061 (n=19)
+  F356W: 11.67801 (n=17)
+  F410M: 13.60324 (n=20)
+  F444W: 17.12340 (n=19)
+  Average (sigma-clipped): 11.28511
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam3, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam3, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam4, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 6.54276 (n=10)
+  F814W: 4.77023 (n=13)
+  F115W: 8.19691 (n=18)
+  F150W: 8.72180 (n=16)
+  F200W: 8.04256 (n=17)
+  F277W: 10.11923 (n=20)
+  F356W: 13.51476 (n=20)
+  F410M: 13.51433 (n=17)
+  F444W: 13.45287 (n=20)
+  Average (sigma-clipped): 9.65283
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam4, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam4, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam5, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 5.31604 (n=12)
+  F814W: 3.42788 (n=16)
+  F115W: 20.89737 (n=18)
+  F150W: 0.06508 (n=17)
+  F200W: 0.05616 (n=19)
+  F277W: 0.03854 (n=17)
+  F356W: 16.64476 (n=19)
+  F410M: 0.02586 (n=20)
+  F444W: 0.01602 (n=19)
+  Average (sigma-clipped): 5.16530
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam5, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam5, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam6, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 6.22828 (n=12)
+  F814W: 3.68094 (n=13)
+  F115W: 14.13423 (n=18)
+  F150W: 16.67756 (n=17)
+  F200W: 14.77451 (n=18)
+  F277W: 11.85380 (n=20)
+  F356W: 15.23720 (n=19)
+  F410M: 16.86225 (n=19)
+  F444W: 12.13024 (n=19)
+  Average (sigma-clipped): 12.39767
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam6, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam6, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam7, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 6.10728 (n=12)
+  F814W: 3.96715 (n=12)
+  F115W: 12.26027 (n=15)
+  F150W: 0.05113 (n=16)
+  F200W: 0.02559 (n=15)
+  F277W: 0.02565 (n=18)
+  F356W: 11.41911 (n=20)
+  F410M: 0.01901 (n=19)
+  F444W: 0.01348 (n=19)
+  Average (sigma-clipped): 3.76541
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam7, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam7, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam8, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 4.98410 (n=9)
+  F814W: 2.06502 (n=14)
+  F115W: 4.27650 (n=13)
+  F150W: 0.04001 (n=16)
+  F200W: 0.02500 (n=16)
+  F277W: 0.02631 (n=18)
+  F356W: 11.26071 (n=17)
+  F410M: 0.01875 (n=16)
+  F444W: 0.01266 (n=19)
+  Average (sigma-clipped): 2.52323
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam8, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam8, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam9, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 12.43935 (n=10)
+  F814W: 3.45817 (n=14)
+  F115W: 17.06396 (n=17)
+  F150W: 0.05888 (n=16)
+  F200W: 0.05039 (n=18)
+  F277W: 0.02620 (n=19)
+  F356W: 17.35446 (n=19)
+  F410M: 0.02365 (n=20)
+  F444W: 0.01634 (n=20)
+  Average (sigma-clipped): 5.61016
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam9, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: 6.03848 (n=12)
+  F814W: 4.49298 (n=13)
+  F115W: 8.73907 (n=16)
+  F150W: 0.03723 (n=13)
+  F200W: 0.04506 (n=16)
+  F277W: 0.02876 (n=20)
+  F356W: 15.87100 (n=19)
+  F410M: 0.02450 (n=19)
+  F444W: 0.01263 (n=19)
+  Average (sigma-clipped): 3.92108
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam9, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam10, Redshift Bin: z7-8
+--------------------------------------------------
+  F606W: 5.41497 (n=7)
+  F814W: 4.94953 (n=12)
+  F115W: 16.21670 (n=17)
+  F150W: 17.45748 (n=17)
+  F200W: 17.29144 (n=17)
+  F277W: 23.34204 (n=17)
+  F356W: 18.76292 (n=20)
+  F410M: 19.10486 (n=18)
+  F444W: 21.08197 (n=18)
+  Average (sigma-clipped): 15.95799
+  Original points: 9, Clipped points: 9
+
+Pointing: nircam10, Redshift Bin: z8-10
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)
+
+Pointing: nircam10, Redshift Bin: z10-15
+--------------------------------------------------
+  F606W: NA
+  F814W: NA
+  F115W: NA
+  F150W: NA
+  F200W: NA
+  F277W: NA
+  F356W: NA
+  F410M: NA
+  F444W: NA
+  Average: NA (no valid fits)

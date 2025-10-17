@@ -1,0 +1,8 @@
+# Error Comparison: SExtractor vs NMAD
+# Pointing: nircam1
+# Total sources: 20
+####################################################################################################
+# Format: SOURCE_ID REDSHIFT_BIN FILTER SEX_FLUX SEX_FLUXERR NMAD_FLUX NMAD_FLUXERR SEX_SNR NMAD_SNR SNR_RATIO
+####################################################################################################
+
+# Source ID: 345.0, Redshift Bin: z7-8

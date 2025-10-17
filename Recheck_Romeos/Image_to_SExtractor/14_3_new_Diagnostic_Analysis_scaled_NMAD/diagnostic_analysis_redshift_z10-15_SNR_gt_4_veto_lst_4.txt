@@ -1,0 +1,603 @@
+
+================================================================================
+DIAGNOSTIC ANALYSIS LOG - redshift_z10-15 - 2025-10-15 14:46:24
+================================================================================
+
+Starting detailed diagnostic analysis of 10 pointings for redshift_z10-15
+Output will be saved to: ./14_3_new_Diagnostic_Analysis_scaled_NMAD
+Applying SNR scaling factors from NMAD calibration...
+
+================================================================================
+ANALYZING NIRCAM1 - redshift_z10-15
+================================================================================
+Applied scaling factor 0.711550 to f606w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.404860 to f814w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.205810 to f115w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.141740 to f150w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.216760 to f200w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.285210 to f277w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.535330 to f356w SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.516960 to f410m SNR for nircam1 redshift_z10-15
+Applied scaling factor 0.462290 to f444w SNR for nircam1 redshift_z10-15
+Found 228 candidates.
+Creating filtered catalogs for nircam1 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f606w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f814w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f115w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f150w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f200w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f277w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f356w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f410m_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f444w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/redshift_z10-15/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM1 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam1 redshift_z10-15:
+Total Brenjit sources: 7
+Pass selection: 2
+Fail selection: 5
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2858: FAIL - Low SNR in detection bands: f150w(3.5)
+      SNR values: f150w=  3.5, f200w=  5.2, f277w=  8.1, f356w= 12.6, f444w= 10.7
+ID 4010: PASS - All criteria passed
+ID 6802: PASS - All criteria passed
+ID 8216: FAIL - Low SNR in detection bands: f150w(3.8)
+      SNR values: f150w=  3.8, f200w=  7.0, f277w= 15.2, f356w= 22.7, f444w= 15.7
+ID 11572: FAIL - Low SNR in detection bands: f150w(3.9)
+      SNR values: f150w=  3.9, f200w=  6.4, f277w=  6.4, f356w=  7.7, f444w=  5.3
+ID 10899: FAIL - Low SNR in detection bands: f150w(2.4)
+      SNR values: f150w=  2.4, f200w=  4.4, f277w=  6.4, f356w= 10.7, f444w=  7.2
+ID 8272: FAIL - Low SNR in detection bands: f150w(0.2), f200w(1.4), f277w(3.0), f356w(1.9), f444w(3.5); Color2 out of range: 2.02 not in (-1.5, 1.0)
+      SNR values: f150w=  0.2, f200w=  1.4, f277w=  3.0, f356w=  1.9, f444w=  3.5
+Total Brenjit_ID sources: 2/7
+Recovery rate: 28.6%
+Recovered IDs: 4010, 6802
+Missed IDs: 2858, 8216, 8272, 10899, 11572
+
+================================================================================
+ANALYZING NIRCAM2 - redshift_z10-15
+================================================================================
+Applied scaling factor 0.679790 to f606w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.519490 to f814w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.382800 to f115w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.358750 to f150w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.256670 to f200w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.362110 to f277w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.416610 to f356w SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.452740 to f410m SNR for nircam2 redshift_z10-15
+Applied scaling factor 0.440290 to f444w SNR for nircam2 redshift_z10-15
+Found 681 candidates.
+Creating filtered catalogs for nircam2 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f606w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f814w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f115w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f150w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f200w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f277w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f356w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f410m_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f444w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/redshift_z10-15/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM2 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam2 redshift_z10-15:
+Total Brenjit sources: 4
+Pass selection: 2
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1332: PASS - All criteria passed
+ID 2034: PASS - All criteria passed
+ID 5726: FAIL - Low SNR in detection bands: f444w(3.8)
+      SNR values: f150w=  8.0, f200w=  6.9, f277w=  7.5, f356w=  7.0, f444w=  3.8
+ID 11316: FAIL - Low SNR in detection bands: f150w(3.5)
+      SNR values: f150w=  3.5, f200w=  6.5, f277w=  7.7, f356w= 17.1, f444w= 23.3
+Total Brenjit_ID sources: 2/4
+Recovery rate: 50.0%
+Recovered IDs: 1332, 2034
+Missed IDs: 5726, 11316
+
+================================================================================
+ANALYZING NIRCAM3 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam3 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam3 redshift_z10-15
+Warning: No scaling factor found for nircam3 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam3 redshift_z10-15
+Found 1109 candidates.
+Creating filtered catalogs for nircam3 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f606w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f814w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f115w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f150w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f200w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f277w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f356w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f410m_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f444w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/redshift_z10-15/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM3 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam3 redshift_z10-15:
+Total Brenjit sources: 1
+Pass selection: 0
+Fail selection: 1
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 9992: FAIL - High SNR in veto bands: f814w(4.1)
+Total Brenjit_ID sources: 0/1
+Recovery rate: 0.0%
+Missed IDs: 9992
+
+================================================================================
+ANALYZING NIRCAM4 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam4 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam4 redshift_z10-15
+Warning: No scaling factor found for nircam4 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam4 redshift_z10-15
+Found 1242 candidates.
+Creating filtered catalogs for nircam4 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f606w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f814w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f115w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f150w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f200w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f277w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f356w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f410m_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f444w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/redshift_z10-15/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM4 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam4 redshift_z10-15:
+Total Brenjit sources: 7
+Pass selection: 5
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID  315: PASS - All criteria passed
+ID 1669: FAIL - High SNR in veto bands: f814w(4.6)
+ID 1843: PASS - All criteria passed
+ID 9859: FAIL - High SNR in veto bands: f606w(4.3), f814w(7.5)
+ID 9427: PASS - All criteria passed
+ID 12415: PASS - All criteria passed
+ID 11659: PASS - All criteria passed
+Total Brenjit_ID sources: 5/7
+Recovery rate: 71.4%
+Recovered IDs: 315, 1843, 9427, 11659, 12415
+Missed IDs: 1669, 9859
+
+================================================================================
+ANALYZING NIRCAM5 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam5 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam5 redshift_z10-15
+Warning: No scaling factor found for nircam5 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam5 redshift_z10-15
+Found 1495 candidates.
+Creating filtered catalogs for nircam5 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f606w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f814w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f115w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f150w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f200w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f277w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f356w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f410m_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f444w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/redshift_z10-15/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM5 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam5 redshift_z10-15:
+Total Brenjit sources: 5
+Pass selection: 4
+Fail selection: 1
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 4547: PASS - All criteria passed
+ID 9883: PASS - All criteria passed
+ID 12083: FAIL - High SNR in veto bands: f814w(4.1)
+ID 12779: PASS - All criteria passed
+ID 12888: PASS - All criteria passed
+Total Brenjit_ID sources: 4/5
+Recovery rate: 80.0%
+Recovered IDs: 4547, 9883, 12779, 12888
+Missed IDs: 12083
+
+================================================================================
+ANALYZING NIRCAM6 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam6 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam6 redshift_z10-15
+Warning: No scaling factor found for nircam6 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam6 redshift_z10-15
+Found 1096 candidates.
+Creating filtered catalogs for nircam6 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f606w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f606w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f814w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f814w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f115w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f115w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f150w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f150w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f200w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f200w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f277w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f277w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f356w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f356w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f410m_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f410m_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+  Error writing ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f444w_catalog.cat: File ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/redshift_z10-15/f150dropout_f444w_catalog.cat already exists. If you mean to replace it then use the argument "overwrite=True".
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM6 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam6 redshift_z10-15:
+Total Brenjit sources: 1
+Pass selection: 1
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 3206: PASS - All criteria passed
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 3206
+
+================================================================================
+ANALYZING NIRCAM7 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam7 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam7 redshift_z10-15
+Warning: No scaling factor found for nircam7 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam7 redshift_z10-15
+Found 1699 candidates.
+Creating filtered catalogs for nircam7 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f606w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f814w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f115w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f150w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f200w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f277w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f356w_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f410m_catalog.cat with 1699 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/redshift_z10-15/f150dropout_f444w_catalog.cat with 1699 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM7 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam7 redshift_z10-15:
+Total Brenjit sources: 10
+Pass selection: 5
+Fail selection: 5
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 7070: FAIL - High SNR in veto bands: f814w(4.8)
+ID 9437: PASS - All criteria passed
+ID 9959: FAIL - High SNR in veto bands: f814w(6.1)
+ID 11615: PASS - All criteria passed
+ID 11754: PASS - All criteria passed
+ID 3581: FAIL - High SNR in veto bands: f606w(9.8), f814w(6.1)
+ID 13394: PASS - All criteria passed
+ID 13743: FAIL - High SNR in veto bands: f606w(6.0), f814w(4.8)
+ID 14097: FAIL - High SNR in veto bands: f606w(6.0)
+ID 14208: PASS - All criteria passed
+Total Brenjit_ID sources: 5/10
+Recovery rate: 50.0%
+Recovered IDs: 9437, 11615, 11754, 13394, 14208
+Missed IDs: 3581, 7070, 9959, 13743, 14097
+
+================================================================================
+ANALYZING NIRCAM8 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam8 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam8 redshift_z10-15
+Warning: No scaling factor found for nircam8 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam8 redshift_z10-15
+Found 1759 candidates.
+Creating filtered catalogs for nircam8 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f606w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f814w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f115w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f150w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f200w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f277w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f356w_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f410m_catalog.cat with 1759 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/redshift_z10-15/f150dropout_f444w_catalog.cat with 1759 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM8 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam8 redshift_z10-15:
+Total Brenjit sources: 9
+Pass selection: 5
+Fail selection: 4
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1398: PASS - All criteria passed
+ID 2080: FAIL - High SNR in veto bands: f814w(4.6)
+ID 2288: PASS - All criteria passed
+ID 4493: FAIL - High SNR in veto bands: f606w(10.5), f814w(6.7)
+ID 6986: PASS - All criteria passed
+ID 8954: PASS - All criteria passed
+ID 9454: FAIL - High SNR in veto bands: f814w(5.5)
+ID 11712: FAIL - High SNR in veto bands: f606w(4.4)
+ID 14604: PASS - All criteria passed
+Total Brenjit_ID sources: 5/9
+Recovery rate: 55.6%
+Recovered IDs: 1398, 2288, 6986, 8954, 14604
+Missed IDs: 2080, 4493, 9454, 11712
+
+================================================================================
+ANALYZING NIRCAM9 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam9 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam9 redshift_z10-15
+Warning: No scaling factor found for nircam9 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam9 redshift_z10-15
+Found 1729 candidates.
+Creating filtered catalogs for nircam9 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f606w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f814w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f115w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f150w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f200w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f277w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f356w_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f410m_catalog.cat with 1729 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/redshift_z10-15/f150dropout_f444w_catalog.cat with 1729 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM9 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam9 redshift_z10-15:
+Total Brenjit sources: 5
+Pass selection: 3
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2646: PASS - All criteria passed
+ID 3096: FAIL - High SNR in veto bands: f814w(4.0)
+ID 5572: PASS - All criteria passed
+ID 9061: PASS - All criteria passed
+ID 8076: FAIL - Low SNR in detection bands: f277w(-1386.4), f356w(-0.6); Color1 failed: f115w SNR=3.1, color1=-2.32; Color2 out of range: -64.63 not in (-1.5, 1.0)
+      SNR values: f150w= 84.4, f200w=877.1, f277w=-1386.4, f356w= -0.6, f444w=2238.1
+Total Brenjit_ID sources: 3/5
+Recovery rate: 60.0%
+Recovered IDs: 2646, 5572, 9061
+Missed IDs: 3096, 8076
+
+================================================================================
+ANALYZING NIRCAM10 - redshift_z10-15
+================================================================================
+Warning: No scaling factor found for nircam10 redshift_z10-15 f606w, using 1.0
+Applied scaling factor 1.000000 to f606w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f814w, using 1.0
+Applied scaling factor 1.000000 to f814w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f115w, using 1.0
+Applied scaling factor 1.000000 to f115w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f150w, using 1.0
+Applied scaling factor 1.000000 to f150w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f200w, using 1.0
+Applied scaling factor 1.000000 to f200w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f277w, using 1.0
+Applied scaling factor 1.000000 to f277w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f356w, using 1.0
+Applied scaling factor 1.000000 to f356w SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f410m, using 1.0
+Applied scaling factor 1.000000 to f410m SNR for nircam10 redshift_z10-15
+Warning: No scaling factor found for nircam10 redshift_z10-15 f444w, using 1.0
+Applied scaling factor 1.000000 to f444w SNR for nircam10 redshift_z10-15
+Found 1068 candidates.
+Creating filtered catalogs for nircam10 redshift_z10-15 in ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f606w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f814w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f115w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f150w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f200w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f277w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f356w_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f410m_catalog.cat with 1068 sources
+  Created ./14_3_new_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/redshift_z10-15/f150dropout_f444w_catalog.cat with 1068 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM10 redshift_z10-15
+============================================================
+
+SUMMARY FOR nircam10 redshift_z10-15:
+Total Brenjit sources: 5
+Pass selection: 3
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1424: PASS - All criteria passed
+ID 1935: PASS - All criteria passed
+ID 7847: FAIL - High SNR in veto bands: f606w(4.8), f814w(4.3)
+ID 9562: PASS - All criteria passed
+ID 10415: FAIL - High SNR in veto bands: f814w(4.4)
+Total Brenjit_ID sources: 3/5
+Recovery rate: 60.0%
+Recovered IDs: 1424, 1935, 9562
+Missed IDs: 7847, 10415
+Summary report saved to: ./14_3_new_Diagnostic_Analysis_scaled_NMAD/diagnostic_summary_report_redshift_z10-15.txt
+
+================================================================================
+FINAL SUMMARY TABLE - redshift_z10-15
+================================================================================
+Pointing   Selected   Total      Percentage Criteria Failed     
+---------- ---------- ---------- ---------- --------------------
+nircam1    2          7               28.6% L:5, C:1            
+nircam2    2          4               50.0% L:2                 
+nircam3    0          1                0.0% H:1                 
+nircam4    5          7               71.4% H:2                 
+nircam5    4          5               80.0% H:1                 
+nircam6    1          1              100.0%                     
+nircam7    5          10              50.0% H:5                 
+nircam8    5          9               55.6% H:4                 
+nircam9    3          5               60.0% L:1, H:1, C:1, C:1  
+nircam10   3          5               60.0% H:2                 
+---------- ---------- ---------- ---------- --------------------
+TOTAL      30         54              55.6%
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 8 galaxies (14.8%)
+--------------------------------------------------
+  Source 2858 in nircam1: F150W(3.5)
+  Source 8216 in nircam1: F150W(3.8)
+  Source 11572 in nircam1: F150W(3.9)
+  Source 10899 in nircam1: F150W(2.4)
+  Source 8272 in nircam1: F150W(0.2), F200W(1.4), F277W(3.0), F356W(1.9), F444W(3.5)
+  Source 5726 in nircam2: F444W(3.8)
+  Source 11316 in nircam2: F150W(3.5)
+  Source 8076 in nircam9: F277W(-1386.4), F356W(-0.6)
+
+High SNR in veto bands: 16 galaxies (29.6%)
+--------------------------------------------------
+  Source 9992 in nircam3: F814W(4.1)
+  Source 1669 in nircam4: F814W(4.6)
+  Source 9859 in nircam4: F606W(4.3), F814W(7.5)
+  Source 12083 in nircam5: F814W(4.1)
+  Source 7070 in nircam7: F814W(4.8)
+  Source 9959 in nircam7: F814W(6.1)
+  Source 3581 in nircam7: F606W(9.8), F814W(6.1)
+  Source 13743 in nircam7: F606W(6.0), F814W(4.8)
+  Source 14097 in nircam7: F606W(6.0)
+  Source 2080 in nircam8: F814W(4.6)
+  Source 4493 in nircam8: F606W(10.5), F814W(6.7)
+  Source 9454 in nircam8: F814W(5.5)
+  Source 11712 in nircam8: F606W(4.4)
+  Source 3096 in nircam9: F814W(4.0)
+  Source 7847 in nircam10: F606W(4.8), F814W(4.3)
+  Source 10415 in nircam10: F814W(4.4)
+
+Color1 failed: 1 galaxies (1.9%)
+--------------------------------------------------
+  Source 8076 in nircam9: F115W SNR=3.1, Color1=-2.32
+
+Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam9: Color2=-64.63 (range: -1.5 to 1.0)
+
+Diagnostic analysis for redshift_z10-15 complete. All outputs saved to: ./14_3_new_Diagnostic_Analysis_scaled_NMAD

@@ -1,0 +1,1606 @@
+COMPREHENSIVE DIAGNOSTIC SUMMARY REPORT - NMAD VERSION
+============================================================
+
+
+NIRCAM1 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 2, Failed: 18, Not found: 0
+
+NIRCAM1 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM1 REDSHIFT_Z10-15:
+----------------------------------------
+Passed: 0, Failed: 20, Not found: 0
+
+NIRCAM2 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM2 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 0, Failed: 20, Not found: 0
+
+NIRCAM2 REDSHIFT_Z10-15:
+----------------------------------------
+Passed: 1, Failed: 19, Not found: 0
+
+NIRCAM3 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 1, Failed: 19, Not found: 0
+
+NIRCAM3 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 4, Failed: 16, Not found: 0
+
+NIRCAM3 REDSHIFT_Z10-15:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM4 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 0, Failed: 20, Not found: 0
+
+NIRCAM4 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 0, Failed: 20, Not found: 0
+
+NIRCAM4 REDSHIFT_Z10-15:
+----------------------------------------
+Passed: 4, Failed: 16, Not found: 0
+
+NIRCAM5 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 1, Failed: 19, Not found: 0
+
+NIRCAM5 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 1, Failed: 19, Not found: 0
+
+NIRCAM5 REDSHIFT_Z10-15:
+----------------------------------------
+Passed: 2, Failed: 18, Not found: 0
+
+NIRCAM6 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 2, Failed: 18, Not found: 0
+
+NIRCAM6 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM6 REDSHIFT_Z10-15:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM7 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 1, Failed: 19, Not found: 0
+
+NIRCAM7 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM8 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 2, Failed: 18, Not found: 0
+
+NIRCAM8 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 1, Failed: 19, Not found: 0
+
+NIRCAM9 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 2, Failed: 18, Not found: 0
+
+NIRCAM9 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM10 REDSHIFT_Z7-8:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+NIRCAM10 REDSHIFT_Z8-10:
+----------------------------------------
+Passed: 3, Failed: 17, Not found: 0
+
+OVERALL SUMMARY:
+========================================
+Total galaxies analyzed: 520
+Total passed selection: 51
+Total failed selection: 469
+Overall success rate: 9.8%
+
+FAILURE REASONS (by frequency):
+========================================
+Color2 out of range: 67.64 not in (-1.5, 1.0): 3 galaxies
+Low SNR in detection bands: f444w(2.2): 3 galaxies
+Color2 out of range: 67.85 not in (-1.5, 1.0): 3 galaxies
+Low SNR in detection bands: f444w(3.8): 3 galaxies
+Color2 out of range: 2.31 not in (-1.5, 1.0): 3 galaxies
+Low SNR in detection bands: f444w(1.5): 3 galaxies
+Low SNR in detection bands: f444w(3.4): 3 galaxies
+Color2 out of range: 67.82 not in (-1.5, 1.0): 3 galaxies
+Color2 out of range: 1.23 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f200w(3.9): 2 galaxies
+Low SNR in detection bands: f444w(3.2): 2 galaxies
+Color2 out of range: 68.42 not in (-1.5, 1.0): 2 galaxies
+High SNR in veto bands: f814w(4.8): 2 galaxies
+Color2 out of range: 68.57 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f150w(0.5): 2 galaxies
+Color2 out of range: 67.76 not in (-1.5, 1.0): 2 galaxies
+Color2 out of range: 68.18 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f277w(2.9): 2 galaxies
+Low SNR in detection bands: f444w(0.9): 2 galaxies
+Low SNR in detection bands: f277w(-0.0), f356w(0.0): 2 galaxies
+Color2 out of range: -1.68 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f444w(2.8): 2 galaxies
+Color1 failed: f115w SNR=4.3, color1=-0.27: 2 galaxies
+High SNR in veto bands: f814w(5.4): 2 galaxies
+High SNR in veto bands: f814w(4.4): 2 galaxies
+Color2 out of range: 67.05 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f444w(0.7): 2 galaxies
+Low SNR in detection bands: f444w(3.5): 2 galaxies
+Low SNR in detection bands: f444w(3.0): 2 galaxies
+Color2 out of range: -68.91 not in (-1.5, 1.0): 2 galaxies
+Color2 out of range: 67.27 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f356w(2.2): 2 galaxies
+Color2 out of range: 2.65 not in (-1.5, 1.0): 2 galaxies
+Color2 out of range: 1.56 not in (-1.5, 1.0): 2 galaxies
+High SNR in veto bands: f814w(4.7): 2 galaxies
+Color2 out of range: 68.88 not in (-1.5, 1.0): 2 galaxies
+Color2 out of range: 66.43 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f444w(2.5): 2 galaxies
+Color2 out of range: -1.62 not in (-1.5, 1.0): 2 galaxies
+Color2 out of range: 68.84 not in (-1.5, 1.0): 2 galaxies
+Low SNR in detection bands: f150w(1.2), f200w(-0.1), f277w(0.7), f444w(-0.0): 1 galaxies
+Low SNR in detection bands: f200w(3.1), f277w(2.8), f356w(2.5), f444w(0.7): 1 galaxies
+High SNR in veto bands: f814w(6.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(1.8), f277w(0.6), f444w(-0.0): 1 galaxies
+Low SNR in detection bands: f150w(1.7), f200w(1.6), f277w(1.8), f356w(1.9), f444w(1.0): 1 galaxies
+Color1 failed: f115w SNR=2.3, color1=-0.10: 1 galaxies
+Low SNR in detection bands: f150w(2.3), f200w(-0.2), f277w(1.4), f444w(2.5): 1 galaxies
+Low SNR in detection bands: f150w(2.3), f200w(0.2), f277w(2.9), f356w(1.7), f444w(2.8): 1 galaxies
+Low SNR in detection bands: f200w(2.8), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f200w(3.3), f277w(2.6), f356w(2.9), f444w(3.1): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(0.5), f277w(2.3), f444w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(-1.4), f200w(1.1), f277w(-0.1), f356w(-1.3), f444w(1.1): 1 galaxies
+Color1 failed: f115w SNR=6.0, color1=-0.18: 1 galaxies
+Low SNR in detection bands: f150w(0.8), f200w(0.2), f277w(1.1), f356w(0.5): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(-1.8), f277w(1.6), f356w(2.4): 1 galaxies
+Low SNR in detection bands: f356w(1.3): 1 galaxies
+Color2 out of range: -1.61 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(0.8), f277w(1.1), f356w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(-0.5), f200w(0.3), f277w(-2.4), f356w(3.3): 1 galaxies
+Low SNR in detection bands: f150w(3.0), f200w(2.9), f277w(3.0), f444w(2.3): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(0.5), f277w(-0.0), f444w(-0.0): 1 galaxies
+Color2 out of range: -68.87 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(0.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.6), f200w(0.1), f277w(1.7), f356w(2.0): 1 galaxies
+Low SNR in detection bands: f150w(-1.7), f200w(2.5), f277w(0.8), f356w(3.3), f444w(0.0): 1 galaxies
+Color2 out of range: 66.91 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.3), f200w(3.6), f277w(1.3), f356w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(2.7), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f277w(2.0), f356w(1.1), f444w(0.1): 1 galaxies
+Color2 out of range: -2.46 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(2.6): 1 galaxies
+Low SNR in detection bands: f150w(3.1), f200w(2.0), f277w(3.2), f356w(2.7), f444w(2.3): 1 galaxies
+High SNR in veto bands: f606w(858.6), f814w(2144.9): 1 galaxies
+Color2 out of range: -2.59 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f277w(0.0), f356w(0.0), f444w(1.2): 1 galaxies
+Color2 out of range: -11.54 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(0.7), f277w(3.3), f356w(2.8), f444w(1.7): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(1.8), f277w(0.0), f356w(0.0), f444w(-1.9): 1 galaxies
+Color2 out of range: -8.31 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.6), f200w(0.2), f277w(-1.7), f356w(2.9), f444w(-0.1): 1 galaxies
+Low SNR in detection bands: f150w(0.5), f200w(1.1), f277w(2.0), f444w(0.0): 1 galaxies
+Low SNR in detection bands: f150w(1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(-0.1), f277w(1.3), f356w(0.7): 1 galaxies
+Color2 out of range: 2.76 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(3.1), f277w(3.2): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(0.2), f277w(3.0), f356w(1.4): 1 galaxies
+Color2 out of range: 2.09 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(2.0), f277w(3.0), f444w(-1.5): 1 galaxies
+Color2 out of range: 69.10 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(1.0), f277w(0.9), f356w(1.9), f444w(1.1): 1 galaxies
+Color2 out of range: 1.83 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(0.0), f277w(0.2), f356w(0.6), f444w(2.0): 1 galaxies
+Color2 out of range: 65.66 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(1.1), f277w(0.5), f356w(0.6): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(-0.5), f444w(3.2): 1 galaxies
+Color2 out of range: 3.41 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.2), f200w(3.1), f277w(3.5), f356w(0.5), f444w(0.0): 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(3.5), f277w(1.0), f356w(2.4): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(1.1), f277w(2.6), f444w(-0.3): 1 galaxies
+Color2 out of range: 5.29 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.0), f277w(0.7), f356w(0.8), f444w(1.7): 1 galaxies
+Color2 out of range: 67.58 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(-0.1), f277w(1.5), f356w(1.5), f444w(2.4): 1 galaxies
+Color2 out of range: 67.59 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(1.3), f277w(1.2), f356w(2.7), f444w(2.7): 1 galaxies
+Color2 out of range: 1.75 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.2), f444w(-0.8): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(3.3), f277w(3.0), f444w(3.8): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(3.1), f277w(2.3), f356w(2.3), f444w(0.1): 1 galaxies
+Color1 failed: f115w SNR=3.7, color1=-0.52: 1 galaxies
+Low SNR in detection bands: f150w(-0.7), f200w(1.7), f277w(2.2), f356w(2.0), f444w(1.4): 1 galaxies
+Low SNR in detection bands: f150w(3.9), f200w(3.0): 1 galaxies
+Color1 failed: f115w SNR=5.6, color1=-0.21: 1 galaxies
+Low SNR in detection bands: f150w(-0.6), f200w(0.8), f277w(1.6), f356w(1.8), f444w(3.1): 1 galaxies
+Color2 out of range: 68.19 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.6), f200w(1.5), f277w(0.2), f356w(3.0), f444w(3.9): 1 galaxies
+Color2 out of range: -1.84 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.9), f200w(0.7), f277w(1.6), f356w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(2.3), f277w(3.8), f444w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(1.8), f277w(2.7), f356w(-0.2), f444w(-0.0): 1 galaxies
+Color2 out of range: 69.07 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f200w(3.4), f444w(0.0): 1 galaxies
+Color1 failed: f115w SNR=8.4, color1=-1.31: 1 galaxies
+Low SNR in detection bands: f150w(2.7), f200w(-0.8), f277w(2.9), f356w(2.0), f444w(2.4): 1 galaxies
+Color1 failed: f115w SNR=4.7, color1=0.09: 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(2.5), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(0.1), f277w(2.5), f356w(2.5), f444w(2.5): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(-0.3), f277w(1.9), f356w(1.3): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(0.6), f277w(1.7): 1 galaxies
+Color1 failed: f115w SNR=5.2, color1=-0.00: 1 galaxies
+Low SNR in detection bands: f200w(0.9), f277w(-1.3), f356w(-2.6), f444w(-0.0): 1 galaxies
+Color2 out of range: -69.91 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(-0.9), f356w(-0.1), f444w(1.3): 1 galaxies
+Color2 out of range: 1.46 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(3.2), f444w(-1.6): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(3.3), f277w(3.9), f444w(1.6): 1 galaxies
+Color1 failed: f115w SNR=2.9, color1=-0.05: 1 galaxies
+Color2 out of range: -72.09 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(3.3), f277w(3.4), f356w(2.2), f444w(3.0): 1 galaxies
+Color1 failed: f115w SNR=2.3, color1=-1.44: 1 galaxies
+Color2 out of range: 1.72 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-2.2), f200w(1.6), f277w(1.1), f356w(1.7), f444w(1.2): 1 galaxies
+Low SNR in detection bands: f200w(4.0), f277w(0.8), f356w(1.7), f444w(1.4): 1 galaxies
+Color2 out of range: -2.62 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.6), f277w(0.4), f356w(1.8): 1 galaxies
+Color2 out of range: -1.93 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(-1.1), f200w(2.4), f277w(0.8), f356w(0.3), f444w(3.1): 1 galaxies
+Low SNR in detection bands: f150w(3.8), f200w(3.0), f277w(3.1), f356w(2.5), f444w(2.0): 1 galaxies
+Color1 failed: f115w SNR=42.2, color1=-0.00: 1 galaxies
+Low SNR in detection bands: f356w(3.5): 1 galaxies
+Low SNR in detection bands: f277w(3.1), f444w(3.4): 1 galaxies
+Low SNR in detection bands: f277w(-0.0), f356w(-0.0), f444w(1.5): 1 galaxies
+Color2 out of range: -70.57 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(2.2), f277w(1.2): 1 galaxies
+Color2 out of range: -2.09 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(3.7), f277w(3.7), f444w(3.5): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.7), f277w(0.8), f356w(1.5), f444w(2.8): 1 galaxies
+Color2 out of range: 67.36 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f444w(2.5): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f444w(0.9): 1 galaxies
+Color2 out of range: 1.42 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f277w(-0.0), f356w(-0.0): 1 galaxies
+Color2 out of range: -70.32 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(3.3), f356w(3.1), f444w(3.0): 1 galaxies
+Color2 out of range: 4.75 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.5), f356w(3.9), f444w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(4.0), f277w(2.0), f356w(2.2), f444w(1.8): 1 galaxies
+Color2 out of range: 68.30 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.3), f200w(3.6), f277w(2.3), f356w(3.6), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(-1.3), f200w(1.4), f277w(-0.2), f356w(3.2): 1 galaxies
+Low SNR in detection bands: f150w(-2.5), f200w(0.3), f277w(1.1), f356w(1.1), f444w(3.3): 1 galaxies
+Color2 out of range: 67.62 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(-0.4), f356w(3.5), f444w(3.0): 1 galaxies
+Color2 out of range: 2.51 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.5), f277w(2.3), f356w(3.8): 1 galaxies
+Color2 out of range: 1.11 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(-0.0), f444w(3.6): 1 galaxies
+Low SNR in detection bands: f150w(3.3), f200w(3.6), f277w(3.0), f444w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(-1.7), f200w(1.0), f277w(0.9), f356w(1.0): 1 galaxies
+Color2 out of range: 67.46 not in (-1.5, 1.0): 1 galaxies
+Color2 out of range: -70.53 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(3.0), f356w(2.8), f444w(3.4): 1 galaxies
+Color2 out of range: 69.58 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f277w(-0.0), f356w(-0.0): 1 galaxies
+Color2 out of range: -68.67 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(0.1), f444w(3.6): 1 galaxies
+Color1 failed: f115w SNR=12.6, color1=0.06: 1 galaxies
+Color1 failed: f115w SNR=10.3, color1=0.01: 1 galaxies
+Color1 failed: f115w SNR=16.6, color1=-0.22: 1 galaxies
+Color1 failed: f115w SNR=26.1, color1=0.09: 1 galaxies
+Color1 failed: f115w SNR=69.1, color1=-0.21: 1 galaxies
+Color1 failed: f115w SNR=55.4, color1=-0.14: 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(-0.0), f277w(1.5), f356w(1.2): 1 galaxies
+Color2 out of range: 1.04 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.6), f200w(0.3), f277w(2.4), f356w(1.2), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f200w(2.2): 1 galaxies
+Low SNR in detection bands: f150w(0.8), f200w(0.5), f277w(1.9), f356w(3.4), f444w(3.5): 1 galaxies
+Low SNR in detection bands: f150w(2.7), f200w(-0.0), f277w(-1.1), f356w(-2.0), f444w(-2.8): 1 galaxies
+Color2 out of range: -69.17 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(0.1), f277w(1.8), f356w(-0.8), f444w(2.3): 1 galaxies
+Color2 out of range: 67.96 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f200w(0.9), f277w(2.6), f356w(1.7), f444w(0.7): 1 galaxies
+Low SNR in detection bands: f150w(1.5), f200w(-0.1), f277w(0.6), f356w(2.0), f444w(2.2): 1 galaxies
+Color2 out of range: -1.67 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.5), f200w(3.2), f277w(3.8), f356w(2.5), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(2.4), f200w(0.6), f277w(2.0), f356w(3.3), f444w(3.1): 1 galaxies
+Low SNR in detection bands: f200w(3.4), f277w(3.4), f356w(3.1), f444w(2.4): 1 galaxies
+Low SNR in detection bands: f150w(1.8), f200w(0.2), f277w(2.5), f356w(-0.4), f444w(2.4): 1 galaxies
+Low SNR in detection bands: f150w(1.6), f200w(1.3), f277w(2.0), f356w(0.6), f444w(1.7): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(0.5), f277w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f277w(3.4), f356w(1.7), f444w(-0.6): 1 galaxies
+Color1 failed: f115w SNR=2.0, color1=-68.88: 1 galaxies
+Color2 out of range: 69.06 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(0.6): 1 galaxies
+Low SNR in detection bands: f200w(3.6), f277w(3.1), f356w(2.5): 1 galaxies
+Color2 out of range: -1.51 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(3.7): 1 galaxies
+Low SNR in detection bands: f150w(3.6), f277w(3.7): 1 galaxies
+Low SNR in detection bands: f277w(3.9), f444w(-0.2): 1 galaxies
+Low SNR in detection bands: f150w(-0.6), f200w(-0.2), f277w(-1.8), f444w(1.7): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(2.4), f277w(2.3), f356w(2.1), f444w(2.8): 1 galaxies
+Color2 out of range: 4.32 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.9), f200w(2.7), f277w(3.6), f356w(2.0), f444w(1.3): 1 galaxies
+Low SNR in detection bands: f150w(-1.3), f200w(2.6), f277w(0.9): 1 galaxies
+Color2 out of range: 68.12 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(1.4), f277w(3.2), f356w(2.1), f444w(2.0): 1 galaxies
+Low SNR in detection bands: f444w(2.1): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(4.0), f277w(3.5), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f200w(2.0), f277w(2.8), f356w(3.1), f444w(2.8): 1 galaxies
+Low SNR in detection bands: f200w(2.8), f444w(3.2): 1 galaxies
+Low SNR in detection bands: f444w(2.4): 1 galaxies
+Color1 failed: f115w SNR=6.2, color1=-0.03: 1 galaxies
+Low SNR in detection bands: f150w(2.5), f277w(2.7), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f444w(1.6): 1 galaxies
+Low SNR in detection bands: f150w(3.3): 1 galaxies
+Color2 out of range: 1.06 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f200w(2.5), f356w(2.8), f444w(2.6): 1 galaxies
+Low SNR in detection bands: f150w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(1.9), f200w(3.5), f444w(0.1): 1 galaxies
+Low SNR in detection bands: f150w(-0.7), f200w(1.8): 1 galaxies
+Color2 out of range: 67.35 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f356w(-0.5): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f356w(3.9): 1 galaxies
+Color2 out of range: 1.49 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(-0.0), f277w(3.4), f356w(-0.2): 1 galaxies
+Color2 out of range: 6.77 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(3.1): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(-0.8), f444w(3.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f356w(2.0): 1 galaxies
+Color1 failed: f115w SNR=3.1, color1=-3.12: 1 galaxies
+Color2 out of range: 4.33 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.4), f444w(1.6): 1 galaxies
+Color2 out of range: 1.51 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.6), f200w(2.4), f277w(1.4), f356w(3.5), f444w(0.4): 1 galaxies
+Color2 out of range: 68.29 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(-0.7), f277w(1.6), f356w(2.6), f444w(2.3): 1 galaxies
+Low SNR in detection bands: f277w(1.0), f356w(3.2), f444w(3.8): 1 galaxies
+Color1 failed: f115w SNR=11.6, color1=-0.01: 1 galaxies
+Color2 out of range: -2.54 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.5), f277w(1.2), f356w(1.7): 1 galaxies
+Color1 failed: f115w SNR=6.0, color1=-0.15: 1 galaxies
+Low SNR in detection bands: f150w(3.0), f200w(0.3), f277w(0.5), f356w(2.8): 1 galaxies
+Color2 out of range: -2.24 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(2.0), f277w(2.0), f356w(1.3), f444w(1.6): 1 galaxies
+Color2 out of range: 68.46 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.3), f200w(-0.7), f277w(1.4), f356w(2.6), f444w(3.2): 1 galaxies
+Color2 out of range: 68.82 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(0.7), f277w(0.8), f356w(2.9), f444w(3.8): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(-0.6), f277w(1.6), f356w(1.8): 1 galaxies
+Color2 out of range: 4.05 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(1.0), f277w(0.5), f356w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(1.3), f200w(0.0), f277w(0.0), f444w(1.7): 1 galaxies
+Color1 failed: f115w SNR=2.6, color1=-0.27: 1 galaxies
+Color2 out of range: -4.20 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.4), f200w(0.1), f277w(1.5), f356w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f200w(0.8), f277w(0.8), f356w(2.0), f444w(1.3): 1 galaxies
+Color1 failed: f115w SNR=38.5, color1=-0.15: 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(0.4), f277w(1.6), f356w(1.3): 1 galaxies
+Color2 out of range: 1.70 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f277w(3.9), f356w(1.4), f444w(1.6): 1 galaxies
+Color1 failed: f115w SNR=24.2, color1=-0.19: 1 galaxies
+Color2 out of range: -1.64 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(3.3), f444w(2.9): 1 galaxies
+Color1 failed: f115w SNR=10.9, color1=-0.32: 1 galaxies
+Low SNR in detection bands: f150w(-0.3), f200w(0.1), f277w(0.4), f444w(1.3): 1 galaxies
+Color2 out of range: 66.42 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f277w(2.2), f444w(3.0): 1 galaxies
+Color1 failed: f115w SNR=13.1, color1=0.01: 1 galaxies
+Color2 out of range: -1.80 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(2.1), f277w(4.0), f444w(2.8): 1 galaxies
+Low SNR in detection bands: f200w(2.0), f356w(3.7), f444w(1.5): 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(2.0), f277w(0.9), f356w(1.4): 1 galaxies
+Low SNR in detection bands: f150w(-2.4), f200w(1.3), f277w(0.7), f356w(0.9): 1 galaxies
+Low SNR in detection bands: f150w(2.4), f200w(-0.6), f277w(2.3), f356w(2.5), f444w(1.9): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(0.3), f356w(0.7), f444w(2.3): 1 galaxies
+Color2 out of range: 5.08 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(1.1), f277w(0.5), f356w(1.3), f444w(-0.2): 1 galaxies
+Color2 out of range: -1.90 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.8), f200w(0.5), f277w(2.4), f356w(-0.8), f444w(2.9): 1 galaxies
+Color2 out of range: 67.71 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(0.7), f277w(-0.9), f356w(3.0), f444w(2.2): 1 galaxies
+Color2 out of range: -66.56 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(-0.5), f277w(1.7), f356w(2.4), f444w(2.0): 1 galaxies
+Low SNR in detection bands: f150w(1.7), f200w(-2.1), f277w(0.8), f356w(2.7), f444w(2.5): 1 galaxies
+Low SNR in detection bands: f150w(3.3), f200w(-0.1), f356w(2.2): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(2.2), f277w(-0.0), f356w(1.5), f444w(2.8): 1 galaxies
+Color2 out of range: -66.59 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(1.2), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(-0.6), f277w(2.0), f356w(-0.3), f444w(0.7): 1 galaxies
+Low SNR in detection bands: f200w(-2.6): 1 galaxies
+Color2 out of range: 3.10 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-2.9), f200w(3.0), f277w(3.6), f356w(3.5): 1 galaxies
+Color2 out of range: 67.83 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(-2.8): 1 galaxies
+Color1 failed: f115w SNR=2.0, color1=-3.68: 1 galaxies
+Color2 out of range: 5.46 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(0.5), f356w(-0.1): 1 galaxies
+Color2 out of range: 2.55 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.0): 1 galaxies
+Color1 failed: f115w SNR=4.4, color1=-0.68: 1 galaxies
+Color2 out of range: 2.19 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f606w(6.0): 1 galaxies
+Low SNR in detection bands: f150w(1.5), f200w(2.1), f444w(3.6): 1 galaxies
+Low SNR in detection bands: f150w(3.9), f200w(-0.2): 1 galaxies
+Low SNR in detection bands: f277w(-4.1), f356w(-0.1): 1 galaxies
+Color2 out of range: -69.72 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0): 1 galaxies
+Color1 failed: f115w SNR=6.9, color1=-69.74: 1 galaxies
+Color2 out of range: 70.56 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.2), f200w(-2.6): 1 galaxies
+Color2 out of range: 1.77 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.8), f277w(2.5), f444w(1.6): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(-0.6), f444w(2.7): 1 galaxies
+Color2 out of range: 2.06 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.3), f200w(-2.3): 1 galaxies
+Color1 failed: f115w SNR=3.0, color1=-0.65: 1 galaxies
+Color2 out of range: 5.45 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f606w(4.2): 1 galaxies
+Color2 out of range: 1.10 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.2), f444w(3.7): 1 galaxies
+Low SNR in detection bands: f150w(0.8), f200w(2.5), f277w(2.0), f356w(3.9): 1 galaxies
+Color1 failed: f115w SNR=3.2, color1=-0.83: 1 galaxies
+Low SNR in detection bands: f200w(2.7), f277w(3.4): 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(1.9), f277w(1.7), f356w(2.0): 1 galaxies
+Low SNR in detection bands: f444w(-0.3): 1 galaxies
+Low SNR in detection bands: f150w(1.6), f200w(2.9), f277w(0.7), f356w(1.8), f444w(2.1): 1 galaxies
+Color1 failed: f115w SNR=7.3, color1=-1.02: 1 galaxies
+Low SNR in detection bands: f150w(-1.6), f200w(2.1), f277w(0.9), f356w(2.6): 1 galaxies
+Color2 out of range: 67.79 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1.0), f200w(1.7), f277w(2.1), f356w(0.2): 1 galaxies
+Color1 failed: f115w SNR=2.5, color1=-69.08: 1 galaxies
+Color2 out of range: 69.59 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.8), f200w(-1.9), f277w(0.3), f356w(1.7), f444w(3.4): 1 galaxies
+Color1 failed: f115w SNR=2.3, color1=-67.73: 1 galaxies
+Color2 out of range: 66.14 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.4), f200w(3.5): 1 galaxies
+Low SNR in detection bands: f200w(2.0), f277w(2.1), f356w(3.9), f444w(3.8): 1 galaxies
+Low SNR in detection bands: f200w(3.6): 1 galaxies
+Color1 failed: f115w SNR=11.1, color1=-0.37: 1 galaxies
+Low SNR in detection bands: f150w(3.4), f200w(1.1), f277w(-0.5), f356w(1.0): 1 galaxies
+Color2 out of range: -69.13 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.1), f277w(3.3), f444w(3.2): 1 galaxies
+Color1 failed: f115w SNR=6.9, color1=-0.21: 1 galaxies
+Low SNR in detection bands: f277w(2.8), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(0.6), f277w(2.8): 1 galaxies
+Color1 failed: f115w SNR=10.0, color1=-1.90: 1 galaxies
+Low SNR in detection bands: f200w(0.6), f277w(-0.7), f356w(-0.5), f444w(0.8): 1 galaxies
+Color2 out of range: -73.38 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(3.3), f277w(2.8), f356w(2.4), f444w(3.2): 1 galaxies
+Low SNR in detection bands: f200w(1.3), f277w(-0.4), f356w(2.3): 1 galaxies
+Color2 out of range: -69.88 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.1), f200w(0.9), f277w(1.0), f356w(3.4): 1 galaxies
+Color1 failed: f115w SNR=7.2, color1=-0.28: 1 galaxies
+Low SNR in detection bands: f277w(-0.0), f444w(-0.0): 1 galaxies
+Color2 out of range: -70.27 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1.2), f200w(0.7), f277w(0.4), f356w(1.9), f444w(1.3): 1 galaxies
+Color2 out of range: 66.73 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(2.5), f277w(1.6), f356w(2.5), f444w(1.2): 1 galaxies
+High SNR in veto bands: f814w(5.2): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f200w(1.7), f277w(-0.5), f356w(2.5): 1 galaxies
+Low SNR in detection bands: f150w(3.5), f200w(1.6), f277w(1.5), f356w(3.4), f444w(3.3): 1 galaxies
+Low SNR in detection bands: f150w(-1.2), f200w(-0.1), f277w(0.5), f356w(2.1), f444w(2.7): 1 galaxies
+Color1 failed: f115w SNR=2.8, color1=-68.81: 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(1.3), f277w(-0.3), f356w(0.5), f444w(1.8): 1 galaxies
+Color2 out of range: -67.64 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(1.4), f277w(1.1), f356w(-0.4), f444w(2.5): 1 galaxies
+Color2 out of range: 67.95 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.7), f200w(1.8), f277w(-1.0), f356w(0.5), f444w(-0.8): 1 galaxies
+Color2 out of range: -68.02 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1.1), f200w(0.5), f277w(0.5), f356w(1.3), f444w(1.5): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(1.0), f277w(0.7), f356w(1.6): 1 galaxies
+Low SNR in detection bands: f200w(-0.7), f277w(2.1), f444w(1.3): 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(1.7), f277w(1.4), f356w(-0.1), f444w(0.1): 1 galaxies
+Low SNR in detection bands: f150w(0.8), f200w(0.0), f277w(2.1), f356w(1.3), f444w(3.2): 1 galaxies
+Color1 failed: f115w SNR=2.0, color1=-0.75: 1 galaxies
+Color2 out of range: 1.16 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(0.0), f277w(0.9), f356w(1.7): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(-0.7), f277w(-0.1), f356w(1.8), f444w(2.6): 1 galaxies
+Color2 out of range: -67.17 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.2), f200w(1.5), f277w(0.2), f356w(0.5): 1 galaxies
+Color2 out of range: -1.71 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.6), f200w(0.1), f277w(-1.0), f356w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(3.9), f200w(2.3), f277w(-0.7), f356w(2.4): 1 galaxies
+Color2 out of range: -69.99 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-2215.8), f200w(-197.7): 1 galaxies
+Color2 out of range: 69.21 not in (-1.5, 1.0): 1 galaxies
+Color1 failed: f115w SNR=2.9, color1=-2.09: 1 galaxies
+Low SNR in detection bands: f200w(-1494.4): 1 galaxies
+Color1 failed: f115w SNR=2.9, color1=-0.20: 1 galaxies
+Low SNR in detection bands: f150w(-1944.6), f356w(3.3): 1 galaxies
+Color1 failed: f115w SNR=4.3, color1=-2.77: 1 galaxies
+Color2 out of range: 3.95 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f814w(4.2): 1 galaxies
+Low SNR in detection bands: f150w(-3.1), f356w(-3.2), f444w(-2008.8): 1 galaxies
+Color1 failed: f115w SNR=3.1, color1=-67.60: 1 galaxies
+Color2 out of range: 67.60 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(4.0): 1 galaxies
+High SNR in veto bands: f606w(5.0), f814w(7.4): 1 galaxies
+Color1 failed: f115w SNR=13.4, color1=-7.36: 1 galaxies
+Color2 out of range: 6.66 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(-4318.5): 1 galaxies
+Color1 failed: f115w SNR=9.3, color1=-1.01: 1 galaxies
+Color2 out of range: 1.47 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1687.1): 1 galaxies
+Color2 out of range: 67.38 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(0.9): 1 galaxies
+Low SNR in detection bands: f150w(-1267.8), f200w(-1428.5): 1 galaxies
+Color2 out of range: 69.51 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1026.0), f356w(3.8): 1 galaxies
+Color2 out of range: 68.15 not in (-1.5, 1.0): 1 galaxies
+Color1 failed: f115w SNR=2.3, color1=-1.30: 1 galaxies
+Color2 out of range: 2.35 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(-320.4): 1 galaxies
+Color2 out of range: 1.65 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(0.6): 1 galaxies
+Color2 out of range: 2.28 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1402.0), f356w(2.9): 1 galaxies
+Color2 out of range: 68.31 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(4.0), f200w(0.6), f277w(3.8), f356w(3.0), f444w(0.3): 1 galaxies
+Low SNR in detection bands: f150w(3.1), f200w(2.3), f277w(1.3), f356w(3.6), f444w(2.1): 1 galaxies
+Color1 failed: f115w SNR=4.2, color1=-0.12: 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(-0.3), f277w(2.1), f356w(1.0), f444w(1.5): 1 galaxies
+Color2 out of range: 68.52 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(1.3): 1 galaxies
+Low SNR in detection bands: f150w(1.7), f200w(0.5), f277w(2.1), f356w(1.8), f444w(3.9): 1 galaxies
+Low SNR in detection bands: f150w(4.0), f200w(3.9): 1 galaxies
+Color1 failed: f115w SNR=5.3, color1=-0.10: 1 galaxies
+Low SNR in detection bands: f200w(2.1), f277w(3.2), f444w(3.8): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(0.0), f277w(0.1), f356w(3.3), f444w(2.9): 1 galaxies
+Color2 out of range: -3.22 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(0.2), f277w(2.5), f356w(2.7): 1 galaxies
+Color2 out of range: 2.43 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.7), f200w(-1.3), f277w(0.4), f356w(3.5), f444w(3.9): 1 galaxies
+Color2 out of range: 66.72 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.5), f200w(2.0), f277w(1.9), f356w(3.3), f444w(2.7): 1 galaxies
+Color2 out of range: 68.90 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(-1.2), f444w(-0.1): 1 galaxies
+Low SNR in detection bands: f200w(3.8), f277w(2.7), f356w(2.6), f444w(1.1): 1 galaxies
+Color1 failed: f115w SNR=7.5, color1=-0.11: 1 galaxies
+Low SNR in detection bands: f150w(2.6), f200w(0.6), f277w(3.4): 1 galaxies
+Low SNR in detection bands: f356w(2.0), f444w(0.4): 1 galaxies
+Color1 failed: f115w SNR=11.7, color1=-0.44: 1 galaxies
+Color1 failed: f115w SNR=10.2, color1=-0.14: 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(0.3), f277w(1.5), f444w(3.7): 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(-1.5), f277w(1.7), f356w(3.3): 1 galaxies
+Low SNR in detection bands: f200w(3.1), f277w(3.5): 1 galaxies
+Low SNR in detection bands: f150w(3.3), f200w(2.2), f277w(2.6): 1 galaxies
+Low SNR in detection bands: f150w(2.3), f200w(1.6), f277w(2.5), f356w(2.8), f444w(3.5): 1 galaxies
+Low SNR in detection bands: f150w(-0.8), f200w(1.9), f277w(1.6), f356w(4.0), f444w(1.4): 1 galaxies
+Low SNR in detection bands: f150w(0.5), f200w(1.0), f277w(3.1), f356w(3.3), f444w(3.6): 1 galaxies
+Color2 out of range: 1.33 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f277w(3.9), f356w(2.6), f444w(2.4): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f277w(3.3), f356w(1.3): 1 galaxies
+Color2 out of range: 2.05 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(3.8), f356w(2.9): 1 galaxies
+Color1 failed: f115w SNR=3.8, color1=-2.56: 1 galaxies
+Color2 out of range: 2.37 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f356w(3.7), f444w(2.6): 1 galaxies
+Color2 out of range: -1.95 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(1.2), f277w(1.9), f356w(3.3), f444w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(3.3), f200w(2.3), f277w(3.0), f356w(-0.8): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f277w(2.7), f356w(3.6), f444w(2.7): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f277w(-0.8), f356w(-0.9), f444w(0.4): 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(-7.0): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(3.8), f277w(1.6), f444w(1.2): 1 galaxies
+Low SNR in detection bands: f200w(0.7): 1 galaxies
+High SNR in veto bands: f606w(4.9): 1 galaxies
+Color2 out of range: 1.96 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.2), f277w(2.2), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f150w(2.6), f200w(-1.7), f277w(3.3): 1 galaxies
+Color1 failed: f115w SNR=4.6, color1=-0.43: 1 galaxies
+Low SNR in detection bands: f356w(4.0): 1 galaxies
+Low SNR in detection bands: f150w(-4.2), f200w(-0.3), f277w(1.8), f356w(1.4): 1 galaxies
+Low SNR in detection bands: f150w(3.8), f200w(0.2), f277w(2.0), f444w(0.6): 1 galaxies
+Low SNR in detection bands: f150w(1.8), f200w(1.3): 1 galaxies
+Low SNR in detection bands: f444w(-1.2): 1 galaxies
+Color1 failed: f115w SNR=6.8, color1=-0.21: 1 galaxies
+Color2 out of range: 1.67 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f444w(-0.3): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f444w(2.5): 1 galaxies
+Color2 out of range: 1.92 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-6.4), f200w(3.6): 1 galaxies
+Color2 out of range: 68.63 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(0.5), f277w(1.7), f356w(1.4): 1 galaxies
+Color2 out of range: 1.31 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(1.0), f277w(2.3), f444w(-1.9): 1 galaxies
+Low SNR in detection bands: f150w(-1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f200w(0.2), f277w(0.0), f444w(-0.0): 1 galaxies
+Color2 out of range: -7.52 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(3.7), f277w(3.8), f356w(2.7), f444w(2.1): 1 galaxies
+Low SNR in detection bands: f150w(3.5), f200w(3.5), f444w(2.2): 1 galaxies
+Low SNR in detection bands: f200w(3.5): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(1.0), f277w(-0.6), f356w(1.3), f444w(2.6): 1 galaxies
+Color2 out of range: -65.85 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(-0.6), f277w(2.1), f356w(0.8), f444w(3.7): 1 galaxies
+Color1 failed: f115w SNR=3.1, color1=-3.04: 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(-1.1), f277w(1.5), f356w(1.3): 1 galaxies
+Color2 out of range: 68.48 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.6), f200w(3.0), f356w(2.5), f444w(3.1): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(-0.0), f277w(1.4), f356w(3.3): 1 galaxies
+Color1 failed: f115w SNR=3.8, color1=-0.05: 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(0.0), f277w(3.2), f356w(2.1): 1 galaxies
+Color2 out of range: 6.54 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.0), f277w(2.5), f356w(1.1): 1 galaxies
+Color2 out of range: 68.83 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.6), f200w(1.2), f277w(-1.0), f356w(0.5), f444w(1.9): 1 galaxies
+Color2 out of range: -68.60 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(0.5), f277w(1.8), f356w(2.1), f444w(3.9): 1 galaxies
+Color2 out of range: 2.61 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(-1.0), f277w(1.6), f356w(3.6): 1 galaxies
+Color1 failed: f115w SNR=2.4, color1=-2.78: 1 galaxies
+Color2 out of range: 2.39 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.9), f200w(0.1), f277w(1.2), f356w(0.4), f444w(2.2): 1 galaxies
+Color2 out of range: 67.66 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(1.6), f277w(2.1), f356w(1.3), f444w(2.5): 1 galaxies
+Color2 out of range: 68.21 not in (-1.5, 1.0): 1 galaxies
+Color1 failed: f115w SNR=28.5, color1=-0.17: 1 galaxies
+Low SNR in detection bands: f150w(1.9), f200w(2.4), f277w(1.4), f356w(2.2), f444w(0.3): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(-0.7), f277w(1.5), f356w(1.4): 1 galaxies
+Low SNR in detection bands: f277w(0.0), f356w(2.2), f444w(0.0): 1 galaxies
+Color2 out of range: -9.10 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.3), f200w(0.3), f277w(0.6), f356w(1.7), f444w(3.7): 1 galaxies
+Low SNR in detection bands: f150w(1.3), f200w(0.2), f277w(2.3), f356w(2.0), f444w(1.2): 1 galaxies
+High SNR in veto bands: f814w(5.5): 1 galaxies
+Low SNR in detection bands: f150w(1.1), f200w(-0.0), f277w(1.4), f356w(-0.1), f444w(2.8): 1 galaxies
+Low SNR in detection bands: f200w(1.2), f277w(0.1), f444w(0.0): 1 galaxies
+Color2 out of range: -5.36 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(3.9), f444w(3.0): 1 galaxies
+Low SNR in detection bands: f150w(1.4), f200w(1.7), f277w(1.4), f356w(0.9), f444w(2.4): 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(-1.1), f277w(0.8), f356w(3.2): 1 galaxies
+Low SNR in detection bands: f150w(3.2), f200w(3.3), f277w(3.4), f444w(2.8): 1 galaxies
+Color1 failed: f115w SNR=3.3, color1=0.07: 1 galaxies
+Low SNR in detection bands: f150w(3.0), f200w(1.1), f277w(2.7): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f356w(3.3), f444w(0.9): 1 galaxies
+Color1 failed: f115w SNR=2.9, color1=-2.42: 1 galaxies
+Color2 out of range: 2.46 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.0), f200w(0.0): 1 galaxies
+Color2 out of range: 5.66 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-1.3), f200w(1.8), f277w(2.8), f356w(3.5): 1 galaxies
+Color2 out of range: 68.85 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(4.0), f444w(0.2): 1 galaxies
+Low SNR in detection bands: f150w(0.8), f200w(2.3), f277w(1.4), f356w(3.4), f444w(-1.7): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f277w(-0.3), f356w(1.7), f444w(3.2): 1 galaxies
+Low SNR in detection bands: f150w(-0.4), f200w(-0.0), f277w(0.6), f356w(1.0), f444w(3.8): 1 galaxies
+Color2 out of range: 66.65 not in (-1.5, 1.0): 1 galaxies
+Color1 failed: f115w SNR=13.1, color1=-0.01: 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(1.3), f277w(2.2), f356w(1.4), f444w(2.1): 1 galaxies
+Color2 out of range: 1.88 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.6), f200w(1.4), f277w(-0.4), f356w(1.4), f444w(3.1): 1 galaxies
+Color2 out of range: -67.22 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.4), f200w(0.6), f277w(0.0), f356w(2.7), f444w(3.2): 1 galaxies
+Color2 out of range: -4.17 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.0), f277w(2.7), f356w(3.4): 1 galaxies
+Color1 failed: f115w SNR=2.2, color1=-68.73: 1 galaxies
+Color2 out of range: 68.49 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(-0.2), f277w(2.8): 1 galaxies
+Low SNR in detection bands: f150w(3.7), f200w(-0.9), f277w(1.1), f356w(2.2): 1 galaxies
+Color2 out of range: -1.74 not in (-1.5, 1.0): 1 galaxies
+Color2 out of range: -2.33 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.2), f200w(0.6), f277w(-0.3), f356w(0.2), f444w(3.0): 1 galaxies
+Color2 out of range: -67.57 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(0.3), f356w(-1.0), f444w(-2.5): 1 galaxies
+Color2 out of range: 2.97 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.0), f356w(1.3), f444w(1.2): 1 galaxies
+Color1 failed: f115w SNR=2.2, color1=-68.43: 1 galaxies
+Low SNR in detection bands: f150w(0.6), f200w(0.2), f277w(2.3), f356w(3.3), f444w(1.2): 1 galaxies
+Color2 out of range: 1.03 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(0.4), f356w(0.1), f444w(0.5): 1 galaxies
+Color2 out of range: 69.62 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.5), f200w(0.5), f277w(2.1), f356w(-0.6), f444w(3.2): 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(1.8), f277w(0.9), f356w(-0.0): 1 galaxies
+Low SNR in detection bands: f150w(1.5), f200w(-0.7), f277w(2.8), f444w(1.4): 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(2.1), f277w(-1.3), f356w(1.6), f444w(2.6): 1 galaxies
+Low SNR in detection bands: f150w(-1.9), f277w(2.0), f356w(-0.1), f444w(2.5): 1 galaxies
+Color2 out of range: 69.81 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.4), f200w(1.0), f277w(0.5), f356w(2.6): 1 galaxies
+Low SNR in detection bands: f150w(3.5), f200w(-0.5), f277w(0.1), f444w(2.4): 1 galaxies
+Color2 out of range: -3.57 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.7), f200w(0.9), f277w(-0.1), f356w(0.7): 1 galaxies
+Color2 out of range: -68.27 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.5), f200w(1.9), f277w(0.2), f356w(2.4), f444w(1.7): 1 galaxies
+Color2 out of range: -1.78 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.7), f200w(-0.1), f277w(1.3), f356w(2.6), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(-0.8), f277w(1.3), f356w(3.1), f444w(2.8): 1 galaxies
+Color2 out of range: 68.22 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(0.3), f277w(0.5), f356w(2.1): 1 galaxies
+Low SNR in detection bands: f150w(-0.4), f200w(-0.5), f277w(0.2), f356w(2.8), f444w(2.2): 1 galaxies
+Low SNR in detection bands: f150w(2.1), f200w(2.0), f277w(1.5), f356w(2.1), f444w(4.0): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(-0.3), f277w(1.5), f356w(3.8): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f200w(-0.5), f277w(0.9), f356w(1.6), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f277w(3.1), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f277w(1.5), f356w(3.1), f444w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(0.3), f277w(0.2), f356w(1.9), f444w(2.7): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(1.4), f277w(1.5), f356w(1.1): 1 galaxies
+Low SNR in detection bands: f150w(3.3), f200w(0.6), f277w(1.4), f444w(1.5): 1 galaxies
+Low SNR in detection bands: f150w(2.0), f200w(1.2), f277w(3.2), f444w(3.3): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(1.5), f277w(3.9): 1 galaxies
+Color2 out of range: 2.36 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(1.2): 1 galaxies
+Low SNR in detection bands: f277w(3.3): 1 galaxies
+Low SNR in detection bands: f150w(3.9), f200w(3.1), f277w(3.1), f356w(3.5), f444w(2.3): 1 galaxies
+Color1 failed: f115w SNR=4.1, color1=-0.01: 1 galaxies
+Low SNR in detection bands: f150w(0.8), f200w(1.0), f277w(3.3), f356w(0.9), f444w(2.7): 1 galaxies
+Color2 out of range: 1.09 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.0), f277w(2.8), f356w(0.4): 1 galaxies
+Color1 failed: f115w SNR=2.1, color1=-67.89: 1 galaxies
+Low SNR in detection bands: f150w(-0.7), f277w(-2.4), f356w(2.6), f444w(2.3): 1 galaxies
+Color1 failed: f115w SNR=3.9, color1=-69.14: 1 galaxies
+Low SNR in detection bands: f150w(-1.2), f200w(-0.5), f356w(-5.6): 1 galaxies
+Color2 out of range: 68.81 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(3.3): 1 galaxies
+Low SNR in detection bands: f150w(0.2), f200w(1.1), f277w(3.1), f356w(3.3): 1 galaxies
+Color2 out of range: 2.49 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(2.5), f444w(2.1): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f200w(0.4), f277w(2.4), f356w(0.8): 1 galaxies
+Low SNR in detection bands: f150w(3.3), f200w(3.7): 1 galaxies
+Color1 failed: f115w SNR=3.9, color1=-0.14: 1 galaxies
+Low SNR in detection bands: f356w(1.2), f444w(1.6): 1 galaxies
+Color1 failed: f115w SNR=26.4, color1=-0.29: 1 galaxies
+Low SNR in detection bands: f150w(-1.2), f200w(-2.1), f277w(1.5), f356w(3.9), f444w(2.3): 1 galaxies
+Color2 out of range: 67.78 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f277w(0.0), f444w(-0.0): 1 galaxies
+Color2 out of range: -10.10 not in (-1.5, 1.0): 1 galaxies
+High SNR in veto bands: f606w(4.8): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f200w(1.9), f277w(2.4): 1 galaxies
+Low SNR in detection bands: f150w(1.4), f200w(1.8), f444w(1.5): 1 galaxies
+Low SNR in detection bands: f150w(-1.5), f200w(-0.4), f277w(2.4), f356w(0.4): 1 galaxies
+Low SNR in detection bands: f150w(0.6), f200w(1.8), f277w(1.3), f356w(1.9): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f200w(2.0), f277w(2.5), f356w(3.8), f444w(2.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.8), f200w(1.0), f277w(1.8), f356w(0.5), f444w(3.5): 1 galaxies
+Low SNR in detection bands: f150w(-0.1), f200w(2.6), f277w(0.6), f356w(1.2): 1 galaxies
+Color2 out of range: 67.18 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-2.3), f200w(-0.6), f277w(0.0), f356w(2.5): 1 galaxies
+Color2 out of range: 63.84 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(3.7), f200w(-0.4), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(-3.6), f200w(3.4), f356w(1.1): 1 galaxies
+Color1 failed: f115w SNR=2.9, color1=-68.37: 1 galaxies
+Low SNR in detection bands: f150w(3.0), f200w(2.4), f277w(1.4), f356w(3.0), f444w(0.9): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(-1.0), f277w(2.4), f356w(-0.8): 1 galaxies
+Low SNR in detection bands: f150w(-0.8), f200w(3.1), f277w(3.2), f356w(0.5), f444w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(-0.4), f200w(3.3), f277w(2.5), f444w(3.1): 1 galaxies
+Color2 out of range: 68.64 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.5), f200w(0.7), f277w(0.5), f356w(0.8), f444w(3.4): 1 galaxies
+Color2 out of range: -1.86 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.0), f200w(0.2), f277w(1.0), f444w(4.0): 1 galaxies
+Low SNR in detection bands: f277w(1.8), f356w(2.9), f444w(2.1): 1 galaxies
+Color1 failed: f115w SNR=7.6, color1=-0.41: 1 galaxies
+Low SNR in detection bands: f150w(2.5), f200w(2.2), f277w(1.8): 1 galaxies
+Low SNR in detection bands: f150w(1.0), f200w(0.4), f277w(-0.7), f356w(2.5): 1 galaxies
+Color2 out of range: -68.06 not in (-1.5, 1.0): 1 galaxies
+Color1 failed: f115w SNR=24.3, color1=-0.14: 1 galaxies
+Color2 out of range: -1.60 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.3), f200w(-1.3), f277w(1.5): 1 galaxies
+Color1 failed: f115w SNR=2.9, color1=-2.47: 1 galaxies
+Color2 out of range: 1.99 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.9), f200w(-1.7), f277w(0.0), f356w(1.7), f444w(3.4): 1 galaxies
+Color2 out of range: -3.42 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(1.6), f200w(1.3), f277w(1.5), f356w(1.6), f444w(3.1): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(2.0), f277w(-0.2), f444w(-1.4): 1 galaxies
+Low SNR in detection bands: f356w(2.1): 1 galaxies
+Color2 out of range: -1.52 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.1), f200w(1.6), f277w(-0.1), f356w(1.9), f444w(0.9): 1 galaxies
+Color2 out of range: -64.84 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f444w(-0.1): 1 galaxies
+Color1 failed: f115w SNR=43.1, color1=-0.05: 1 galaxies
+Color2 out of range: -2.28 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.2), f277w(2.5), f356w(2.5): 1 galaxies
+Color1 failed: f115w SNR=7.2, color1=-1.12: 1 galaxies
+Low SNR in detection bands: f150w(2.8), f200w(0.3), f277w(2.1): 1 galaxies
+Low SNR in detection bands: f150w(-1.4), f200w(-0.9), f277w(0.1): 1 galaxies
+Color2 out of range: 65.86 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.7), f200w(2.0), f277w(2.7), f356w(3.6), f444w(2.0): 1 galaxies
+Low SNR in detection bands: f200w(3.5), f356w(2.7), f444w(2.7): 1 galaxies
+Low SNR in detection bands: f150w(2.6), f200w(2.7), f277w(2.6), f444w(2.4): 1 galaxies
+Low SNR in detection bands: f444w(0.5): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(-0.2), f277w(1.3), f444w(2.9): 1 galaxies
+Low SNR in detection bands: f150w(-1.0), f200w(0.2), f277w(-0.1), f356w(2.9), f444w(1.1): 1 galaxies
+Low SNR in detection bands: f150w(3.1), f200w(2.0), f277w(2.6), f444w(3.6): 1 galaxies
+Low SNR in detection bands: f150w(0.4), f200w(0.1), f277w(-3.1), f444w(3.9): 1 galaxies
+Color2 out of range: -66.72 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(0.7), f200w(-0.1), f277w(0.2): 1 galaxies
+Color1 failed: f115w SNR=3.2, color1=-1.38: 1 galaxies
+Color2 out of range: -1.75 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f150w(2.3), f200w(3.5), f444w(1.7): 1 galaxies
+Low SNR in detection bands: f150w(2.6), f200w(0.8), f277w(1.7): 1 galaxies
+Low SNR in detection bands: f150w(-1.0), f200w(0.7), f277w(-1.0), f356w(2.5), f444w(3.0): 1 galaxies
+Low SNR in detection bands: f150w(-0.2), f200w(0.9), f277w(0.5), f356w(2.3), f444w(3.6): 1 galaxies
+Color2 out of range: 67.44 not in (-1.5, 1.0): 1 galaxies
+Low SNR in detection bands: f200w(3.7), f277w(3.6), f356w(3.4), f444w(3.5): 1 galaxies
+High SNR in veto bands: f814w(4.0): 1 galaxies
+Low SNR in detection bands: f200w(3.9), f277w(3.6): 1 galaxies
+Low SNR in detection bands: f150w(2.7), f200w(1.3), f277w(2.5), f356w(2.9), f444w(0.2): 1 galaxies
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 448 galaxies (86.2%)
+--------------------------------------------------
+  Source 345 in nircam1 redshift_z7-8: F150W(1.2), F200W(-0.1), F277W(0.7), F444W(-0.0)
+  Source 658 in nircam1 redshift_z7-8: F200W(3.1), F277W(2.8), F356W(2.5), F444W(0.7)
+  Source 776 in nircam1 redshift_z7-8: F150W(-0.1), F200W(1.8), F277W(0.6), F444W(-0.0)
+  Source 1651 in nircam1 redshift_z7-8: F150W(1.7), F200W(1.6), F277W(1.8), F356W(1.9), F444W(1.0)
+  Source 2648 in nircam1 redshift_z7-8: F150W(2.3), F200W(-0.2), F277W(1.4), F444W(2.5)
+  Source 4155 in nircam1 redshift_z7-8: F150W(2.3), F200W(0.2), F277W(2.9), F356W(1.7), F444W(2.8)
+  Source 4302 in nircam1 redshift_z7-8: F200W(2.8), F444W(1.8)
+  Source 4313 in nircam1 redshift_z7-8: F200W(3.3), F277W(2.6), F356W(2.9), F444W(3.1)
+  Source 4807 in nircam1 redshift_z7-8: F150W(0.4), F200W(0.5), F277W(2.3), F444W(3.4)
+  Source 4948 in nircam1 redshift_z7-8: F150W(-1.4), F200W(1.1), F277W(-0.1), F356W(-1.3), F444W(1.1)
+  Source 7297 in nircam1 redshift_z7-8: F150W(0.8), F200W(0.2), F277W(1.1), F356W(0.5)
+  Source 7330 in nircam1 redshift_z7-8: F150W(-0.2), F200W(-1.8), F277W(1.6), F356W(2.4)
+  Source 8693 in nircam1 redshift_z7-8: F200W(3.9)
+  Source 8933 in nircam1 redshift_z7-8: F444W(2.2)
+  Source 9107 in nircam1 redshift_z7-8: F356W(1.3)
+  Source 9257 in nircam1 redshift_z7-8: F150W(0.7), F200W(0.8), F277W(1.1), F356W(0.8)
+  Source 689 in nircam1 redshift_z8-10: F150W(-0.5), F200W(0.3), F277W(-2.4), F356W(3.3)
+  Source 1172 in nircam1 redshift_z8-10: F444W(3.2)
+  Source 1961 in nircam1 redshift_z8-10: F150W(3.0), F200W(2.9), F277W(3.0), F444W(2.3)
+  Source 2139 in nircam1 redshift_z8-10: F150W(2.0), F200W(0.5), F277W(-0.0), F444W(-0.0)
+  Source 3787 in nircam1 redshift_z8-10: F200W(0.0)
+  Source 4051 in nircam1 redshift_z8-10: F150W(-0.6), F200W(0.1), F277W(1.7), F356W(2.0)
+  Source 4069 in nircam1 redshift_z8-10: F150W(-1.7), F200W(2.5), F277W(0.8), F356W(3.3), F444W(0.0)
+  Source 5412 in nircam1 redshift_z8-10: F150W(2.3), F200W(3.6), F277W(1.3), F356W(3.4)
+  Source 5434 in nircam1 redshift_z8-10: F150W(2.7), F444W(2.9)
+  Source 6015 in nircam1 redshift_z8-10: F277W(2.0), F356W(1.1), F444W(0.1)
+  Source 6273 in nircam1 redshift_z8-10: F200W(2.6)
+  Source 7948 in nircam1 redshift_z8-10: F150W(3.1), F200W(2.0), F277W(3.2), F356W(2.7), F444W(2.3)
+  Source 10116 in nircam1 redshift_z8-10: F277W(0.0), F356W(0.0), F444W(1.2)
+  Source 10263 in nircam1 redshift_z8-10: F150W(0.9), F200W(0.7), F277W(3.3), F356W(2.8), F444W(1.7)
+  Source 10524 in nircam1 redshift_z8-10: F150W(2.8), F200W(1.8), F277W(0.0), F356W(0.0), F444W(-1.9)
+  Source 11772 in nircam1 redshift_z8-10: F150W(-0.6), F200W(0.2), F277W(-1.7), F356W(2.9), F444W(-0.1)
+  Source 377 in nircam1 redshift_z10-15: F150W(0.5), F200W(1.1), F277W(2.0), F444W(0.0)
+  Source 538 in nircam1 redshift_z10-15: F150W(1.0)
+  Source 611 in nircam1 redshift_z10-15: F150W(-0.2), F200W(-0.1), F277W(1.3), F356W(0.7)
+  Source 1597 in nircam1 redshift_z10-15: F150W(0.5)
+  Source 4164 in nircam1 redshift_z10-15: F150W(0.9), F200W(3.1), F277W(3.2)
+  Source 4257 in nircam1 redshift_z10-15: F150W(0.1), F200W(0.2), F277W(3.0), F356W(1.4)
+  Source 4929 in nircam1 redshift_z10-15: F150W(-0.0), F200W(2.0), F277W(3.0), F444W(-1.5)
+  Source 5596 in nircam1 redshift_z10-15: F150W(-0.1), F200W(1.0), F277W(0.9), F356W(1.9), F444W(1.1)
+  Source 5688 in nircam1 redshift_z10-15: F150W(0.5)
+  Source 6716 in nircam1 redshift_z10-15: F150W(-0.2), F200W(0.0), F277W(0.2), F356W(0.6), F444W(2.0)
+  Source 7250 in nircam1 redshift_z10-15: F150W(-0.0), F200W(1.1), F277W(0.5), F356W(0.6)
+  Source 7959 in nircam1 redshift_z10-15: F150W(0.1), F200W(-0.5), F444W(3.2)
+  Source 8325 in nircam1 redshift_z10-15: F150W(1.2), F200W(3.1), F277W(3.5), F356W(0.5), F444W(0.0)
+  Source 8677 in nircam1 redshift_z10-15: F150W(0.2), F200W(3.5), F277W(1.0), F356W(2.4)
+  Source 8903 in nircam1 redshift_z10-15: F150W(0.0), F200W(1.1), F277W(2.6), F444W(-0.3)
+  Source 9074 in nircam1 redshift_z10-15: F150W(-0.0), F200W(0.0), F277W(0.7), F356W(0.8), F444W(1.7)
+  Source 9286 in nircam1 redshift_z10-15: F150W(-0.1), F200W(-0.1), F277W(1.5), F356W(1.5), F444W(2.4)
+  Source 10838 in nircam1 redshift_z10-15: F150W(0.1), F200W(1.3), F277W(1.2), F356W(2.7), F444W(2.7)
+  Source 11544 in nircam1 redshift_z10-15: F150W(3.2), F444W(-0.8)
+  Source 11933 in nircam1 redshift_z10-15: F150W(0.9), F200W(3.3), F277W(3.0), F444W(3.8)
+  Source 921 in nircam2 redshift_z7-8: F150W(2.0), F200W(3.1), F277W(2.3), F356W(2.3), F444W(0.1)
+  Source 939 in nircam2 redshift_z7-8: F150W(-0.7), F200W(1.7), F277W(2.2), F356W(2.0), F444W(1.4)
+  Source 1336 in nircam2 redshift_z7-8: F150W(3.9), F200W(3.0)
+  Source 1562 in nircam2 redshift_z7-8: F150W(-0.6), F200W(0.8), F277W(1.6), F356W(1.8), F444W(3.1)
+  Source 2210 in nircam2 redshift_z7-8: F150W(0.6), F200W(1.5), F277W(0.2), F356W(3.0), F444W(3.9)
+  Source 3521 in nircam2 redshift_z7-8: F150W(2.9), F200W(0.7), F277W(1.6), F356W(1.8)
+  Source 4004 in nircam2 redshift_z7-8: F150W(2.5), F200W(2.3), F277W(3.8), F444W(3.4)
+  Source 4588 in nircam2 redshift_z7-8: F150W(-0.2), F200W(1.8), F277W(2.7), F356W(-0.2), F444W(-0.0)
+  Source 5123 in nircam2 redshift_z7-8: F150W(2.1), F200W(3.4), F444W(0.0)
+  Source 6242 in nircam2 redshift_z7-8: F150W(2.7), F200W(-0.8), F277W(2.9), F356W(2.0), F444W(2.4)
+  Source 7140 in nircam2 redshift_z7-8: F150W(2.5), F200W(2.5), F444W(1.8)
+  Source 7629 in nircam2 redshift_z7-8: F150W(1.0), F200W(0.1), F277W(2.5), F356W(2.5), F444W(2.5)
+  Source 9685 in nircam2 redshift_z7-8: F150W(0.9), F200W(-0.3), F277W(1.9), F356W(1.3)
+  Source 10982 in nircam2 redshift_z7-8: F150W(0.4), F200W(0.6), F277W(1.7)
+  Source 11856 in nircam2 redshift_z7-8: F444W(3.8)
+  Source 12876 in nircam2 redshift_z7-8: F277W(2.9)
+  Source 114 in nircam2 redshift_z8-10: F200W(0.9), F277W(-1.3), F356W(-2.6), F444W(-0.0)
+  Source 904 in nircam2 redshift_z8-10: F200W(3.9)
+  Source 1401 in nircam2 redshift_z8-10: F150W(1.1), F200W(-0.9), F356W(-0.1), F444W(1.3)
+  Source 1695 in nircam2 redshift_z8-10: F356W(3.2), F444W(-1.6)
+  Source 1703 in nircam2 redshift_z8-10: F444W(0.9)
+  Source 1708 in nircam2 redshift_z8-10: F150W(2.0), F200W(3.3), F277W(3.9), F444W(1.6)
+  Source 2717 in nircam2 redshift_z8-10: F277W(-0.0), F356W(0.0)
+  Source 3123 in nircam2 redshift_z8-10: F150W(0.4), F200W(3.3), F277W(3.4), F356W(2.2), F444W(3.0)
+  Source 4445 in nircam2 redshift_z8-10: F150W(-2.2), F200W(1.6), F277W(1.1), F356W(1.7), F444W(1.2)
+  Source 4525 in nircam2 redshift_z8-10: F200W(4.0), F277W(0.8), F356W(1.7), F444W(1.4)
+  Source 5541 in nircam2 redshift_z8-10: F150W(1.6), F277W(0.4), F356W(1.8)
+  Source 6058 in nircam2 redshift_z8-10: F200W(3.4)
+  Source 7232 in nircam2 redshift_z8-10: F150W(-1.1), F200W(2.4), F277W(0.8), F356W(0.3), F444W(3.1)
+  Source 8656 in nircam2 redshift_z8-10: F150W(3.8), F200W(3.0), F277W(3.1), F356W(2.5), F444W(2.0)
+  Source 8831 in nircam2 redshift_z8-10: F356W(3.5)
+  Source 11539 in nircam2 redshift_z8-10: F277W(3.1), F444W(3.4)
+  Source 11651 in nircam2 redshift_z8-10: F277W(-0.0), F356W(-0.0), F444W(1.5)
+  Source 12075 in nircam2 redshift_z8-10: F200W(2.2), F277W(1.2)
+  Source 13106 in nircam2 redshift_z8-10: F200W(3.7), F277W(3.7), F444W(3.5)
+  Source 788 in nircam2 redshift_z10-15: F150W(-0.0), F200W(0.7), F277W(0.8), F356W(1.5), F444W(2.8)
+  Source 1455 in nircam2 redshift_z10-15: F150W(0.4), F444W(2.5)
+  Source 2259 in nircam2 redshift_z10-15: F150W(1.0), F444W(0.9)
+  Source 3260 in nircam2 redshift_z10-15: F277W(-0.0), F356W(-0.0)
+  Source 3478 in nircam2 redshift_z10-15: F150W(0.0), F200W(3.3), F356W(3.1), F444W(3.0)
+  Source 4954 in nircam2 redshift_z10-15: F150W(0.5), F356W(3.9), F444W(3.4)
+  Source 5581 in nircam2 redshift_z10-15: F150W(-0.2), F200W(4.0), F277W(2.0), F356W(2.2), F444W(1.8)
+  Source 6620 in nircam2 redshift_z10-15: F150W(1.3), F200W(3.6), F277W(2.3), F356W(3.6), F444W(1.8)
+  Source 7476 in nircam2 redshift_z10-15: F150W(-1.3), F200W(1.4), F277W(-0.2), F356W(3.2)
+  Source 8333 in nircam2 redshift_z10-15: F150W(-2.5), F200W(0.3), F277W(1.1), F356W(1.1), F444W(3.3)
+  Source 9506 in nircam2 redshift_z10-15: F150W(0.3), F200W(-0.4), F356W(3.5), F444W(3.0)
+  Source 9509 in nircam2 redshift_z10-15: F150W(0.5), F277W(2.3), F356W(3.8)
+  Source 9677 in nircam2 redshift_z10-15: F200W(-0.0), F444W(3.6)
+  Source 10411 in nircam2 redshift_z10-15: F150W(3.3), F200W(3.6), F277W(3.0), F444W(3.4)
+  Source 10538 in nircam2 redshift_z10-15: F150W(-1.7), F200W(1.0), F277W(0.9), F356W(1.0)
+  Source 11590 in nircam2 redshift_z10-15: F277W(-0.0), F356W(0.0)
+  Source 12228 in nircam2 redshift_z10-15: F150W(-0.1), F200W(3.0), F356W(2.8), F444W(3.4)
+  Source 12282 in nircam2 redshift_z10-15: F150W(0.9), F277W(-0.0), F356W(-0.0)
+  Source 13212 in nircam2 redshift_z10-15: F200W(0.1), F444W(3.6)
+  Source 2183 in nircam3 redshift_z7-8: F277W(2.9)
+  Source 2241 in nircam3 redshift_z7-8: F444W(2.8)
+  Source 3806 in nircam3 redshift_z7-8: F150W(0.3), F200W(-0.0), F277W(1.5), F356W(1.2)
+  Source 4584 in nircam3 redshift_z7-8: F150W(1.6), F200W(0.3), F277W(2.4), F356W(1.2), F444W(2.9)
+  Source 5100 in nircam3 redshift_z7-8: F200W(2.2)
+  Source 6863 in nircam3 redshift_z7-8: F150W(0.8), F200W(0.5), F277W(1.9), F356W(3.4), F444W(3.5)
+  Source 7029 in nircam3 redshift_z7-8: F150W(2.7), F200W(-0.0), F277W(-1.1), F356W(-2.0), F444W(-2.8)
+  Source 7041 in nircam3 redshift_z7-8: F150W(-0.1), F200W(0.1), F277W(1.8), F356W(-0.8), F444W(2.3)
+  Source 7755 in nircam3 redshift_z7-8: F150W(2.1), F200W(0.9), F277W(2.6), F356W(1.7), F444W(0.7)
+  Source 9528 in nircam3 redshift_z7-8: F150W(1.5), F200W(-0.1), F277W(0.6), F356W(2.0), F444W(2.2)
+  Source 9954 in nircam3 redshift_z7-8: F150W(3.5), F200W(3.2), F277W(3.8), F356W(2.5), F444W(1.8)
+  Source 10467 in nircam3 redshift_z7-8: F150W(2.4), F200W(0.6), F277W(2.0), F356W(3.3), F444W(3.1)
+  Source 11511 in nircam3 redshift_z7-8: F200W(3.4), F277W(3.4), F356W(3.1), F444W(2.4)
+  Source 11872 in nircam3 redshift_z7-8: F150W(1.8), F200W(0.2), F277W(2.5), F356W(-0.4), F444W(2.4)
+  Source 12086 in nircam3 redshift_z7-8: F150W(1.6), F200W(1.3), F277W(2.0), F356W(0.6), F444W(1.7)
+  Source 49 in nircam3 redshift_z8-10: F150W(1.1), F200W(0.5), F277W(0.8)
+  Source 457 in nircam3 redshift_z8-10: F150W(-0.0), F277W(3.4), F356W(1.7), F444W(-0.6)
+  Source 868 in nircam3 redshift_z8-10: F200W(0.6)
+  Source 1715 in nircam3 redshift_z8-10: F200W(3.6), F277W(3.1), F356W(2.5)
+  Source 1725 in nircam3 redshift_z8-10: F200W(3.7)
+  Source 2210 in nircam3 redshift_z8-10: F150W(3.6), F277W(3.7)
+  Source 2790 in nircam3 redshift_z8-10: F277W(3.9), F444W(-0.2)
+  Source 3591 in nircam3 redshift_z8-10: F150W(-0.6), F200W(-0.2), F277W(-1.8), F444W(1.7)
+  Source 4026 in nircam3 redshift_z8-10: F150W(0.0), F200W(2.4), F277W(2.3), F356W(2.1), F444W(2.8)
+  Source 4596 in nircam3 redshift_z8-10: F150W(3.9), F200W(2.7), F277W(3.6), F356W(2.0), F444W(1.3)
+  Source 5466 in nircam3 redshift_z8-10: F150W(-1.3), F200W(2.6), F277W(0.9)
+  Source 8730 in nircam3 redshift_z8-10: F150W(1.1), F200W(1.4), F277W(3.2), F356W(2.1), F444W(2.0)
+  Source 10047 in nircam3 redshift_z8-10: F444W(2.1)
+  Source 10134 in nircam3 redshift_z8-10: F150W(2.8), F200W(4.0), F277W(3.5), F444W(1.8)
+  Source 11198 in nircam3 redshift_z8-10: F150W(2.2), F200W(2.0), F277W(2.8), F356W(3.1), F444W(2.8)
+  Source 11909 in nircam3 redshift_z8-10: F200W(2.8), F444W(3.2)
+  Source 231 in nircam3 redshift_z10-15: F444W(2.4)
+  Source 1531 in nircam3 redshift_z10-15: F150W(2.5), F277W(2.7), F444W(2.9)
+  Source 1748 in nircam3 redshift_z10-15: F444W(1.6)
+  Source 5264 in nircam3 redshift_z10-15: F150W(3.3)
+  Source 6622 in nircam3 redshift_z10-15: F150W(2.1), F200W(2.5), F356W(2.8), F444W(2.6)
+  Source 7035 in nircam3 redshift_z10-15: F150W(3.4)
+  Source 7565 in nircam3 redshift_z10-15: F150W(1.9), F200W(3.5), F444W(0.1)
+  Source 7878 in nircam3 redshift_z10-15: F150W(-0.7), F200W(1.8)
+  Source 9153 in nircam3 redshift_z10-15: F150W(2.1), F356W(-0.5)
+  Source 9544 in nircam3 redshift_z10-15: F150W(2.8), F356W(3.9)
+  Source 10519 in nircam3 redshift_z10-15: F150W(0.0), F200W(-0.0), F277W(3.4), F356W(-0.2)
+  Source 10967 in nircam3 redshift_z10-15: F444W(3.1)
+  Source 11733 in nircam3 redshift_z10-15: F150W(2.8), F200W(-0.8), F444W(3.0)
+  Source 11938 in nircam3 redshift_z10-15: F150W(0.1), F356W(2.0)
+  Source 11961 in nircam3 redshift_z10-15: F150W(2.4), F444W(1.6)
+  Source 651 in nircam4 redshift_z7-8: F150W(-0.6), F200W(2.4), F277W(1.4), F356W(3.5), F444W(0.4)
+  Source 662 in nircam4 redshift_z7-8: F150W(1.1), F200W(-0.7), F277W(1.6), F356W(2.6), F444W(2.3)
+  Source 1666 in nircam4 redshift_z7-8: F277W(1.0), F356W(3.2), F444W(3.8)
+  Source 2227 in nircam4 redshift_z7-8: F150W(3.5), F277W(1.2), F356W(1.7)
+  Source 4940 in nircam4 redshift_z7-8: F150W(3.0), F200W(0.3), F277W(0.5), F356W(2.8)
+  Source 6138 in nircam4 redshift_z7-8: F150W(-0.1), F200W(2.0), F277W(2.0), F356W(1.3), F444W(1.6)
+  Source 8056 in nircam4 redshift_z7-8: F150W(-0.3), F200W(-0.7), F277W(1.4), F356W(2.6), F444W(3.2)
+  Source 9300 in nircam4 redshift_z7-8: F444W(1.5)
+  Source 9481 in nircam4 redshift_z7-8: F150W(0.9), F200W(0.7), F277W(0.8), F356W(2.9), F444W(3.8)
+  Source 9655 in nircam4 redshift_z7-8: F150W(0.0), F200W(-0.6), F277W(1.6), F356W(1.8)
+  Source 9822 in nircam4 redshift_z7-8: F150W(0.7), F200W(1.0), F277W(0.5), F356W(0.8)
+  Source 10223 in nircam4 redshift_z7-8: F150W(1.3), F200W(0.0), F277W(0.0), F444W(1.7)
+  Source 10750 in nircam4 redshift_z7-8: F150W(1.4), F200W(0.1), F277W(1.5), F356W(1.8)
+  Source 10779 in nircam4 redshift_z7-8: F150W(2.2), F200W(0.8), F277W(0.8), F356W(2.0), F444W(1.3)
+  Source 10834 in nircam4 redshift_z7-8: F444W(3.8)
+  Source 10868 in nircam4 redshift_z7-8: F150W(0.2), F200W(0.4), F277W(1.6), F356W(1.3)
+  Source 11130 in nircam4 redshift_z7-8: F277W(3.9), F356W(1.4), F444W(1.6)
+  Source 11210 in nircam4 redshift_z7-8: F356W(3.3), F444W(2.9)
+  Source 12232 in nircam4 redshift_z7-8: F150W(-0.3), F200W(0.1), F277W(0.4), F444W(1.3)
+  Source 12890 in nircam4 redshift_z7-8: F277W(2.2), F444W(3.0)
+  Source 440 in nircam4 redshift_z8-10: F200W(2.1), F277W(4.0), F444W(2.8)
+  Source 1755 in nircam4 redshift_z8-10: F200W(2.0), F356W(3.7), F444W(1.5)
+  Source 1908 in nircam4 redshift_z8-10: F444W(3.4)
+  Source 2838 in nircam4 redshift_z8-10: F150W(0.7), F200W(2.0), F277W(0.9), F356W(1.4)
+  Source 4308 in nircam4 redshift_z8-10: F150W(-2.4), F200W(1.3), F277W(0.7), F356W(0.9)
+  Source 4429 in nircam4 redshift_z8-10: F150W(2.4), F200W(-0.6), F277W(2.3), F356W(2.5), F444W(1.9)
+  Source 5282 in nircam4 redshift_z8-10: F150W(0.0), F200W(0.3), F356W(0.7), F444W(2.3)
+  Source 5670 in nircam4 redshift_z8-10: F150W(2.5), F200W(1.1), F277W(0.5), F356W(1.3), F444W(-0.2)
+  Source 6977 in nircam4 redshift_z8-10: F444W(1.5)
+  Source 7185 in nircam4 redshift_z8-10: F150W(-0.8), F200W(0.5), F277W(2.4), F356W(-0.8), F444W(2.9)
+  Source 8067 in nircam4 redshift_z8-10: F150W(0.4), F200W(0.7), F277W(-0.9), F356W(3.0), F444W(2.2)
+  Source 8333 in nircam4 redshift_z8-10: F444W(0.7)
+  Source 8989 in nircam4 redshift_z8-10: F150W(0.2), F200W(-0.5), F277W(1.7), F356W(2.4), F444W(2.0)
+  Source 9101 in nircam4 redshift_z8-10: F150W(1.7), F200W(-2.1), F277W(0.8), F356W(2.7), F444W(2.5)
+  Source 9641 in nircam4 redshift_z8-10: F150W(3.3), F200W(-0.1), F356W(2.2)
+  Source 9788 in nircam4 redshift_z8-10: F150W(0.4), F200W(2.2), F277W(-0.0), F356W(1.5), F444W(2.8)
+  Source 10904 in nircam4 redshift_z8-10: F444W(3.5)
+  Source 11574 in nircam4 redshift_z8-10: F444W(3.0)
+  Source 11914 in nircam4 redshift_z8-10: F356W(1.2), F444W(2.9)
+  Source 12751 in nircam4 redshift_z8-10: F150W(0.7), F200W(-0.6), F277W(2.0), F356W(-0.3), F444W(0.7)
+  Source 289 in nircam4 redshift_z10-15: F200W(-2.6)
+  Source 2011 in nircam4 redshift_z10-15: F150W(-2.9), F200W(3.0), F277W(3.6), F356W(3.5)
+  Source 2108 in nircam4 redshift_z10-15: F150W(0.1), F200W(-2.8)
+  Source 2761 in nircam4 redshift_z10-15: F200W(0.5), F356W(-0.1)
+  Source 3824 in nircam4 redshift_z10-15: F150W(2.0)
+  Source 4227 in nircam4 redshift_z10-15: F150W(1.5), F200W(2.1), F444W(3.6)
+  Source 5922 in nircam4 redshift_z10-15: F150W(3.9), F200W(-0.2)
+  Source 6626 in nircam4 redshift_z10-15: F277W(-4.1), F356W(-0.1)
+  Source 8838 in nircam4 redshift_z10-15: F150W(-0.0)
+  Source 9221 in nircam4 redshift_z10-15: F150W(1.2), F200W(-2.6)
+  Source 9817 in nircam4 redshift_z10-15: F150W(-0.8), F277W(2.5), F444W(1.6)
+  Source 11314 in nircam4 redshift_z10-15: F150W(1.1), F200W(-0.6), F444W(2.7)
+  Source 11336 in nircam4 redshift_z10-15: F150W(1.3), F200W(-2.3)
+  Source 11987 in nircam4 redshift_z10-15: F150W(3.2), F444W(3.7)
+  Source 1105 in nircam5 redshift_z7-8: F150W(0.8), F200W(2.5), F277W(2.0), F356W(3.9)
+  Source 1369 in nircam5 redshift_z7-8: F200W(2.7), F277W(3.4)
+  Source 1632 in nircam5 redshift_z7-8: F150W(2.5), F200W(1.9), F277W(1.7), F356W(2.0)
+  Source 1756 in nircam5 redshift_z7-8: F444W(-0.3)
+  Source 2274 in nircam5 redshift_z7-8: F150W(1.6), F200W(2.9), F277W(0.7), F356W(1.8), F444W(2.1)
+  Source 4460 in nircam5 redshift_z7-8: F150W(-1.6), F200W(2.1), F277W(0.9), F356W(2.6)
+  Source 6490 in nircam5 redshift_z7-8: F150W(-1.0), F200W(1.7), F277W(2.1), F356W(0.2)
+  Source 8190 in nircam5 redshift_z7-8: F150W(-0.8), F200W(-1.9), F277W(0.3), F356W(1.7), F444W(3.4)
+  Source 8697 in nircam5 redshift_z7-8: F150W(2.4), F200W(3.5)
+  Source 9131 in nircam5 redshift_z7-8: F200W(2.0), F277W(2.1), F356W(3.9), F444W(3.8)
+  Source 9732 in nircam5 redshift_z7-8: F200W(3.6)
+  Source 10802 in nircam5 redshift_z7-8: F150W(3.4), F200W(1.1), F277W(-0.5), F356W(1.0)
+  Source 11132 in nircam5 redshift_z7-8: F150W(3.1), F277W(3.3), F444W(3.2)
+  Source 11484 in nircam5 redshift_z7-8: F277W(2.8), F444W(1.8)
+  Source 11899 in nircam5 redshift_z7-8: F150W(1.0), F200W(0.6), F277W(2.8)
+  Source 13050 in nircam5 redshift_z7-8: F200W(0.6), F277W(-0.7), F356W(-0.5), F444W(0.8)
+  Source 13624 in nircam5 redshift_z7-8: F150W(2.0), F200W(3.3), F277W(2.8), F356W(2.4), F444W(3.2)
+  Source 14229 in nircam5 redshift_z7-8: F200W(1.3), F277W(-0.4), F356W(2.3)
+  Source 14337 in nircam5 redshift_z7-8: F150W(3.1), F200W(0.9), F277W(1.0), F356W(3.4)
+  Source 627 in nircam5 redshift_z8-10: F277W(-0.0), F444W(-0.0)
+  Source 1103 in nircam5 redshift_z8-10: F150W(-1.2), F200W(0.7), F277W(0.4), F356W(1.9), F444W(1.3)
+  Source 1846 in nircam5 redshift_z8-10: F200W(2.5), F277W(1.6), F356W(2.5), F444W(1.2)
+  Source 2196 in nircam5 redshift_z8-10: F150W(2.1), F200W(1.7), F277W(-0.5), F356W(2.5)
+  Source 2747 in nircam5 redshift_z8-10: F150W(3.5), F200W(1.6), F277W(1.5), F356W(3.4), F444W(3.3)
+  Source 2863 in nircam5 redshift_z8-10: F150W(-1.2), F200W(-0.1), F277W(0.5), F356W(2.1), F444W(2.7)
+  Source 3383 in nircam5 redshift_z8-10: F150W(0.7), F200W(1.3), F277W(-0.3), F356W(0.5), F444W(1.8)
+  Source 4166 in nircam5 redshift_z8-10: F150W(-0.2), F200W(1.4), F277W(1.1), F356W(-0.4), F444W(2.5)
+  Source 4832 in nircam5 redshift_z8-10: F150W(1.7), F200W(1.8), F277W(-1.0), F356W(0.5), F444W(-0.8)
+  Source 5075 in nircam5 redshift_z8-10: F150W(-1.1), F200W(0.5), F277W(0.5), F356W(1.3), F444W(1.5)
+  Source 5213 in nircam5 redshift_z8-10: F150W(0.9), F200W(1.0), F277W(0.7), F356W(1.6)
+  Source 5849 in nircam5 redshift_z8-10: F200W(-0.7), F277W(2.1), F444W(1.3)
+  Source 7100 in nircam5 redshift_z8-10: F150W(2.5), F200W(1.7), F277W(1.4), F356W(-0.1), F444W(0.1)
+  Source 7373 in nircam5 redshift_z8-10: F150W(0.8), F200W(0.0), F277W(2.1), F356W(1.3), F444W(3.2)
+  Source 8745 in nircam5 redshift_z8-10: F150W(1.1), F200W(0.0), F277W(0.9), F356W(1.7)
+  Source 8815 in nircam5 redshift_z8-10: F150W(1.0), F200W(-0.7), F277W(-0.1), F356W(1.8), F444W(2.6)
+  Source 11414 in nircam5 redshift_z8-10: F150W(1.2), F200W(1.5), F277W(0.2), F356W(0.5)
+  Source 11561 in nircam5 redshift_z8-10: F150W(-0.6), F200W(0.1), F277W(-1.0), F356W(0.8)
+  Source 13952 in nircam5 redshift_z8-10: F150W(3.9), F200W(2.3), F277W(-0.7), F356W(2.4)
+  Source 3075 in nircam5 redshift_z10-15: F150W(-2215.8), F200W(-197.7)
+  Source 3207 in nircam5 redshift_z10-15: F356W(2.2)
+  Source 3548 in nircam5 redshift_z10-15: F200W(-1494.4)
+  Source 4104 in nircam5 redshift_z10-15: F150W(-1944.6), F356W(3.3)
+  Source 6801 in nircam5 redshift_z10-15: F356W(2.2)
+  Source 7344 in nircam5 redshift_z10-15: F150W(-3.1), F356W(-3.2), F444W(-2008.8)
+  Source 8246 in nircam5 redshift_z10-15: F150W(4.0)
+  Source 9092 in nircam5 redshift_z10-15: F444W(-4318.5)
+  Source 9126 in nircam5 redshift_z10-15: F150W(-1687.1)
+  Source 9628 in nircam5 redshift_z10-15: F356W(0.9)
+  Source 9755 in nircam5 redshift_z10-15: F150W(-1267.8), F200W(-1428.5)
+  Source 10288 in nircam5 redshift_z10-15: F150W(-1026.0), F356W(3.8)
+  Source 12277 in nircam5 redshift_z10-15: F200W(-320.4)
+  Source 13215 in nircam5 redshift_z10-15: F356W(0.6)
+  Source 14252 in nircam5 redshift_z10-15: F150W(-1402.0), F356W(2.9)
+  Source 849 in nircam6 redshift_z7-8: F150W(4.0), F200W(0.6), F277W(3.8), F356W(3.0), F444W(0.3)
+  Source 932 in nircam6 redshift_z7-8: F150W(3.1), F200W(2.3), F277W(1.3), F356W(3.6), F444W(2.1)
+  Source 1318 in nircam6 redshift_z7-8: F150W(-0.0), F200W(-0.3), F277W(2.1), F356W(1.0), F444W(1.5)
+  Source 1824 in nircam6 redshift_z7-8: F444W(1.3)
+  Source 2724 in nircam6 redshift_z7-8: F150W(1.7), F200W(0.5), F277W(2.1), F356W(1.8), F444W(3.9)
+  Source 2910 in nircam6 redshift_z7-8: F150W(4.0), F200W(3.9)
+  Source 4174 in nircam6 redshift_z7-8: F200W(2.1), F277W(3.2), F444W(3.8)
+  Source 4249 in nircam6 redshift_z7-8: F150W(0.9), F200W(0.0), F277W(0.1), F356W(3.3), F444W(2.9)
+  Source 4659 in nircam6 redshift_z7-8: F150W(0.2), F200W(0.2), F277W(2.5), F356W(2.7)
+  Source 5157 in nircam6 redshift_z7-8: F150W(-0.7), F200W(-1.3), F277W(0.4), F356W(3.5), F444W(3.9)
+  Source 5283 in nircam6 redshift_z7-8: F150W(-0.5), F200W(2.0), F277W(1.9), F356W(3.3), F444W(2.7)
+  Source 7573 in nircam6 redshift_z7-8: F444W(0.9)
+  Source 7622 in nircam6 redshift_z7-8: F356W(-1.2), F444W(-0.1)
+  Source 7625 in nircam6 redshift_z7-8: F200W(3.8), F277W(2.7), F356W(2.6), F444W(1.1)
+  Source 7863 in nircam6 redshift_z7-8: F150W(2.6), F200W(0.6), F277W(3.4)
+  Source 8017 in nircam6 redshift_z7-8: F356W(2.0), F444W(0.4)
+  Source 10707 in nircam6 redshift_z7-8: F150W(2.8), F200W(0.3), F277W(1.5), F444W(3.7)
+  Source 372 in nircam6 redshift_z8-10: F150W(2.5), F200W(-1.5), F277W(1.7), F356W(3.3)
+  Source 753 in nircam6 redshift_z8-10: F200W(3.1), F277W(3.5)
+  Source 2269 in nircam6 redshift_z8-10: F150W(3.3), F200W(2.2), F277W(2.6)
+  Source 2400 in nircam6 redshift_z8-10: F150W(2.3), F200W(1.6), F277W(2.5), F356W(2.8), F444W(3.5)
+  Source 2567 in nircam6 redshift_z8-10: F444W(3.4)
+  Source 3250 in nircam6 redshift_z8-10: F444W(3.2)
+  Source 3958 in nircam6 redshift_z8-10: F150W(-0.8), F200W(1.9), F277W(1.6), F356W(4.0), F444W(1.4)
+  Source 4538 in nircam6 redshift_z8-10: F150W(0.5), F200W(1.0), F277W(3.1), F356W(3.3), F444W(3.6)
+  Source 5570 in nircam6 redshift_z8-10: F277W(3.9), F356W(2.6), F444W(2.4)
+  Source 5890 in nircam6 redshift_z8-10: F150W(0.3), F277W(3.3), F356W(1.3)
+  Source 5956 in nircam6 redshift_z8-10: F150W(0.3), F200W(3.8), F356W(2.9)
+  Source 6262 in nircam6 redshift_z8-10: F356W(3.7), F444W(2.6)
+  Source 7051 in nircam6 redshift_z8-10: F150W(1.1), F200W(1.2), F277W(1.9), F356W(3.3), F444W(0.8)
+  Source 7155 in nircam6 redshift_z8-10: F150W(3.3), F200W(2.3), F277W(3.0), F356W(-0.8)
+  Source 7466 in nircam6 redshift_z8-10: F150W(2.2), F277W(2.7), F356W(3.6), F444W(2.7)
+  Source 8168 in nircam6 redshift_z8-10: F150W(-0.1), F277W(-0.8), F356W(-0.9), F444W(0.4)
+  Source 11740 in nircam6 redshift_z8-10: F444W(3.4)
+  Source 344 in nircam6 redshift_z10-15: F150W(2.5), F200W(-7.0)
+  Source 447 in nircam6 redshift_z10-15: F150W(2.0), F200W(3.8), F277W(1.6), F444W(1.2)
+  Source 746 in nircam6 redshift_z10-15: F200W(0.7)
+  Source 992 in nircam6 redshift_z10-15: F150W(1.2), F277W(2.2), F444W(2.9)
+  Source 1033 in nircam6 redshift_z10-15: F150W(2.6), F200W(-1.7), F277W(3.3)
+  Source 3172 in nircam6 redshift_z10-15: F356W(4.0)
+  Source 3476 in nircam6 redshift_z10-15: F444W(3.0)
+  Source 3708 in nircam6 redshift_z10-15: F150W(-4.2), F200W(-0.3), F277W(1.8), F356W(1.4)
+  Source 4097 in nircam6 redshift_z10-15: F150W(3.8), F200W(0.2), F277W(2.0), F444W(0.6)
+  Source 4660 in nircam6 redshift_z10-15: F150W(1.8), F200W(1.3)
+  Source 6023 in nircam6 redshift_z10-15: F444W(-1.2)
+  Source 7973 in nircam6 redshift_z10-15: F150W(2.8), F444W(-0.3)
+  Source 9406 in nircam6 redshift_z10-15: F150W(1.0), F444W(2.5)
+  Source 10050 in nircam6 redshift_z10-15: F150W(-6.4), F200W(3.6)
+  Source 10226 in nircam6 redshift_z10-15: F150W(0.4), F200W(0.5), F277W(1.7), F356W(1.4)
+  Source 10511 in nircam6 redshift_z10-15: F150W(1.0), F200W(1.0), F277W(2.3), F444W(-1.9)
+  Source 10878 in nircam6 redshift_z10-15: F150W(-1.0)
+  Source 958 in nircam7 redshift_z7-8: F150W(2.1), F200W(0.2), F277W(0.0), F444W(-0.0)
+  Source 998 in nircam7 redshift_z7-8: F200W(3.7), F277W(3.8), F356W(2.7), F444W(2.1)
+  Source 1359 in nircam7 redshift_z7-8: F150W(3.5), F200W(3.5), F444W(2.2)
+  Source 1843 in nircam7 redshift_z7-8: F200W(3.5)
+  Source 2308 in nircam7 redshift_z7-8: F150W(0.1), F200W(1.0), F277W(-0.6), F356W(1.3), F444W(2.6)
+  Source 2820 in nircam7 redshift_z7-8: F150W(0.1), F200W(-0.6), F277W(2.1), F356W(0.8), F444W(3.7)
+  Source 4316 in nircam7 redshift_z7-8: F150W(-0.1), F200W(-1.1), F277W(1.5), F356W(1.3)
+  Source 6714 in nircam7 redshift_z7-8: F150W(3.6), F200W(3.0), F356W(2.5), F444W(3.1)
+  Source 8044 in nircam7 redshift_z7-8: F150W(2.0), F200W(-0.0), F277W(1.4), F356W(3.3)
+  Source 8191 in nircam7 redshift_z7-8: F150W(0.0), F200W(0.0), F277W(3.2), F356W(2.1)
+  Source 8243 in nircam7 redshift_z7-8: F150W(-0.0), F200W(0.0), F277W(2.5), F356W(1.1)
+  Source 9657 in nircam7 redshift_z7-8: F150W(1.6), F200W(1.2), F277W(-1.0), F356W(0.5), F444W(1.9)
+  Source 11711 in nircam7 redshift_z7-8: F150W(0.1), F200W(0.5), F277W(1.8), F356W(2.1), F444W(3.9)
+  Source 12315 in nircam7 redshift_z7-8: F150W(0.1), F200W(-1.0), F277W(1.6), F356W(3.6)
+  Source 12905 in nircam7 redshift_z7-8: F150W(-0.9), F200W(0.1), F277W(1.2), F356W(0.4), F444W(2.2)
+  Source 13770 in nircam7 redshift_z7-8: F150W(-0.2), F200W(1.6), F277W(2.1), F356W(1.3), F444W(2.5)
+  Source 13889 in nircam7 redshift_z7-8: F444W(2.2)
+  Source 14498 in nircam7 redshift_z7-8: F150W(1.9), F200W(2.4), F277W(1.4), F356W(2.2), F444W(0.3)
+  Source 14526 in nircam7 redshift_z7-8: F150W(1.1), F200W(-0.7), F277W(1.5), F356W(1.4)
+  Source 2812 in nircam7 redshift_z8-10: F277W(0.0), F356W(2.2), F444W(0.0)
+  Source 3680 in nircam7 redshift_z8-10: F150W(-0.3), F200W(0.3), F277W(0.6), F356W(1.7), F444W(3.7)
+  Source 4359 in nircam7 redshift_z8-10: F150W(1.3), F200W(0.2), F277W(2.3), F356W(2.0), F444W(1.2)
+  Source 5276 in nircam7 redshift_z8-10: F150W(1.1), F200W(-0.0), F277W(1.4), F356W(-0.1), F444W(2.8)
+  Source 6140 in nircam7 redshift_z8-10: F200W(1.2), F277W(0.1), F444W(0.0)
+  Source 6737 in nircam7 redshift_z8-10: F200W(3.9), F444W(3.0)
+  Source 6870 in nircam7 redshift_z8-10: F150W(1.4), F200W(1.7), F277W(1.4), F356W(0.9), F444W(2.4)
+  Source 10370 in nircam7 redshift_z8-10: F150W(0.2), F200W(-1.1), F277W(0.8), F356W(3.2)
+  Source 11155 in nircam7 redshift_z8-10: F150W(3.2), F200W(3.3), F277W(3.4), F444W(2.8)
+  Source 11187 in nircam7 redshift_z8-10: F150W(3.0), F200W(1.1), F277W(2.7)
+  Source 12460 in nircam7 redshift_z8-10: F150W(0.3), F356W(3.3), F444W(0.9)
+  Source 13852 in nircam7 redshift_z8-10: F150W(0.0), F200W(0.0)
+  Source 14185 in nircam7 redshift_z8-10: F150W(-1.3), F200W(1.8), F277W(2.8), F356W(3.5)
+  Source 14959 in nircam7 redshift_z8-10: F200W(4.0), F444W(0.2)
+  Source 15040 in nircam7 redshift_z8-10: F150W(0.8), F200W(2.3), F277W(1.4), F356W(3.4), F444W(-1.7)
+  Source 15548 in nircam7 redshift_z8-10: F444W(3.5)
+  Source 15582 in nircam7 redshift_z8-10: F150W(-0.1), F277W(-0.3), F356W(1.7), F444W(3.2)
+  Source 1015 in nircam8 redshift_z7-8: F150W(-0.4), F200W(-0.0), F277W(0.6), F356W(1.0), F444W(3.8)
+  Source 1158 in nircam8 redshift_z7-8: F444W(2.5)
+  Source 1553 in nircam8 redshift_z7-8: F150W(0.3), F200W(1.3), F277W(2.2), F356W(1.4), F444W(2.1)
+  Source 2553 in nircam8 redshift_z7-8: F150W(0.6), F200W(1.4), F277W(-0.4), F356W(1.4), F444W(3.1)
+  Source 4012 in nircam8 redshift_z7-8: F150W(1.4), F200W(0.6), F277W(0.0), F356W(2.7), F444W(3.2)
+  Source 6415 in nircam8 redshift_z7-8: F150W(-0.0), F200W(0.0), F277W(2.7), F356W(3.4)
+  Source 7357 in nircam8 redshift_z7-8: F150W(1.0), F200W(-0.2), F277W(2.8)
+  Source 8453 in nircam8 redshift_z7-8: F150W(3.7), F200W(-0.9), F277W(1.1), F356W(2.2)
+  Source 10189 in nircam8 redshift_z7-8: F150W(1.2), F200W(0.6), F277W(-0.3), F356W(0.2), F444W(3.0)
+  Source 10525 in nircam8 redshift_z7-8: F150W(1.0), F200W(0.3), F356W(-1.0), F444W(-2.5)
+  Source 11981 in nircam8 redshift_z7-8: F150W(-0.0), F200W(0.0), F356W(1.3), F444W(1.2)
+  Source 12041 in nircam8 redshift_z7-8: F150W(0.6), F200W(0.2), F277W(2.3), F356W(3.3), F444W(1.2)
+  Source 12777 in nircam8 redshift_z7-8: F150W(-0.2), F200W(0.4), F356W(0.1), F444W(0.5)
+  Source 12959 in nircam8 redshift_z7-8: F150W(1.5), F200W(0.5), F277W(2.1), F356W(-0.6), F444W(3.2)
+  Source 13112 in nircam8 redshift_z7-8: F150W(0.7), F200W(1.8), F277W(0.9), F356W(-0.0)
+  Source 15599 in nircam8 redshift_z7-8: F150W(1.5), F200W(-0.7), F277W(2.8), F444W(1.4)
+  Source 925 in nircam8 redshift_z8-10: F150W(2.8), F200W(2.1), F277W(-1.3), F356W(1.6), F444W(2.6)
+  Source 1741 in nircam8 redshift_z8-10: F150W(-1.9), F277W(2.0), F356W(-0.1), F444W(2.5)
+  Source 3516 in nircam8 redshift_z8-10: F150W(2.4), F200W(1.0), F277W(0.5), F356W(2.6)
+  Source 4411 in nircam8 redshift_z8-10: F150W(3.5), F200W(-0.5), F277W(0.1), F444W(2.4)
+  Source 4597 in nircam8 redshift_z8-10: F150W(2.7), F200W(0.9), F277W(-0.1), F356W(0.7)
+  Source 4601 in nircam8 redshift_z8-10: F444W(0.7)
+  Source 4623 in nircam8 redshift_z8-10: F150W(1.5), F200W(1.9), F277W(0.2), F356W(2.4), F444W(1.7)
+  Source 6173 in nircam8 redshift_z8-10: F150W(1.7), F200W(-0.1), F277W(1.3), F356W(2.6), F444W(2.9)
+  Source 9809 in nircam8 redshift_z8-10: F150W(-0.2), F200W(-0.8), F277W(1.3), F356W(3.1), F444W(2.8)
+  Source 9819 in nircam8 redshift_z8-10: F150W(0.3), F200W(0.3), F277W(0.5), F356W(2.1)
+  Source 10376 in nircam8 redshift_z8-10: F150W(-0.4), F200W(-0.5), F277W(0.2), F356W(2.8), F444W(2.2)
+  Source 10431 in nircam8 redshift_z8-10: F150W(2.1), F200W(2.0), F277W(1.5), F356W(2.1), F444W(4.0)
+  Source 10630 in nircam8 redshift_z8-10: F150W(1.0), F200W(-0.3), F277W(1.5), F356W(3.8)
+  Source 12759 in nircam8 redshift_z8-10: F150W(2.2), F200W(-0.5), F277W(0.9), F356W(1.6), F444W(2.9)
+  Source 13214 in nircam8 redshift_z8-10: F277W(3.1), F444W(1.8)
+  Source 13396 in nircam8 redshift_z8-10: F444W(2.5)
+  Source 15359 in nircam8 redshift_z8-10: F277W(1.5), F356W(3.1), F444W(0.8)
+  Source 15394 in nircam8 redshift_z8-10: F150W(0.2), F200W(0.3), F277W(0.2), F356W(1.9), F444W(2.7)
+  Source 15590 in nircam8 redshift_z8-10: F150W(-0.1), F200W(1.4), F277W(1.5), F356W(1.1)
+  Source 1462 in nircam9 redshift_z7-8: F150W(3.3), F200W(0.6), F277W(1.4), F444W(1.5)
+  Source 2181 in nircam9 redshift_z7-8: F150W(2.0), F200W(1.2), F277W(3.2), F444W(3.3)
+  Source 3302 in nircam9 redshift_z7-8: F150W(0.3), F200W(1.5), F277W(3.9)
+  Source 5653 in nircam9 redshift_z7-8: F200W(1.2)
+  Source 5676 in nircam9 redshift_z7-8: F277W(3.3)
+  Source 6061 in nircam9 redshift_z7-8: F150W(3.9), F200W(3.1), F277W(3.1), F356W(3.5), F444W(2.3)
+  Source 7270 in nircam9 redshift_z7-8: F150W(0.8), F200W(1.0), F277W(3.3), F356W(0.9), F444W(2.7)
+  Source 7542 in nircam9 redshift_z7-8: F150W(-0.0), F200W(0.0), F277W(2.8), F356W(0.4)
+  Source 8294 in nircam9 redshift_z7-8: F150W(-0.7), F277W(-2.4), F356W(2.6), F444W(2.3)
+  Source 9473 in nircam9 redshift_z7-8: F150W(-1.2), F200W(-0.5), F356W(-5.6)
+  Source 9920 in nircam9 redshift_z7-8: F444W(3.3)
+  Source 10502 in nircam9 redshift_z7-8: F150W(0.2), F200W(1.1), F277W(3.1), F356W(3.3)
+  Source 11980 in nircam9 redshift_z7-8: F200W(2.5), F444W(2.1)
+  Source 12134 in nircam9 redshift_z7-8: F150W(2.2), F200W(0.4), F277W(2.4), F356W(0.8)
+  Source 12709 in nircam9 redshift_z7-8: F150W(3.3), F200W(3.7)
+  Source 13656 in nircam9 redshift_z7-8: F356W(1.2), F444W(1.6)
+  Source 15632 in nircam9 redshift_z7-8: F150W(-1.2), F200W(-2.1), F277W(1.5), F356W(3.9), F444W(2.3)
+  Source 969 in nircam9 redshift_z8-10: F277W(0.0), F444W(-0.0)
+  Source 5926 in nircam9 redshift_z8-10: F150W(2.2), F200W(1.9), F277W(2.4)
+  Source 6039 in nircam9 redshift_z8-10: F150W(1.4), F200W(1.8), F444W(1.5)
+  Source 6158 in nircam9 redshift_z8-10: F150W(-1.5), F200W(-0.4), F277W(2.4), F356W(0.4)
+  Source 6359 in nircam9 redshift_z8-10: F150W(0.6), F200W(1.8), F277W(1.3), F356W(1.9)
+  Source 6618 in nircam9 redshift_z8-10: F150W(2.2), F200W(2.0), F277W(2.5), F356W(3.8), F444W(2.0)
+  Source 6737 in nircam9 redshift_z8-10: F150W(-0.8), F200W(1.0), F277W(1.8), F356W(0.5), F444W(3.5)
+  Source 7553 in nircam9 redshift_z8-10: F150W(-0.1), F200W(2.6), F277W(0.6), F356W(1.2)
+  Source 7724 in nircam9 redshift_z8-10: F150W(-2.3), F200W(-0.6), F277W(0.0), F356W(2.5)
+  Source 7836 in nircam9 redshift_z8-10: F150W(3.7), F200W(-0.4), F444W(1.8)
+  Source 8831 in nircam9 redshift_z8-10: F150W(-3.6), F200W(3.4), F356W(1.1)
+  Source 8948 in nircam9 redshift_z8-10: F150W(3.0), F200W(2.4), F277W(1.4), F356W(3.0), F444W(0.9)
+  Source 10624 in nircam9 redshift_z8-10: F150W(1.0), F200W(-1.0), F277W(2.4), F356W(-0.8)
+  Source 12578 in nircam9 redshift_z8-10: F150W(-0.8), F200W(3.1), F277W(3.2), F356W(0.5), F444W(1.8)
+  Source 12703 in nircam9 redshift_z8-10: F150W(-0.4), F200W(3.3), F277W(2.5), F444W(3.1)
+  Source 15657 in nircam9 redshift_z8-10: F150W(1.5), F200W(0.7), F277W(0.5), F356W(0.8), F444W(3.4)
+  Source 675 in nircam10 redshift_z7-8: F150W(-0.0), F200W(0.2), F277W(1.0), F444W(4.0)
+  Source 1081 in nircam10 redshift_z7-8: F277W(1.8), F356W(2.9), F444W(2.1)
+  Source 1216 in nircam10 redshift_z7-8: F150W(2.5), F200W(2.2), F277W(1.8)
+  Source 1697 in nircam10 redshift_z7-8: F150W(1.0), F200W(0.4), F277W(-0.7), F356W(2.5)
+  Source 3712 in nircam10 redshift_z7-8: F444W(1.5)
+  Source 3742 in nircam10 redshift_z7-8: F150W(0.3), F200W(-1.3), F277W(1.5)
+  Source 3979 in nircam10 redshift_z7-8: F150W(0.9), F200W(-1.7), F277W(0.0), F356W(1.7), F444W(3.4)
+  Source 5161 in nircam10 redshift_z7-8: F150W(1.6), F200W(1.3), F277W(1.5), F356W(1.6), F444W(3.1)
+  Source 5850 in nircam10 redshift_z7-8: F150W(-0.2), F200W(2.0), F277W(-0.2), F444W(-1.4)
+  Source 8153 in nircam10 redshift_z7-8: F356W(2.1)
+  Source 8200 in nircam10 redshift_z7-8: F444W(2.8)
+  Source 9135 in nircam10 redshift_z7-8: F444W(2.2)
+  Source 9519 in nircam10 redshift_z7-8: F150W(0.1), F200W(1.6), F277W(-0.1), F356W(1.9), F444W(0.9)
+  Source 9681 in nircam10 redshift_z7-8: F444W(-0.1)
+  Source 10891 in nircam10 redshift_z7-8: F150W(2.2), F277W(2.5), F356W(2.5)
+  Source 11520 in nircam10 redshift_z7-8: F150W(2.8), F200W(0.3), F277W(2.1)
+  Source 11661 in nircam10 redshift_z7-8: F150W(-1.4), F200W(-0.9), F277W(0.1)
+  Source 1091 in nircam10 redshift_z8-10: F150W(2.7), F200W(2.0), F277W(2.7), F356W(3.6), F444W(2.0)
+  Source 1330 in nircam10 redshift_z8-10: F200W(3.5), F356W(2.7), F444W(2.7)
+  Source 2191 in nircam10 redshift_z8-10: F150W(2.6), F200W(2.7), F277W(2.6), F444W(2.4)
+  Source 2205 in nircam10 redshift_z8-10: F444W(0.5)
+  Source 2445 in nircam10 redshift_z8-10: F150W(0.4), F200W(-0.2), F277W(1.3), F444W(2.9)
+  Source 2566 in nircam10 redshift_z8-10: F150W(-1.0), F200W(0.2), F277W(-0.1), F356W(2.9), F444W(1.1)
+  Source 2817 in nircam10 redshift_z8-10: F150W(3.1), F200W(2.0), F277W(2.6), F444W(3.6)
+  Source 3197 in nircam10 redshift_z8-10: F150W(0.4), F200W(0.1), F277W(-3.1), F444W(3.9)
+  Source 4771 in nircam10 redshift_z8-10: F150W(0.7), F200W(-0.1), F277W(0.2)
+  Source 6606 in nircam10 redshift_z8-10: F150W(2.3), F200W(3.5), F444W(1.7)
+  Source 7116 in nircam10 redshift_z8-10: F444W(3.8)
+  Source 7674 in nircam10 redshift_z8-10: F150W(2.6), F200W(0.8), F277W(1.7)
+  Source 7891 in nircam10 redshift_z8-10: F150W(-1.0), F200W(0.7), F277W(-1.0), F356W(2.5), F444W(3.0)
+  Source 8250 in nircam10 redshift_z8-10: F150W(-0.2), F200W(0.9), F277W(0.5), F356W(2.3), F444W(3.6)
+  Source 9221 in nircam10 redshift_z8-10: F200W(3.7), F277W(3.6), F356W(3.4), F444W(3.5)
+  Source 9669 in nircam10 redshift_z8-10: F200W(3.9), F277W(3.6)
+  Source 10790 in nircam10 redshift_z8-10: F150W(2.7), F200W(1.3), F277W(2.5), F356W(2.9), F444W(0.2)
+
+High SNR in veto bands: 19 galaxies (3.7%)
+--------------------------------------------------
+  Source 740 in nircam1 redshift_z7-8: F814W(6.0)
+  Source 9169 in nircam1 redshift_z8-10: F606W(858.6), F814W(2144.9)
+  Source 10116 in nircam1 redshift_z8-10: F814W(4.8)
+  Source 1065 in nircam3 redshift_z10-15: F814W(4.8)
+  Source 10413 in nircam3 redshift_z10-15: F814W(5.4)
+  Source 10834 in nircam4 redshift_z7-8: F814W(4.4)
+  Source 3938 in nircam4 redshift_z10-15: F606W(6.0)
+  Source 11905 in nircam4 redshift_z10-15: F606W(4.2)
+  Source 627 in nircam5 redshift_z8-10: F814W(4.4)
+  Source 1846 in nircam5 redshift_z8-10: F814W(5.2)
+  Source 5473 in nircam5 redshift_z10-15: F814W(4.7)
+  Source 6801 in nircam5 redshift_z10-15: F814W(4.2)
+  Source 7344 in nircam5 redshift_z10-15: F814W(5.4)
+  Source 8246 in nircam5 redshift_z10-15: F606W(5.0), F814W(7.4)
+  Source 13110 in nircam5 redshift_z10-15: F814W(4.7)
+  Source 746 in nircam6 redshift_z10-15: F606W(4.9)
+  Source 4359 in nircam7 redshift_z8-10: F814W(5.5)
+  Source 1431 in nircam9 redshift_z8-10: F606W(4.8)
+  Source 9221 in nircam10 redshift_z8-10: F814W(4.0)
+
+Color1 failed: 78 galaxies (15.0%)
+--------------------------------------------------
+  Source 1651 in nircam1 redshift_z7-8: F115W SNR=2.3, Color1=-0.10
+  Source 7246 in nircam1 redshift_z7-8: F115W SNR=6.0, Color1=-0.18
+  Source 921 in nircam2 redshift_z7-8: F115W SNR=3.7, Color1=-0.52
+  Source 1336 in nircam2 redshift_z7-8: F115W SNR=5.6, Color1=-0.21
+  Source 5123 in nircam2 redshift_z7-8: F115W SNR=8.4, Color1=-1.31
+  Source 7043 in nircam2 redshift_z7-8: F115W SNR=4.7, Color1=0.09
+  Source 12876 in nircam2 redshift_z7-8: F115W SNR=5.2, Color1=-0.00
+  Source 1708 in nircam2 redshift_z8-10: F115W SNR=2.9, Color1=-0.05
+  Source 3123 in nircam2 redshift_z8-10: F115W SNR=2.3, Color1=-1.44
+  Source 8746 in nircam2 redshift_z8-10: F115W SNR=42.2, Color1=-0.00
+  Source 1213 in nircam3 redshift_z7-8: F115W SNR=12.6, Color1=0.06
+  Source 2183 in nircam3 redshift_z7-8: F115W SNR=10.3, Color1=0.01
+  Source 2241 in nircam3 redshift_z7-8: F115W SNR=16.6, Color1=-0.22
+  Source 2321 in nircam3 redshift_z7-8: F115W SNR=26.1, Color1=0.09
+  Source 3319 in nircam3 redshift_z7-8: F115W SNR=69.1, Color1=-0.21
+  Source 3558 in nircam3 redshift_z7-8: F115W SNR=55.4, Color1=-0.14
+  Source 457 in nircam3 redshift_z8-10: F115W SNR=2.0, Color1=-68.88
+  Source 1065 in nircam3 redshift_z10-15: F115W SNR=6.2, Color1=-0.03
+  Source 9544 in nircam3 redshift_z10-15: F115W SNR=4.3, Color1=-0.27
+  Source 11938 in nircam3 redshift_z10-15: F115W SNR=3.1, Color1=-3.12
+  Source 1666 in nircam4 redshift_z7-8: F115W SNR=11.6, Color1=-0.01
+  Source 2227 in nircam4 redshift_z7-8: F115W SNR=6.0, Color1=-0.15
+  Source 10223 in nircam4 redshift_z7-8: F115W SNR=2.6, Color1=-0.27
+  Source 10834 in nircam4 redshift_z7-8: F115W SNR=38.5, Color1=-0.15
+  Source 11130 in nircam4 redshift_z7-8: F115W SNR=24.2, Color1=-0.19
+  Source 11210 in nircam4 redshift_z7-8: F115W SNR=10.9, Color1=-0.32
+  Source 12890 in nircam4 redshift_z7-8: F115W SNR=13.1, Color1=0.01
+  Source 2108 in nircam4 redshift_z10-15: F115W SNR=2.0, Color1=-3.68
+  Source 3824 in nircam4 redshift_z10-15: F115W SNR=4.4, Color1=-0.68
+  Source 8838 in nircam4 redshift_z10-15: F115W SNR=6.9, Color1=-69.74
+  Source 11336 in nircam4 redshift_z10-15: F115W SNR=3.0, Color1=-0.65
+  Source 1105 in nircam5 redshift_z7-8: F115W SNR=3.2, Color1=-0.83
+  Source 2274 in nircam5 redshift_z7-8: F115W SNR=7.3, Color1=-1.02
+  Source 6490 in nircam5 redshift_z7-8: F115W SNR=2.5, Color1=-69.08
+  Source 8190 in nircam5 redshift_z7-8: F115W SNR=2.3, Color1=-67.73
+  Source 9732 in nircam5 redshift_z7-8: F115W SNR=11.1, Color1=-0.37
+  Source 11132 in nircam5 redshift_z7-8: F115W SNR=6.9, Color1=-0.21
+  Source 11899 in nircam5 redshift_z7-8: F115W SNR=10.0, Color1=-1.90
+  Source 14337 in nircam5 redshift_z7-8: F115W SNR=7.2, Color1=-0.28
+  Source 2863 in nircam5 redshift_z8-10: F115W SNR=2.8, Color1=-68.81
+  Source 7373 in nircam5 redshift_z8-10: F115W SNR=2.0, Color1=-0.75
+  Source 3207 in nircam5 redshift_z10-15: F115W SNR=2.9, Color1=-2.09
+  Source 3548 in nircam5 redshift_z10-15: F115W SNR=2.9, Color1=-0.20
+  Source 5473 in nircam5 redshift_z10-15: F115W SNR=4.3, Color1=-2.77
+  Source 7344 in nircam5 redshift_z10-15: F115W SNR=3.1, Color1=-67.60
+  Source 8246 in nircam5 redshift_z10-15: F115W SNR=13.4, Color1=-7.36
+  Source 9092 in nircam5 redshift_z10-15: F115W SNR=9.3, Color1=-1.01
+  Source 11929 in nircam5 redshift_z10-15: F115W SNR=2.3, Color1=-1.30
+  Source 932 in nircam6 redshift_z7-8: F115W SNR=4.2, Color1=-0.12
+  Source 2910 in nircam6 redshift_z7-8: F115W SNR=5.3, Color1=-0.10
+  Source 7625 in nircam6 redshift_z7-8: F115W SNR=7.5, Color1=-0.11
+  Source 8017 in nircam6 redshift_z7-8: F115W SNR=11.7, Color1=-0.44
+  Source 10002 in nircam6 redshift_z7-8: F115W SNR=10.2, Color1=-0.14
+  Source 5956 in nircam6 redshift_z8-10: F115W SNR=3.8, Color1=-2.56
+  Source 1033 in nircam6 redshift_z10-15: F115W SNR=4.6, Color1=-0.43
+  Source 6023 in nircam6 redshift_z10-15: F115W SNR=6.8, Color1=-0.21
+  Source 2820 in nircam7 redshift_z7-8: F115W SNR=3.1, Color1=-3.04
+  Source 8044 in nircam7 redshift_z7-8: F115W SNR=3.8, Color1=-0.05
+  Source 12315 in nircam7 redshift_z7-8: F115W SNR=2.4, Color1=-2.78
+  Source 13889 in nircam7 redshift_z7-8: F115W SNR=28.5, Color1=-0.17
+  Source 14498 in nircam7 redshift_z7-8: F115W SNR=4.3, Color1=-0.27
+  Source 11155 in nircam7 redshift_z8-10: F115W SNR=3.3, Color1=0.07
+  Source 12460 in nircam7 redshift_z8-10: F115W SNR=2.9, Color1=-2.42
+  Source 1158 in nircam8 redshift_z7-8: F115W SNR=13.1, Color1=-0.01
+  Source 6415 in nircam8 redshift_z7-8: F115W SNR=2.2, Color1=-68.73
+  Source 11981 in nircam8 redshift_z7-8: F115W SNR=2.2, Color1=-68.43
+  Source 6061 in nircam9 redshift_z7-8: F115W SNR=4.1, Color1=-0.01
+  Source 7542 in nircam9 redshift_z7-8: F115W SNR=2.1, Color1=-67.89
+  Source 8294 in nircam9 redshift_z7-8: F115W SNR=3.9, Color1=-69.14
+  Source 12709 in nircam9 redshift_z7-8: F115W SNR=3.9, Color1=-0.14
+  Source 13856 in nircam9 redshift_z7-8: F115W SNR=26.4, Color1=-0.29
+  Source 8831 in nircam9 redshift_z8-10: F115W SNR=2.9, Color1=-68.37
+  Source 1081 in nircam10 redshift_z7-8: F115W SNR=7.6, Color1=-0.41
+  Source 3712 in nircam10 redshift_z7-8: F115W SNR=24.3, Color1=-0.14
+  Source 3742 in nircam10 redshift_z7-8: F115W SNR=2.9, Color1=-2.47
+  Source 9681 in nircam10 redshift_z7-8: F115W SNR=43.1, Color1=-0.05
+  Source 10891 in nircam10 redshift_z7-8: F115W SNR=7.2, Color1=-1.12
+  Source 4771 in nircam10 redshift_z8-10: F115W SNR=3.2, Color1=-1.38
+
+Color2 out of range: 216 galaxies (41.5%)
+--------------------------------------------------
+  Source 776 in nircam1 redshift_z7-8: Color2=67.64 (range: -1.5 to 1.0)
+  Source 4807 in nircam1 redshift_z7-8: Color2=1.23 (range: -1.5 to 1.0)
+  Source 7330 in nircam1 redshift_z7-8: Color2=67.64 (range: -1.5 to 1.0)
+  Source 9107 in nircam1 redshift_z7-8: Color2=-1.61 (range: -1.5 to 1.0)
+  Source 2139 in nircam1 redshift_z8-10: Color2=-68.87 (range: -1.5 to 1.0)
+  Source 4051 in nircam1 redshift_z8-10: Color2=68.42 (range: -1.5 to 1.0)
+  Source 4069 in nircam1 redshift_z8-10: Color2=66.91 (range: -1.5 to 1.0)
+  Source 6015 in nircam1 redshift_z8-10: Color2=-2.46 (range: -1.5 to 1.0)
+  Source 9169 in nircam1 redshift_z8-10: Color2=-2.59 (range: -1.5 to 1.0)
+  Source 10116 in nircam1 redshift_z8-10: Color2=-11.54 (range: -1.5 to 1.0)
+  Source 10524 in nircam1 redshift_z8-10: Color2=-8.31 (range: -1.5 to 1.0)
+  Source 611 in nircam1 redshift_z10-15: Color2=68.57 (range: -1.5 to 1.0)
+  Source 1597 in nircam1 redshift_z10-15: Color2=2.76 (range: -1.5 to 1.0)
+  Source 4257 in nircam1 redshift_z10-15: Color2=2.09 (range: -1.5 to 1.0)
+  Source 4929 in nircam1 redshift_z10-15: Color2=69.10 (range: -1.5 to 1.0)
+  Source 5596 in nircam1 redshift_z10-15: Color2=67.76 (range: -1.5 to 1.0)
+  Source 5688 in nircam1 redshift_z10-15: Color2=1.83 (range: -1.5 to 1.0)
+  Source 6716 in nircam1 redshift_z10-15: Color2=65.66 (range: -1.5 to 1.0)
+  Source 7250 in nircam1 redshift_z10-15: Color2=67.85 (range: -1.5 to 1.0)
+  Source 7959 in nircam1 redshift_z10-15: Color2=3.41 (range: -1.5 to 1.0)
+  Source 8903 in nircam1 redshift_z10-15: Color2=5.29 (range: -1.5 to 1.0)
+  Source 9074 in nircam1 redshift_z10-15: Color2=67.58 (range: -1.5 to 1.0)
+  Source 9286 in nircam1 redshift_z10-15: Color2=67.59 (range: -1.5 to 1.0)
+  Source 10838 in nircam1 redshift_z10-15: Color2=1.75 (range: -1.5 to 1.0)
+  Source 939 in nircam2 redshift_z7-8: Color2=68.18 (range: -1.5 to 1.0)
+  Source 1562 in nircam2 redshift_z7-8: Color2=68.19 (range: -1.5 to 1.0)
+  Source 2210 in nircam2 redshift_z7-8: Color2=-1.84 (range: -1.5 to 1.0)
+  Source 4588 in nircam2 redshift_z7-8: Color2=69.07 (range: -1.5 to 1.0)
+  Source 114 in nircam2 redshift_z8-10: Color2=-69.91 (range: -1.5 to 1.0)
+  Source 1401 in nircam2 redshift_z8-10: Color2=1.46 (range: -1.5 to 1.0)
+  Source 2717 in nircam2 redshift_z8-10: Color2=-72.09 (range: -1.5 to 1.0)
+  Source 3123 in nircam2 redshift_z8-10: Color2=1.72 (range: -1.5 to 1.0)
+  Source 4445 in nircam2 redshift_z8-10: Color2=67.64 (range: -1.5 to 1.0)
+  Source 4525 in nircam2 redshift_z8-10: Color2=-2.62 (range: -1.5 to 1.0)
+  Source 5541 in nircam2 redshift_z8-10: Color2=-1.93 (range: -1.5 to 1.0)
+  Source 7232 in nircam2 redshift_z8-10: Color2=67.76 (range: -1.5 to 1.0)
+  Source 11651 in nircam2 redshift_z8-10: Color2=-70.57 (range: -1.5 to 1.0)
+  Source 12075 in nircam2 redshift_z8-10: Color2=-2.09 (range: -1.5 to 1.0)
+  Source 788 in nircam2 redshift_z10-15: Color2=67.36 (range: -1.5 to 1.0)
+  Source 1455 in nircam2 redshift_z10-15: Color2=2.31 (range: -1.5 to 1.0)
+  Source 2259 in nircam2 redshift_z10-15: Color2=1.42 (range: -1.5 to 1.0)
+  Source 3260 in nircam2 redshift_z10-15: Color2=-70.32 (range: -1.5 to 1.0)
+  Source 3478 in nircam2 redshift_z10-15: Color2=4.75 (range: -1.5 to 1.0)
+  Source 4954 in nircam2 redshift_z10-15: Color2=2.31 (range: -1.5 to 1.0)
+  Source 5581 in nircam2 redshift_z10-15: Color2=68.30 (range: -1.5 to 1.0)
+  Source 8333 in nircam2 redshift_z10-15: Color2=67.62 (range: -1.5 to 1.0)
+  Source 9506 in nircam2 redshift_z10-15: Color2=2.51 (range: -1.5 to 1.0)
+  Source 9509 in nircam2 redshift_z10-15: Color2=1.11 (range: -1.5 to 1.0)
+  Source 10538 in nircam2 redshift_z10-15: Color2=67.46 (range: -1.5 to 1.0)
+  Source 11590 in nircam2 redshift_z10-15: Color2=-70.53 (range: -1.5 to 1.0)
+  Source 12228 in nircam2 redshift_z10-15: Color2=69.58 (range: -1.5 to 1.0)
+  Source 12282 in nircam2 redshift_z10-15: Color2=-68.67 (range: -1.5 to 1.0)
+  Source 2183 in nircam3 redshift_z7-8: Color2=-1.68 (range: -1.5 to 1.0)
+  Source 3806 in nircam3 redshift_z7-8: Color2=1.04 (range: -1.5 to 1.0)
+  Source 7029 in nircam3 redshift_z7-8: Color2=-69.17 (range: -1.5 to 1.0)
+  Source 7041 in nircam3 redshift_z7-8: Color2=67.96 (range: -1.5 to 1.0)
+  Source 9528 in nircam3 redshift_z7-8: Color2=-1.67 (range: -1.5 to 1.0)
+  Source 457 in nircam3 redshift_z8-10: Color2=69.06 (range: -1.5 to 1.0)
+  Source 1715 in nircam3 redshift_z8-10: Color2=-1.51 (range: -1.5 to 1.0)
+  Source 4026 in nircam3 redshift_z8-10: Color2=4.32 (range: -1.5 to 1.0)
+  Source 5466 in nircam3 redshift_z8-10: Color2=68.12 (range: -1.5 to 1.0)
+  Source 5264 in nircam3 redshift_z10-15: Color2=1.06 (range: -1.5 to 1.0)
+  Source 7878 in nircam3 redshift_z10-15: Color2=67.35 (range: -1.5 to 1.0)
+  Source 9544 in nircam3 redshift_z10-15: Color2=1.49 (range: -1.5 to 1.0)
+  Source 10519 in nircam3 redshift_z10-15: Color2=6.77 (range: -1.5 to 1.0)
+  Source 11938 in nircam3 redshift_z10-15: Color2=4.33 (range: -1.5 to 1.0)
+  Source 11961 in nircam3 redshift_z10-15: Color2=1.51 (range: -1.5 to 1.0)
+  Source 651 in nircam4 redshift_z7-8: Color2=68.29 (range: -1.5 to 1.0)
+  Source 1666 in nircam4 redshift_z7-8: Color2=-2.54 (range: -1.5 to 1.0)
+  Source 4940 in nircam4 redshift_z7-8: Color2=-2.24 (range: -1.5 to 1.0)
+  Source 6138 in nircam4 redshift_z7-8: Color2=68.46 (range: -1.5 to 1.0)
+  Source 8056 in nircam4 redshift_z7-8: Color2=68.82 (range: -1.5 to 1.0)
+  Source 9655 in nircam4 redshift_z7-8: Color2=4.05 (range: -1.5 to 1.0)
+  Source 10223 in nircam4 redshift_z7-8: Color2=-4.20 (range: -1.5 to 1.0)
+  Source 10868 in nircam4 redshift_z7-8: Color2=1.70 (range: -1.5 to 1.0)
+  Source 11130 in nircam4 redshift_z7-8: Color2=-1.64 (range: -1.5 to 1.0)
+  Source 12232 in nircam4 redshift_z7-8: Color2=66.42 (range: -1.5 to 1.0)
+  Source 12890 in nircam4 redshift_z7-8: Color2=-1.80 (range: -1.5 to 1.0)
+  Source 4308 in nircam4 redshift_z8-10: Color2=67.05 (range: -1.5 to 1.0)
+  Source 5282 in nircam4 redshift_z8-10: Color2=5.08 (range: -1.5 to 1.0)
+  Source 5670 in nircam4 redshift_z8-10: Color2=-1.90 (range: -1.5 to 1.0)
+  Source 7185 in nircam4 redshift_z8-10: Color2=67.71 (range: -1.5 to 1.0)
+  Source 8067 in nircam4 redshift_z8-10: Color2=-66.56 (range: -1.5 to 1.0)
+  Source 8989 in nircam4 redshift_z8-10: Color2=2.31 (range: -1.5 to 1.0)
+  Source 9788 in nircam4 redshift_z8-10: Color2=-66.59 (range: -1.5 to 1.0)
+  Source 289 in nircam4 redshift_z10-15: Color2=3.10 (range: -1.5 to 1.0)
+  Source 2011 in nircam4 redshift_z10-15: Color2=67.83 (range: -1.5 to 1.0)
+  Source 2108 in nircam4 redshift_z10-15: Color2=5.46 (range: -1.5 to 1.0)
+  Source 2761 in nircam4 redshift_z10-15: Color2=2.55 (range: -1.5 to 1.0)
+  Source 3824 in nircam4 redshift_z10-15: Color2=2.19 (range: -1.5 to 1.0)
+  Source 6626 in nircam4 redshift_z10-15: Color2=-69.72 (range: -1.5 to 1.0)
+  Source 8838 in nircam4 redshift_z10-15: Color2=70.56 (range: -1.5 to 1.0)
+  Source 9221 in nircam4 redshift_z10-15: Color2=1.77 (range: -1.5 to 1.0)
+  Source 9817 in nircam4 redshift_z10-15: Color2=67.85 (range: -1.5 to 1.0)
+  Source 11314 in nircam4 redshift_z10-15: Color2=2.06 (range: -1.5 to 1.0)
+  Source 11336 in nircam4 redshift_z10-15: Color2=5.45 (range: -1.5 to 1.0)
+  Source 11905 in nircam4 redshift_z10-15: Color2=1.10 (range: -1.5 to 1.0)
+  Source 1756 in nircam5 redshift_z7-8: Color2=-1.68 (range: -1.5 to 1.0)
+  Source 4460 in nircam5 redshift_z7-8: Color2=67.79 (range: -1.5 to 1.0)
+  Source 6490 in nircam5 redshift_z7-8: Color2=69.59 (range: -1.5 to 1.0)
+  Source 8190 in nircam5 redshift_z7-8: Color2=66.14 (range: -1.5 to 1.0)
+  Source 10802 in nircam5 redshift_z7-8: Color2=-69.13 (range: -1.5 to 1.0)
+  Source 11899 in nircam5 redshift_z7-8: Color2=1.23 (range: -1.5 to 1.0)
+  Source 13050 in nircam5 redshift_z7-8: Color2=-73.38 (range: -1.5 to 1.0)
+  Source 14229 in nircam5 redshift_z7-8: Color2=-69.88 (range: -1.5 to 1.0)
+  Source 627 in nircam5 redshift_z8-10: Color2=-70.27 (range: -1.5 to 1.0)
+  Source 1103 in nircam5 redshift_z8-10: Color2=66.73 (range: -1.5 to 1.0)
+  Source 2196 in nircam5 redshift_z8-10: Color2=-68.91 (range: -1.5 to 1.0)
+  Source 2863 in nircam5 redshift_z8-10: Color2=67.27 (range: -1.5 to 1.0)
+  Source 3383 in nircam5 redshift_z8-10: Color2=-67.64 (range: -1.5 to 1.0)
+  Source 4166 in nircam5 redshift_z8-10: Color2=67.95 (range: -1.5 to 1.0)
+  Source 4832 in nircam5 redshift_z8-10: Color2=-68.02 (range: -1.5 to 1.0)
+  Source 5075 in nircam5 redshift_z8-10: Color2=67.05 (range: -1.5 to 1.0)
+  Source 7373 in nircam5 redshift_z8-10: Color2=1.16 (range: -1.5 to 1.0)
+  Source 8815 in nircam5 redshift_z8-10: Color2=-67.17 (range: -1.5 to 1.0)
+  Source 11414 in nircam5 redshift_z8-10: Color2=-1.71 (range: -1.5 to 1.0)
+  Source 13952 in nircam5 redshift_z8-10: Color2=-69.99 (range: -1.5 to 1.0)
+  Source 3075 in nircam5 redshift_z10-15: Color2=69.21 (range: -1.5 to 1.0)
+  Source 3207 in nircam5 redshift_z10-15: Color2=2.65 (range: -1.5 to 1.0)
+  Source 3548 in nircam5 redshift_z10-15: Color2=1.56 (range: -1.5 to 1.0)
+  Source 4104 in nircam5 redshift_z10-15: Color2=67.85 (range: -1.5 to 1.0)
+  Source 5473 in nircam5 redshift_z10-15: Color2=3.95 (range: -1.5 to 1.0)
+  Source 7344 in nircam5 redshift_z10-15: Color2=67.60 (range: -1.5 to 1.0)
+  Source 8246 in nircam5 redshift_z10-15: Color2=6.66 (range: -1.5 to 1.0)
+  Source 9092 in nircam5 redshift_z10-15: Color2=1.47 (range: -1.5 to 1.0)
+  Source 9126 in nircam5 redshift_z10-15: Color2=67.38 (range: -1.5 to 1.0)
+  Source 9755 in nircam5 redshift_z10-15: Color2=69.51 (range: -1.5 to 1.0)
+  Source 10288 in nircam5 redshift_z10-15: Color2=68.15 (range: -1.5 to 1.0)
+  Source 11929 in nircam5 redshift_z10-15: Color2=2.35 (range: -1.5 to 1.0)
+  Source 12277 in nircam5 redshift_z10-15: Color2=1.65 (range: -1.5 to 1.0)
+  Source 13215 in nircam5 redshift_z10-15: Color2=2.28 (range: -1.5 to 1.0)
+  Source 14252 in nircam5 redshift_z10-15: Color2=68.31 (range: -1.5 to 1.0)
+  Source 1318 in nircam6 redshift_z7-8: Color2=68.52 (range: -1.5 to 1.0)
+  Source 4249 in nircam6 redshift_z7-8: Color2=-3.22 (range: -1.5 to 1.0)
+  Source 4659 in nircam6 redshift_z7-8: Color2=2.43 (range: -1.5 to 1.0)
+  Source 5157 in nircam6 redshift_z7-8: Color2=66.72 (range: -1.5 to 1.0)
+  Source 5283 in nircam6 redshift_z7-8: Color2=68.90 (range: -1.5 to 1.0)
+  Source 3958 in nircam6 redshift_z8-10: Color2=68.57 (range: -1.5 to 1.0)
+  Source 4538 in nircam6 redshift_z8-10: Color2=1.33 (range: -1.5 to 1.0)
+  Source 5890 in nircam6 redshift_z8-10: Color2=2.05 (range: -1.5 to 1.0)
+  Source 5956 in nircam6 redshift_z8-10: Color2=2.37 (range: -1.5 to 1.0)
+  Source 6262 in nircam6 redshift_z8-10: Color2=-1.95 (range: -1.5 to 1.0)
+  Source 344 in nircam6 redshift_z10-15: Color2=1.56 (range: -1.5 to 1.0)
+  Source 746 in nircam6 redshift_z10-15: Color2=1.96 (range: -1.5 to 1.0)
+  Source 3708 in nircam6 redshift_z10-15: Color2=67.27 (range: -1.5 to 1.0)
+  Source 6023 in nircam6 redshift_z10-15: Color2=1.67 (range: -1.5 to 1.0)
+  Source 9406 in nircam6 redshift_z10-15: Color2=1.92 (range: -1.5 to 1.0)
+  Source 10050 in nircam6 redshift_z10-15: Color2=68.63 (range: -1.5 to 1.0)
+  Source 10226 in nircam6 redshift_z10-15: Color2=1.31 (range: -1.5 to 1.0)
+  Source 10878 in nircam6 redshift_z10-15: Color2=68.88 (range: -1.5 to 1.0)
+  Source 958 in nircam7 redshift_z7-8: Color2=-7.52 (range: -1.5 to 1.0)
+  Source 2308 in nircam7 redshift_z7-8: Color2=-65.85 (range: -1.5 to 1.0)
+  Source 2820 in nircam7 redshift_z7-8: Color2=2.65 (range: -1.5 to 1.0)
+  Source 4316 in nircam7 redshift_z7-8: Color2=68.48 (range: -1.5 to 1.0)
+  Source 8191 in nircam7 redshift_z7-8: Color2=6.54 (range: -1.5 to 1.0)
+  Source 8243 in nircam7 redshift_z7-8: Color2=68.83 (range: -1.5 to 1.0)
+  Source 9657 in nircam7 redshift_z7-8: Color2=-68.60 (range: -1.5 to 1.0)
+  Source 11711 in nircam7 redshift_z7-8: Color2=2.61 (range: -1.5 to 1.0)
+  Source 12315 in nircam7 redshift_z7-8: Color2=2.39 (range: -1.5 to 1.0)
+  Source 12905 in nircam7 redshift_z7-8: Color2=67.66 (range: -1.5 to 1.0)
+  Source 13770 in nircam7 redshift_z7-8: Color2=68.21 (range: -1.5 to 1.0)
+  Source 2812 in nircam7 redshift_z8-10: Color2=-9.10 (range: -1.5 to 1.0)
+  Source 3680 in nircam7 redshift_z8-10: Color2=66.43 (range: -1.5 to 1.0)
+  Source 6140 in nircam7 redshift_z8-10: Color2=-5.36 (range: -1.5 to 1.0)
+  Source 12460 in nircam7 redshift_z8-10: Color2=2.46 (range: -1.5 to 1.0)
+  Source 13852 in nircam7 redshift_z8-10: Color2=5.66 (range: -1.5 to 1.0)
+  Source 14185 in nircam7 redshift_z8-10: Color2=68.85 (range: -1.5 to 1.0)
+  Source 1015 in nircam8 redshift_z7-8: Color2=66.65 (range: -1.5 to 1.0)
+  Source 1553 in nircam8 redshift_z7-8: Color2=1.88 (range: -1.5 to 1.0)
+  Source 2553 in nircam8 redshift_z7-8: Color2=-67.22 (range: -1.5 to 1.0)
+  Source 4012 in nircam8 redshift_z7-8: Color2=-4.17 (range: -1.5 to 1.0)
+  Source 6415 in nircam8 redshift_z7-8: Color2=68.49 (range: -1.5 to 1.0)
+  Source 8453 in nircam8 redshift_z7-8: Color2=-1.74 (range: -1.5 to 1.0)
+  Source 8818 in nircam8 redshift_z7-8: Color2=-2.33 (range: -1.5 to 1.0)
+  Source 10027 in nircam8 redshift_z7-8: Color2=-1.62 (range: -1.5 to 1.0)
+  Source 10189 in nircam8 redshift_z7-8: Color2=-67.57 (range: -1.5 to 1.0)
+  Source 10525 in nircam8 redshift_z7-8: Color2=2.97 (range: -1.5 to 1.0)
+  Source 11981 in nircam8 redshift_z7-8: Color2=68.84 (range: -1.5 to 1.0)
+  Source 12041 in nircam8 redshift_z7-8: Color2=1.03 (range: -1.5 to 1.0)
+  Source 12777 in nircam8 redshift_z7-8: Color2=69.62 (range: -1.5 to 1.0)
+  Source 925 in nircam8 redshift_z8-10: Color2=-68.91 (range: -1.5 to 1.0)
+  Source 1741 in nircam8 redshift_z8-10: Color2=69.81 (range: -1.5 to 1.0)
+  Source 4411 in nircam8 redshift_z8-10: Color2=-3.57 (range: -1.5 to 1.0)
+  Source 4597 in nircam8 redshift_z8-10: Color2=-68.27 (range: -1.5 to 1.0)
+  Source 4623 in nircam8 redshift_z8-10: Color2=-1.78 (range: -1.5 to 1.0)
+  Source 9809 in nircam8 redshift_z8-10: Color2=68.22 (range: -1.5 to 1.0)
+  Source 10376 in nircam8 redshift_z8-10: Color2=66.43 (range: -1.5 to 1.0)
+  Source 15590 in nircam8 redshift_z8-10: Color2=68.84 (range: -1.5 to 1.0)
+  Source 3302 in nircam9 redshift_z7-8: Color2=2.36 (range: -1.5 to 1.0)
+  Source 7270 in nircam9 redshift_z7-8: Color2=1.09 (range: -1.5 to 1.0)
+  Source 7542 in nircam9 redshift_z7-8: Color2=67.82 (range: -1.5 to 1.0)
+  Source 9473 in nircam9 redshift_z7-8: Color2=68.81 (range: -1.5 to 1.0)
+  Source 10502 in nircam9 redshift_z7-8: Color2=2.49 (range: -1.5 to 1.0)
+  Source 15632 in nircam9 redshift_z7-8: Color2=67.78 (range: -1.5 to 1.0)
+  Source 969 in nircam9 redshift_z8-10: Color2=-10.10 (range: -1.5 to 1.0)
+  Source 6158 in nircam9 redshift_z8-10: Color2=67.82 (range: -1.5 to 1.0)
+  Source 6737 in nircam9 redshift_z8-10: Color2=67.82 (range: -1.5 to 1.0)
+  Source 7553 in nircam9 redshift_z8-10: Color2=67.18 (range: -1.5 to 1.0)
+  Source 7724 in nircam9 redshift_z8-10: Color2=63.84 (range: -1.5 to 1.0)
+  Source 8831 in nircam9 redshift_z8-10: Color2=68.88 (range: -1.5 to 1.0)
+  Source 8948 in nircam9 redshift_z8-10: Color2=-1.62 (range: -1.5 to 1.0)
+  Source 12578 in nircam9 redshift_z8-10: Color2=68.42 (range: -1.5 to 1.0)
+  Source 12703 in nircam9 redshift_z8-10: Color2=68.64 (range: -1.5 to 1.0)
+  Source 15657 in nircam9 redshift_z8-10: Color2=-1.86 (range: -1.5 to 1.0)
+  Source 675 in nircam10 redshift_z7-8: Color2=68.18 (range: -1.5 to 1.0)
+  Source 1697 in nircam10 redshift_z7-8: Color2=-68.06 (range: -1.5 to 1.0)
+  Source 3712 in nircam10 redshift_z7-8: Color2=-1.60 (range: -1.5 to 1.0)
+  Source 3742 in nircam10 redshift_z7-8: Color2=1.99 (range: -1.5 to 1.0)
+  Source 3979 in nircam10 redshift_z7-8: Color2=-3.42 (range: -1.5 to 1.0)
+  Source 8200 in nircam10 redshift_z7-8: Color2=-1.52 (range: -1.5 to 1.0)
+  Source 9519 in nircam10 redshift_z7-8: Color2=-64.84 (range: -1.5 to 1.0)
+  Source 9681 in nircam10 redshift_z7-8: Color2=-2.28 (range: -1.5 to 1.0)
+  Source 11661 in nircam10 redshift_z7-8: Color2=65.86 (range: -1.5 to 1.0)
+  Source 3197 in nircam10 redshift_z8-10: Color2=-66.72 (range: -1.5 to 1.0)
+  Source 4771 in nircam10 redshift_z8-10: Color2=-1.75 (range: -1.5 to 1.0)
+  Source 8250 in nircam10 redshift_z8-10: Color2=67.44 (range: -1.5 to 1.0)

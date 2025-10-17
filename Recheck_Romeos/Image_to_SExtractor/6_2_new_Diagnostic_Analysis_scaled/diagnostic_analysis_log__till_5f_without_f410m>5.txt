@@ -30,7 +30,6 @@ Creating filtered catalogs for nircam1 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam1/f150dropout_f356w_catalog.cat with 983 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam1/f150dropout_f410m_catalog.cat with 983 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam1/f150dropout_f444w_catalog.cat with 983 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM1
 ============================================================
@@ -78,7 +77,6 @@ Creating filtered catalogs for nircam2 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam2/f150dropout_f356w_catalog.cat with 525 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam2/f150dropout_f410m_catalog.cat with 525 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam2/f150dropout_f444w_catalog.cat with 525 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM2
 ============================================================
@@ -123,7 +121,6 @@ Creating filtered catalogs for nircam3 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam3/f150dropout_f356w_catalog.cat with 721 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam3/f150dropout_f410m_catalog.cat with 721 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam3/f150dropout_f444w_catalog.cat with 721 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM3
 ============================================================
@@ -211,7 +208,6 @@ Creating filtered catalogs for nircam5 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam5/f150dropout_f356w_catalog.cat with 651 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam5/f150dropout_f410m_catalog.cat with 651 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam5/f150dropout_f444w_catalog.cat with 651 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM5
 ============================================================
@@ -257,7 +253,6 @@ Creating filtered catalogs for nircam6 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam6/f150dropout_f356w_catalog.cat with 504 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam6/f150dropout_f410m_catalog.cat with 504 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam6/f150dropout_f444w_catalog.cat with 504 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM6
 ============================================================
@@ -297,7 +292,6 @@ Creating filtered catalogs for nircam7 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam7/f150dropout_f356w_catalog.cat with 1062 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam7/f150dropout_f410m_catalog.cat with 1062 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam7/f150dropout_f444w_catalog.cat with 1062 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM7
 ============================================================
@@ -348,7 +342,6 @@ Creating filtered catalogs for nircam8 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam8/f150dropout_f356w_catalog.cat with 1197 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam8/f150dropout_f410m_catalog.cat with 1197 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam8/f150dropout_f444w_catalog.cat with 1197 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM8
 ============================================================
@@ -396,7 +389,6 @@ Creating filtered catalogs for nircam9 in ./6_2_new_Diagnostic_Analysis_scaled/c
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam9/f150dropout_f356w_catalog.cat with 611 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam9/f150dropout_f410m_catalog.cat with 611 sources
   Created ./6_2_new_Diagnostic_Analysis_scaled/catalogue_lyman_filtered_5f/nircam9/f150dropout_f444w_catalog.cat with 611 sources
-
 ============================================================
 DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM9
 ============================================================
