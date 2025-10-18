@@ -1,0 +1,13 @@
+		NUMBER	REDSHIFT	REDSHIFT	REDSHIFT
+		count	min	max	mean
+POINTING	REDSHIFT_BIN				
+nircam1	z7-12	50	-1	-1	-1.0
+nircam10	z7-12	50	-1	-1	-1.0
+nircam2	z7-12	50	-1	-1	-1.0
+nircam3	z7-12	50	-1	-1	-1.0
+nircam4	z7-12	50	-1	-1	-1.0
+nircam5	z7-12	50	-1	-1	-1.0
+nircam6	z7-12	50	-1	-1	-1.0
+nircam7	z7-12	50	-1	-1	-1.0
+nircam8	z7-12	50	-1	-1	-1.0
+nircam9	z7-12	50	-1	-1	-1.0

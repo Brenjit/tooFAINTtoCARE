@@ -2,7 +2,7 @@ import os
 from astropy.table import Table
 
 # === CONFIG ===
-base_dir = "/Volumes/MY_SSD_1TB/My_work_june_24/CEERS_NIRCam_Images/EAZY/eazy-photoz/inputs/OUTPUT"
+base_dir = "/media/iit-t/MY_SSD_1TB/My_work_june_24/CEERS_NIRCam_Images/EAZY/eazy-photoz/inputs/OUTPUT"
 input_file = os.path.join(base_dir, "nircam6_output.zout")
 
 # Create 'filtered' folder if it doesn't exist
