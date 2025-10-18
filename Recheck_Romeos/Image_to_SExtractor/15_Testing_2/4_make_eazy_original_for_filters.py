@@ -504,7 +504,7 @@ def process_all_pointings():
         'nircam10': 'dr0.6'
     }
     
-    for pointing_num in range(1,2):
+    for pointing_num in range(1,11):
         pointing = f"nircam{pointing_num}"
         dr_version = pointing_versions[pointing]
         
