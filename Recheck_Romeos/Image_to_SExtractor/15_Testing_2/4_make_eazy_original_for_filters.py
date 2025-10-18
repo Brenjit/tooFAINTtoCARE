@@ -293,7 +293,7 @@ def process_dropouts(dropout_type='z~12', pointing='nircam1', dr_version='dr0.5'
     
     # Updated directory paths
     base_image_dir = f"/media/iit-t/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/Romeo_s_data/{pointing}"
-    base_catalog_dir = f"/Users/brenjithazarika/Desktop/PhD_computer/Codes/TooFAINTtooCARE/Recheck_Romeos/Image_to_SExtractor/15_Testing_2/50_2_random_sources_catalogues/individual_filters/{pointing}"
+    base_catalog_dir = f"/home/iit-t/Bren_jit/tooFAINTtoCARE/Recheck_Romeos/Image_to_SExtractor/15_Testing_2/50_2_random_sources_catalogues/individual_filters/{pointing}"
     base_segmentation_dir = f"/media/iit-t/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/{pointing}/segmentations_z7"
     output_dir = "/home/iit-t/Bren_jit/tooFAINTtoCARE/Recheck_Romeos/Image_to_SExtractor/15_Testing_2/4_Eazy_catalogue_of_sept_data"
     
