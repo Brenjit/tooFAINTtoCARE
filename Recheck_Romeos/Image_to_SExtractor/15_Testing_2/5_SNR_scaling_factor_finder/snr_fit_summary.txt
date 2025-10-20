@@ -8,8 +8,8 @@ Pointing: nircam1
   F277W: 0.42461
   F356W: 0.50263
   F410M: 0.47501
-  F444W: NA
-  Average (sigma-clipped): 0.47579
+  F444W: 0.53008
+  Average (sigma-clipped): 0.48182
 
 Pointing: nircam2
   F606W: 0.95689
@@ -20,8 +20,8 @@ Pointing: nircam2
   F277W: 0.39507
   F356W: 0.47265
   F410M: 0.47830
-  F444W: NA
-  Average (sigma-clipped): 0.51613
+  F444W: 0.53935
+  Average (sigma-clipped): 0.51871
 
 Pointing: nircam3
   F606W: 0.60140
@@ -32,8 +32,8 @@ Pointing: nircam3
   F277W: 0.36410
   F356W: 0.37392
   F410M: 0.58256
-  F444W: NA
-  Average (sigma-clipped): 0.44370
+  F444W: 0.52062
+  Average (sigma-clipped): 0.45224
 
 Pointing: nircam4
   F606W: 0.76446
@@ -44,8 +44,8 @@ Pointing: nircam4
   F277W: 0.35563
   F356W: 0.37589
   F410M: 0.47968
-  F444W: NA
-  Average (sigma-clipped): 0.45643
+  F444W: 0.50116
+  Average (sigma-clipped): 0.46140
 
 Pointing: nircam5
   F606W: 0.79977
@@ -56,8 +56,8 @@ Pointing: nircam5
   F277W: 0.00076
   F356W: 0.32661
   F410M: 0.00077
-  F444W: NA
-  Average (sigma-clipped): 0.27685
+  F444W: 0.00041
+  Average (sigma-clipped): 0.24614
 
 Pointing: nircam6
   F606W: 0.71571
@@ -68,8 +68,8 @@ Pointing: nircam6
   F277W: 0.38640
   F356W: 0.53360
   F410M: 0.58977
-  F444W: NA
-  Average (sigma-clipped): 0.54419
+  F444W: 0.58273
+  Average (sigma-clipped): 0.54847
 
 Pointing: nircam7
   F606W: 0.75208
@@ -80,8 +80,8 @@ Pointing: nircam7
   F277W: 0.00083
   F356W: 0.39564
   F410M: 0.00082
-  F444W: NA
-  Average (sigma-clipped): 0.26838
+  F444W: 0.00060
+  Average (sigma-clipped): 0.23863
 
 Pointing: nircam8
   F606W: 0.75115
@@ -92,8 +92,8 @@ Pointing: nircam8
   F277W: 0.00103
   F356W: 0.28064
   F410M: 0.00069
-  F444W: NA
-  Average (sigma-clipped): 0.26637
+  F444W: 0.00043
+  Average (sigma-clipped): 0.23682
 
 Pointing: nircam9
   F606W: 0.82574
@@ -104,8 +104,8 @@ Pointing: nircam9
   F277W: 0.00070
   F356W: 0.38842
   F410M: 0.00079
-  F444W: NA
-  Average (sigma-clipped): 0.25675
+  F444W: 0.00045
+  Average (sigma-clipped): 0.22827
 
 Pointing: nircam10
   F606W: 0.68620
@@ -116,5 +116,5 @@ Pointing: nircam10
   F277W: 0.34570
   F356W: 0.42082
   F410M: 0.52068
-  F444W: NA
-  Average (sigma-clipped): 0.49089
+  F444W: 0.48321
+  Average (sigma-clipped): 0.49003

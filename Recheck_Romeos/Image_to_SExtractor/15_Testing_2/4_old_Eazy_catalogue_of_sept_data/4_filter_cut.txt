@@ -1,0 +1,56 @@
+        "F606W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f606w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"egs_all_acs_wfc_f606w_030mas_v1.9_{pointing}_mef_SCI_BKSUB.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f606w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"egs_all_acs_wfc_f606w_030mas_v1.9_{pointing}_mef_RMS.fits")
+        },          
+        
+        "F814W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f814w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"egs_all_acs_wfc_f814w_030mas_v1.9_{pointing}_mef_SCI_BKSUB.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f814w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"egs_all_acs_wfc_f814w_030mas_v1.9_{pointing}_mef_RMS.fits")
+        },
+        
+        "F115W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f115w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f115w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f115w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f115w_{dr_version}_i2d_RMS.fits")
+        },
+        
+        "F150W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f150w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f150w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f150w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f150w_{dr_version}_i2d_RMS.fits")
+        },
+        
+        "F200W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f200w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f200w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f200w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f200w_{dr_version}_i2d_RMS.fits")
+        },
+        
+        "F277W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f277w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f277w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f277w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f277w_{dr_version}_i2d_RMS.fits")
+        },
+        
+        "F356W": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f356w_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f356w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f356w_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f356w_{dr_version}_i2d_RMS.fits")
+        },
+        
+        "F410M": {
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f410m_catalog.cat"),
+            "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f410m_{dr_version}_i2d_SCI_BKSUB_c.fits"),
+            "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f410m_segmentation.fits"),
+            "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f410m_{dr_version}_i2d_RMS.fits")
+        },
+        
