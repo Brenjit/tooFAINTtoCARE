@@ -68,7 +68,7 @@ def get_optimal_process_count():
     load_avg = psutil.getloadavg()[0]  # 1-minute system load average
     
     # Base: use ~85% of logical cores, minimum 4
-    optimal = max(4, int(logical_cores * 0.85))
+    optimal = max(4, int(logical_cores * 0.95))
     
     # If system is already loaded, scale down
     if load_avg > logical_cores * 0.6:
