@@ -361,7 +361,7 @@ def process_dropouts(dropout_type='z~12', pointing='nircam1', dr_version='dr0.5'
         },
         
         "F444W": {
-            "catalog": os.path.join(base_catalog_dir, f"selected_f444w_catalog.cat"),
+            "catalog": os.path.join(base_catalog_dir, f"random_50_f444w_catalog.cat"),
             "fits": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f444w_{dr_version}_i2d_SCI_BKSUB_c.fits"),
             "segmentation": os.path.join(base_segmentation_dir, f"f150dropout_f444w_segmentation.fits"),
             "rms": os.path.join(base_image_dir, f"hlsp_ceers_jwst_nircam_{pointing}_f444w_{dr_version}_i2d_RMS.fits")
