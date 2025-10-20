@@ -184,13 +184,13 @@ def get_mags_single(filter_data, idx, filter_list):
 def apply_f115w_selection(data_dict):
     """Applies F115W-dropout (z=8.5-12) selection criteria and returns a boolean mask."""
     # SNR detection in red filters
-    sn_detect = (data_dict['f150w']['SNR'] > 3) & \
-                (data_dict['f200w']['SNR'] > 3) & \
-                (data_dict['f277w']['SNR'] > 3) & \
-                (data_dict['f356w']['SNR'] > 3) & \
-                (data_dict['f444w']['SNR'] > 3)     #removed (data_dict['f410m']['SNR'] > 5) & \ and also loosing it to 3 from 4 as scaling is done, so just robust criteria
+    sn_detect = (data_dict['f150w']['SNR'] > 4) & \
+                (data_dict['f200w']['SNR'] > 4) & \
+                (data_dict['f277w']['SNR'] > 4) & \
+                (data_dict['f356w']['SNR'] > 4) & \
+                (data_dict['f444w']['SNR'] > 4)     #removed (data_dict['f410m']['SNR'] > 5) & \
     # Veto in blue filters (no detection)
-    veto = (data_dict['f814w']['SNR'] < 5) & (data_dict['f606w']['SNR'] < 5) #increased to 5 from original 4 as robust because of scaling
+    veto = (data_dict['f814w']['SNR'] < 4) & (data_dict['f606w']['SNR'] < 4)
     
     # Get colors
     mags = get_mags(data_dict, ['f115w', 'f150w', 'f277w'])
@@ -352,27 +352,27 @@ def analyze_missed_galaxies_detailed(filter_data, highlight_ids, pointing, selec
         reasons = []
         details = {}
         
-        # 1. SNR Detection criteria (>3)
+        # 1. SNR Detection criteria (>4)
         detection_filters = ['f150w', 'f200w', 'f277w', 'f356w', 'f444w']
         detection_snrs = {}
         detection_failed = []
         for filt in detection_filters:
             snr_val = filter_data[filt]['SNR'][idx]
             detection_snrs[filt] = snr_val
-            if snr_val <= 3:
+            if snr_val <= 4:
                 detection_failed.append(f"{filt}({snr_val:.1f})")
         
         if detection_failed:
             reasons.append(f"Low SNR in detection bands: {', '.join(detection_failed)}")
         
-        # 2. Veto criteria (must BOTH be < 5)
+        # 2. Veto criteria (must BOTH be < 4)
         veto_filters = ['f606w', 'f814w']
         veto_snrs = {}
         veto_failed = []
         for filt in veto_filters:
             snr_val = filter_data[filt]['SNR'][idx]
             veto_snrs[filt] = snr_val
-            if snr_val >= 5:
+            if snr_val >= 4:
                 veto_failed.append(f"{filt}({snr_val:.1f})")
         
         if veto_failed:
@@ -652,11 +652,11 @@ def generate_final_summary(all_analysis_results):
                         criteria_failures['Low SNR in detection bands']['count'] += 1
                         # Extract which filters failed
                         failed_filters = []
-                        if row['f150w_SNR'] <= 3: failed_filters.append(f"F150W({row['f150w_SNR']:.1f})")
-                        if row['f200w_SNR'] <= 3: failed_filters.append(f"F200W({row['f200w_SNR']:.1f})")
-                        if row['f277w_SNR'] <= 3: failed_filters.append(f"F277W({row['f277w_SNR']:.1f})")
-                        if row['f356w_SNR'] <= 3: failed_filters.append(f"F356W({row['f356w_SNR']:.1f})")
-                        if row['f444w_SNR'] <= 3: failed_filters.append(f"F444W({row['f444w_SNR']:.1f})")
+                        if row['f150w_SNR'] <= 4: failed_filters.append(f"F150W({row['f150w_SNR']:.1f})")
+                        if row['f200w_SNR'] <= 4: failed_filters.append(f"F200W({row['f200w_SNR']:.1f})")
+                        if row['f277w_SNR'] <= 4: failed_filters.append(f"F277W({row['f277w_SNR']:.1f})")
+                        if row['f356w_SNR'] <= 4: failed_filters.append(f"F356W({row['f356w_SNR']:.1f})")
+                        if row['f444w_SNR'] <= 4: failed_filters.append(f"F444W({row['f444w_SNR']:.1f})")
                         # Store with pointing information
                         key = f"{pointing}_{row['ID']}"
                         criteria_failures['Low SNR in detection bands']['details'][key] = {
@@ -670,8 +670,8 @@ def generate_final_summary(all_analysis_results):
                         criteria_failures['High SNR in veto bands']['count'] += 1
                         # Extract which veto filters failed
                         failed_veto = []
-                        if row['f606w_SNR'] >= 5: failed_veto.append(f"F606W({row['f606w_SNR']:.1f})")
-                        if row['f814w_SNR'] >= 5: failed_veto.append(f"F814W({row['f814w_SNR']:.1f})")
+                        if row['f606w_SNR'] >= 4: failed_veto.append(f"F606W({row['f606w_SNR']:.1f})")
+                        if row['f814w_SNR'] >= 4: failed_veto.append(f"F814W({row['f814w_SNR']:.1f})")
                         # Store with pointing information
                         key = f"{pointing}_{row['ID']}"
                         criteria_failures['High SNR in veto bands']['details'][key] = {
