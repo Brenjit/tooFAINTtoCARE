@@ -19,7 +19,7 @@ from scipy import stats
 print("Running 6_2 without 410m final summaruy")
 # Configuration (same as your original)
 base_dir = '/media/iit-t/MY_SSD_1TB/Work_PhD/July-August/CEERS_data/SEP_JWST/Results/'
-output_base_dir = './6_Diagnostic_Analysis_scaled_NMAD'
+output_base_dir = './6_2_robust_Diagnostic_Analysis_scaled_NMAD'
 pointings = [f'nircam{i}' for i in range(1, 11)]
 catalog_subdir = 'catalogue_z7'
 filters = ['f606w', 'f814w', 'f115w', 'f150w', 'f200w', 'f277w', 'f356w', 'f410m', 'f444w']

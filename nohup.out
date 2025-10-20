@@ -7,3 +7,8 @@ X Error of failed request:  BadWindow (invalid Window parameter)
   Current serial number in output stream:  30
 Cannot open display.
 Cannot open display.
+X Error of failed request:  BadWindow (invalid Window parameter)
+  Major opcode of failed request:  20 (X_GetProperty)
+  Resource id in failed request:  0x44006b4
+  Serial number of failed request:  16
+  Current serial number in output stream:  16
