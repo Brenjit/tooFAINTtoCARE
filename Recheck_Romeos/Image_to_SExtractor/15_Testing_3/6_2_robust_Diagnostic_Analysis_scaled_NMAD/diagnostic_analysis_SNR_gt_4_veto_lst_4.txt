@@ -1,0 +1,503 @@
+
+================================================================================
+DIAGNOSTIC ANALYSIS LOG - 2025-10-21 06:27:03
+================================================================================
+
+Starting detailed diagnostic analysis of 10 pointings
+Output will be saved to: ./6_2_robust_Diagnostic_Analysis_scaled_NMAD
+Applying SNR scaling factors from NMAD calibration...
+
+================================================================================
+ANALYZING NIRCAM1
+================================================================================
+Applied scaling factor 0.648960 to f606w SNR for nircam1
+Applied scaling factor 0.939440 to f814w SNR for nircam1
+Applied scaling factor 0.314980 to f115w SNR for nircam1
+Applied scaling factor 0.300450 to f150w SNR for nircam1
+Applied scaling factor 0.314360 to f200w SNR for nircam1
+Applied scaling factor 0.452420 to f277w SNR for nircam1
+Applied scaling factor 0.500390 to f356w SNR for nircam1
+Applied scaling factor 0.461790 to f410m SNR for nircam1
+Applied scaling factor 0.593840 to f444w SNR for nircam1
+Found 1110 candidates.
+Creating filtered catalogs for nircam1 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f606w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f814w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f115w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f150w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f200w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f277w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f356w_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f410m_catalog.cat with 1110 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam1/f150dropout_f444w_catalog.cat with 1110 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM1
+============================================================
+
+SUMMARY FOR nircam1:
+Total Brenjit sources: 7
+Pass selection: 5
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2858: PASS - All criteria passed
+ID 4010: PASS - All criteria passed
+ID 6802: PASS - All criteria passed
+ID 8216: PASS - All criteria passed
+ID 11572: PASS - All criteria passed
+ID 10899: FAIL - High SNR in veto bands: f814w(6.5)
+ID 8272: FAIL - Low SNR in detection bands: f150w(0.3), f200w(2.1), f356w(1.8); Color1 failed: f115w SNR=2.5, color1=-1.98; Color2 out of range: 2.02 not in (-1.5, 1.0)
+      SNR values: f150w=  0.3, f200w=  2.1, f277w=  4.8, f356w=  1.8, f444w=  4.4
+Total Brenjit_ID sources: 5/7
+Recovery rate: 71.4%
+Recovered IDs: 2858, 4010, 6802, 8216, 11572
+Missed IDs: 8272, 10899
+
+================================================================================
+ANALYZING NIRCAM2
+================================================================================
+Applied scaling factor 0.990280 to f606w SNR for nircam2
+Applied scaling factor 0.642410 to f814w SNR for nircam2
+Applied scaling factor 0.291710 to f115w SNR for nircam2
+Applied scaling factor 0.426550 to f150w SNR for nircam2
+Applied scaling factor 0.379400 to f200w SNR for nircam2
+Applied scaling factor 0.476320 to f277w SNR for nircam2
+Applied scaling factor 0.508450 to f356w SNR for nircam2
+Applied scaling factor 0.482470 to f410m SNR for nircam2
+Applied scaling factor 0.427400 to f444w SNR for nircam2
+Found 1045 candidates.
+Creating filtered catalogs for nircam2 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f606w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f814w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f115w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f150w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f200w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f277w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f356w_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f410m_catalog.cat with 1045 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam2/f150dropout_f444w_catalog.cat with 1045 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM2
+============================================================
+
+SUMMARY FOR nircam2:
+Total Brenjit sources: 4
+Pass selection: 4
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1332: PASS - All criteria passed
+ID 2034: PASS - All criteria passed
+ID 5726: PASS - All criteria passed
+ID 11316: PASS - All criteria passed
+Total Brenjit_ID sources: 4/4
+Recovery rate: 100.0%
+Recovered IDs: 1332, 2034, 5726, 11316
+
+================================================================================
+ANALYZING NIRCAM3
+================================================================================
+Applied scaling factor 0.588040 to f606w SNR for nircam3
+Applied scaling factor 0.721610 to f814w SNR for nircam3
+Applied scaling factor 0.327060 to f115w SNR for nircam3
+Applied scaling factor 0.308260 to f150w SNR for nircam3
+Applied scaling factor 0.309110 to f200w SNR for nircam3
+Applied scaling factor 0.339730 to f277w SNR for nircam3
+Applied scaling factor 0.460960 to f356w SNR for nircam3
+Applied scaling factor 0.559590 to f410m SNR for nircam3
+Applied scaling factor 0.537730 to f444w SNR for nircam3
+Found 1454 candidates.
+Creating filtered catalogs for nircam3 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f606w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f814w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f115w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f150w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f200w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f277w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f356w_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f410m_catalog.cat with 1454 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam3/f150dropout_f444w_catalog.cat with 1454 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM3
+============================================================
+
+SUMMARY FOR nircam3:
+Total Brenjit sources: 1
+Pass selection: 1
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 9992: PASS - All criteria passed
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 9992
+
+================================================================================
+ANALYZING NIRCAM4
+================================================================================
+Applied scaling factor 0.755700 to f606w SNR for nircam4
+Applied scaling factor 0.491820 to f814w SNR for nircam4
+Applied scaling factor 0.383640 to f115w SNR for nircam4
+Applied scaling factor 0.305010 to f150w SNR for nircam4
+Applied scaling factor 0.338030 to f200w SNR for nircam4
+Applied scaling factor 0.396760 to f277w SNR for nircam4
+Applied scaling factor 0.395720 to f356w SNR for nircam4
+Applied scaling factor 0.525030 to f410m SNR for nircam4
+Applied scaling factor 0.467490 to f444w SNR for nircam4
+Found 1377 candidates.
+Creating filtered catalogs for nircam4 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f606w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f814w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f115w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f150w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f200w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f277w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f356w_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f410m_catalog.cat with 1377 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam4/f150dropout_f444w_catalog.cat with 1377 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM4
+============================================================
+
+SUMMARY FOR nircam4:
+Total Brenjit sources: 7
+Pass selection: 7
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID  315: PASS - All criteria passed
+ID 1669: PASS - All criteria passed
+ID 1843: PASS - All criteria passed
+ID 9859: PASS - All criteria passed
+ID 9427: PASS - All criteria passed
+ID 12415: PASS - All criteria passed
+ID 11659: PASS - All criteria passed
+Total Brenjit_ID sources: 7/7
+Recovery rate: 100.0%
+Recovered IDs: 315, 1669, 1843, 9427, 9859, 11659, 12415
+
+================================================================================
+ANALYZING NIRCAM5
+================================================================================
+Applied scaling factor 0.568920 to f606w SNR for nircam5
+Applied scaling factor 0.674580 to f814w SNR for nircam5
+Applied scaling factor 0.303570 to f115w SNR for nircam5
+Applied scaling factor 0.000970 to f150w SNR for nircam5
+Applied scaling factor 0.000930 to f200w SNR for nircam5
+Applied scaling factor 0.000700 to f277w SNR for nircam5
+Applied scaling factor 0.355320 to f356w SNR for nircam5
+Applied scaling factor 0.000750 to f410m SNR for nircam5
+Applied scaling factor 0.000450 to f444w SNR for nircam5
+Found 1266 candidates.
+Creating filtered catalogs for nircam5 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f606w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f814w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f115w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f150w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f200w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f277w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f356w_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f410m_catalog.cat with 1266 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam5/f150dropout_f444w_catalog.cat with 1266 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM5
+============================================================
+
+SUMMARY FOR nircam5:
+Total Brenjit sources: 5
+Pass selection: 5
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 4547: PASS - All criteria passed
+ID 9883: PASS - All criteria passed
+ID 12083: PASS - All criteria passed
+ID 12779: PASS - All criteria passed
+ID 12888: PASS - All criteria passed
+Total Brenjit_ID sources: 5/5
+Recovery rate: 100.0%
+Recovered IDs: 4547, 9883, 12083, 12779, 12888
+
+================================================================================
+ANALYZING NIRCAM6
+================================================================================
+Applied scaling factor 0.898280 to f606w SNR for nircam6
+Applied scaling factor 0.755480 to f814w SNR for nircam6
+Applied scaling factor 0.340650 to f115w SNR for nircam6
+Applied scaling factor 0.354370 to f150w SNR for nircam6
+Applied scaling factor 0.369250 to f200w SNR for nircam6
+Applied scaling factor 0.356620 to f277w SNR for nircam6
+Applied scaling factor 0.528060 to f356w SNR for nircam6
+Applied scaling factor 0.598220 to f410m SNR for nircam6
+Applied scaling factor 0.575670 to f444w SNR for nircam6
+Found 1237 candidates.
+Creating filtered catalogs for nircam6 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f606w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f814w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f115w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f150w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f200w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f277w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f356w_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f410m_catalog.cat with 1237 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam6/f150dropout_f444w_catalog.cat with 1237 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM6
+============================================================
+
+SUMMARY FOR nircam6:
+Total Brenjit sources: 1
+Pass selection: 1
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 3206: PASS - All criteria passed
+Total Brenjit_ID sources: 1/1
+Recovery rate: 100.0%
+Recovered IDs: 3206
+
+================================================================================
+ANALYZING NIRCAM7
+================================================================================
+Applied scaling factor 0.834610 to f606w SNR for nircam7
+Applied scaling factor 0.594320 to f814w SNR for nircam7
+Applied scaling factor 0.394250 to f115w SNR for nircam7
+Applied scaling factor 0.001050 to f150w SNR for nircam7
+Applied scaling factor 0.001480 to f200w SNR for nircam7
+Applied scaling factor 0.000900 to f277w SNR for nircam7
+Applied scaling factor 0.417660 to f356w SNR for nircam7
+Applied scaling factor 0.000820 to f410m SNR for nircam7
+Applied scaling factor 0.000530 to f444w SNR for nircam7
+Found 1225 candidates.
+Creating filtered catalogs for nircam7 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f606w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f814w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f115w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f150w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f200w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f277w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f356w_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f410m_catalog.cat with 1225 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam7/f150dropout_f444w_catalog.cat with 1225 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM7
+============================================================
+
+SUMMARY FOR nircam7:
+Total Brenjit sources: 10
+Pass selection: 8
+Fail selection: 2
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 7070: PASS - All criteria passed
+ID 9437: PASS - All criteria passed
+ID 9959: PASS - All criteria passed
+ID 11615: PASS - All criteria passed
+ID 11754: PASS - All criteria passed
+ID 3581: FAIL - High SNR in veto bands: f606w(8.2)
+ID 13394: PASS - All criteria passed
+ID 13743: FAIL - High SNR in veto bands: f606w(5.0)
+ID 14097: PASS - All criteria passed
+ID 14208: PASS - All criteria passed
+Total Brenjit_ID sources: 8/10
+Recovery rate: 80.0%
+Recovered IDs: 7070, 9437, 9959, 11615, 11754, 13394, 14097, 14208
+Missed IDs: 3581, 13743
+
+================================================================================
+ANALYZING NIRCAM8
+================================================================================
+Applied scaling factor 0.612970 to f606w SNR for nircam8
+Applied scaling factor 0.573380 to f814w SNR for nircam8
+Applied scaling factor 0.284000 to f115w SNR for nircam8
+Applied scaling factor 0.001400 to f150w SNR for nircam8
+Applied scaling factor 0.001130 to f200w SNR for nircam8
+Applied scaling factor 0.000590 to f277w SNR for nircam8
+Applied scaling factor 0.329550 to f356w SNR for nircam8
+Applied scaling factor 0.000710 to f410m SNR for nircam8
+Applied scaling factor 0.000430 to f444w SNR for nircam8
+Found 1374 candidates.
+Creating filtered catalogs for nircam8 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f606w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f814w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f115w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f150w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f200w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f277w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f356w_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f410m_catalog.cat with 1374 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam8/f150dropout_f444w_catalog.cat with 1374 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM8
+============================================================
+
+SUMMARY FOR nircam8:
+Total Brenjit sources: 9
+Pass selection: 8
+Fail selection: 1
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1398: PASS - All criteria passed
+ID 2080: PASS - All criteria passed
+ID 2288: PASS - All criteria passed
+ID 4493: FAIL - High SNR in veto bands: f606w(6.5)
+ID 6986: PASS - All criteria passed
+ID 8954: PASS - All criteria passed
+ID 9454: PASS - All criteria passed
+ID 11712: PASS - All criteria passed
+ID 14604: PASS - All criteria passed
+Total Brenjit_ID sources: 8/9
+Recovery rate: 88.9%
+Recovered IDs: 1398, 2080, 2288, 6986, 8954, 9454, 11712, 14604
+Missed IDs: 4493
+
+================================================================================
+ANALYZING NIRCAM9
+================================================================================
+Applied scaling factor 0.650890 to f606w SNR for nircam9
+Applied scaling factor 0.546640 to f814w SNR for nircam9
+Applied scaling factor 0.299070 to f115w SNR for nircam9
+Applied scaling factor 0.001500 to f150w SNR for nircam9
+Applied scaling factor 0.001200 to f200w SNR for nircam9
+Applied scaling factor 0.000820 to f277w SNR for nircam9
+Applied scaling factor 0.287680 to f356w SNR for nircam9
+Applied scaling factor 0.000640 to f410m SNR for nircam9
+Applied scaling factor 0.000550 to f444w SNR for nircam9
+Found 1709 candidates.
+Creating filtered catalogs for nircam9 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f606w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f814w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f115w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f150w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f200w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f277w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f356w_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f410m_catalog.cat with 1709 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam9/f150dropout_f444w_catalog.cat with 1709 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM9
+============================================================
+
+SUMMARY FOR nircam9:
+Total Brenjit sources: 5
+Pass selection: 4
+Fail selection: 1
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 2646: PASS - All criteria passed
+ID 3096: PASS - All criteria passed
+ID 5572: PASS - All criteria passed
+ID 9061: PASS - All criteria passed
+ID 8076: FAIL - Low SNR in detection bands: f150w(0.1), f200w(1.1), f277w(-1.1), f356w(-0.2), f444w(1.2); Color2 out of range: -64.63 not in (-1.5, 1.0)
+      SNR values: f150w=  0.1, f200w=  1.1, f277w= -1.1, f356w= -0.2, f444w=  1.2
+Total Brenjit_ID sources: 4/5
+Recovery rate: 80.0%
+Recovered IDs: 2646, 3096, 5572, 9061
+Missed IDs: 8076
+
+================================================================================
+ANALYZING NIRCAM10
+================================================================================
+Applied scaling factor 0.770190 to f606w SNR for nircam10
+Applied scaling factor 0.621290 to f814w SNR for nircam10
+Applied scaling factor 0.514220 to f115w SNR for nircam10
+Applied scaling factor 0.411570 to f150w SNR for nircam10
+Applied scaling factor 0.326640 to f200w SNR for nircam10
+Applied scaling factor 0.385350 to f277w SNR for nircam10
+Applied scaling factor 0.523180 to f356w SNR for nircam10
+Applied scaling factor 0.608430 to f410m SNR for nircam10
+Applied scaling factor 0.350210 to f444w SNR for nircam10
+Found 961 candidates.
+Creating filtered catalogs for nircam10 in ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f606w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f814w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f115w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f150w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f200w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f277w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f356w_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f410m_catalog.cat with 961 sources
+  Created ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/catalogue_lyman_filtered_final/nircam10/f150dropout_f444w_catalog.cat with 961 sources
+
+============================================================
+DETAILED DIAGNOSTIC ANALYSIS FOR NIRCAM10
+============================================================
+
+SUMMARY FOR nircam10:
+Total Brenjit sources: 5
+Pass selection: 5
+Fail selection: 0
+
+DETAILED ANALYSIS:
+------------------------------------------------------------------------------------------------------------------------
+ID 1424: PASS - All criteria passed
+ID 1935: PASS - All criteria passed
+ID 7847: PASS - All criteria passed
+ID 9562: PASS - All criteria passed
+ID 10415: PASS - All criteria passed
+Total Brenjit_ID sources: 5/5
+Recovery rate: 100.0%
+Recovered IDs: 1424, 1935, 7847, 9562, 10415
+Summary report saved to: ./6_2_robust_Diagnostic_Analysis_scaled_NMAD/diagnostic_summary_report.txt
+
+================================================================================
+FINAL SUMMARY TABLE
+================================================================================
+Pointing   Selected   Total      Percentage Criteria Failed     
+---------- ---------- ---------- ---------- --------------------
+nircam1    5          7               71.4% L:1, H:1, C:1, C:1  
+nircam2    4          4              100.0%                     
+nircam3    1          1              100.0%                     
+nircam4    7          7              100.0%                     
+nircam5    5          5              100.0%                     
+nircam6    1          1              100.0%                     
+nircam7    8          10              80.0% H:2                 
+nircam8    8          9               88.9% H:1                 
+nircam9    4          5               80.0% L:1, C:1            
+nircam10   5          5              100.0%                     
+---------- ---------- ---------- ---------- --------------------
+TOTAL      48         54              88.9%
+
+DETAILED CRITERIA FAILURE ANALYSIS                
+==================================================
+
+Low SNR in detection bands: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: F150W(0.3), F200W(2.1), F356W(1.8)
+  Source 8076 in nircam9: F150W(0.1), F200W(1.1), F277W(-1.1), F356W(-0.2), F444W(1.2)
+
+High SNR in veto bands: 4 galaxies (7.4%)
+--------------------------------------------------
+  Source 10899 in nircam1: F814W(6.5)
+  Source 3581 in nircam7: F606W(8.2)
+  Source 13743 in nircam7: F606W(5.0)
+  Source 4493 in nircam8: F606W(6.5)
+
+Color1 failed: 1 galaxies (1.9%)
+--------------------------------------------------
+  Source 8272 in nircam1: F115W SNR=2.5, Color1=-1.98
+
+Color2 out of range: 2 galaxies (3.7%)
+--------------------------------------------------
+  Source 8272 in nircam1: Color2=2.02 (range: -1.5 to 1.0)
+  Source 8076 in nircam9: Color2=-64.63 (range: -1.5 to 1.0)
+
+Diagnostic analysis complete. All outputs saved to: ./6_2_robust_Diagnostic_Analysis_scaled_NMAD
